@@ -1,0 +1,33 @@
+name: Upstream Feature Watch
+
+on:
+  schedule:
+    # 每天 UTC 04:00 (北京时间 12:00)，避开 UTC 00:00 的爬取高峰
+    - cron: '0 4 * * *'
+  workflow_dispatch:
+
+permissions:
+  issues: write
+  contents: read
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: main
+
+      - name: Fetch upstream
+        run: |
+          git remote add upstream https://github.com/wen1701/FanqieRankTracker.git
+          git fetch upstream main --no-tags
+
+      - name: Detect upstream feature commits
+        run: python scripts/upstream_watch.py
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          UPSTREAM_REPO: wen1701/FanqieRankTracker
