@@ -78,8 +78,22 @@ document.addEventListener('DOMContentLoaded', () => {
 
     init();
 
+    function showLoading() {
+        subtitle.textContent = '正在加载数据...';
+        els.marketSummary.textContent = '正在加载热点数据...';
+        els.marketSource.textContent = '加载中';
+        const hint = '<p class="muted-line">加载中...</p>';
+        els.hotGenres.innerHTML = hint;
+        els.hotTypes.innerHTML = hint;
+        els.hotThemes.innerHTML = hint;
+        [els.newBooks, els.risers, els.reads, els.summaries].forEach((el) => {
+            el.innerHTML = hint;
+        });
+    }
+
     async function init() {
         syncBoardUi();
+        showLoading();
         try {
             const [dateIndex, latestIndex, latestAll, marketSummary] = await Promise.all([
                 fetchJson(`${Boards.datesUrl(currentChannel, currentBoard)}?${cacheBuster}`),
