@@ -237,9 +237,9 @@ FanqieRankTracker/
 </details>
 
 <details>
-<summary><b>Q: 短篇推荐页显示"数据读取失败"？</b></summary>
+<summary><b>Q: 短篇推荐为什么是跳转到外部站点？</b></summary>
 
-该页面的数据源是上游部署的 Cloudflare Worker 代理，存在 CORS 白名单限制，fork 站点可能无法访问。可选择：联系上游放开 CORS / 自建转发 Worker / 忽略该页面。
+该功能的数据源是上游部署的 Cloudflare Worker 代理，存在服务端 Origin 白名单限制，fork 站点无法直接读取数据。因此入口直接链接到上游的可用页面（新标签打开），访客体验完整且零维护。后续如上游放开限制，可改回本地页面。
 
 </details>
 
