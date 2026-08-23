@@ -831,13 +831,23 @@ def enrich_market_summary_with_ai(payload: dict, api_key: str,
             **chat_create_kwargs(model),
         )
         parsed = parse_json_object(response.choices[0].message.content)
+        label = payload.get("label") or "未知榜"
+        total = len(payload.get("periods", {}))
+        updated = 0
         for key, summary in parsed.items():
             if key in payload["periods"] and isinstance(summary, str) and summary.strip():
                 payload["periods"][key]["summary"] = summary.strip()
                 payload["periods"][key]["source"] = "ai"
-        print("✅ 全站热点 AI 总结已生成")
+                updated += 1
+        if total and updated == total:
+            print(f"✅ {label} 全站热点 AI 总结已生成（{updated}/{total} 周期）")
+        elif updated:
+            print(f"⚠️  {label} 全站热点 AI 总结仅覆盖 {updated}/{total} 周期，其余保留规则兜底")
+        else:
+            print(f"⚠️  {label} 全站热点 AI 响应未解析出有效周期，保留规则兜底")
     except Exception as e:
-        print(f"⚠️  全站热点 AI 总结失败，使用规则兜底: {e}")
+        label = payload.get("label") or "未知榜"
+        print(f"⚠️  {label} 全站热点 AI 总结失败，使用规则兜底: {e}")
 
     return payload
 
