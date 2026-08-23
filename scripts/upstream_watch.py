@@ -146,6 +146,37 @@ git cherry-pick {short}
     return result["number"]
 
 
+def send_email(subject: str, body: str) -> bool:
+    """通过 SMTP 发送通知邮件；未配置时静默跳过。"""
+    import smtplib
+    from email.mime.text import MIMEText
+    from email.header import Header
+
+    host = os.environ.get("SMTP_HOST", "")
+    user = os.environ.get("SMTP_USER", "")
+    password = os.environ.get("SMTP_PASS", "")
+    to_addr = os.environ.get("MAIL_TO", "")
+    if not all([host, user, password, to_addr]):
+        print("ℹ️  未配置 SMTP，跳过邮件通知")
+        return False
+
+    port = int(os.environ.get("SMTP_PORT", "465"))
+    msg = MIMEText(body, "plain", "utf-8")
+    msg["Subject"] = Header(subject, "utf-8")
+    msg["From"] = user
+    msg["To"] = to_addr
+
+    try:
+        with smtplib.SMTP_SSL(host, port, timeout=30) as server:
+            server.login(user, password)
+            server.sendmail(user, [to_addr], msg.as_string())
+        print(f"✅ 已发送通知邮件至 {to_addr}")
+        return True
+    except Exception as e:
+        print(f"⚠️  邮件发送失败（不影响 issue 创建）: {e}")
+        return False
+
+
 def main():
     parser = argparse.ArgumentParser(description="上游功能哨兵")
     parser.add_argument("--dry-run", action="store_true", help="只打印动作，不创建 issue")
@@ -183,16 +214,34 @@ def main():
     print(f"历史已提醒: {len(known)} 个")
 
     created = 0
+    created_issues = []
     for c in features:
         short = c["sha"][:7]
         if short in known:
             print(f"  ⏭️  已提醒过: {short}")
             continue
         number = create_issue(repo, token, c, upstream_repo)
-        print(f"  ✅ 新 issue #{number}: {short} {c['message'].splitlines()[0][:50]}")
+        title = c["message"].splitlines()[0][:50]
+        print(f"  ✅ 新 issue #{number}: {short} {title}")
+        created_issues.append((number, short, title))
         created += 1
 
     print(f"完成：新开 {created} 个提醒 issue")
+
+    if created_issues and not args.dry_run:
+        lines = [f"上游仓库 {upstream_repo} 有 {len(created_issues)} 个新功能提交待评估：", ""]
+        for number, short, title in created_issues:
+            lines.append(f"- #{number} {title}")
+            lines.append(f"  https://github.com/{repo}/issues/{number}")
+        lines += [
+            "",
+            "处理方式：想要 → cherry-pick 后关闭 issue；不想要 → 直接关闭。",
+            "详情见 issue 正文（含改动统计与摘取命令）。",
+        ]
+        send_email(
+            f"[番茄风向标] 上游有 {len(created_issues)} 个新功能提交待评估",
+            "\n".join(lines),
+        )
 
 
 if __name__ == "__main__":
