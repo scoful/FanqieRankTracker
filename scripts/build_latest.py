@@ -174,7 +174,21 @@ def generate_trend_summary_text(cat_name: str, trend: dict) -> str:
     return "；".join(parts) + "。"
 
 
-def build_ai_prompt(cat_name: str, cat: dict, trend: dict) -> str:
+BOARD_FOCUS_HINTS = {
+    "female": "该榜为女频：分析时侧重CP设定、情感张力、女性向爽点（团宠、逆袭、宅斗、追妻等）。",
+    "male": "该榜为男频：分析时侧重爽点节奏、升级线、打脸反转、争霸布局等维度。",
+}
+
+
+def board_focus_hint(channel: str, board: str) -> str:
+    base = BOARD_FOCUS_HINTS.get(channel, "")
+    if board == "read":
+        return base + "这是阅读榜（存量阅读热度）：侧重长青题材、持续吸引力与读者留存，而非新书爆发力。"
+    return base + "这是新书榜（新书上架表现）：侧重题材新鲜度、上架爆发力与差异化卖点。"
+
+
+def build_ai_prompt(cat_name: str, cat: dict, trend: dict,
+                    board_label_text: str = "", focus_hint: str = "") -> str:
     """构建 AI 总结的 prompt（统一模板）。"""
     # 当前榜单书籍
     intros = []
@@ -209,7 +223,9 @@ def build_ai_prompt(cat_name: str, cat: dict, trend: dict) -> str:
     fallers = trend.get("top_fallers", [])
     fallers_text = "、".join(f"《{f['title']}》{f['change']}" for f in fallers) if fallers else "无"
 
-    return f"""你是一位网文行业分析师。请根据以下数据，为番茄小说「{cat_name}」分类榜单生成结构化分析。
+    board_line = f"（{board_label_text}）" if board_label_text else ""
+    focus_line = f"\n\n{focus_hint}" if focus_hint else ""
+    return f"""你是一位网文行业分析师。请根据以下数据，为番茄小说「{cat_name}」分类榜单{board_line}生成结构化分析。{focus_line}
 
 ## 当前榜单 Top 20
 {intros_text}
@@ -245,7 +261,8 @@ BATCH_SIZE = 3  # 每批合并的分类数
 MARKET_PERIODS = [("7", 7), ("14", 14), ("30", 30), ("all", None)]
 
 
-def build_batch_ai_prompt(batch: list) -> str:
+def build_batch_ai_prompt(batch: list, board_label_text: str = "",
+                          focus_hint: str = "") -> str:
     """构建批量 AI 总结的 prompt。
 
     batch: list of (cat_name, cat_data, trend_data) tuples
@@ -313,9 +330,11 @@ def build_batch_ai_prompt(batch: list) -> str:
         for name in cat_names
     )
 
+    board_line = f"「{board_label_text}」" if board_label_text else ""
+    focus_line = f"\n{focus_hint}" if focus_hint else ""
     return (
         f"你是一位网文行业分析师。请根据以下数据，"
-        f"为番茄小说的多个分类新书榜分别生成结构化分析。\n\n"
+        f"为番茄小说{board_line}的多个分类分别生成结构化分析。\n{focus_line}\n\n"
         f"{all_sections}\n\n"
         f"## 输出要求\n\n"
         f"请严格按照以下格式，为每个分类分别输出分析。"
@@ -828,7 +847,9 @@ def generate_ai_summaries(categories: list, trends: dict,
                           existing_trends: dict = None,
                           trend_path: str = None,
                           trend_date: str = "",
-                          prev_date: str = "") -> dict:
+                          prev_date: str = "",
+                          board_label_text: str = "",
+                          focus_hint: str = "") -> dict:
     """通过 OpenAI 兼容 API 为每个分类生成 AI 总结。
 
     采用批量合并策略（每 BATCH_SIZE 个分类一次调用）减少 API 调用次数，
@@ -884,7 +905,7 @@ def generate_ai_summaries(categories: list, trends: dict,
         print(f"\n  📦 第 {batch_idx + 1}/{len(batches)} 批: "
               f"{', '.join(batch_names)}")
 
-        prompt = build_batch_ai_prompt(batch)
+        prompt = build_batch_ai_prompt(batch, board_label_text, focus_hint)
 
         max_retries = 3
         batch_success = False
@@ -893,7 +914,7 @@ def generate_ai_summaries(categories: list, trends: dict,
                 response = client.chat.completions.create(
                     model=model,
                     messages=[{"role": "user", "content": prompt}],
-                    max_tokens=500 * len(batch),
+                    max_tokens=800 * len(batch),
                     temperature=0.7,
                 )
                 content = response.choices[0].message.content
@@ -940,7 +961,8 @@ def generate_ai_summaries(categories: list, trends: dict,
     if failed_cats:
         print(f"\n  🔄 逐个重试 {len(failed_cats)} 个失败分类...")
         for cat_name, cat, trend in failed_cats:
-            prompt = build_ai_prompt(cat_name, cat, trend)
+            prompt = build_ai_prompt(cat_name, cat, trend,
+                                     board_label_text, focus_hint)
             max_retries = 3
             success = False
             for attempt in range(1, max_retries + 1):
@@ -948,7 +970,7 @@ def generate_ai_summaries(categories: list, trends: dict,
                     response = client.chat.completions.create(
                         model=model,
                         messages=[{"role": "user", "content": prompt}],
-                        max_tokens=500,
+                        max_tokens=700,
                         temperature=0.7,
                     )
                     content = response.choices[0].message.content
@@ -1073,6 +1095,8 @@ def build_one_board(channel: str, board: str, base_dir: str,
             trend_path=t_path,
             trend_date=latest_data["date"],
             prev_date=prev_date,
+            board_label_text=label,
+            focus_hint=board_focus_hint(channel, board),
         )
     else:
         print("未配置 AI，使用规则摘要。")
