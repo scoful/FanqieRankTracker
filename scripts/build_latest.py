@@ -369,6 +369,9 @@ def _save_trends_incremental(trend_path: str, date: str,
         "prev_date": prev_date,
         "trends": trends,
     }
+    parent = os.path.dirname(trend_path)
+    if parent:
+        os.makedirs(parent, exist_ok=True)
     with open(trend_path, "w", encoding="utf-8") as f:
         json.dump(trend_output, f, ensure_ascii=False, indent=2)
 
@@ -384,6 +387,9 @@ def api_type_filename(type_name: str) -> str:
 
 def write_json(path: str, payload: dict):
     """统一写 JSON，确保中文可读。"""
+    parent = os.path.dirname(path)
+    if parent:
+        os.makedirs(parent, exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=2)
 
