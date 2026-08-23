@@ -65,12 +65,12 @@ jobs:
 
     - name: Run Scraper (four boards)
       if: steps.check_data.outputs.need_scrape == 'true'
-      run: python scrape_fanqie_ranks.py
+      run: python -u scrape_fanqie_ranks.py
       env:
         GITHUB_ACTIONS: true
 
     - name: Build Latest Data with AI Summary
-      run: pip install openai && python scripts/build_latest.py
+      run: pip install openai && python -u scripts/build_latest.py
       env:
         API_BASE_URL: ${{ secrets.API_BASE_URL }}
         API_KEY: ${{ secrets.API_KEY }}

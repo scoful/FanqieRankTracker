@@ -90,7 +90,7 @@ jobs:
         if [ -n "${{ github.event.inputs.board }}" ]; then
           ARGS="$ARGS --board ${{ github.event.inputs.board }}"
         fi
-        python scrape_fanqie_ranks.py $ARGS
+        python -u scrape_fanqie_ranks.py $ARGS
       env:
         GITHUB_ACTIONS: true
 
@@ -103,7 +103,7 @@ jobs:
         if [ -n "${{ github.event.inputs.board }}" ]; then
           ARGS="$ARGS --board ${{ github.event.inputs.board }}"
         fi
-        pip install openai && python scripts/build_latest.py $ARGS
+        pip install openai && python -u scripts/build_latest.py $ARGS
       env:
         API_BASE_URL: ${{ secrets.API_BASE_URL }}
         API_KEY: ${{ secrets.API_KEY }}
