@@ -803,6 +803,15 @@ def parse_json_object(text: str) -> dict:
         return json.loads(match.group(0))
 
 
+def chat_create_kwargs(model: str) -> dict:
+    """DeepSeek V4 系列思考模式默认开启，思维链走 reasoning_content，
+    content 偶发为空；趋势总结是格式化任务，显式关闭思考模式。
+    其他服务商不传该参数，避免未知字段报错。"""
+    if "deepseek" in (model or "").lower():
+        return {"extra_body": {"thinking": {"type": "disabled"}}}
+    return {}
+
+
 def enrich_market_summary_with_ai(payload: dict, api_key: str,
                                   base_url: str, model: str) -> dict:
     """使用 AI 改写全站热点总结；失败时保留规则兜底。"""
@@ -819,6 +828,7 @@ def enrich_market_summary_with_ai(payload: dict, api_key: str,
             messages=[{"role": "user", "content": build_market_ai_prompt(payload)}],
             max_tokens=900,
             temperature=0.5,
+            **chat_create_kwargs(model),
         )
         parsed = parse_json_object(response.choices[0].message.content)
         for key, summary in parsed.items():
@@ -922,10 +932,13 @@ def generate_ai_summaries(categories: list, trends: dict,
                     messages=[{"role": "user", "content": prompt}],
                     max_tokens=800 * len(batch),
                     temperature=0.7,
+                    **chat_create_kwargs(model),
                 )
                 content = response.choices[0].message.content
                 if not content or not content.strip():
-                    raise ValueError("API 返回空内容")
+                    finish = response.choices[0].finish_reason
+                    raise ValueError(
+                        f"API 返回空内容 (finish_reason={finish})")
 
                 # 解析批量响应
                 parsed = parse_batch_response(content, batch_names)
@@ -978,10 +991,13 @@ def generate_ai_summaries(categories: list, trends: dict,
                         messages=[{"role": "user", "content": prompt}],
                         max_tokens=700,
                         temperature=0.7,
+                        **chat_create_kwargs(model),
                     )
                     content = response.choices[0].message.content
                     if not content or not content.strip():
-                        raise ValueError("API 返回空内容")
+                        finish = response.choices[0].finish_reason
+                        raise ValueError(
+                            f"API 返回空内容 (finish_reason={finish})")
                     trends[cat_name]["summary"] = content.strip()
                     print(f"    ✅ {cat_name}")
                     _save_trends_incremental(
