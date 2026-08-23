@@ -17,6 +17,16 @@ on:
         required: false
         default: ''
         type: string
+      channel:
+        description: '频道 female/male，空=全部'
+        required: false
+        default: ''
+        type: string
+      board:
+        description: '榜种 new/read，空=全部'
+        required: false
+        default: ''
+        type: string
 
 jobs:
   force-update:
@@ -46,17 +56,15 @@ jobs:
           TARGET="$INPUT"
         fi
         echo "target=$TARGET" >> $GITHUB_OUTPUT
-        # 判断是否是今天
         TODAY=$(date -u +"%Y%m%d")
         if [ "$TARGET" = "$TODAY" ]; then
           echo "is_today=true" >> $GITHUB_OUTPUT
         else
           echo "is_today=false" >> $GITHUB_OUTPUT
         fi
-        # 转换为 YYYY-MM-DD 格式
         DASH_DATE="${TARGET:0:4}-${TARGET:4:2}-${TARGET:6:2}"
         echo "dash_date=$DASH_DATE" >> $GITHUB_OUTPUT
-        echo "📅 目标日期: $DASH_DATE (is_today=$( [ "$TARGET" = "$TODAY" ] && echo true || echo false ))"
+        echo "📅 目标日期: $DASH_DATE"
 
     - name: Set up Python
       uses: actions/setup-python@v5
@@ -74,12 +82,28 @@ jobs:
 
     - name: Run Scraper (仅当天)
       if: steps.date.outputs.is_today == 'true'
-      run: python scrape_fanqie_ranks.py
+      run: |
+        ARGS=""
+        if [ -n "${{ github.event.inputs.channel }}" ]; then
+          ARGS="$ARGS --channel ${{ github.event.inputs.channel }}"
+        fi
+        if [ -n "${{ github.event.inputs.board }}" ]; then
+          ARGS="$ARGS --board ${{ github.event.inputs.board }}"
+        fi
+        python scrape_fanqie_ranks.py $ARGS
       env:
         GITHUB_ACTIONS: true
 
     - name: Build Latest Data with AI Summary (Force)
-      run: pip install openai && python scripts/build_latest.py --force --date ${{ steps.date.outputs.dash_date }}
+      run: |
+        ARGS="--force --date ${{ steps.date.outputs.dash_date }}"
+        if [ -n "${{ github.event.inputs.channel }}" ]; then
+          ARGS="$ARGS --channel ${{ github.event.inputs.channel }}"
+        fi
+        if [ -n "${{ github.event.inputs.board }}" ]; then
+          ARGS="$ARGS --board ${{ github.event.inputs.board }}"
+        fi
+        pip install openai && python scripts/build_latest.py $ARGS
       env:
         API_BASE_URL: ${{ secrets.API_BASE_URL }}
         API_KEY: ${{ secrets.API_KEY }}
@@ -92,10 +116,9 @@ jobs:
       uses: stefanzweifel/git-auto-commit-action@v5
       with:
         commit_message: "[Force] Re-summarize Fanqie ranks (${{ steps.date.outputs.dash_date }})"
-        file_pattern: data/*
+        file_pattern: data api
         branch: main
 
-    # ---- Deploy to GitHub Pages ----
     - name: Setup Pages
       uses: actions/configure-pages@v5
       with:

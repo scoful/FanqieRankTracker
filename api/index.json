@@ -1,0 +1,32 @@
+{
+  "boards": [
+    {
+      "channel": "female",
+      "board": "new",
+      "label": "女频新书榜",
+      "url": "api/female/new/index.json",
+      "all_url": "api/female/new/all.json"
+    },
+    {
+      "channel": "female",
+      "board": "read",
+      "label": "女频阅读榜",
+      "url": "api/female/read/index.json",
+      "all_url": "api/female/read/all.json"
+    },
+    {
+      "channel": "male",
+      "board": "new",
+      "label": "男频新书榜",
+      "url": "api/male/new/index.json",
+      "all_url": "api/male/new/all.json"
+    },
+    {
+      "channel": "male",
+      "board": "read",
+      "label": "男频阅读榜",
+      "url": "api/male/read/index.json",
+      "all_url": "api/male/read/all.json"
+    }
+  ]
+}

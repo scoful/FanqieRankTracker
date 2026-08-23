@@ -3,19 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>类型风向标 · 番茄女频新书榜趋势分析</title>
+    <title>类型风向标 · 番茄四榜趋势分析</title>
     <link rel="stylesheet" href="css/style.css">
-    <meta name="description" content="按类型聚合番茄小说女频新书榜多日趋势，观察题材风向、上榜波动和阅读增长。">
+    <meta name="description" content="按类型聚合番茄小说四榜多日趋势，观察题材风向、上榜波动和阅读增长。">
 </head>
 <body class="trend-page">
     <div class="trend-shell">
         <header class="trend-topbar">
             <div>
-                <a href="index.html" class="back-link">返回榜单</a>
+                <a href="index.html?channel=female&board=new" class="back-link" id="back-link">返回榜单</a>
                 <h1>类型风向标</h1>
                 <p id="trend-subtitle">加载中...</p>
             </div>
             <div class="trend-controls">
+                <div class="board-switch board-switch-inline" aria-label="榜单切换">
+                    <div class="board-switch-row">
+                        <button type="button" class="board-switch-btn active" data-channel="female">女频</button>
+                        <button type="button" class="board-switch-btn" data-channel="male">男频</button>
+                    </div>
+                    <div class="board-switch-row">
+                        <button type="button" class="board-switch-btn active" data-board="new">新书榜</button>
+                        <button type="button" class="board-switch-btn" data-board="read">阅读榜</button>
+                    </div>
+                </div>
                 <div class="trend-range" id="trend-range">
                     <button class="range-btn active" data-days="7">7日</button>
                     <button class="range-btn" data-days="14">14日</button>
@@ -28,7 +38,7 @@
         <main>
             <section class="market-board">
                 <article class="market-summary-card">
-                    <span class="panel-kicker">全站热点</span>
+                    <span class="panel-kicker" id="market-kicker">本榜热点</span>
                     <h2>当下火热类型与题材</h2>
                     <p id="market-summary">正在读取最新榜单和近期趋势。</p>
                     <small id="market-source" class="market-source">统计中</small>
@@ -80,6 +90,7 @@
         </main>
     </div>
 
+    <script src="js/boards.js"></script>
     <script src="js/trend.js"></script>
 </body>
 </html>

@@ -1,37 +1,61 @@
 document.addEventListener('DOMContentLoaded', () => {
     const detail = document.getElementById('book-detail');
+    const backLink = document.getElementById('back-link');
+    const trendLink = document.getElementById('trend-link-btn');
     const cacheBuster = `v=${Math.floor(Date.now() / 600000)}`;
     const maxDays = 30;
+
+    const query = Boards.parseQuery();
+    let currentChannel = query.channel;
+    let currentBoard = query.board;
+
     const copyToast = document.createElement('div');
     copyToast.className = 'copy-toast';
     copyToast.textContent = '书本信息已复制';
     document.body.appendChild(copyToast);
     let toastTimer = null;
 
+    if (backLink) backLink.href = Boards.indexUrl(currentChannel, currentBoard);
+    if (trendLink) trendLink.href = Boards.trendPageUrl(currentChannel, currentBoard);
+
     init();
 
     async function init() {
-        const params = new URLSearchParams(window.location.search);
-        const bookId = params.get('id');
-        const bookTitle = params.get('title');
+        const bookId = query.id;
+        const bookTitle = query.title;
         if (!bookId && !bookTitle) {
             renderEmpty('缺少作品 ID。');
             return;
         }
 
         try {
-            const dateIndex = await fetchJson(`data/dates.json?${cacheBuster}`);
-            const dates = (dateIndex.dates || []).slice().sort().slice(-maxDays);
-            const snapshots = await Promise.all(
-                dates.map(date => fetchJson(`${snapshotUrl(date)}?${cacheBuster}`).catch(() => null))
-            );
-            const records = collectBookRecords(bookId, bookTitle, dates, snapshots);
+            // 优先当前切片；无数据时再扫其它已有切片
+            const slices = uniqueSlices([
+                { channel: currentChannel, board: currentBoard },
+                { channel: 'female', board: 'new' },
+                { channel: 'female', board: 'read' },
+                { channel: 'male', board: 'new' },
+                { channel: 'male', board: 'read' },
+            ]);
+
+            let records = [];
+            for (const slice of slices) {
+                const found = await collectFromSlice(slice.channel, slice.board, bookId, bookTitle);
+                if (found.length) {
+                    records = records.concat(found);
+                    // 若 URL 未指定有效切片但在某切片找到了，回写
+                    if (slice.channel !== currentChannel || slice.board !== currentBoard) {
+                        // 保留用户 URL 频道；仅补充展示
+                    }
+                }
+            }
 
             if (!records.length) {
-                renderEmpty('最近 30 天榜单中没有找到这本书。');
+                renderEmpty('最近 30 天各榜中没有找到这本书。');
                 return;
             }
 
+            records.sort((a, b) => a.date.localeCompare(b.date) || a.channel.localeCompare(b.channel));
             renderBook(records);
         } catch (err) {
             console.error(err);
@@ -39,28 +63,54 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    function snapshotUrl(date) {
-        return `data/fanqie_female_new_ranks_${date.replace(/-/g, '')}.json`;
+    function uniqueSlices(list) {
+        const seen = new Set();
+        return list.filter((item) => {
+            const key = `${item.channel}/${item.board}`;
+            if (seen.has(key)) return false;
+            seen.add(key);
+            return true;
+        });
+    }
+
+    async function collectFromSlice(channel, board, bookId, bookTitle) {
+        try {
+            const dateIndex = await fetchJson(`${Boards.datesUrl(channel, board)}?${cacheBuster}`);
+            const dates = (dateIndex.dates || []).slice().sort().slice(-maxDays);
+            if (!dates.length) return [];
+
+            const snapshots = await Promise.all(
+                dates.map((date) =>
+                    fetchJson(`${Boards.snapshotUrl(channel, board, date)}?${cacheBuster}`).catch(() => null)
+                )
+            );
+            return collectBookRecords(bookId, bookTitle, dates, snapshots, channel, board);
+        } catch (e) {
+            return [];
+        }
     }
 
     function fetchJson(url) {
-        return fetch(url).then(response => {
+        return fetch(url).then((response) => {
             if (!response.ok) throw new Error(`Failed to load ${url}`);
             return response.json();
         });
     }
 
-    function collectBookRecords(bookId, bookTitle, dates, snapshots) {
+    function collectBookRecords(bookId, bookTitle, dates, snapshots, channel, board) {
         const records = [];
         snapshots.forEach((snapshot, snapshotIndex) => {
             if (!snapshot || !snapshot.categories) return;
             const date = dates[snapshotIndex];
-            snapshot.categories.forEach(cat => {
+            snapshot.categories.forEach((cat) => {
                 (cat.books || []).forEach((book, index) => {
                     if (bookId && extractBookId(book.url) !== bookId) return;
                     if (!bookId && book.title !== bookTitle) return;
                     records.push({
                         date,
+                        channel,
+                        board,
+                        label: Boards.label(channel, board),
                         category: cat.name,
                         rank: index + 1,
                         readsLabel: book.reads || '未知',
@@ -70,14 +120,17 @@ document.addEventListener('DOMContentLoaded', () => {
                 });
             });
         });
-        return records.sort((a, b) => a.date.localeCompare(b.date));
+        return records;
     }
 
     function renderBook(records) {
         const latest = records[records.length - 1];
         const book = latest.book;
-        const chartRecords = compactRecordsByDate(records).filter(item => item.readsValue > 0);
-        const maxReads = Math.max(...records.map(item => item.readsValue || 0));
+        const chartRecords = compactRecordsByDate(records).filter((item) => item.readsValue > 0);
+        const maxReads = Math.max(...records.map((item) => item.readsValue || 0));
+        const sliceText = `${latest.label} · ${latest.category}`;
+
+        document.title = `${book.title} · ${latest.label}`;
 
         detail.innerHTML = `
             <section class="book-detail-hero">
@@ -85,7 +138,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     ${book.cover ? `<img src="${book.cover}" alt="${escapeAttr(book.title)}">` : '<div class="no-cover">暂无封面</div>'}
                 </div>
                 <div class="detail-main">
-                    <span class="panel-kicker">${escapeHtml(latest.category)} · 第 ${latest.rank} 名</span>
+                    <span class="panel-kicker">${escapeHtml(sliceText)} · 第 ${latest.rank} 名</span>
                     <h1>${escapeHtml(book.title)}</h1>
                     <p class="detail-author">作者：${escapeHtml(book.author || '未知')}</p>
                     <div class="detail-stats">
@@ -117,7 +170,7 @@ document.addEventListener('DOMContentLoaded', () => {
             </section>
         `;
 
-        detail.querySelector('.detail-copy-btn').addEventListener('click', e => copyBookInfo(e, book, latest));
+        detail.querySelector('.detail-copy-btn').addEventListener('click', (e) => copyBookInfo(e, book, latest));
         bindReadsChart(chartRecords);
     }
 
@@ -143,7 +196,6 @@ document.addEventListener('DOMContentLoaded', () => {
         if (navigator.clipboard && navigator.clipboard.writeText) {
             return navigator.clipboard.writeText(text).catch(() => fallbackCopyText(text));
         }
-
         return fallbackCopyText(text);
     }
 
@@ -167,7 +219,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function compactRecordsByDate(records) {
         const map = new Map();
-        records.forEach(record => {
+        records.forEach((record) => {
             const current = map.get(record.date);
             if (!current || record.readsValue >= current.readsValue) {
                 map.set(record.date, record);
@@ -182,14 +234,14 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         const layout = getReadsChartLayout(records);
-        const points = layout.points.map(point => `${point.x.toFixed(1)},${point.y.toFixed(1)}`).join(' ');
+        const points = layout.points.map((point) => `${point.x.toFixed(1)},${point.y.toFixed(1)}`).join(' ');
         const labelStep = records.length <= 8 ? 1 : Math.ceil(records.length / 6);
 
         return `
             <div class="reads-chart-wrap">
                 <div class="reads-chart-frame">
                     <svg class="reads-chart" viewBox="0 0 ${layout.width} ${layout.height}" role="img" aria-label="阅读数趋势">
-                    ${layout.ticks.map(value => {
+                    ${layout.ticks.map((value) => {
                         const y = layout.yFor(value);
                         return `
                             <line class="chart-grid" x1="${layout.pad.left}" y1="${y}" x2="${layout.width - layout.pad.right}" y2="${y}"></line>
@@ -251,7 +303,7 @@ document.addEventListener('DOMContentLoaded', () => {
             tooltip.style.top = `${Math.max(10, top - 24)}px`;
         }
 
-        hitArea.addEventListener('mousemove', event => {
+        hitArea.addEventListener('mousemove', (event) => {
             const rect = svg.getBoundingClientRect();
             const viewX = (event.clientX - rect.left) * layout.width / rect.width;
             const nearest = layout.points.reduce((best, point, index) => {
@@ -274,10 +326,10 @@ document.addEventListener('DOMContentLoaded', () => {
         const pad = { top: 28, right: 28, bottom: 48, left: 58 };
         const innerW = width - pad.left - pad.right;
         const innerH = height - pad.top - pad.bottom;
-        const maxValue = niceChartMax(Math.max(1, ...records.map(item => item.readsValue)));
+        const maxValue = niceChartMax(Math.max(1, ...records.map((item) => item.readsValue)));
         const xStep = records.length > 1 ? innerW / (records.length - 1) : 0;
-        const xFor = index => records.length > 1 ? pad.left + index * xStep : pad.left + innerW / 2;
-        const yFor = value => pad.top + innerH - (value / maxValue) * innerH;
+        const xFor = (index) => (records.length > 1 ? pad.left + index * xStep : pad.left + innerW / 2);
+        const yFor = (value) => pad.top + innerH - (value / maxValue) * innerH;
         const ticks = [0, maxValue / 4, maxValue / 2, maxValue * 3 / 4, maxValue];
         const points = records.map((item, index) => ({
             x: xFor(index),
@@ -298,7 +350,7 @@ document.addEventListener('DOMContentLoaded', () => {
         return `
             <div class="book-history-row">
                 <time>${escapeHtml(record.date)}</time>
-                <strong>${escapeHtml(record.category)} · 第 ${record.rank} 名</strong>
+                <strong>${escapeHtml(record.label)} · ${escapeHtml(record.category)} · 第 ${record.rank} 名</strong>
                 <span>${escapeHtml(record.readsLabel)}</span>
             </div>
         `;
@@ -308,7 +360,7 @@ document.addEventListener('DOMContentLoaded', () => {
         detail.innerHTML = `
             <div class="book-empty-state">
                 <p>${escapeHtml(message)}</p>
-                <a href="index.html" class="back-link">返回榜单</a>
+                <a href="${Boards.indexUrl(currentChannel, currentBoard)}" class="back-link">返回榜单</a>
             </div>
         `;
     }

@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>番茄女频新书榜 · 风向标 | 每日女频趋势追踪</title>
+    <title>番茄风向标 · 四榜追踪</title>
     <link rel="stylesheet" href="css/style.css">
-    <meta name="description" content="番茄小说女频新书榜趋势分析与风向标">
+    <meta name="description" content="番茄小说女频/男频 · 新书榜/阅读榜 趋势分析与风向标">
 </head>
 <body>
     <div class="app-container">
@@ -13,8 +13,18 @@
         <aside class="sidebar" id="sidebar">
             <div class="sidebar-header">
                 <h1>番茄风向标</h1>
-                <p class="sidebar-subtitle">女频新书榜追踪</p>
+                <p class="sidebar-subtitle" id="sidebar-subtitle">女频新书榜</p>
                 <p id="update-date" class="update-date">加载中...</p>
+                <div class="board-switch" aria-label="榜单切换">
+                    <div class="board-switch-row">
+                        <button type="button" class="board-switch-btn active" data-channel="female">女频</button>
+                        <button type="button" class="board-switch-btn" data-channel="male">男频</button>
+                    </div>
+                    <div class="board-switch-row">
+                        <button type="button" class="board-switch-btn active" data-board="new">新书榜</button>
+                        <button type="button" class="board-switch-btn" data-board="read">阅读榜</button>
+                    </div>
+                </div>
             </div>
             <nav class="category-nav">
                 <ul id="category-list">
@@ -37,7 +47,7 @@
                         </svg>
                         <span>GitHub</span>
                     </a>
-                    <a class="trend-link-btn" href="trend.html">风向标</a>
+                    <a class="trend-link-btn" id="trend-link-btn" href="trend.html?channel=female&board=new">风向标</a>
                     <div class="date-presets" id="date-presets">
                         <button class="preset-btn active" data-preset="latest">最新</button>
                         <button class="preset-btn" data-preset="yesterday">昨日</button>
@@ -69,6 +79,7 @@
         </main>
     </div>
 
+    <script src="js/boards.js"></script>
     <script src="js/app.js"></script>
 </body>
 </html>

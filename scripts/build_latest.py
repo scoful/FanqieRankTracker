@@ -1,9 +1,10 @@
+# -*- coding: utf-8 -*-
 """
-构建 latest_ranks.json：
-1. 加载最近两天的 JSON 快照
+构建四榜衍生数据：
+1. 加载某切片最近两天 JSON 快照
 2. 按分类对比趋势（新上榜/掉榜/排名变化/阅读量变化）
-3. 可选调用 Gemini Flash 生成 AI 总结
-4. 输出 latest_ranks.json + trends/YYYY-MM-DD.json
+3. 可选 OpenAI 兼容 API 生成 AI 总结
+4. 输出 data/latest|trends|market|dates + api/{channel}/{board}/
 """
 import os
 import re
@@ -12,6 +13,28 @@ import glob
 import sys
 import argparse
 from urllib.parse import quote
+
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+from scripts.board_config import (
+    BOARDS,
+    api_board_dir,
+    board_label,
+    compact_to_dash,
+    dash_to_compact,
+    dates_path,
+    find_board,
+    genre_groups_for,
+    latest_path,
+    market_keywords_for,
+    market_path,
+    parse_board_args,
+    repo_root,
+    snapshot_dir,
+    snapshot_path,
+    trend_path,
+    trends_dir,
+)
 
 
 def parse_reads(reads_str: str) -> float:
@@ -186,7 +209,7 @@ def build_ai_prompt(cat_name: str, cat: dict, trend: dict) -> str:
     fallers = trend.get("top_fallers", [])
     fallers_text = "、".join(f"《{f['title']}》{f['change']}" for f in fallers) if fallers else "无"
 
-    return f"""你是一位网文行业分析师。请根据以下数据，为番茄小说「{cat_name}」分类新书榜生成结构化分析。
+    return f"""你是一位网文行业分析师。请根据以下数据，为番茄小说「{cat_name}」分类榜单生成结构化分析。
 
 ## 当前榜单 Top 20
 {intros_text}
@@ -200,10 +223,10 @@ def build_ai_prompt(cat_name: str, cat: dict, trend: dict) -> str:
 ## 输出要求（请严格按以下格式输出，使用 Markdown）
 
 **🔥 题材趋势**
-用1-2句话总结当前分类的主流题材和高频元素（如穿书/重生/系统/种田等），点明哪些设定扎堆出现。
+用1-2句话总结当前分类的主流题材和高频元素，点明哪些设定扎堆出现。
 
 **📖 读者偏好**
-用1句话概括读者口味方向（甜宠/虐/爽/日常/暗黑等），以及金手指类型偏好。
+用1句话概括读者口味方向，以及金手指类型偏好。
 
 **🆕 新上榜作品**
 列出新上榜书名，每本用一句话点评其题材亮点或差异化卖点。
@@ -220,25 +243,6 @@ def build_ai_prompt(cat_name: str, cat: dict, trend: dict) -> str:
 BATCH_SIZE = 3  # 每批合并的分类数
 
 MARKET_PERIODS = [("7", 7), ("14", 14), ("30", 30), ("all", None)]
-
-GENRE_GROUPS = [
-    {"name": "古风言情", "categories": ["古风世情", "古言脑洞", "宫斗宅斗", "种田"]},
-    {"name": "现代言情", "categories": ["现言脑洞", "豪门总裁", "职场婚恋", "青春甜宠"]},
-    {"name": "幻想言情", "categories": ["玄幻言情", "科幻末世", "悬疑脑洞", "女频悬疑"]},
-    {"name": "快穿衍生", "categories": ["快穿", "女频衍生"]},
-    {"name": "年代民国", "categories": ["年代", "民国言情"]},
-    {"name": "娱乐星光", "categories": ["星光璀璨"]},
-    {"name": "游戏体育", "categories": ["游戏体育"]},
-]
-
-MARKET_KEYWORDS = [
-    "重生", "穿书", "快穿", "系统", "空间", "团宠", "萌宝", "幼崽", "女配", "炮灰",
-    "反派", "权臣", "宅斗", "宫斗", "和离", "替嫁", "逃荒", "种田", "美食", "经商",
-    "年代", "七零", "八零", "军婚", "豪门", "总裁", "真假千金", "先婚后爱", "追妻",
-    "甜宠", "双洁", "强制爱", "无CP", "末世", "废土", "天灾", "囤货", "异能",
-    "国运", "星际", "修仙", "玄学", "无限流", "悬疑", "直播", "综艺", "娱乐圈",
-    "校园", "暗恋", "青梅竹马", "民国", "兽世", "远古", "基建",
-]
 
 
 def build_batch_ai_prompt(batch: list) -> str:
@@ -365,40 +369,38 @@ def write_json(path: str, payload: dict):
         json.dump(payload, f, ensure_ascii=False, indent=2)
 
 
-def build_lastest_api(output: dict, base_dir: str):
-    """生成静态 lastest 数据接口。
-
-    GitHub Pages 不支持动态 query API，因此这里将 type 参数映射为静态文件：
-    - api/lastest/all.json：全量数据
-    - api/lastest/<type>.json：单个类型数据
-    - api/lastest.json / api/lastest/index.json：类型索引
-    """
-    api_root = os.path.join(base_dir, "api")
-    lastest_dir = os.path.join(api_root, "lastest")
-    os.makedirs(lastest_dir, exist_ok=True)
-    for old_path in glob.glob(os.path.join(lastest_dir, "*.json")):
+def build_board_api(output: dict, channel: str, board: str, base_dir: str):
+    """生成静态切片 API：api/{channel}/{board}/..."""
+    api_dir = api_board_dir(channel, board, base_dir)
+    os.makedirs(api_dir, exist_ok=True)
+    for old_path in glob.glob(os.path.join(api_dir, "*.json")):
         os.remove(old_path)
 
     date = output.get("date", "")
     prev_date = output.get("prev_date", "")
     categories = output.get("categories", [])
+    label = board_label(channel, board)
+    url_prefix = f"api/{channel}/{board}"
 
     all_payload = {
+        "channel": channel,
+        "board": board,
+        "label": label,
         "type": "all",
         "date": date,
         "prev_date": prev_date,
         "categories": categories,
     }
-    write_json(os.path.join(lastest_dir, "all.json"), all_payload)
+    write_json(os.path.join(api_dir, "all.json"), all_payload)
 
     types = [{
         "type": "all",
-        "url": "api/lastest/all.json",
+        "url": f"{url_prefix}/all.json",
         "category_count": len(categories),
         "book_count": sum(len(cat.get("books", [])) for cat in categories),
     }]
 
-    used_filenames = {"all"}
+    used_filenames = {"all", "index"}
     for cat in categories:
         type_name = cat.get("name", "")
         filename = api_type_filename(type_name)
@@ -410,15 +412,18 @@ def build_lastest_api(output: dict, base_dir: str):
         used_filenames.add(filename)
 
         payload = {
+            "channel": channel,
+            "board": board,
+            "label": label,
             "type": type_name,
             "date": date,
             "prev_date": prev_date,
             "category": cat,
             "categories": [cat],
         }
-        write_json(os.path.join(lastest_dir, f"{filename}.json"), payload)
+        write_json(os.path.join(api_dir, f"{filename}.json"), payload)
 
-        url = f"api/lastest/{quote(filename)}.json"
+        url = f"{url_prefix}/{quote(filename)}.json"
         types.append({
             "type": type_name,
             "url": url,
@@ -426,14 +431,30 @@ def build_lastest_api(output: dict, base_dir: str):
         })
 
     index_payload = {
+        "channel": channel,
+        "board": board,
+        "label": label,
         "date": date,
         "prev_date": prev_date,
         "types": types,
     }
-    write_json(os.path.join(lastest_dir, "index.json"), index_payload)
-    write_json(os.path.join(api_root, "lastest.json"), index_payload)
+    write_json(os.path.join(api_dir, "index.json"), index_payload)
+    return api_dir
 
-    return lastest_dir
+
+def write_api_root_index(base_dir: str):
+    """写入四榜总索引 api/index.json。"""
+    boards = []
+    for cfg in BOARDS:
+        ch, bd = cfg["channel"], cfg["board"]
+        boards.append({
+            "channel": ch,
+            "board": bd,
+            "label": cfg["label"],
+            "url": f"api/{ch}/{bd}/index.json",
+            "all_url": f"api/{ch}/{bd}/all.json",
+        })
+    write_json(os.path.join(base_dir, "api", "index.json"), {"boards": boards})
 
 
 def parse_change(change: str) -> int:
@@ -535,11 +556,13 @@ def collect_market_hot_types(categories: list, rows_window: list) -> list:
     )
 
 
-def collect_market_hot_genres(categories: list, hot_types: list) -> list:
+def collect_market_hot_genres(categories: list, hot_types: list,
+                              genre_groups: list = None) -> list:
     """按综合赛道聚合具体分类热度。"""
+    genre_groups = genre_groups or []
     type_map = {item["name"]: item for item in hot_types}
     genres = []
-    for group in GENRE_GROUPS:
+    for group in genre_groups:
         matched = []
         for name in group["categories"]:
             if name not in categories:
@@ -581,12 +604,13 @@ def collect_market_hot_genres(categories: list, hot_types: list) -> list:
     )
 
 
-def add_theme_hits(score_map: dict, text: str, category_name: str, weight: int):
+def add_theme_hits(score_map: dict, keywords: list, text: str,
+                   category_name: str, weight: int):
     """给命中的题材关键词加权。"""
     source = str(text or "")
     if not source:
         return
-    for keyword in MARKET_KEYWORDS:
+    for keyword in keywords:
         if keyword not in source:
             continue
         item = score_map[keyword]
@@ -595,11 +619,12 @@ def add_theme_hits(score_map: dict, text: str, category_name: str, weight: int):
 
 
 def collect_market_hot_themes(output: dict, rows_window: list,
-                              categories: list) -> list:
+                              categories: list, keywords: list = None) -> list:
     """只统计近期新上榜作品中的高频题材词。"""
+    keywords = keywords or []
     score_map = {
         name: {"name": name, "count": 0, "categories": set()}
-        for name in MARKET_KEYWORDS
+        for name in keywords
     }
     latest_book_map = {}
     for cat in output.get("categories", []):
@@ -617,6 +642,7 @@ def collect_market_hot_themes(output: dict, rows_window: list,
                 book = latest_book_map.get(title, {})
                 add_theme_hits(
                     score_map,
+                    keywords,
                     f"{title} {book.get('intro', '')}",
                     cat_name,
                     1
@@ -653,18 +679,24 @@ def build_rule_market_summary(period_label: str, hot_genres: list,
     )
 
 
-def build_market_summary_payload(output: dict, trends_dir: str) -> dict:
-    """生成全站热点统计和规则兜底总结。"""
+def build_market_summary_payload(output: dict, trends_directory: str,
+                                 channel: str = "female",
+                                 board: str = "new") -> dict:
+    """生成本榜热点统计和规则兜底总结。"""
     categories = [cat.get("name", "") for cat in output.get("categories", [])]
-    trend_rows = load_trend_rows(trends_dir)
+    trend_rows = load_trend_rows(trends_directory)
+    groups = genre_groups_for(channel)
+    keywords = market_keywords_for(channel)
     periods = {}
 
     for key, days in MARKET_PERIODS:
         rows_window = trend_rows if days is None else trend_rows[-days:]
         period_label = "全部样本" if days is None else f"近 {days} 日"
         hot_types = collect_market_hot_types(categories, rows_window)
-        hot_genres = collect_market_hot_genres(categories, hot_types)
-        hot_themes = collect_market_hot_themes(output, rows_window, categories)
+        hot_genres = collect_market_hot_genres(categories, hot_types, groups)
+        hot_themes = collect_market_hot_themes(
+            output, rows_window, categories, keywords
+        )
         fallback_summary = build_rule_market_summary(
             period_label, hot_genres, hot_types, hot_themes
         )
@@ -679,6 +711,9 @@ def build_market_summary_payload(output: dict, trends_dir: str) -> dict:
         }
 
     return {
+        "channel": channel,
+        "board": board,
+        "label": board_label(channel, board),
         "date": output.get("date", ""),
         "prev_date": output.get("prev_date", ""),
         "periods": periods,
@@ -711,7 +746,8 @@ def build_market_ai_prompt(payload: dict) -> str:
             f"- 规则兜底: {data['fallback_summary']}"
         )
 
-    return f"""你是一位网文市场编辑，请根据番茄女频新书榜的统计结果，为每个周期生成一段全站热点判断。
+    label = payload.get("label") or "番茄榜单"
+    return f"""你是一位网文市场编辑，请根据番茄小说「{label}」的统计结果，为每个周期生成一段本榜热点判断。
 
 {chr(10).join(sections)}
 
@@ -720,7 +756,7 @@ def build_market_ai_prompt(payload: dict) -> str:
 2. 每个周期输出 1 段中文，80-140 字。
 3. 综合赛道和具体分类必须按“新增在读/阅读增长”解读，不要写“榜单动能”或“排名动能”。
 4. 高频题材必须按“新上榜作品数量”解读，不要混入存量榜单或摘要题材。
-5. 点明综合赛道、具体分类、新书题材关键词，以及一句编辑判断。
+5. 点明综合赛道、具体分类、题材关键词，以及一句编辑判断。
 6. 输出严格 JSON，不要 Markdown，不要解释，格式如下：
 {{
   "7": "总结文本",
@@ -945,48 +981,38 @@ def generate_ai_summaries(categories: list, trends: dict,
     return trends
 
 
-def main():
-    parser = argparse.ArgumentParser(description="构建 latest_ranks.json")
-    parser.add_argument("--force", action="store_true",
-                        help="强制重新生成所有 AI 总结，忽略已有总结")
-    parser.add_argument("--date", type=str, default="",
-                        help="指定目标日期 (YYYY-MM-DD)，默认使用最新快照")
-    args = parser.parse_args()
+def list_snapshots(channel: str, board: str, base_dir: str) -> list:
+    sdir = snapshot_dir(channel, board, base_dir)
+    return sorted(glob.glob(os.path.join(sdir, "[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9].json")))
 
-    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    data_dir = os.path.join(base_dir, "data")
-    trends_dir = os.path.join(data_dir, "trends")
-    os.makedirs(trends_dir, exist_ok=True)
 
-    # 查找 JSON 快照文件
-    snapshots = sorted(
-        glob.glob(os.path.join(data_dir, "fanqie_female_new_ranks_*.json"))
-    )
-
+def build_one_board(channel: str, board: str, base_dir: str,
+                    target_date: str = "", force: bool = False,
+                    api_base_url: str = "", api_key: str = "",
+                    api_model: str = "") -> bool:
+    """构建单个切片。无快照时返回 False。"""
+    label = board_label(channel, board)
+    snapshots = list_snapshots(channel, board, base_dir)
     if not snapshots:
-        print("未找到任何 JSON 快照文件。请先运行迁移脚本或爬虫。")
-        sys.exit(1)
+        print(f"\n⏭️  {label}: 无快照，跳过")
+        return False
 
-    # 根据 --date 参数选择目标快照
-    if args.date:
-        target_date_compact = args.date.replace("-", "")
-        target_path = os.path.join(
-            data_dir, f"fanqie_female_new_ranks_{target_date_compact}.json"
-        )
+    if target_date:
+        compact = dash_to_compact(target_date)
+        target_path = snapshot_path(channel, board, compact, base_dir)
         if not os.path.exists(target_path):
-            print(f"❌ 未找到 {args.date} 的快照文件: {target_path}")
-            sys.exit(1)
-        latest_path = target_path
-        # 找到该快照在列表中的位置，取前一个作为对比
+            print(f"❌ {label}: 未找到 {target_date} 快照")
+            return False
         target_idx = snapshots.index(target_path) if target_path in snapshots else -1
+        latest_snap_path = target_path
     else:
-        latest_path = snapshots[-1]
+        latest_snap_path = snapshots[-1]
         target_idx = len(snapshots) - 1
 
-    latest_data = load_snapshot(latest_path)
-    print(f"目标快照: {os.path.basename(latest_path)} ({latest_data['date']})")
+    latest_data = load_snapshot(latest_snap_path)
+    print(f"\n===== {label} =====")
+    print(f"目标快照: {os.path.basename(latest_snap_path)} ({latest_data.get('date')})")
 
-    # 加载前一天的快照（如果有）
     prev_data = None
     prev_date = ""
     if target_idx > 0:
@@ -995,28 +1021,31 @@ def main():
         prev_date = prev_data.get("date", "")
         print(f"对比快照: {os.path.basename(prev_path)} ({prev_date})")
 
-    # 加载已有的趋势数据（用于保留已有 AI 总结）
+    t_dir = trends_dir(channel, board, base_dir)
+    os.makedirs(t_dir, exist_ok=True)
+    t_path = trend_path(channel, board, latest_data["date"], base_dir)
+
     existing_trends = {}
-    trend_path = os.path.join(trends_dir, f"{latest_data['date']}.json")
-    if os.path.exists(trend_path) and not args.force:
+    if os.path.exists(t_path) and not force:
         try:
-            with open(trend_path, "r", encoding="utf-8") as f:
-                existing_trend_data = json.load(f)
-                existing_trends = existing_trend_data.get("trends", {})
-            ai_count = sum(1 for t in existing_trends.values()
-                          if not is_rule_summary(t.get("summary", "")))
+            existing_trend_data = load_snapshot(t_path)
+            existing_trends = existing_trend_data.get("trends", {})
+            ai_count = sum(
+                1 for t in existing_trends.values()
+                if not is_rule_summary(t.get("summary", ""))
+            )
             rule_count = len(existing_trends) - ai_count
-            print(f"已有趋势数据: {ai_count} 个 AI 总结, {rule_count} 个待补充")
+            print(f"已有趋势: {ai_count} AI / {rule_count} 待补充")
         except Exception:
             pass
 
-    if args.force:
-        print("\n🔄 强制模式：将重新生成所有 AI 总结")
+    if force:
+        print("🔄 强制重新生成 AI 总结")
 
-    # 对比趋势
     if prev_data:
         trends = compare_categories(
-            latest_data["categories"], prev_data["categories"]
+            latest_data.get("categories", []),
+            prev_data.get("categories", []),
         )
     else:
         print("仅有一天数据，无法生成趋势对比。")
@@ -1031,95 +1060,119 @@ def main():
                 "reads_growth": [],
                 "summary": "首日数据，暂无趋势对比。",
             }
-            for cat in latest_data["categories"]
+            for cat in latest_data.get("categories", [])
         }
 
-    # ========== AI 总结：通过 API_BASE_URL / API_KEY / API_MODEL 配置 ==========
-    api_base_url = os.environ.get("API_BASE_URL", "")
-    api_key = os.environ.get("API_KEY", "")
-    api_model = os.environ.get("API_MODEL", "")
-
     if api_base_url and api_key and api_model:
-        print(f"\n正在使用 {api_model} 生成 AI 总结...")
-        print(f"  API: {api_base_url}")
+        print(f"使用 {api_model} 生成 AI 总结...")
         trends = generate_ai_summaries(
-            latest_data["categories"], trends,
+            latest_data.get("categories", []), trends,
             api_key, api_base_url, api_model,
-            force=args.force,
+            force=force,
             existing_trends=existing_trends,
-            trend_path=trend_path,
+            trend_path=t_path,
             trend_date=latest_data["date"],
-            prev_date=prev_date
+            prev_date=prev_date,
         )
     else:
-        missing = [k for k, v in {"API_BASE_URL": api_base_url, "API_KEY": api_key, "API_MODEL": api_model}.items() if not v]
-        print(f"\n未配置 AI 服务（缺少: {', '.join(missing)}），使用规则摘要替代。")
+        print("未配置 AI，使用规则摘要。")
         for cat_name, trend in trends.items():
-            # 保留已有 AI 总结
             old = existing_trends.get(cat_name, {}).get("summary", "")
             if old and not is_rule_summary(old):
                 trend["summary"] = old
             elif not trend.get("summary"):
                 trend["summary"] = generate_trend_summary_text(cat_name, trend)
 
-    # 组装输出
     output = {
+        "channel": channel,
+        "board": board,
+        "label": label,
         "date": latest_data["date"],
         "prev_date": prev_date,
         "categories": [],
     }
-
-    for cat in latest_data["categories"]:
+    for cat in latest_data.get("categories", []):
         cat_name = cat["name"]
-        cat_output = {
+        output["categories"].append({
             "name": cat_name,
             "trend": trends.get(cat_name, {}),
             "books": cat.get("books", []),
-        }
-        output["categories"].append(cat_output)
+        })
 
-    # 写入 latest_ranks.json
-    out_path = os.path.join(data_dir, "latest_ranks.json")
-    with open(out_path, "w", encoding="utf-8") as f:
-        json.dump(output, f, ensure_ascii=False, indent=2)
-    print(f"\n✅ 已生成: {out_path}")
+    out_path = latest_path(channel, board, base_dir)
+    write_json(out_path, output)
+    print(f"✅ latest: {out_path}")
 
-    # 生成静态 API 文件：api/lastest/all.json + api/lastest/<type>.json
-    api_dir = build_lastest_api(output, base_dir)
-    print(f"✅ Lastest API: {api_dir}")
+    api_dir = build_board_api(output, channel, board, base_dir)
+    print(f"✅ api: {api_dir}")
 
-    # 写入 trends/YYYY-MM-DD.json
     trend_output = {
+        "channel": channel,
+        "board": board,
         "date": latest_data["date"],
         "prev_date": prev_date,
         "trends": trends,
     }
-    with open(trend_path, "w", encoding="utf-8") as f:
-        json.dump(trend_output, f, ensure_ascii=False, indent=2)
-    print(f"✅ 趋势存档: {trend_path}")
+    write_json(t_path, trend_output)
+    print(f"✅ trends: {t_path}")
 
-    # 生成全站热点总结：AI 优先，规则文案兜底
-    market_payload = build_market_summary_payload(output, trends_dir)
+    market_payload = build_market_summary_payload(
+        output, t_dir, channel=channel, board=board
+    )
     if api_base_url and api_key and api_model:
         market_payload = enrich_market_summary_with_ai(
             market_payload, api_key, api_base_url, api_model
         )
-    market_path = os.path.join(data_dir, "market_summary.json")
-    write_json(market_path, market_payload)
-    print(f"✅ 全站热点总结: {market_path}")
+    m_path = market_path(channel, board, base_dir)
+    write_json(m_path, market_payload)
+    print(f"✅ market: {m_path}")
 
-    # 生成 dates.json 索引（供前端历史日期选择器使用）
     date_list = []
     for s in snapshots:
-        fname = os.path.basename(s)
-        # fanqie_female_new_ranks_YYYYMMDD.json -> YYYY-MM-DD
-        m = re.search(r"(\d{4})(\d{2})(\d{2})", fname)
+        m = re.search(r"(\d{4})(\d{2})(\d{2})\.json$", os.path.basename(s))
         if m:
             date_list.append(f"{m.group(1)}-{m.group(2)}-{m.group(3)}")
-    dates_path = os.path.join(data_dir, "dates.json")
-    with open(dates_path, "w", encoding="utf-8") as f:
-        json.dump({"dates": sorted(date_list)}, f, ensure_ascii=False, indent=2)
-    print(f"✅ 日期索引: {dates_path} ({len(date_list)} 个日期)")
+    d_path = dates_path(channel, board, base_dir)
+    write_json(d_path, {"channel": channel, "board": board, "dates": sorted(date_list)})
+    print(f"✅ dates: {d_path} ({len(date_list)} 天)")
+    return True
+
+
+def main():
+    parser = argparse.ArgumentParser(description="构建四榜 latest / trends / api")
+    parser.add_argument("--force", action="store_true",
+                        help="强制重新生成所有 AI 总结")
+    parser.add_argument("--date", type=str, default="",
+                        help="目标日期 YYYY-MM-DD，默认最新快照")
+    parser.add_argument("--channel", type=str, default="",
+                        help="female / male，空=全部")
+    parser.add_argument("--board", type=str, default="",
+                        help="new / read，空=全部")
+    args = parser.parse_args()
+
+    base_dir = repo_root()
+    targets = parse_board_args(args.channel, args.board)
+    api_base_url = os.environ.get("API_BASE_URL", "")
+    api_key = os.environ.get("API_KEY", "")
+    api_model = os.environ.get("API_MODEL", "")
+
+    built = 0
+    for channel, board in targets:
+        ok = build_one_board(
+            channel, board, base_dir,
+            target_date=args.date,
+            force=args.force,
+            api_base_url=api_base_url,
+            api_key=api_key,
+            api_model=api_model,
+        )
+        if ok:
+            built += 1
+
+    write_api_root_index(base_dir)
+    print(f"\n✅ api/index.json 已更新；成功构建 {built}/{len(targets)} 个切片")
+    if built == 0:
+        sys.exit(1)
 
 
 if __name__ == "__main__":
