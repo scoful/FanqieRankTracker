@@ -94,6 +94,29 @@ document.addEventListener('DOMContentLoaded', () => {
         Boards.replaceQuery({ channel: currentChannel, board: currentBoard });
     }
 
+    function renderRankSkeleton(count) {
+        let html = '';
+        for (let i = 0; i < count; i += 1) {
+            html += `
+                <div class="book-card book-card-skeleton" aria-hidden="true">
+                    <div class="book-cover skeleton-block"></div>
+                    <div class="book-info">
+                        <div class="skeleton-block skeleton-title"></div>
+                        <div class="skeleton-block skeleton-meta"></div>
+                        <div class="skeleton-block skeleton-line"></div>
+                        <div class="skeleton-block skeleton-line short"></div>
+                    </div>
+                </div>`;
+        }
+        return html;
+    }
+
+    function showBoardLoading() {
+        categoryList.innerHTML = '<li class="loading-item">加载中...</li>';
+        waterfall.innerHTML = renderRankSkeleton(8);
+        aiContent.innerHTML = '<span class="ai-loading">正在加载分析数据...</span>';
+    }
+
     function switchSlice(channel, board) {
         const nextChannel = Boards.normalizeChannel(channel);
         const nextBoard = Boards.normalizeBoard(board);
@@ -104,8 +127,7 @@ document.addEventListener('DOMContentLoaded', () => {
         currentDateIndex = -1;
         availableDates = [];
         allData = null;
-        waterfall.innerHTML = '<p style="color:var(--text-muted);padding:20px;">加载中...</p>';
-        categoryList.innerHTML = '<li class="loading-item">加载中...</li>';
+        showBoardLoading();
         syncBoardUi();
         bootstrapBoard();
     }
@@ -222,6 +244,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function loadLatestData() {
+        showBoardLoading();
         const url = `${Boards.latestUrl(currentChannel, currentBoard)}?${cacheBuster}`;
         return fetch(url)
             .then((r) => {
@@ -256,8 +279,8 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
 
-        waterfall.innerHTML = '<p style="color:var(--text-muted);padding:20px;">加载中...</p>';
-
+        waterfall.innerHTML = renderRankSkeleton(8);
+        aiContent.innerHTML = '<span class="ai-loading">正在加载分析数据...</span>';
         const snapshotUrl = `${Boards.snapshotUrl(currentChannel, currentBoard, dateStr)}?${cacheBuster}`;
         const trendUrl = `${Boards.trendUrl(currentChannel, currentBoard, dateStr)}?${cacheBuster}`;
 
