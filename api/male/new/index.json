@@ -2,19 +2,19 @@
   "channel": "male",
   "board": "new",
   "label": "男频新书榜",
-  "date": "2026-08-24",
-  "prev_date": "2026-08-23",
+  "date": "2026-08-25",
+  "prev_date": "2026-08-24",
   "types": [
     {
       "type": "all",
       "url": "api/male/new/all.json",
       "category_count": 19,
-      "book_count": 350
+      "book_count": 379
     },
     {
       "type": "西方奇幻",
       "url": "api/male/new/%E8%A5%BF%E6%96%B9%E5%A5%87%E5%B9%BB.json",
-      "book_count": 20
+      "book_count": 19
     },
     {
       "type": "东方仙侠",
@@ -39,12 +39,12 @@
     {
       "type": "都市高武",
       "url": "api/male/new/%E9%83%BD%E5%B8%82%E9%AB%98%E6%AD%A6.json",
-      "book_count": 10
+      "book_count": 20
     },
     {
       "type": "历史古代",
       "url": "api/male/new/%E5%8E%86%E5%8F%B2%E5%8F%A4%E4%BB%A3.json",
-      "book_count": 0
+      "book_count": 20
     },
     {
       "type": "战神赘婿",
