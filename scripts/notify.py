@@ -18,7 +18,8 @@ def send_email(subject: str, body: str) -> bool:
         print("ℹ️  未配置 SMTP，跳过邮件通知")
         return False
 
-    port = int(os.environ.get("SMTP_PORT", "465"))
+    raw_port = (os.environ.get("SMTP_PORT") or "").strip() or "465"
+    port = int(raw_port)
     msg = MIMEText(body, "plain", "utf-8")
     msg["Subject"] = Header(subject, "utf-8")
     msg["From"] = user
