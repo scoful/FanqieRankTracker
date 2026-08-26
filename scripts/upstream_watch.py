@@ -18,6 +18,10 @@ import sys
 import urllib.request
 import json
 
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+from scripts.notify import send_email
+
 NOISE_PATTERNS = [
     r"^\[Auto\]",
     r"^data:",
@@ -144,37 +148,6 @@ git cherry-pick {short}
     with urllib.request.urlopen(req) as resp:
         result = json.loads(resp.read().decode("utf-8"))
     return result["number"]
-
-
-def send_email(subject: str, body: str) -> bool:
-    """通过 SMTP 发送通知邮件；未配置时静默跳过。"""
-    import smtplib
-    from email.mime.text import MIMEText
-    from email.header import Header
-
-    host = os.environ.get("SMTP_HOST", "")
-    user = os.environ.get("SMTP_USER", "")
-    password = os.environ.get("SMTP_PASS", "")
-    to_addr = os.environ.get("MAIL_TO", "")
-    if not all([host, user, password, to_addr]):
-        print("ℹ️  未配置 SMTP，跳过邮件通知")
-        return False
-
-    port = int(os.environ.get("SMTP_PORT", "465"))
-    msg = MIMEText(body, "plain", "utf-8")
-    msg["Subject"] = Header(subject, "utf-8")
-    msg["From"] = user
-    msg["To"] = to_addr
-
-    try:
-        with smtplib.SMTP_SSL(host, port, timeout=30) as server:
-            server.login(user, password)
-            server.sendmail(user, [to_addr], msg.as_string())
-        print(f"✅ 已发送通知邮件至 {to_addr}")
-        return True
-    except Exception as e:
-        print(f"⚠️  邮件发送失败（不影响 issue 创建）: {e}")
-        return False
 
 
 def main():

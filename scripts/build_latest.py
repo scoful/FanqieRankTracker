@@ -16,6 +16,7 @@ from urllib.parse import quote
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
+from scripts.notify import send_email
 from scripts.board_config import (
     BOARDS,
     api_board_dir,
@@ -35,6 +36,10 @@ from scripts.board_config import (
     trend_path,
     trends_dir,
 )
+
+# AI 总结回退事件收集器：(board_label, kind, detail)
+# 在各降级点 append，main() 末尾汇总发邮件
+degradation_events = []
 
 
 def parse_reads(reads_str: str) -> float:
@@ -815,10 +820,12 @@ def chat_create_kwargs(model: str) -> dict:
 def enrich_market_summary_with_ai(payload: dict, api_key: str,
                                   base_url: str, model: str) -> dict:
     """使用 AI 改写全站热点总结；失败时保留规则兜底。"""
+    label = payload.get("label") or "未知榜"
     try:
         from openai import OpenAI
     except ImportError:
         print("⚠️  openai 库未安装，跳过全站热点 AI 总结。")
+        degradation_events.append((label, "import", "openai 库未安装，跳过全站热点 AI 总结"))
         return payload
 
     try:
@@ -831,7 +838,6 @@ def enrich_market_summary_with_ai(payload: dict, api_key: str,
             **chat_create_kwargs(model),
         )
         parsed = parse_json_object(response.choices[0].message.content)
-        label = payload.get("label") or "未知榜"
         total = len(payload.get("periods", {}))
         updated = 0
         for key, summary in parsed.items():
@@ -843,11 +849,13 @@ def enrich_market_summary_with_ai(payload: dict, api_key: str,
             print(f"✅ {label} 全站热点 AI 总结已生成（{updated}/{total} 周期）")
         elif updated:
             print(f"⚠️  {label} 全站热点 AI 总结仅覆盖 {updated}/{total} 周期，其余保留规则兜底")
+            degradation_events.append((label, "market_partial", f"全站热点 AI 仅覆盖 {updated}/{total} 周期"))
         else:
             print(f"⚠️  {label} 全站热点 AI 响应未解析出有效周期，保留规则兜底")
+            degradation_events.append((label, "market_parse", "AI 响应未解析出有效周期"))
     except Exception as e:
-        label = payload.get("label") or "未知榜"
         print(f"⚠️  {label} 全站热点 AI 总结失败，使用规则兜底: {e}")
+        degradation_events.append((label, "market_api", f"全站热点 AI 失败: {e}"))
 
     return payload
 
@@ -886,6 +894,7 @@ def generate_ai_summaries(categories: list, trends: dict,
         from openai import OpenAI
     except ImportError:
         print("⚠️  openai 库未安装，跳过 AI 总结。pip install openai")
+        degradation_events.append((board_label_text or "未知榜", "import", "openai 库未安装，跳过分类 AI 总结"))
         return trends
 
     client = OpenAI(api_key=api_key, base_url=base_url, timeout=120.0)
@@ -1023,6 +1032,7 @@ def generate_ai_summaries(categories: list, trends: dict,
 
             if not success:
                 print(f"    ❌ {cat_name} 最终失败")
+                degradation_events.append((board_label_text or "未知榜", "category", f"{cat_name} 最终失败，使用规则兜底"))
                 old = existing_trends.get(cat_name, {}).get("summary", "")
                 if old and not is_rule_summary(old):
                     trends[cat_name]["summary"] = old
@@ -1132,6 +1142,7 @@ def build_one_board(channel: str, board: str, base_dir: str,
         )
     else:
         print("未配置 AI，使用规则摘要。")
+        degradation_events.append((label, "config", "未配置 API_BASE_URL/API_KEY/API_MODEL"))
         for cat_name, trend in trends.items():
             old = existing_trends.get(cat_name, {}).get("summary", "")
             if old and not is_rule_summary(old):
@@ -1212,6 +1223,7 @@ def main():
     api_key = os.environ.get("API_KEY", "")
     api_model = os.environ.get("API_MODEL", "")
 
+    degradation_events.clear()
     built = 0
     for channel, board in targets:
         ok = build_one_board(
@@ -1227,6 +1239,20 @@ def main():
 
     write_api_root_index(base_dir)
     print(f"\n✅ api/index.json 已更新；成功构建 {built}/{len(targets)} 个切片")
+
+    if degradation_events:
+        lines = [f"本次构建检测到 {len(degradation_events)} 处 AI 总结回退：", ""]
+        for board_label, kind, detail in degradation_events:
+            lines.append(f"- [{board_label}] {kind}: {detail}")
+        lines += [
+            "",
+            "详情见 Actions 运行日志。回退的分类已用规则摘要兜底，数据不受影响。",
+        ]
+        send_email(
+            f"[番茄风向标] AI 总结回退 {len(degradation_events)} 处",
+            "\n".join(lines),
+        )
+
     if built == 0:
         sys.exit(1)
 
