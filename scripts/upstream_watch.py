@@ -42,9 +42,6 @@ def sh(*args, cwd=None):
 
 def is_noise(message: str) -> bool:
     first_line = message.splitlines()[0].strip() if message else ""
-    # TEMP TEST: 放行一条 data: 噪音提交，用于线上验证 issue+邮件链路，跑完删除
-    if "publish trend report 2026-08-25" in first_line:
-        return False
     return any(re.search(p, first_line, re.IGNORECASE) for p in NOISE_PATTERNS)
 
 
