@@ -810,10 +810,11 @@ def parse_json_object(text: str) -> dict:
 
 
 def chat_create_kwargs(model: str) -> dict:
-    """DeepSeek V4 系列思考模式默认开启，思维链走 reasoning_content，
-    content 偶发为空；趋势总结是格式化任务，显式关闭思考模式。
-    其他服务商不传该参数，避免未知字段报错。"""
-    if "deepseek" in (model or "").lower():
+    """关闭思考模式，避免推理 token 占用 max_tokens 和计费。
+    DeepSeek V4 和 Kimi K2.6/K2.5 均支持 thinking: {type: disabled}，
+    且参数格式一致。其他服务商不传该参数，避免未知字段报错。"""
+    name = (model or "").lower()
+    if "deepseek" in name or "kimi-k2" in name:
         return {"extra_body": {"thinking": {"type": "disabled"}}}
     return {}
 
