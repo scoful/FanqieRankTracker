@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const updateDate = document.getElementById('update-date');
     const categoryTitle = document.getElementById('current-category-title');
     const aiContent = document.getElementById('ai-content');
+    const aiSource = document.getElementById('ai-source');
     const mobileMenuBtn = document.getElementById('mobile-menu-btn');
     const sidebar = document.getElementById('sidebar');
     const dateDisplay = document.getElementById('date-display');
@@ -423,6 +424,11 @@ document.addEventListener('DOMContentLoaded', () => {
     function renderTrend(cat) {
         const trend = cat.trend || {};
         const summary = trend.summary || '';
+        const isRule = trend.source !== 'ai';
+        if (aiSource) {
+            aiSource.textContent = isRule ? '规则统计 · 非AI生成' : 'AI 总结';
+            aiSource.className = isRule ? 'ai-source ai-source-rule' : 'ai-source';
+        }
         typewriterEffect(summary);
     }
 

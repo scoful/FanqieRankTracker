@@ -151,6 +151,7 @@ def compare_categories(today_cats: list, prev_cats: list) -> dict:
             "top_fallers": fallers[:3],
             "reads_growth": reads_growth[:3],
             "summary": "",  # AI 总结，由 generate_ai_summaries 填充
+            "source": "",  # ai / rule，由后续填充
         }
 
     return trends
@@ -913,6 +914,7 @@ def generate_ai_summaries(categories: list, trends: dict,
             existing_summary = existing_trends.get(cat_name, {}).get("summary", "")
             if existing_summary and not is_rule_summary(existing_summary):
                 trends[cat_name]["summary"] = existing_summary
+                trends[cat_name]["source"] = "ai"
                 skipped += 1
                 continue
 
@@ -965,6 +967,7 @@ def generate_ai_summaries(categories: list, trends: dict,
                 if parsed:
                     for name, summary in parsed.items():
                         trends[name]["summary"] = summary
+                        trends[name]["source"] = "ai"
                         print(f"    ✅ {name}")
 
                     # 未解析出的分类加入失败队列
@@ -1018,6 +1021,7 @@ def generate_ai_summaries(categories: list, trends: dict,
                         raise ValueError(
                             f"API 返回空内容 (finish_reason={finish})")
                     trends[cat_name]["summary"] = content.strip()
+                    trends[cat_name]["source"] = "ai"
                     print(f"    ✅ {cat_name}")
                     _save_trends_incremental(
                         trend_path, trend_date, prev_date, trends
@@ -1036,11 +1040,13 @@ def generate_ai_summaries(categories: list, trends: dict,
                 old = existing_trends.get(cat_name, {}).get("summary", "")
                 if old and not is_rule_summary(old):
                     trends[cat_name]["summary"] = old
+                    trends[cat_name]["source"] = "ai"
                     print(f"    ↩️  保留旧 AI 总结: {cat_name}")
                 else:
                     trends[cat_name]["summary"] = generate_trend_summary_text(
                         cat_name, trend
                     )
+                    trends[cat_name]["source"] = "rule"
 
     return trends
 
@@ -1123,6 +1129,7 @@ def build_one_board(channel: str, board: str, base_dir: str,
                 "top_fallers": [],
                 "reads_growth": [],
                 "summary": "首日数据，暂无趋势对比。",
+                "source": "rule",
             }
             for cat in latest_data.get("categories", [])
         }
@@ -1147,8 +1154,10 @@ def build_one_board(channel: str, board: str, base_dir: str,
             old = existing_trends.get(cat_name, {}).get("summary", "")
             if old and not is_rule_summary(old):
                 trend["summary"] = old
+                trend["source"] = "ai"
             elif not trend.get("summary"):
                 trend["summary"] = generate_trend_summary_text(cat_name, trend)
+                trend["source"] = "rule"
 
     output = {
         "channel": channel,
