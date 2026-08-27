@@ -835,7 +835,7 @@ def enrich_market_summary_with_ai(payload: dict, api_key: str,
         response = client.chat.completions.create(
             model=model,
             messages=[{"role": "user", "content": build_market_ai_prompt(payload)}],
-            max_tokens=900,
+            max_tokens=2000,
             temperature=0.5,
             **chat_create_kwargs(model),
         )
@@ -952,7 +952,7 @@ def generate_ai_summaries(categories: list, trends: dict,
                 response = client.chat.completions.create(
                     model=model,
                     messages=[{"role": "user", "content": prompt}],
-                    max_tokens=800 * len(batch),
+                    max_tokens=1600 * len(batch),
                     temperature=0.7,
                     **chat_create_kwargs(model),
                 )
@@ -1012,7 +1012,7 @@ def generate_ai_summaries(categories: list, trends: dict,
                     response = client.chat.completions.create(
                         model=model,
                         messages=[{"role": "user", "content": prompt}],
-                        max_tokens=700,
+                        max_tokens=1500,
                         temperature=0.7,
                         **chat_create_kwargs(model),
                     )
