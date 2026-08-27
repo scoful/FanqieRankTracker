@@ -424,10 +424,17 @@ document.addEventListener('DOMContentLoaded', () => {
     function renderTrend(cat) {
         const trend = cat.trend || {};
         const summary = trend.summary || '';
-        const isRule = trend.source !== 'ai';
         if (aiSource) {
-            aiSource.textContent = isRule ? '规则统计 · 非AI生成' : 'AI 总结';
-            aiSource.className = isRule ? 'ai-source ai-source-rule' : 'ai-source';
+            if (trend.source === 'ai') {
+                aiSource.textContent = 'AI 总结';
+                aiSource.className = 'ai-source';
+            } else if (trend.source === 'rule') {
+                aiSource.textContent = '规则统计 · 非AI生成';
+                aiSource.className = 'ai-source ai-source-rule';
+            } else {
+                aiSource.textContent = '';
+                aiSource.className = 'ai-source ai-source-hidden';
+            }
         }
         typewriterEffect(summary);
     }

@@ -476,12 +476,21 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
 
-        els.summaries.innerHTML = rowsWithSummary.map((row) => `
+        els.summaries.innerHTML = rowsWithSummary.map((row) => {
+            const src = row.trend.source;
+            const badge = src === 'ai'
+                ? '<small class="summary-source">AI 总结</small>'
+                : src === 'rule'
+                ? '<small class="summary-source summary-source-rule">规则统计 · 非AI生成</small>'
+                : '';
+            return `
             <article class="summary-item">
                 <time>${escapeHtml(row.date)}</time>
                 <div>${renderMarkdown(row.trend.summary)}</div>
+                ${badge}
             </article>
-        `).join('');
+        `;
+        }).join('');
     }
 
     function renderEmpty(message) {
