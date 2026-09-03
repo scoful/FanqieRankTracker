@@ -2,14 +2,14 @@
   "channel": "female",
   "board": "new",
   "label": "女频新书榜",
-  "date": "2026-08-31",
-  "prev_date": "2026-08-30",
+  "date": "2026-09-03",
+  "prev_date": "2026-09-02",
   "periods": {
     "7": {
       "period": "近 7 日",
       "source": "ai",
-      "summary": "近7日现代言情新增在读117.4万、古风言情73.7万领先，具体分类中豪门总裁50.7万、快穿38.5万、现言脑洞35.6万增长集中。新上榜作品以系统25本、重生17本、双洁13本、女配13本、快穿13本、炮灰12本为高频。读者偏好强设定、强情绪钩子和明确爽点，建议新书优先融合系统、重生与快穿元素。",
-      "fallback_summary": "近 7 日里，现代言情、古风言情 的阅读增长更强，具体分类以 豪门总裁、快穿、现言脑洞 的新增在读更集中；新书题材上 系统、重生、双洁、女配、快穿、炮灰 更高频，说明读者仍偏好强设定、强情绪钩子和明确爽点。",
+      "summary": "近7日现代言情新增117.4万在读领跑，古风言情增73.7万紧随；具体分类中豪门总裁增50.7万、快穿增38.5万、现言脑洞增35.6万集中；新书题材系统40本、双洁20本、重生18本占优。编辑判断：强设定与情绪钩子仍是新书突围核心。",
+      "fallback_summary": "近 7 日里，现代言情、古风言情 的阅读增长更强，具体分类以 豪门总裁、快穿、现言脑洞 的新增在读更集中；新书题材上 系统、双洁、重生、甜宠、炮灰、空间 更高频，说明读者仍偏好强设定、强情绪钩子和明确爽点。",
       "hot_genres": [
         {
           "name": "现代言情",
@@ -147,72 +147,72 @@
       "hot_themes": [
         {
           "name": "系统",
-          "count": 25,
-          "category_count": 9
-        },
-        {
-          "name": "重生",
-          "count": 17,
-          "category_count": 9
+          "count": 40,
+          "category_count": 12
         },
         {
           "name": "双洁",
-          "count": 13,
-          "category_count": 8
+          "count": 20,
+          "category_count": 12
         },
         {
-          "name": "女配",
-          "count": 13,
+          "name": "重生",
+          "count": 18,
+          "category_count": 10
+        },
+        {
+          "name": "甜宠",
+          "count": 14,
           "category_count": 7
-        },
-        {
-          "name": "快穿",
-          "count": 13,
-          "category_count": 2
         },
         {
           "name": "炮灰",
           "count": 12,
-          "category_count": 6
+          "category_count": 7
         },
         {
           "name": "空间",
-          "count": 11,
-          "category_count": 4
-        },
-        {
-          "name": "团宠",
-          "count": 9,
+          "count": 12,
           "category_count": 6
         },
         {
-          "name": "甜宠",
+          "name": "女配",
+          "count": 12,
+          "category_count": 6
+        },
+        {
+          "name": "快穿",
+          "count": 11,
+          "category_count": 2
+        },
+        {
+          "name": "反派",
           "count": 9,
-          "category_count": 3
+          "category_count": 8
         },
         {
           "name": "强制爱",
+          "count": 9,
+          "category_count": 5
+        },
+        {
+          "name": "团宠",
+          "count": 8,
+          "category_count": 6
+        },
+        {
+          "name": "末世",
           "count": 7,
           "category_count": 4
         },
         {
-          "name": "反派",
-          "count": 6,
-          "category_count": 5
-        },
-        {
-          "name": "末世",
-          "count": 6,
-          "category_count": 3
-        },
-        {
-          "name": "校园",
-          "count": 6,
+          "name": "星际",
+          "count": 7,
           "category_count": 2
         },
         {
-          "name": "总裁",
-          "count": 5,
+          "name": "穿书",
+          "count": 6,
           "category_count": 4
         }
       ]
@@ -220,8 +220,8 @@
     "14": {
       "period": "近 14 日",
       "source": "ai",
-      "summary": "近14日现代言情新增在读230.0万、古风言情117.6万领先，具体分类中快穿87.7万、现言脑洞86.7万、豪门总裁84.1万增长集中。新上榜作品以系统60本、重生34本、双洁32本、炮灰23本、快穿22本、女配21本为高频。读者偏好强设定、强情绪钩子和明确爽点，建议新书优先融合系统、重生与双洁元素。",
-      "fallback_summary": "近 14 日里，现代言情、古风言情 的阅读增长更强，具体分类以 快穿、现言脑洞、豪门总裁 的新增在读更集中；新书题材上 系统、重生、双洁、炮灰、快穿、女配 更高频，说明读者仍偏好强设定、强情绪钩子和明确爽点。",
+      "summary": "近14日现代言情增230.0万在读居首，古风言情增117.6万；快穿增87.7万、现言脑洞增86.7万、豪门总裁增84.1万为具体分类前三；新书题材系统73本、双洁35本、重生35本高频。编辑判断：读者持续偏好快节奏爽文与明确身份反转。",
+      "fallback_summary": "近 14 日里，现代言情、古风言情 的阅读增长更强，具体分类以 快穿、现言脑洞、豪门总裁 的新增在读更集中；新书题材上 系统、双洁、重生、甜宠、炮灰、女配 更高频，说明读者仍偏好强设定、强情绪钩子和明确爽点。",
       "hot_genres": [
         {
           "name": "现代言情",
@@ -359,18 +359,23 @@
       "hot_themes": [
         {
           "name": "系统",
-          "count": 60,
-          "category_count": 13
-        },
-        {
-          "name": "重生",
-          "count": 34,
-          "category_count": 13
+          "count": 73,
+          "category_count": 14
         },
         {
           "name": "双洁",
-          "count": 32,
-          "category_count": 12
+          "count": 35,
+          "category_count": 14
+        },
+        {
+          "name": "重生",
+          "count": 35,
+          "category_count": 13
+        },
+        {
+          "name": "甜宠",
+          "count": 23,
+          "category_count": 9
         },
         {
           "name": "炮灰",
@@ -378,29 +383,34 @@
           "category_count": 8
         },
         {
+          "name": "女配",
+          "count": 20,
+          "category_count": 9
+        },
+        {
           "name": "快穿",
-          "count": 22,
+          "count": 20,
           "category_count": 2
         },
         {
-          "name": "女配",
-          "count": 21,
-          "category_count": 11
-        },
-        {
           "name": "空间",
-          "count": 20,
-          "category_count": 6
+          "count": 18,
+          "category_count": 7
         },
         {
           "name": "团宠",
-          "count": 17,
-          "category_count": 11
+          "count": 15,
+          "category_count": 10
         },
         {
-          "name": "甜宠",
-          "count": 17,
-          "category_count": 8
+          "name": "反派",
+          "count": 15,
+          "category_count": 10
+        },
+        {
+          "name": "强制爱",
+          "count": 15,
+          "category_count": 6
         },
         {
           "name": "年代",
@@ -408,32 +418,22 @@
           "category_count": 3
         },
         {
-          "name": "强制爱",
-          "count": 13,
-          "category_count": 7
-        },
-        {
           "name": "末世",
-          "count": 12,
+          "count": 13,
           "category_count": 5
         },
         {
           "name": "种田",
           "count": 12,
           "category_count": 4
-        },
-        {
-          "name": "反派",
-          "count": 11,
-          "category_count": 7
         }
       ]
     },
     "30": {
       "period": "近 30 日",
       "source": "ai",
-      "summary": "近30日现代言情新增在读560.8万、古风言情206.3万领先，具体分类中豪门总裁219.5万、现言脑洞163.7万、快穿129.5万增长集中。新上榜作品以系统103本、重生59本、双洁57本、炮灰51本、快穿43本、女配38本为高频。读者偏好强设定、强情绪钩子和明确爽点，建议新书优先融合系统、重生与炮灰元素。",
-      "fallback_summary": "近 30 日里，现代言情、古风言情 的阅读增长更强，具体分类以 豪门总裁、现言脑洞、快穿 的新增在读更集中；新书题材上 系统、重生、双洁、炮灰、快穿、女配 更高频，说明读者仍偏好强设定、强情绪钩子和明确爽点。",
+      "summary": "近30日现代言情增560.8万在读强势，古风言情增206.3万；豪门总裁增219.5万、现言脑洞增163.7万、快穿增129.5万领跑分类；新书题材系统113本、重生59本、双洁55本最多。编辑判断：总裁与脑洞设定叠加系统重生，是稳定收割新增在读的公式。",
+      "fallback_summary": "近 30 日里，现代言情、古风言情 的阅读增长更强，具体分类以 豪门总裁、现言脑洞、快穿 的新增在读更集中；新书题材上 系统、重生、双洁、炮灰、甜宠、快穿 更高频，说明读者仍偏好强设定、强情绪钩子和明确爽点。",
       "hot_genres": [
         {
           "name": "现代言情",
@@ -571,8 +571,8 @@
       "hot_themes": [
         {
           "name": "系统",
-          "count": 103,
-          "category_count": 14
+          "count": 113,
+          "category_count": 15
         },
         {
           "name": "重生",
@@ -581,38 +581,38 @@
         },
         {
           "name": "双洁",
-          "count": 57,
+          "count": 55,
           "category_count": 16
         },
         {
           "name": "炮灰",
-          "count": 51,
+          "count": 49,
+          "category_count": 14
+        },
+        {
+          "name": "甜宠",
+          "count": 42,
           "category_count": 14
         },
         {
           "name": "快穿",
-          "count": 43,
+          "count": 40,
           "category_count": 4
         },
         {
           "name": "女配",
-          "count": 38,
-          "category_count": 13
+          "count": 36,
+          "category_count": 11
         },
         {
           "name": "空间",
-          "count": 38,
-          "category_count": 8
-        },
-        {
-          "name": "甜宠",
-          "count": 37,
-          "category_count": 14
+          "count": 35,
+          "category_count": 9
         },
         {
           "name": "团宠",
-          "count": 34,
-          "category_count": 14
+          "count": 31,
+          "category_count": 13
         },
         {
           "name": "年代",
@@ -621,30 +621,30 @@
         },
         {
           "name": "末世",
+          "count": 25,
+          "category_count": 5
+        },
+        {
+          "name": "反派",
           "count": 24,
-          "category_count": 5
-        },
-        {
-          "name": "无CP",
-          "count": 22,
-          "category_count": 11
-        },
-        {
-          "name": "直播",
-          "count": 21,
-          "category_count": 5
+          "category_count": 12
         },
         {
           "name": "穿书",
+          "count": 23,
+          "category_count": 10
+        },
+        {
+          "name": "强制爱",
           "count": 20,
-          "category_count": 11
+          "category_count": 7
         }
       ]
     },
     "all": {
       "period": "全部样本",
       "source": "ai",
-      "summary": "全部样本中现代言情新增在读2952.5万、古风言情1359.1万领先，具体分类中豪门总裁1080.8万、现言脑洞878.7万、青春甜宠668.5万增长集中。新上榜作品以快穿197本、系统181本、重生170本、女配151本、炮灰129本、末世102本为高频。读者偏好强设定、强情绪钩子和明确爽点，建议新书优先融合快穿、系统与重生元素。",
+      "summary": "全部样本中现代言情增2952.5万在读，古风言情增1359.1万；豪门总裁增1080.8万、现言脑洞增878.7万、青春甜宠增668.5万为分类前三；新书题材快穿194本、系统181本、重生169本居首。编辑判断：长线看，强设定、快节奏与情绪代入门槛最稳固。",
       "fallback_summary": "全部样本里，现代言情、古风言情 的阅读增长更强，具体分类以 豪门总裁、现言脑洞、青春甜宠 的新增在读更集中；新书题材上 快穿、系统、重生、女配、炮灰、末世 更高频，说明读者仍偏好强设定、强情绪钩子和明确爽点。",
       "hot_genres": [
         {
@@ -783,27 +783,27 @@
       "hot_themes": [
         {
           "name": "快穿",
-          "count": 197,
+          "count": 194,
           "category_count": 8
         },
         {
           "name": "系统",
           "count": 181,
-          "category_count": 14
+          "category_count": 15
         },
         {
           "name": "重生",
-          "count": 170,
+          "count": 169,
           "category_count": 17
         },
         {
           "name": "女配",
-          "count": 151,
+          "count": 147,
           "category_count": 15
         },
         {
           "name": "炮灰",
-          "count": 129,
+          "count": 126,
           "category_count": 16
         },
         {
@@ -812,23 +812,23 @@
           "category_count": 10
         },
         {
-          "name": "空间",
-          "count": 84,
-          "category_count": 11
-        },
-        {
           "name": "反派",
-          "count": 83,
+          "count": 86,
           "category_count": 16
         },
         {
-          "name": "团宠",
+          "name": "空间",
           "count": 79,
+          "category_count": 11
+        },
+        {
+          "name": "团宠",
+          "count": 74,
           "category_count": 14
         },
         {
           "name": "双洁",
-          "count": 75,
+          "count": 69,
           "category_count": 16
         },
         {
@@ -838,18 +838,18 @@
         },
         {
           "name": "强制爱",
-          "count": 55,
+          "count": 54,
           "category_count": 11
         },
         {
-          "name": "穿书",
-          "count": 51,
-          "category_count": 14
+          "name": "星际",
+          "count": 54,
+          "category_count": 5
         },
         {
-          "name": "星际",
-          "count": 51,
-          "category_count": 5
+          "name": "穿书",
+          "count": 53,
+          "category_count": 13
         }
       ]
     }
