@@ -154,7 +154,7 @@ def scrape_one_board(page, board_cfg: dict, limit: int = 30, sleep_sec: float = 
     entry = init_url(board_cfg)
     print(f"\n===== {label} ({channel}/{board}) =====")
     print(f"[{datetime.now().strftime('%H:%M:%S')}] 入口: {entry}")
-    page.goto(entry, wait_until="load", timeout=15000)
+    page.goto(entry, wait_until="load", timeout=30000)
     page.wait_for_selector('a[href^="/page/"]', timeout=8000)
 
     categories_js = f"""
@@ -259,10 +259,16 @@ def run_scraper(targets=None, limit=30, sleep_sec=5):
             if not cfg:
                 print(f"⚠️ 跳过未知切片 {channel}/{board}")
                 continue
-            try:
-                scrape_one_board(page, cfg, limit=limit, sleep_sec=sleep_sec)
-            except Exception as e:
-                print(f"❌ {cfg['label']} 失败: {e}")
+            max_retries = 2
+            for attempt in range(1, max_retries + 1):
+                try:
+                    scrape_one_board(page, cfg, limit=limit, sleep_sec=sleep_sec)
+                    break
+                except Exception as e:
+                    if attempt < max_retries:
+                        print(f"⚠️ {cfg['label']} 第 {attempt} 次失败: {e}，重试")
+                    else:
+                        print(f"❌ {cfg['label']} 失败（已重试 {max_retries} 次）: {e}")
         browser.close()
     print("\n✅ 全部选定榜单抓取流程结束")
 

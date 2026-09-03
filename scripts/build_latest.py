@@ -819,6 +819,14 @@ def chat_create_kwargs(model: str) -> dict:
     return {}
 
 
+def chat_temperature(model: str, default: float) -> float:
+    """K3 等强制思考模型只允许 temperature=1，其他模型用 default。"""
+    name = (model or "").lower()
+    if "kimi-k3" in name:
+        return 1
+    return default
+
+
 def enrich_market_summary_with_ai(payload: dict, api_key: str,
                                   base_url: str, model: str) -> dict:
     """使用 AI 改写全站热点总结；失败时保留规则兜底。"""
@@ -1081,8 +1089,16 @@ def build_one_board(channel: str, board: str, base_dir: str,
         target_idx = len(snapshots) - 1
 
     latest_data = load_snapshot(latest_snap_path)
+    snap_date = latest_data.get("date", "")
+    today = __import__("datetime").datetime.now().strftime("%Y-%m-%d")
+    if not target_date and snap_date != today:
+        print(f"⚠️  {label} 最新快照是 {snap_date} 而非今日 {today}，"
+              f"可能爬取失败")
+        degradation_events.append(
+            (label, "scrape", f"爬取失败，最新快照 {snap_date} 非今日 {today}")
+        )
     print(f"\n===== {label} =====")
-    print(f"目标快照: {os.path.basename(latest_snap_path)} ({latest_data.get('date')})")
+    print(f"目标快照: {os.path.basename(latest_snap_path)} ({snap_date})")
 
     prev_data = None
     prev_date = ""
