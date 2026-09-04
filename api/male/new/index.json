@@ -2,14 +2,14 @@
   "channel": "male",
   "board": "new",
   "label": "男频新书榜",
-  "date": "2026-09-03",
-  "prev_date": "2026-09-02",
+  "date": "2026-09-04",
+  "prev_date": "2026-09-03",
   "types": [
     {
       "type": "all",
       "url": "api/male/new/all.json",
       "category_count": 19,
-      "book_count": 380
+      "book_count": 379
     },
     {
       "type": "西方奇幻",
@@ -54,7 +54,7 @@
     {
       "type": "都市种田",
       "url": "api/male/new/%E9%83%BD%E5%B8%82%E7%A7%8D%E7%94%B0.json",
-      "book_count": 20
+      "book_count": 19
     },
     {
       "type": "传统玄幻",
