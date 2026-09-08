@@ -2,14 +2,14 @@
   "channel": "female",
   "board": "read",
   "label": "女频阅读榜",
-  "date": "2026-09-07",
-  "prev_date": "2026-09-06",
+  "date": "2026-09-08",
+  "prev_date": "2026-09-07",
   "types": [
     {
       "type": "all",
       "url": "api/female/read/all.json",
       "category_count": 18,
-      "book_count": 330
+      "book_count": 360
     },
     {
       "type": "古风世情",
@@ -39,7 +39,7 @@
     {
       "type": "种田",
       "url": "api/female/read/%E7%A7%8D%E7%94%B0.json",
-      "book_count": 10
+      "book_count": 20
     },
     {
       "type": "年代",
@@ -49,12 +49,12 @@
     {
       "type": "现言脑洞",
       "url": "api/female/read/%E7%8E%B0%E8%A8%80%E8%84%91%E6%B4%9E.json",
-      "book_count": 10
+      "book_count": 20
     },
     {
       "type": "宫斗宅斗",
       "url": "api/female/read/%E5%AE%AB%E6%96%97%E5%AE%85%E6%96%97.json",
-      "book_count": 10
+      "book_count": 20
     },
     {
       "type": "悬疑脑洞",
