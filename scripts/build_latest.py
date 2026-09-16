@@ -829,7 +829,8 @@ def chat_temperature(model: str, default: float) -> float:
 
 def enrich_market_summary_with_ai(payload: dict, api_key: str,
                                   base_url: str, model: str) -> dict:
-    """使用 AI 改写全站热点总结；失败时保留规则兜底。"""
+    """使用 AI 改写全站热点总结；失败时保留规则兜底。
+    与分类趋势一样带重试：瞬时网关错误（如 502）不再一击致命。"""
     label = payload.get("label") or "未知榜"
     try:
         from openai import OpenAI
@@ -838,35 +839,57 @@ def enrich_market_summary_with_ai(payload: dict, api_key: str,
         degradation_events.append((label, "import", "openai 库未安装，跳过全站热点 AI 总结"))
         return payload
 
-    try:
-        client = OpenAI(api_key=api_key, base_url=base_url, timeout=120.0)
-        response = client.chat.completions.create(
-            model=model,
-            messages=[{"role": "user", "content": build_market_ai_prompt(payload)}],
-            max_tokens=2000,
-            temperature=chat_temperature(model, 0.5),
-            **chat_create_kwargs(model),
-        )
-        parsed = parse_json_object(response.choices[0].message.content)
-        total = len(payload.get("periods", {}))
-        updated = 0
-        for key, summary in parsed.items():
-            if key in payload["periods"] and isinstance(summary, str) and summary.strip():
-                payload["periods"][key]["summary"] = summary.strip()
-                payload["periods"][key]["source"] = "ai"
-                updated += 1
-        if total and updated == total:
-            print(f"✅ {label} 全站热点 AI 总结已生成（{updated}/{total} 周期）")
-        elif updated:
-            print(f"⚠️  {label} 全站热点 AI 总结仅覆盖 {updated}/{total} 周期，其余保留规则兜底")
-            degradation_events.append((label, "market_partial", f"全站热点 AI 仅覆盖 {updated}/{total} 周期"))
-        else:
-            print(f"⚠️  {label} 全站热点 AI 响应未解析出有效周期，保留规则兜底")
-            degradation_events.append((label, "market_parse", "AI 响应未解析出有效周期"))
-    except Exception as e:
-        print(f"⚠️  {label} 全站热点 AI 总结失败，使用规则兜底: {e}")
-        degradation_events.append((label, "market_api", f"全站热点 AI 失败: {e}"))
+    client = OpenAI(api_key=api_key, base_url=base_url, timeout=120.0)
+    prompt = build_market_ai_prompt(payload)
+    total = len(payload.get("periods", {}))
+    max_retries = 3
+    last_error = None
+    last_kind = "market_api"
 
+    for attempt in range(1, max_retries + 1):
+        updated = 0
+        try:
+            response = client.chat.completions.create(
+                model=model,
+                messages=[{"role": "user", "content": prompt}],
+                max_tokens=2000,
+                temperature=chat_temperature(model, 0.5),
+                **chat_create_kwargs(model),
+            )
+        except Exception as e:
+            last_error, last_kind = e, "market_api"
+        else:
+            try:
+                content = response.choices[0].message.content
+                if not content or not content.strip():
+                    finish = response.choices[0].finish_reason
+                    raise ValueError(f"API 返回空内容 (finish_reason={finish})")
+                parsed = parse_json_object(content)
+                for key, summary in parsed.items():
+                    if key in payload["periods"] and isinstance(summary, str) and summary.strip():
+                        payload["periods"][key]["summary"] = summary.strip()
+                        payload["periods"][key]["source"] = "ai"
+                        updated += 1
+                if not updated:
+                    raise ValueError("AI 响应未解析出有效周期")
+            except Exception as e:
+                last_error, last_kind = e, "market_parse"
+
+        if updated:
+            if total and updated == total:
+                print(f"✅ {label} 全站热点 AI 总结已生成（{updated}/{total} 周期）")
+            else:
+                print(f"⚠️  {label} 全站热点 AI 总结仅覆盖 {updated}/{total} 周期，其余保留规则兜底")
+                degradation_events.append((label, "market_partial", f"全站热点 AI 仅覆盖 {updated}/{total} 周期"))
+            return payload
+
+        print(f"    ⚠️  {label} 全站热点第 {attempt} 次失败: {last_error}")
+        if attempt < max_retries:
+            import time
+            time.sleep(5 * attempt)
+
+    print(f"⚠️  {label} 全站热点 AI 总结失败（已重试 {max_retries} 次），使用规则兜底: {last_error}")
+    degradation_events.append((label, last_kind, f"全站热点 AI 失败: {last_error}"))
     return payload
 
 
