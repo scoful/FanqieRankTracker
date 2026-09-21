@@ -122,15 +122,20 @@ document.addEventListener('DOMContentLoaded', () => {
         const nextChannel = Boards.normalizeChannel(channel);
         const nextBoard = Boards.normalizeBoard(board);
         if (nextChannel === currentChannel && nextBoard === currentBoard) return;
+        const preferredDate = availableDates[currentDateIndex] || dateInput.value;
         currentChannel = nextChannel;
         currentBoard = nextBoard;
         currentCategory = null;
         currentDateIndex = -1;
         availableDates = [];
         allData = null;
+        dateInput.value = '';
+        dateInput.min = '';
+        dateInput.max = '';
+        updateDateNav();
         showBoardLoading();
         syncBoardUi();
-        bootstrapBoard();
+        bootstrapBoard(preferredDate);
     }
 
     document.querySelectorAll('[data-channel]').forEach((btn) => {
@@ -149,6 +154,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const currentDate = availableDates[currentDateIndex];
         dateDisplay.textContent = currentDate || '暂无日期';
+        dateInput.value = currentDate || '';
 
         if (isLatest || availableDates.length === 0) {
             datePickerBtn.classList.remove('is-historical');
@@ -224,7 +230,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    function bootstrapBoard() {
+    function bootstrapBoard(preferredDate) {
         syncBoardUi();
         const datesUrl = `${Boards.datesUrl(currentChannel, currentBoard)}?${cacheBuster}`;
         fetch(datesUrl)
@@ -234,6 +240,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (availableDates.length > 0) {
                     dateInput.min = availableDates[0];
                     dateInput.max = availableDates[availableDates.length - 1];
+                }
+                if (preferredDate && availableDates.includes(preferredDate)) {
+                    currentDateIndex = availableDates.indexOf(preferredDate);
+                    return loadDateData(preferredDate);
                 }
                 return loadLatestData();
             })
