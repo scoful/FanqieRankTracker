@@ -3,87 +3,83 @@
   "board": "read",
   "label": "男频阅读榜",
   "type": "传统玄幻",
-  "date": "2026-09-29",
-  "prev_date": "2026-09-28",
+  "date": "2026-09-30",
+  "prev_date": "2026-09-29",
   "category": {
     "name": "传统玄幻",
     "trend": {
-      "new_count": 2,
-      "dropped_count": 2,
-      "new_books": [
-        "开局长生不死，谁都以为我无敌",
-        "合欢宗修丹道，师姐助我炼尽天下"
-      ],
-      "dropped_books": [
-        {
-          "title": "谁说没灵根不能修仙的？",
-          "intro": "没有灵根的方尘，本以为这辈子都无法修行了，但是这一切，都在他得到一把残剑之后彻底改变，他发现只要用这把剑砍东西，他就能涨修为。你有天灵根？怪不得，砍起来我的修为涨得这么快！ 禁区没灵气？没事，我砍石头"
-        },
-        {
-          "title": "一日破五境，人间太岁神！",
-          "intro": "穿越武道世界，顾临即将沦为炉鼎，本就手无缚鸡之力，眼看要变成干尸，所幸合欢宗恶妇早已走火入魔，途中暴毙。 正庆幸捡回一条小命，谁料恰好觉醒金手指【功德书】！ “间接铲除合欢宗毒妇，斩获500功德点，奖"
-        }
-      ],
+      "new_count": 0,
+      "dropped_count": 0,
+      "new_books": [],
+      "dropped_books": [],
       "top_risers": [
         {
-          "title": "我的法宝都是规则系",
-          "change": "+2"
+          "title": "合欢宗修丹道，师姐助我炼尽天下",
+          "change": "+3"
         },
         {
-          "title": "全员恶仙！！！",
-          "change": "+2"
+          "title": "开局移植妖魔心脏，成为绝世凶物",
+          "change": "+1"
         },
         {
-          "title": "御兽之灵主",
+          "title": "穿书百合文，我只想安稳苟到结局",
           "change": "+1"
         }
       ],
       "top_fallers": [
         {
-          "title": "开局移植妖魔心脏，成为绝世凶物",
-          "change": "-1"
+          "title": "御兽之灵主",
+          "change": "-2"
+        },
+        {
+          "title": "我的法宝都是规则系",
+          "change": "-2"
+        },
+        {
+          "title": "全员恶仙！！！",
+          "change": "-2"
         }
       ],
       "reads_growth": [
         {
           "title": "点星九藏",
-          "growth": "+1.7万"
+          "growth": "+1.5万"
+        },
+        {
+          "title": "神通者",
+          "growth": "+1.1万"
         },
         {
           "title": "力量每天增加百分之一我徒手爆星",
-          "growth": "+8000"
-        },
-        {
-          "title": "万古第一废材",
-          "growth": "+4000"
+          "growth": "+5000"
         }
       ],
-      "summary": "**🔥 题材趋势** 榜单固化明显，头部由天蚕土豆等白金大神牢牢占据，存量阅读市场强者恒强。题材上“无系统”成为主流卖点，与“长生”“无敌”结合，强调主角自身底蕴与长期成长线，而非开局爆发。\n**📖 读者偏好** 读者偏爱“熬死对手”的长线无敌流与“杀伐果断”的升级快感，对实体书出版或漫剧改编有较高认可度，此类作品留存极佳。传统废材逆袭、丹道、御兽等经典分支依然保有稳定基本盘。\n**🆕 新上榜作品** 《开局长生不死，谁都以为我无敌》以“万年陪伴+天赋觉醒”切入，延续长生流热度；《合欢宗修丹道，师姐助我炼尽天下》以暗黑脑洞和双修反采的邪道流吸引眼球，为榜单注入差异化元素。\n**📉 掉出榜单** 《谁说没灵根不能修仙的？》与《一日破五境，人间太岁神！》掉出榜单，显示“逆天改命”和“极速升级”类题材在长线留存上乏力，热度后劲不足。\n**💡 值得关注** 《我的法宝都是规则系》与《全员恶仙！！！》排名持续上升，前者以“规则系”设定和群像经营取胜，后者凭“疯批”属性与高能情节出圈，证明在传统框架内，极致人设与创新设定仍是撬动留存的关键变量。",
+      "summary": "**🔥 题材趋势** 存量格局稳固，头部效应极强，天蚕土豆《神通者》断层领先。长青核心仍是“废柴/弃子逆袭”与“长生无敌”两大母题，强调血脉、资质、出身与最终成就的极致反差。\n**📖 读者偏好** 偏爱无系统、杀伐果断、单女主或无女主设定，追求纯粹的力量升级快感与打脸反转。高在读作品普遍具备“开局困境+金手指觉醒+快速扬眉吐气”的强节奏模板，长篇留存依赖持续升级的期待感。\n**🆕 新上榜作品** 无新面孔，榜单高度固化，头部作品留存能力极强，新书突围难度极大。\n**📉 掉出榜单** 无作品掉榜，但《御兽之灵主》等传统成长流排名下滑，显示读者对慢热“养成”耐心正在降低。\n**💡 值得关注** 《合欢宗修丹道》逆势上升，证明在传统玄幻框架内，融合“暗黑”“反套路”等邪道元素能有效撬动增量；《穿书百合文》的上升则表明“题材混搭”仍是存量市场中的破局利器。",
       "source": "ai"
     },
     "books": [
       {
         "title": "神通者",
         "author": "天蚕土豆",
-        "reads": "181.2万",
+        "reads": "182.3万",
         "intro": "世间生灵，体生异骨，可铭刻承载诸多灵妙之法，执掌伟力，化火引风，叱雷吒电，吞日摘星，镇魔囚神。 此为，神通骨。 身具骨者，谓之...神通者。",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o6f70f2cb2f4ff3adff8ccc52e8a38d46~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791261912&x-signature=dOsKIfpRBzfcQETjxER5RtbSrSU%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o6f70f2cb2f4ff3adff8ccc52e8a38d46~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791347315&x-signature=J0rbHbexgN%2FvcUW7gU%2FMVo6uV7M%3D",
         "url": "https://fanqienovel.com/page/7665193065501445145"
       },
       {
         "title": "天渊",
         "author": "沐潇三生",
-        "reads": "120.3万",
+        "reads": "120.6万",
         "intro": "（实体书已出版，网上可购买） 百年前，陈青源进入了一个名为天渊的禁区，魂灯熄灭，世人皆认为他死了。 今日，陈青源虽然活着走出了禁区，但是修为尽废，灵根断裂。 面对红颜的悔婚，各宗的欺压，陈青源该如何是好？ “陈青源，我给你两个选择：一，娶我;二......” 天渊内生活着一个红裙姑娘，眸若星辰，声音轻柔。 “我选择二。” 没等红裙姑娘说完话，陈青源毅然决然的做出了选择。 （主角腹黑+无系统+幽默+传统玄幻+简介无力，请看正文）",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/3dbc7be59148237e1cea0ff8afa65cc0~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791261912&x-signature=Mddjwi%2Fnv7To6kW9kUhOX9kI%2Fog%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/3dbc7be59148237e1cea0ff8afa65cc0~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791347315&x-signature=NK5Tq%2FY95JaNOKJ0yMfWQju7agE%3D",
         "url": "https://fanqienovel.com/page/7138249318909086727"
       },
       {
         "title": "惊鸿",
         "author": "一夕烟雨",
-        "reads": "81.8万",
+        "reads": "81.5万",
         "intro": "【实体书已全网发售，各大渠道均可购买】 『传统玄幻』『非后宫』九州大地有一楼，名为《烟雨楼》，烟雨楼主李庆之，有着绝代天骄之称，黑夜之中执掌生死，然而，世人所不知的是，烟雨楼背后还有一人，方才是烟雨楼真正的创始人，以纨绔子弟的身份为掩饰，拨弄风云，布局天下！",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oe5408c5e3eb3887717a54f09e24ad33f~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791261912&x-signature=RemOb%2B7qt5WxQt45jUDrFCWUdi8%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oe5408c5e3eb3887717a54f09e24ad33f~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791347315&x-signature=1jJqomrtPcZ00Z3xoGKyga5Hd9g%3D",
         "url": "https://fanqienovel.com/page/6883748331202284558"
       },
       {
@@ -91,15 +87,15 @@
         "author": "煮熟的来福鸽",
         "reads": "38.1万",
         "intro": "【红果短剧：《山海藏墟，无眼窥天》可看！】 【无系统】【天才剑道】【热血】【杀伐果断】 他瞎，背棺，身世凄苦。 宗门说：我们护你。 兄弟说：我们陪你。 剑灵说：我……等你。 后来，他成了仙界之主，双目重见光明。 回望来路，只余一句—— “风来了我就慢慢走，雨来了我就靠边走，打雷了我就捂着耳朵走。” “总之啊……小瞎子我一个人走了好久好久。” 身后的不是剑匣，是剑棺，葬剑之棺！ 自此，心怀鸿鹄之志的少年郎一脚踏入腥风血雨的修真界！",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oede0e830b26e828644c92c617cb9ab30~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791261912&x-signature=W%2FlaQNFMiSv%2B7QFwIjCkFHq9tLI%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oede0e830b26e828644c92c617cb9ab30~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791347315&x-signature=BFH3VAlp3FAtnMQdx9q2NR9LeUs%3D",
         "url": "https://fanqienovel.com/page/7158752613117201419"
       },
       {
         "title": "武道长生，不死的我终将无敌",
         "author": "戒界",
-        "reads": "34.3万",
+        "reads": "34万",
         "intro": "【无系统+无敌+爽文+无女主+玄幻】 陈观楼获得长生后，就在天牢谋了一个狱卒铁饭碗，开始了每天上班摸鱼的日子。 在漫长的岁月中，看他起高楼，看他楼塌了。看他今朝荣登天子堂，明日做那阶下囚。看他家族富贵，看他夷三族。看他王权富贵，看他国破家亡。 变化的是岁月人生，不变的是长生岁月。陈观楼熬死了宗师，熬死了大宗师，熬死了一个个大佬，终究成为无敌的存在。",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o0cecec4e2ee69469dbb1ae0b2fcfebf2~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791261912&x-signature=ZB%2FoMIB8qGxQi1OeaWjKz1Ri32s%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o0cecec4e2ee69469dbb1ae0b2fcfebf2~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791347315&x-signature=b%2BswBN2SFc0DRXhwCQCKDa1M43k%3D",
         "url": "https://fanqienovel.com/page/7309742129457138738"
       },
       {
@@ -107,120 +103,120 @@
         "author": "永夜星河",
         "reads": "32.6万",
         "intro": "【大神小号、单女主、杀伐果断，强烈推荐！】 传闻，世间有一境，可追寻因果，以一丝神力抹除对方时空内一切痕迹。可掌控生死，一念间万界沉浮，众生湮灭。可与天道持平，纳天地秩序为己用，独断万古。 此境，名为踏天！ 少年苏信，生来……必定踏天！",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o4223d3acdd8e268bab8fe4b57c18d71b~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791261912&x-signature=u%2FS%2BMM8XfZNt%2BUqEUcJBBj7FJmU%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o4223d3acdd8e268bab8fe4b57c18d71b~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791347315&x-signature=85FFP0kGtfBAo3Gx8Psjrd5VBDw%3D",
         "url": "https://fanqienovel.com/page/7077546460056652803"
       },
       {
         "title": "点星九藏",
         "author": "黑白土豆",
-        "reads": "25.7万",
+        "reads": "27.2万",
         "intro": "【点星九藏，同名漫剧，红果首播】【无系统】【老书保证，放心入坑】【热血传玄】！ 宁川，生来卑贱，不过是婢女所生的弃子。 在王府底层受尽冷眼，命如草芥。 无人知晓，他点亮命星，可引雷电，掌天劫，以劫力淬体，以神枪证道。 一杆长枪破万法，九天雷霆脚下生。 从尘埃蝼蚁，到横压当世！从卑微弃子，到执掌苍穹！ 世间尊卑，从来不由出身定，只看手中枪，敢不敢刺破这天，荡尽这不公！",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o7bb120d5d3efcb6304c710873c3d4b73~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791261912&x-signature=chA%2F6bGvYVLs4GAUbQG2kcBoSzs%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o7bb120d5d3efcb6304c710873c3d4b73~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791347315&x-signature=mxlEwgq9fLAardmfLR0h%2FarvHxA%3D",
         "url": "https://fanqienovel.com/page/7612500996417145880"
       },
       {
         "title": "万古第一废材",
         "author": "爱哭的小十七",
-        "reads": "24.4万",
+        "reads": "24.7万",
         "intro": "【无敌、热血、快节奏、爆更、亿万读者强推！】十万年前，人人如龙，皆可修炼武道，劫变之后，天道崩塌，诸神陨落，只有一尊轮回古塔遗留世间。 十万年后，武道修行，血脉为王。废血为虫，不得修炼，神血为龙，翱翔九天。 一个废品血脉的少年，偶得无名宝塔，穿越到这个玄幻异世界，以废品血脉踏上了葬天之途。",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2od8bb663af12f6b0e4978a1ef2d95bc00~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791261912&x-signature=AQdP4OJcZclOLp4tktEjwmm0ywU%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2od8bb663af12f6b0e4978a1ef2d95bc00~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791347315&x-signature=nNt%2Fyp1iENm1r3cd0Kw9IxNHtPI%3D",
         "url": "https://fanqienovel.com/page/7143134984532921382"
       },
       {
         "title": "生死圣皇",
         "author": "乱世奸臣",
-        "reads": "23.9万",
+        "reads": "24.1万",
         "intro": "天武历十七年，十大封号武帝之一，剑帝任逍遥于天魔山脉陨落，百年后，一个名为陆宸的少年从天元小城走出，开始了一场无敌修行之旅。",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oe7628965992a5cd485a6f7067431ffe4~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791261912&x-signature=nGcOrh6YfJHk%2B057XQXLf2dYz3w%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oe7628965992a5cd485a6f7067431ffe4~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791347315&x-signature=PaDJ6J%2FdckYUMc7ws96zt5RB788%3D",
         "url": "https://fanqienovel.com/page/7168385493590084619"
       },
       {
         "title": "丹道第一圣",
         "author": "狮驼岭老三",
-        "reads": "23.5万",
+        "reads": "23.1万",
         "intro": "作为满级炼丹师，丹药当饭吃不过分吧？ 为了防身，武道无敌很合理好吧！ —— 年度爆款【无系统，天才流，无敌文，群像文】",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o9d0f65bf17c999d280d1c47652f702bf~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791261912&x-signature=coC%2Bl48wjL%2BOpm6Mq29coZ9C%2F3I%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o9d0f65bf17c999d280d1c47652f702bf~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791347315&x-signature=jNLzSVheuALZ9Z1ARVYc5Wkp%2B7o%3D",
         "url": "https://fanqienovel.com/page/7297316760233970688"
-      },
-      {
-        "title": "御兽之灵主",
-        "author": "闲笑鱼",
-        "reads": "20.8万",
-        "intro": "【原名：御兽之灵主】 【御兽召唤】【传统玄幻】【不重生】【不穿越】【成长型男主】【单女主】【古早】【爽文】 楚少野背负着血海深仇，但是十二岁检测灵主资质的时候，他的召唤出来的本命灵宠却只是一只无垢狐，毕生没有希望突破低阶灵主。 人人都说无垢狐只适合当宠物，但楚少野偏不信邪，没有垃圾的灵宠，只有垃圾的灵主，总有一天，他会带着他的无垢狐一起，站在万灵大陆的顶端。 别人契约的灵宠一只比一只威猛，但楚少野的灵宠却一只比一只可爱。 像糯米团子的银狐仓鼠？不，其实是有寻宝和空间天赋的金线寻宝鼠！ 孱弱的变异百花狸幼崽？不，其实是能够占卜吉凶的幻兽天星玉面狸！ 看似普通却能进行二次蜕变的虫类胖虫，还有美艳的类人型灵宠 ……",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oa5f36f6d2d249b593383bcfb0000f9eb~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791261916&x-signature=YH47by0vEjvRParKsJ8iKrjCyJ4%3D",
-        "url": "https://fanqienovel.com/page/7342475219212192830"
       },
       {
         "title": "开局移植妖魔心脏，成为绝世凶物",
         "author": "沙茶面",
-        "reads": "21.7万",
+        "reads": "21.8万",
         "intro": "（无系统，多女主，亦正亦邪） 拥有混沌圣体的方凌，自出生后就被各方势力争相抢夺，心脏、右眼、宝骨相继被人挖走…… 几经辗转，奄奄一息的方凌被好心人放到了一座古刹前。 没人知道，这座古刹里其实隐居着五个绝世高手。 他们隐居古刹数万年，镇压着魔祖的不灭之心。 恰逢不灭之心暴动，五人无法镇压，只好铤而走险，将其植入婴儿体内。 残缺的圣体和不灭之心奇迹融合，一尊绝世凶物由此诞生……",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o32bfde2086352348b04736c77078750f~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791261916&x-signature=ilYERmO4IWvXuhBnamipVjn8Gt0%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o32bfde2086352348b04736c77078750f~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791347319&x-signature=ybZRvMUR2vXTnsS3L9oWko3LcAo%3D",
         "url": "https://fanqienovel.com/page/7202777894500699188"
       },
       {
         "title": "穿书百合文，我只想安稳苟到结局",
         "author": "瑰夏真好喝",
-        "reads": "20.5万",
+        "reads": "20.7万",
         "intro": "【穿书/反派/后宫/不种马/女主全是百合】 本书又名：《女主，你的后宫是不是跑错片场了？》、《我们三、四、五……总之过好日子比什么都重要？》 熬夜追更百合文，李照阳穿成了书中人憎狗厌的恶毒男配。 原主最蠢的操作是什么？ 把女主绑进山洞，明明能直接开动，非要学反派死于话多，结果腰带还没解开，就被女主的后宫团万剑穿心。 李照阳：这锅我不背！ 是我的话， 等你们来救人，孩子都会喊我爸爸了好吧！ 不过为了活命，他还是决定远离女主，远离剧情，专心当个废物仙二代。 可是…… 那个未来会一剑宰了他的高冷未婚妻，怎么看他的眼神越来越不对劲？ 那个本该是二五仔的贴身丫鬟，怎么一遇到危险就非要挡他前面？ 就连本该反目成仇的义妹，也抱着被子钻进了他的房间？ ……",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o97bbadacff7c5930016d9ece7b83a704~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791261916&x-signature=2LDe5d9OiHL4r88uA3JTb8I2q5Q%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o97bbadacff7c5930016d9ece7b83a704~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791347319&x-signature=w9Y%2FY7lH5BEc9WgcSQVUFJyoGxk%3D",
         "url": "https://fanqienovel.com/page/7637541688826661912"
+      },
+      {
+        "title": "御兽之灵主",
+        "author": "闲笑鱼",
+        "reads": "20.3万",
+        "intro": "【原名：御兽之灵主】 【御兽召唤】【传统玄幻】【不重生】【不穿越】【成长型男主】【单女主】【古早】【爽文】 楚少野背负着血海深仇，但是十二岁检测灵主资质的时候，他的召唤出来的本命灵宠却只是一只无垢狐，毕生没有希望突破低阶灵主。 人人都说无垢狐只适合当宠物，但楚少野偏不信邪，没有垃圾的灵宠，只有垃圾的灵主，总有一天，他会带着他的无垢狐一起，站在万灵大陆的顶端。 别人契约的灵宠一只比一只威猛，但楚少野的灵宠却一只比一只可爱。 像糯米团子的银狐仓鼠？不，其实是有寻宝和空间天赋的金线寻宝鼠！ 孱弱的变异百花狸幼崽？不，其实是能够占卜吉凶的幻兽天星玉面狸！ 看似普通却能进行二次蜕变的虫类胖虫，还有美艳的类人型灵宠 ……",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oa5f36f6d2d249b593383bcfb0000f9eb~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791347319&x-signature=hRyQelwD9EBw14X25qMoMJ3hI7o%3D",
+        "url": "https://fanqienovel.com/page/7342475219212192830"
       },
       {
         "title": "北侯世子：反派的我背景逆天",
         "author": "不宇之箫",
         "reads": "19.5万",
         "intro": "【玄幻王朝+背景无敌+顶级反派+微权谋+伪群像】 裴苏胎穿异世界玄幻王朝，其身世竟是帝京七阀之首，千年古世家裴家的嫡长子。 再细细一瞧，祖父拜尚书省左仆射，号裴国公，被誉为国之重臣，佐国平天下。 不过实际上，那老人在朝廷一手遮天，二十年前更是狂悖无道，联合皇后娘娘架空皇权，生杀予夺。群臣噤若寒蝉，敢怒不敢言。 北地陈王护君心切，挥兵南下，却被父亲的镇北王骑阻拦在天阙关之外，眼睁睁瞧着朝廷落入裴阀之手，还被戴了个狼子野心的帽子，遭天下唾弃。 于是乎，皇后垂帘听政二十载，天下局势，危如累卵，帝京上下，暗流涌动······ —— 裴苏：什么反派世家？我族累世筹谋，其志若磐，待机而发，终成阙功，其诚贯穿日月，其心动容山河，你一贫民小子凭着一腔热血就妄想清君侧卫皇室，戏折子看多了？ —— 那年撞破他裴家阴谋的皇宫亲军校尉，窃取神刀龙雀，断尾逃生，在朝廷通缉下潜藏并州二十载。 柘月初一，裴苏望着供奉占星子借天象算出的方位，微微一笑： 萧副统领，你若是有什么苦衷冤屈，为何不告官呐？",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oe58f96f9aec444d9222d0c83f44f2b39~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791261916&x-signature=pFLUIFsSmaWdTXcBsfLNa7K9%2F1I%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oe58f96f9aec444d9222d0c83f44f2b39~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791347319&x-signature=9LrAJ5aJr7XyM%2F4deRyblTstvx4%3D",
         "url": "https://fanqienovel.com/page/7433743025282485272"
+      },
+      {
+        "title": "力量每天增加百分之一我徒手爆星",
+        "author": "有情天涯难笔墨",
+        "reads": "19.4万",
+        "intro": "天荒大陆，妖魔乱世，万族林立，人族疆域四分五裂，战火连绵，尸横遍野。 李玄苍穿越而来，成了大炎王朝边境，湖边驿一名最底层的服兵役边军。 北有蛮夷铁骑踏境，南有妖魔凶兽食人，周遭同袍朝不保夕，每日都在死人。 身为手无缚鸡之力的炮灰小兵，李玄苍本以为难逃战死沙场的命运，却意外觉醒每日增幅。 每日零点，肉身力量永久增幅1%！无上限，无副作用！ 没有修为？没关系，亿万倍力量增幅，一拳可碎山河！ 没有功法？无所谓，肉身成圣，硬抗万族神通！ 增幅10天，超越普通人。 增幅30天，天生神力。 增幅100天，人形凶兽。 增幅半年，钢铁怪物。 增幅一年，一人成军。 增幅三年，行走的天灾，开始不吃牛肉。 增幅十年，徒手碎星辰。 增幅二十年，横跨星空，碾碎黑洞。 增幅百年，我就是太阳。 ……",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o82caad9b2a5b3c9642ba0e76b96a9d70~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791347319&x-signature=sG2U2x2gFg5aEboz3h8xTUmn%2F5k%3D",
+        "url": "https://fanqienovel.com/page/7633370286288538686"
       },
       {
         "title": "玄幻：逆命万世，我打爆仙帝",
         "author": "不恋鱼的猫",
         "reads": "18.4万",
         "intro": "【9月26号晚19点，实体书《蜉蝣志》小番茄图书旗舰店，抖音，拼多多，天猫开售，可提前预约】 人生若蜉蝣，怎能撼青天? 莫欺老年穷死后的苏尘发现，他携带着的金手指是一本逆命书。 死后可根据人生成就，获取逆命点，不断地轮回转世。 消耗逆命点可以增加下一世的资质，悟性，乃至身世。 悠悠岁月中 他是碌碌无为的小家族少主 是战死沙场的将军 是颠覆一方王朝的疯子 是年少成名，却沦为气运之子垫脚石的配角 是风华绝代的剑神 是以天下为棋，布局万古的魔主 是极道大帝，坐镇禁区万年 是无数发光发热人的一生。 星星之火，可以燎原 任你仙帝之命，一世无敌，却又怎能敌得过我这万世之命，芸芸众生? ........ 苏尘见过很多天才 可是最终，那些天才都臣服在他的脚下 亦或是，化作黄土一杯 本书又名《开局莫欺老年穷，我能无限转世》 《玄幻：逆命万世，我打爆仙帝》 《万世伐天》 实体书名《蜉蝣志》",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o2b9c6bcecf73cb61315e7fa2857919e4~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791261916&x-signature=hCf5%2BqhYFy5Z%2BJWczD0q%2FGt%2FVDs%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o2b9c6bcecf73cb61315e7fa2857919e4~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791347319&x-signature=G%2FRrEu5x3bH40FTAqlVolSslDY4%3D",
         "url": "https://fanqienovel.com/page/7480438517189839897"
       },
       {
-        "title": "力量每天增加百分之一我徒手爆星",
-        "author": "有情天涯难笔墨",
-        "reads": "18.9万",
-        "intro": "天荒大陆，妖魔乱世，万族林立，人族疆域四分五裂，战火连绵，尸横遍野。 李玄苍穿越而来，成了大炎王朝边境，湖边驿一名最底层的服兵役边军。 北有蛮夷铁骑踏境，南有妖魔凶兽食人，周遭同袍朝不保夕，每日都在死人。 身为手无缚鸡之力的炮灰小兵，李玄苍本以为难逃战死沙场的命运，却意外觉醒每日增幅。 每日零点，肉身力量永久增幅1%！无上限，无副作用！ 没有修为？没关系，亿万倍力量增幅，一拳可碎山河！ 没有功法？无所谓，肉身成圣，硬抗万族神通！ 增幅10天，超越普通人。 增幅30天，天生神力。 增幅100天，人形凶兽。 增幅半年，钢铁怪物。 增幅一年，一人成军。 增幅三年，行走的天灾，开始不吃牛肉。 增幅十年，徒手碎星辰。 增幅二十年，横跨星空，碾碎黑洞。 增幅百年，我就是太阳。 ……",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o82caad9b2a5b3c9642ba0e76b96a9d70~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791261916&x-signature=78ueMXzfTvlAGyKx%2F5sVug1hwmQ%3D",
-        "url": "https://fanqienovel.com/page/7633370286288538686"
+        "title": "合欢宗修丹道，师姐助我炼尽天下",
+        "author": "无毒小丈夫",
+        "reads": "17.3万",
+        "intro": "【脑洞】+【暗黑】+【双修反采】+【丹道炼化】 +【多女主】 别人采阳补阴，他靠药渣无敌。 沈一飞，合欢宗最底层的杂役，三年饥一顿饱一顿，全靠炼丹炉里的废料续命。 无意中得到一尊“万物鼎”—— 炼人，得功法；炼妖，得神通；炼鬼，通幽冥。 从此，沈一飞走向炼尽天下万物之路。",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/4236575db0288708b334dd7f0344034e~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791347319&x-signature=SvDfQGvg5uAgvSuN0lgRTZnpBoM%3D",
+        "url": "https://fanqienovel.com/page/7616535240856570905"
+      },
+      {
+        "title": "开局长生不死，谁都以为我无敌",
+        "author": "以非当年少",
+        "reads": "17万",
+        "intro": "陈长安跟在美女师父身边万年之久，不老不死，却始终无法修炼，最终被师父赶走，带着伙伴麒麟大黄，游历人间，回归陈家，获得天生胎珠，终得修炼之法。 陈长安也没想到，自己的修炼天赋，竟然落在了娘胎之中？",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o8a42d08651955a605291bd3ffbdb63a7~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791347319&x-signature=9fdcJNh46Q%2Fj4ytd0wcT%2BPzgQIQ%3D",
+        "url": "https://fanqienovel.com/page/7263344278955363385"
       },
       {
         "title": "我的法宝都是规则系",
         "author": "板面王仔",
-        "reads": "17万",
+        "reads": "16.9万",
         "intro": "“孙宗主，贵宗现为北地修界鼎鼎有名的剑宗，请问您如何评价许院长。” 　　\"我常跟行家讲，许院长是我的偶像。别人追杀他，他还反过来想办法交朋友，搞合作、培养的弟子到了筑基就不再继续带，统统卖给其他门派，现在桃李满天下喽，到处都是他的人。\" 　　“那在座的各位魔道前辈是如何看待许院长？他隐瞒身份混迹魔道长达数...” 　　“这位记者，不要胡言乱语！我们帮主是驰名南疆第一魔，你说的那个人跟他绝无关联！” 　　“好好好，那我想问一下秦代掌门，幻海教作为西泽第一大教。许院长在背后暗操独治，对外大搞金融骗局，卷进了无数宗门，现在债主就在我们会场外声讨，请问您如何回应?” 　　“简直可笑，我们帮主压根不姓许，再说我们根本没有债主，债主都在古修传承的争夺里死了，外面那些人不过是敌对宗门故意借机来搞我们。” 　　“可根据我们调查，那古修传承是许院长修的新坟，而且里面的人没有被全部炸死...” 　　“我警告你啊！你这是赤裸裸的诽谤！” 　　“这个问题暂且搁置，那请问东荒妖族怎么看待他呢？” 　　“我要给他生孩子。”-----龙族龙女如是说。 ———————— 新书《末日生存方案供应商》连载中，已完本书《流氓帝师》",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oc0f2833a623ce0f207ed72c24f2633b4~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791261916&x-signature=wG6ErMZK9uzQ6UME3AGKOY6HK%2BM%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oc0f2833a623ce0f207ed72c24f2633b4~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791347319&x-signature=TC9YiYK5Md%2F8KngfQYdGvKCsBwY%3D",
         "url": "https://fanqienovel.com/page/7261895220290128908"
       },
       {
         "title": "全员恶仙！！！",
         "author": "天外有山",
-        "reads": "16.7万",
+        "reads": "16.6万",
         "intro": "本书又名《全员恶仙》《全员恶仙:我有一座种仙观》 【无女主+无刀+疯批+全程高能】 传闻世间，有一座道观，里面有一块神奇的土。 只要将人当成一粒‘种子’，种进土里，就能成仙。 李十五寻仙十载，终于寻得道观，也将自己给种进土里，却是没想到…… 欢迎来到，全员恶仙的世界。 慎入!!!",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2ob54241468d23ce92d2106e0ea9dd09d6~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791261916&x-signature=LZr3oCCT1B9xEMU%2FV9cI%2B2uZsek%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2ob54241468d23ce92d2106e0ea9dd09d6~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791347319&x-signature=%2FuXdl1w%2F6SkHQutpkG1tlcQnj7g%3D",
         "url": "https://fanqienovel.com/page/7474582323657182232"
-      },
-      {
-        "title": "开局长生不死，谁都以为我无敌",
-        "author": "以非当年少",
-        "reads": "16.9万",
-        "intro": "陈长安跟在美女师父身边万年之久，不老不死，却始终无法修炼，最终被师父赶走，带着伙伴麒麟大黄，游历人间，回归陈家，获得天生胎珠，终得修炼之法。 陈长安也没想到，自己的修炼天赋，竟然落在了娘胎之中？",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o8a42d08651955a605291bd3ffbdb63a7~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791261916&x-signature=YoqtiKZR9XfqragFJ1dH7bj0sSU%3D",
-        "url": "https://fanqienovel.com/page/7263344278955363385"
-      },
-      {
-        "title": "合欢宗修丹道，师姐助我炼尽天下",
-        "author": "无毒小丈夫",
-        "reads": "16.8万",
-        "intro": "【脑洞】+【暗黑】+【双修反采】+【丹道炼化】 +【多女主】 别人采阳补阴，他靠药渣无敌。 沈一飞，合欢宗最底层的杂役，三年饥一顿饱一顿，全靠炼丹炉里的废料续命。 无意中得到一尊“万物鼎”—— 炼人，得功法；炼妖，得神通；炼鬼，通幽冥。 从此，沈一飞走向炼尽天下万物之路。",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/4236575db0288708b334dd7f0344034e~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791261916&x-signature=M6IQkguEoA7TncaISUBNX7klpqM%3D",
-        "url": "https://fanqienovel.com/page/7616535240856570905"
       }
     ]
   },
@@ -228,82 +224,78 @@
     {
       "name": "传统玄幻",
       "trend": {
-        "new_count": 2,
-        "dropped_count": 2,
-        "new_books": [
-          "开局长生不死，谁都以为我无敌",
-          "合欢宗修丹道，师姐助我炼尽天下"
-        ],
-        "dropped_books": [
-          {
-            "title": "谁说没灵根不能修仙的？",
-            "intro": "没有灵根的方尘，本以为这辈子都无法修行了，但是这一切，都在他得到一把残剑之后彻底改变，他发现只要用这把剑砍东西，他就能涨修为。你有天灵根？怪不得，砍起来我的修为涨得这么快！ 禁区没灵气？没事，我砍石头"
-          },
-          {
-            "title": "一日破五境，人间太岁神！",
-            "intro": "穿越武道世界，顾临即将沦为炉鼎，本就手无缚鸡之力，眼看要变成干尸，所幸合欢宗恶妇早已走火入魔，途中暴毙。 正庆幸捡回一条小命，谁料恰好觉醒金手指【功德书】！ “间接铲除合欢宗毒妇，斩获500功德点，奖"
-          }
-        ],
+        "new_count": 0,
+        "dropped_count": 0,
+        "new_books": [],
+        "dropped_books": [],
         "top_risers": [
           {
-            "title": "我的法宝都是规则系",
-            "change": "+2"
+            "title": "合欢宗修丹道，师姐助我炼尽天下",
+            "change": "+3"
           },
           {
-            "title": "全员恶仙！！！",
-            "change": "+2"
+            "title": "开局移植妖魔心脏，成为绝世凶物",
+            "change": "+1"
           },
           {
-            "title": "御兽之灵主",
+            "title": "穿书百合文，我只想安稳苟到结局",
             "change": "+1"
           }
         ],
         "top_fallers": [
           {
-            "title": "开局移植妖魔心脏，成为绝世凶物",
-            "change": "-1"
+            "title": "御兽之灵主",
+            "change": "-2"
+          },
+          {
+            "title": "我的法宝都是规则系",
+            "change": "-2"
+          },
+          {
+            "title": "全员恶仙！！！",
+            "change": "-2"
           }
         ],
         "reads_growth": [
           {
             "title": "点星九藏",
-            "growth": "+1.7万"
+            "growth": "+1.5万"
+          },
+          {
+            "title": "神通者",
+            "growth": "+1.1万"
           },
           {
             "title": "力量每天增加百分之一我徒手爆星",
-            "growth": "+8000"
-          },
-          {
-            "title": "万古第一废材",
-            "growth": "+4000"
+            "growth": "+5000"
           }
         ],
-        "summary": "**🔥 题材趋势** 榜单固化明显，头部由天蚕土豆等白金大神牢牢占据，存量阅读市场强者恒强。题材上“无系统”成为主流卖点，与“长生”“无敌”结合，强调主角自身底蕴与长期成长线，而非开局爆发。\n**📖 读者偏好** 读者偏爱“熬死对手”的长线无敌流与“杀伐果断”的升级快感，对实体书出版或漫剧改编有较高认可度，此类作品留存极佳。传统废材逆袭、丹道、御兽等经典分支依然保有稳定基本盘。\n**🆕 新上榜作品** 《开局长生不死，谁都以为我无敌》以“万年陪伴+天赋觉醒”切入，延续长生流热度；《合欢宗修丹道，师姐助我炼尽天下》以暗黑脑洞和双修反采的邪道流吸引眼球，为榜单注入差异化元素。\n**📉 掉出榜单** 《谁说没灵根不能修仙的？》与《一日破五境，人间太岁神！》掉出榜单，显示“逆天改命”和“极速升级”类题材在长线留存上乏力，热度后劲不足。\n**💡 值得关注** 《我的法宝都是规则系》与《全员恶仙！！！》排名持续上升，前者以“规则系”设定和群像经营取胜，后者凭“疯批”属性与高能情节出圈，证明在传统框架内，极致人设与创新设定仍是撬动留存的关键变量。",
+        "summary": "**🔥 题材趋势** 存量格局稳固，头部效应极强，天蚕土豆《神通者》断层领先。长青核心仍是“废柴/弃子逆袭”与“长生无敌”两大母题，强调血脉、资质、出身与最终成就的极致反差。\n**📖 读者偏好** 偏爱无系统、杀伐果断、单女主或无女主设定，追求纯粹的力量升级快感与打脸反转。高在读作品普遍具备“开局困境+金手指觉醒+快速扬眉吐气”的强节奏模板，长篇留存依赖持续升级的期待感。\n**🆕 新上榜作品** 无新面孔，榜单高度固化，头部作品留存能力极强，新书突围难度极大。\n**📉 掉出榜单** 无作品掉榜，但《御兽之灵主》等传统成长流排名下滑，显示读者对慢热“养成”耐心正在降低。\n**💡 值得关注** 《合欢宗修丹道》逆势上升，证明在传统玄幻框架内，融合“暗黑”“反套路”等邪道元素能有效撬动增量；《穿书百合文》的上升则表明“题材混搭”仍是存量市场中的破局利器。",
         "source": "ai"
       },
       "books": [
         {
           "title": "神通者",
           "author": "天蚕土豆",
-          "reads": "181.2万",
+          "reads": "182.3万",
           "intro": "世间生灵，体生异骨，可铭刻承载诸多灵妙之法，执掌伟力，化火引风，叱雷吒电，吞日摘星，镇魔囚神。 此为，神通骨。 身具骨者，谓之...神通者。",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o6f70f2cb2f4ff3adff8ccc52e8a38d46~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791261912&x-signature=dOsKIfpRBzfcQETjxER5RtbSrSU%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o6f70f2cb2f4ff3adff8ccc52e8a38d46~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791347315&x-signature=J0rbHbexgN%2FvcUW7gU%2FMVo6uV7M%3D",
           "url": "https://fanqienovel.com/page/7665193065501445145"
         },
         {
           "title": "天渊",
           "author": "沐潇三生",
-          "reads": "120.3万",
+          "reads": "120.6万",
           "intro": "（实体书已出版，网上可购买） 百年前，陈青源进入了一个名为天渊的禁区，魂灯熄灭，世人皆认为他死了。 今日，陈青源虽然活着走出了禁区，但是修为尽废，灵根断裂。 面对红颜的悔婚，各宗的欺压，陈青源该如何是好？ “陈青源，我给你两个选择：一，娶我;二......” 天渊内生活着一个红裙姑娘，眸若星辰，声音轻柔。 “我选择二。” 没等红裙姑娘说完话，陈青源毅然决然的做出了选择。 （主角腹黑+无系统+幽默+传统玄幻+简介无力，请看正文）",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/3dbc7be59148237e1cea0ff8afa65cc0~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791261912&x-signature=Mddjwi%2Fnv7To6kW9kUhOX9kI%2Fog%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/3dbc7be59148237e1cea0ff8afa65cc0~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791347315&x-signature=NK5Tq%2FY95JaNOKJ0yMfWQju7agE%3D",
           "url": "https://fanqienovel.com/page/7138249318909086727"
         },
         {
           "title": "惊鸿",
           "author": "一夕烟雨",
-          "reads": "81.8万",
+          "reads": "81.5万",
           "intro": "【实体书已全网发售，各大渠道均可购买】 『传统玄幻』『非后宫』九州大地有一楼，名为《烟雨楼》，烟雨楼主李庆之，有着绝代天骄之称，黑夜之中执掌生死，然而，世人所不知的是，烟雨楼背后还有一人，方才是烟雨楼真正的创始人，以纨绔子弟的身份为掩饰，拨弄风云，布局天下！",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oe5408c5e3eb3887717a54f09e24ad33f~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791261912&x-signature=RemOb%2B7qt5WxQt45jUDrFCWUdi8%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oe5408c5e3eb3887717a54f09e24ad33f~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791347315&x-signature=1jJqomrtPcZ00Z3xoGKyga5Hd9g%3D",
           "url": "https://fanqienovel.com/page/6883748331202284558"
         },
         {
@@ -311,15 +303,15 @@
           "author": "煮熟的来福鸽",
           "reads": "38.1万",
           "intro": "【红果短剧：《山海藏墟，无眼窥天》可看！】 【无系统】【天才剑道】【热血】【杀伐果断】 他瞎，背棺，身世凄苦。 宗门说：我们护你。 兄弟说：我们陪你。 剑灵说：我……等你。 后来，他成了仙界之主，双目重见光明。 回望来路，只余一句—— “风来了我就慢慢走，雨来了我就靠边走，打雷了我就捂着耳朵走。” “总之啊……小瞎子我一个人走了好久好久。” 身后的不是剑匣，是剑棺，葬剑之棺！ 自此，心怀鸿鹄之志的少年郎一脚踏入腥风血雨的修真界！",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oede0e830b26e828644c92c617cb9ab30~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791261912&x-signature=W%2FlaQNFMiSv%2B7QFwIjCkFHq9tLI%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oede0e830b26e828644c92c617cb9ab30~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791347315&x-signature=BFH3VAlp3FAtnMQdx9q2NR9LeUs%3D",
           "url": "https://fanqienovel.com/page/7158752613117201419"
         },
         {
           "title": "武道长生，不死的我终将无敌",
           "author": "戒界",
-          "reads": "34.3万",
+          "reads": "34万",
           "intro": "【无系统+无敌+爽文+无女主+玄幻】 陈观楼获得长生后，就在天牢谋了一个狱卒铁饭碗，开始了每天上班摸鱼的日子。 在漫长的岁月中，看他起高楼，看他楼塌了。看他今朝荣登天子堂，明日做那阶下囚。看他家族富贵，看他夷三族。看他王权富贵，看他国破家亡。 变化的是岁月人生，不变的是长生岁月。陈观楼熬死了宗师，熬死了大宗师，熬死了一个个大佬，终究成为无敌的存在。",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o0cecec4e2ee69469dbb1ae0b2fcfebf2~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791261912&x-signature=ZB%2FoMIB8qGxQi1OeaWjKz1Ri32s%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o0cecec4e2ee69469dbb1ae0b2fcfebf2~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791347315&x-signature=b%2BswBN2SFc0DRXhwCQCKDa1M43k%3D",
           "url": "https://fanqienovel.com/page/7309742129457138738"
         },
         {
@@ -327,120 +319,120 @@
           "author": "永夜星河",
           "reads": "32.6万",
           "intro": "【大神小号、单女主、杀伐果断，强烈推荐！】 传闻，世间有一境，可追寻因果，以一丝神力抹除对方时空内一切痕迹。可掌控生死，一念间万界沉浮，众生湮灭。可与天道持平，纳天地秩序为己用，独断万古。 此境，名为踏天！ 少年苏信，生来……必定踏天！",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o4223d3acdd8e268bab8fe4b57c18d71b~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791261912&x-signature=u%2FS%2BMM8XfZNt%2BUqEUcJBBj7FJmU%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o4223d3acdd8e268bab8fe4b57c18d71b~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791347315&x-signature=85FFP0kGtfBAo3Gx8Psjrd5VBDw%3D",
           "url": "https://fanqienovel.com/page/7077546460056652803"
         },
         {
           "title": "点星九藏",
           "author": "黑白土豆",
-          "reads": "25.7万",
+          "reads": "27.2万",
           "intro": "【点星九藏，同名漫剧，红果首播】【无系统】【老书保证，放心入坑】【热血传玄】！ 宁川，生来卑贱，不过是婢女所生的弃子。 在王府底层受尽冷眼，命如草芥。 无人知晓，他点亮命星，可引雷电，掌天劫，以劫力淬体，以神枪证道。 一杆长枪破万法，九天雷霆脚下生。 从尘埃蝼蚁，到横压当世！从卑微弃子，到执掌苍穹！ 世间尊卑，从来不由出身定，只看手中枪，敢不敢刺破这天，荡尽这不公！",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o7bb120d5d3efcb6304c710873c3d4b73~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791261912&x-signature=chA%2F6bGvYVLs4GAUbQG2kcBoSzs%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o7bb120d5d3efcb6304c710873c3d4b73~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791347315&x-signature=mxlEwgq9fLAardmfLR0h%2FarvHxA%3D",
           "url": "https://fanqienovel.com/page/7612500996417145880"
         },
         {
           "title": "万古第一废材",
           "author": "爱哭的小十七",
-          "reads": "24.4万",
+          "reads": "24.7万",
           "intro": "【无敌、热血、快节奏、爆更、亿万读者强推！】十万年前，人人如龙，皆可修炼武道，劫变之后，天道崩塌，诸神陨落，只有一尊轮回古塔遗留世间。 十万年后，武道修行，血脉为王。废血为虫，不得修炼，神血为龙，翱翔九天。 一个废品血脉的少年，偶得无名宝塔，穿越到这个玄幻异世界，以废品血脉踏上了葬天之途。",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2od8bb663af12f6b0e4978a1ef2d95bc00~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791261912&x-signature=AQdP4OJcZclOLp4tktEjwmm0ywU%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2od8bb663af12f6b0e4978a1ef2d95bc00~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791347315&x-signature=nNt%2Fyp1iENm1r3cd0Kw9IxNHtPI%3D",
           "url": "https://fanqienovel.com/page/7143134984532921382"
         },
         {
           "title": "生死圣皇",
           "author": "乱世奸臣",
-          "reads": "23.9万",
+          "reads": "24.1万",
           "intro": "天武历十七年，十大封号武帝之一，剑帝任逍遥于天魔山脉陨落，百年后，一个名为陆宸的少年从天元小城走出，开始了一场无敌修行之旅。",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oe7628965992a5cd485a6f7067431ffe4~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791261912&x-signature=nGcOrh6YfJHk%2B057XQXLf2dYz3w%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oe7628965992a5cd485a6f7067431ffe4~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791347315&x-signature=PaDJ6J%2FdckYUMc7ws96zt5RB788%3D",
           "url": "https://fanqienovel.com/page/7168385493590084619"
         },
         {
           "title": "丹道第一圣",
           "author": "狮驼岭老三",
-          "reads": "23.5万",
+          "reads": "23.1万",
           "intro": "作为满级炼丹师，丹药当饭吃不过分吧？ 为了防身，武道无敌很合理好吧！ —— 年度爆款【无系统，天才流，无敌文，群像文】",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o9d0f65bf17c999d280d1c47652f702bf~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791261912&x-signature=coC%2Bl48wjL%2BOpm6Mq29coZ9C%2F3I%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o9d0f65bf17c999d280d1c47652f702bf~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791347315&x-signature=jNLzSVheuALZ9Z1ARVYc5Wkp%2B7o%3D",
           "url": "https://fanqienovel.com/page/7297316760233970688"
-        },
-        {
-          "title": "御兽之灵主",
-          "author": "闲笑鱼",
-          "reads": "20.8万",
-          "intro": "【原名：御兽之灵主】 【御兽召唤】【传统玄幻】【不重生】【不穿越】【成长型男主】【单女主】【古早】【爽文】 楚少野背负着血海深仇，但是十二岁检测灵主资质的时候，他的召唤出来的本命灵宠却只是一只无垢狐，毕生没有希望突破低阶灵主。 人人都说无垢狐只适合当宠物，但楚少野偏不信邪，没有垃圾的灵宠，只有垃圾的灵主，总有一天，他会带着他的无垢狐一起，站在万灵大陆的顶端。 别人契约的灵宠一只比一只威猛，但楚少野的灵宠却一只比一只可爱。 像糯米团子的银狐仓鼠？不，其实是有寻宝和空间天赋的金线寻宝鼠！ 孱弱的变异百花狸幼崽？不，其实是能够占卜吉凶的幻兽天星玉面狸！ 看似普通却能进行二次蜕变的虫类胖虫，还有美艳的类人型灵宠 ……",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oa5f36f6d2d249b593383bcfb0000f9eb~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791261916&x-signature=YH47by0vEjvRParKsJ8iKrjCyJ4%3D",
-          "url": "https://fanqienovel.com/page/7342475219212192830"
         },
         {
           "title": "开局移植妖魔心脏，成为绝世凶物",
           "author": "沙茶面",
-          "reads": "21.7万",
+          "reads": "21.8万",
           "intro": "（无系统，多女主，亦正亦邪） 拥有混沌圣体的方凌，自出生后就被各方势力争相抢夺，心脏、右眼、宝骨相继被人挖走…… 几经辗转，奄奄一息的方凌被好心人放到了一座古刹前。 没人知道，这座古刹里其实隐居着五个绝世高手。 他们隐居古刹数万年，镇压着魔祖的不灭之心。 恰逢不灭之心暴动，五人无法镇压，只好铤而走险，将其植入婴儿体内。 残缺的圣体和不灭之心奇迹融合，一尊绝世凶物由此诞生……",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o32bfde2086352348b04736c77078750f~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791261916&x-signature=ilYERmO4IWvXuhBnamipVjn8Gt0%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o32bfde2086352348b04736c77078750f~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791347319&x-signature=ybZRvMUR2vXTnsS3L9oWko3LcAo%3D",
           "url": "https://fanqienovel.com/page/7202777894500699188"
         },
         {
           "title": "穿书百合文，我只想安稳苟到结局",
           "author": "瑰夏真好喝",
-          "reads": "20.5万",
+          "reads": "20.7万",
           "intro": "【穿书/反派/后宫/不种马/女主全是百合】 本书又名：《女主，你的后宫是不是跑错片场了？》、《我们三、四、五……总之过好日子比什么都重要？》 熬夜追更百合文，李照阳穿成了书中人憎狗厌的恶毒男配。 原主最蠢的操作是什么？ 把女主绑进山洞，明明能直接开动，非要学反派死于话多，结果腰带还没解开，就被女主的后宫团万剑穿心。 李照阳：这锅我不背！ 是我的话， 等你们来救人，孩子都会喊我爸爸了好吧！ 不过为了活命，他还是决定远离女主，远离剧情，专心当个废物仙二代。 可是…… 那个未来会一剑宰了他的高冷未婚妻，怎么看他的眼神越来越不对劲？ 那个本该是二五仔的贴身丫鬟，怎么一遇到危险就非要挡他前面？ 就连本该反目成仇的义妹，也抱着被子钻进了他的房间？ ……",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o97bbadacff7c5930016d9ece7b83a704~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791261916&x-signature=2LDe5d9OiHL4r88uA3JTb8I2q5Q%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o97bbadacff7c5930016d9ece7b83a704~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791347319&x-signature=w9Y%2FY7lH5BEc9WgcSQVUFJyoGxk%3D",
           "url": "https://fanqienovel.com/page/7637541688826661912"
+        },
+        {
+          "title": "御兽之灵主",
+          "author": "闲笑鱼",
+          "reads": "20.3万",
+          "intro": "【原名：御兽之灵主】 【御兽召唤】【传统玄幻】【不重生】【不穿越】【成长型男主】【单女主】【古早】【爽文】 楚少野背负着血海深仇，但是十二岁检测灵主资质的时候，他的召唤出来的本命灵宠却只是一只无垢狐，毕生没有希望突破低阶灵主。 人人都说无垢狐只适合当宠物，但楚少野偏不信邪，没有垃圾的灵宠，只有垃圾的灵主，总有一天，他会带着他的无垢狐一起，站在万灵大陆的顶端。 别人契约的灵宠一只比一只威猛，但楚少野的灵宠却一只比一只可爱。 像糯米团子的银狐仓鼠？不，其实是有寻宝和空间天赋的金线寻宝鼠！ 孱弱的变异百花狸幼崽？不，其实是能够占卜吉凶的幻兽天星玉面狸！ 看似普通却能进行二次蜕变的虫类胖虫，还有美艳的类人型灵宠 ……",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oa5f36f6d2d249b593383bcfb0000f9eb~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791347319&x-signature=hRyQelwD9EBw14X25qMoMJ3hI7o%3D",
+          "url": "https://fanqienovel.com/page/7342475219212192830"
         },
         {
           "title": "北侯世子：反派的我背景逆天",
           "author": "不宇之箫",
           "reads": "19.5万",
           "intro": "【玄幻王朝+背景无敌+顶级反派+微权谋+伪群像】 裴苏胎穿异世界玄幻王朝，其身世竟是帝京七阀之首，千年古世家裴家的嫡长子。 再细细一瞧，祖父拜尚书省左仆射，号裴国公，被誉为国之重臣，佐国平天下。 不过实际上，那老人在朝廷一手遮天，二十年前更是狂悖无道，联合皇后娘娘架空皇权，生杀予夺。群臣噤若寒蝉，敢怒不敢言。 北地陈王护君心切，挥兵南下，却被父亲的镇北王骑阻拦在天阙关之外，眼睁睁瞧着朝廷落入裴阀之手，还被戴了个狼子野心的帽子，遭天下唾弃。 于是乎，皇后垂帘听政二十载，天下局势，危如累卵，帝京上下，暗流涌动······ —— 裴苏：什么反派世家？我族累世筹谋，其志若磐，待机而发，终成阙功，其诚贯穿日月，其心动容山河，你一贫民小子凭着一腔热血就妄想清君侧卫皇室，戏折子看多了？ —— 那年撞破他裴家阴谋的皇宫亲军校尉，窃取神刀龙雀，断尾逃生，在朝廷通缉下潜藏并州二十载。 柘月初一，裴苏望着供奉占星子借天象算出的方位，微微一笑： 萧副统领，你若是有什么苦衷冤屈，为何不告官呐？",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oe58f96f9aec444d9222d0c83f44f2b39~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791261916&x-signature=pFLUIFsSmaWdTXcBsfLNa7K9%2F1I%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oe58f96f9aec444d9222d0c83f44f2b39~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791347319&x-signature=9LrAJ5aJr7XyM%2F4deRyblTstvx4%3D",
           "url": "https://fanqienovel.com/page/7433743025282485272"
+        },
+        {
+          "title": "力量每天增加百分之一我徒手爆星",
+          "author": "有情天涯难笔墨",
+          "reads": "19.4万",
+          "intro": "天荒大陆，妖魔乱世，万族林立，人族疆域四分五裂，战火连绵，尸横遍野。 李玄苍穿越而来，成了大炎王朝边境，湖边驿一名最底层的服兵役边军。 北有蛮夷铁骑踏境，南有妖魔凶兽食人，周遭同袍朝不保夕，每日都在死人。 身为手无缚鸡之力的炮灰小兵，李玄苍本以为难逃战死沙场的命运，却意外觉醒每日增幅。 每日零点，肉身力量永久增幅1%！无上限，无副作用！ 没有修为？没关系，亿万倍力量增幅，一拳可碎山河！ 没有功法？无所谓，肉身成圣，硬抗万族神通！ 增幅10天，超越普通人。 增幅30天，天生神力。 增幅100天，人形凶兽。 增幅半年，钢铁怪物。 增幅一年，一人成军。 增幅三年，行走的天灾，开始不吃牛肉。 增幅十年，徒手碎星辰。 增幅二十年，横跨星空，碾碎黑洞。 增幅百年，我就是太阳。 ……",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o82caad9b2a5b3c9642ba0e76b96a9d70~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791347319&x-signature=sG2U2x2gFg5aEboz3h8xTUmn%2F5k%3D",
+          "url": "https://fanqienovel.com/page/7633370286288538686"
         },
         {
           "title": "玄幻：逆命万世，我打爆仙帝",
           "author": "不恋鱼的猫",
           "reads": "18.4万",
           "intro": "【9月26号晚19点，实体书《蜉蝣志》小番茄图书旗舰店，抖音，拼多多，天猫开售，可提前预约】 人生若蜉蝣，怎能撼青天? 莫欺老年穷死后的苏尘发现，他携带着的金手指是一本逆命书。 死后可根据人生成就，获取逆命点，不断地轮回转世。 消耗逆命点可以增加下一世的资质，悟性，乃至身世。 悠悠岁月中 他是碌碌无为的小家族少主 是战死沙场的将军 是颠覆一方王朝的疯子 是年少成名，却沦为气运之子垫脚石的配角 是风华绝代的剑神 是以天下为棋，布局万古的魔主 是极道大帝，坐镇禁区万年 是无数发光发热人的一生。 星星之火，可以燎原 任你仙帝之命，一世无敌，却又怎能敌得过我这万世之命，芸芸众生? ........ 苏尘见过很多天才 可是最终，那些天才都臣服在他的脚下 亦或是，化作黄土一杯 本书又名《开局莫欺老年穷，我能无限转世》 《玄幻：逆命万世，我打爆仙帝》 《万世伐天》 实体书名《蜉蝣志》",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o2b9c6bcecf73cb61315e7fa2857919e4~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791261916&x-signature=hCf5%2BqhYFy5Z%2BJWczD0q%2FGt%2FVDs%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o2b9c6bcecf73cb61315e7fa2857919e4~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791347319&x-signature=G%2FRrEu5x3bH40FTAqlVolSslDY4%3D",
           "url": "https://fanqienovel.com/page/7480438517189839897"
         },
         {
-          "title": "力量每天增加百分之一我徒手爆星",
-          "author": "有情天涯难笔墨",
-          "reads": "18.9万",
-          "intro": "天荒大陆，妖魔乱世，万族林立，人族疆域四分五裂，战火连绵，尸横遍野。 李玄苍穿越而来，成了大炎王朝边境，湖边驿一名最底层的服兵役边军。 北有蛮夷铁骑踏境，南有妖魔凶兽食人，周遭同袍朝不保夕，每日都在死人。 身为手无缚鸡之力的炮灰小兵，李玄苍本以为难逃战死沙场的命运，却意外觉醒每日增幅。 每日零点，肉身力量永久增幅1%！无上限，无副作用！ 没有修为？没关系，亿万倍力量增幅，一拳可碎山河！ 没有功法？无所谓，肉身成圣，硬抗万族神通！ 增幅10天，超越普通人。 增幅30天，天生神力。 增幅100天，人形凶兽。 增幅半年，钢铁怪物。 增幅一年，一人成军。 增幅三年，行走的天灾，开始不吃牛肉。 增幅十年，徒手碎星辰。 增幅二十年，横跨星空，碾碎黑洞。 增幅百年，我就是太阳。 ……",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o82caad9b2a5b3c9642ba0e76b96a9d70~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791261916&x-signature=78ueMXzfTvlAGyKx%2F5sVug1hwmQ%3D",
-          "url": "https://fanqienovel.com/page/7633370286288538686"
+          "title": "合欢宗修丹道，师姐助我炼尽天下",
+          "author": "无毒小丈夫",
+          "reads": "17.3万",
+          "intro": "【脑洞】+【暗黑】+【双修反采】+【丹道炼化】 +【多女主】 别人采阳补阴，他靠药渣无敌。 沈一飞，合欢宗最底层的杂役，三年饥一顿饱一顿，全靠炼丹炉里的废料续命。 无意中得到一尊“万物鼎”—— 炼人，得功法；炼妖，得神通；炼鬼，通幽冥。 从此，沈一飞走向炼尽天下万物之路。",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/4236575db0288708b334dd7f0344034e~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791347319&x-signature=SvDfQGvg5uAgvSuN0lgRTZnpBoM%3D",
+          "url": "https://fanqienovel.com/page/7616535240856570905"
+        },
+        {
+          "title": "开局长生不死，谁都以为我无敌",
+          "author": "以非当年少",
+          "reads": "17万",
+          "intro": "陈长安跟在美女师父身边万年之久，不老不死，却始终无法修炼，最终被师父赶走，带着伙伴麒麟大黄，游历人间，回归陈家，获得天生胎珠，终得修炼之法。 陈长安也没想到，自己的修炼天赋，竟然落在了娘胎之中？",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o8a42d08651955a605291bd3ffbdb63a7~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791347319&x-signature=9fdcJNh46Q%2Fj4ytd0wcT%2BPzgQIQ%3D",
+          "url": "https://fanqienovel.com/page/7263344278955363385"
         },
         {
           "title": "我的法宝都是规则系",
           "author": "板面王仔",
-          "reads": "17万",
+          "reads": "16.9万",
           "intro": "“孙宗主，贵宗现为北地修界鼎鼎有名的剑宗，请问您如何评价许院长。” 　　\"我常跟行家讲，许院长是我的偶像。别人追杀他，他还反过来想办法交朋友，搞合作、培养的弟子到了筑基就不再继续带，统统卖给其他门派，现在桃李满天下喽，到处都是他的人。\" 　　“那在座的各位魔道前辈是如何看待许院长？他隐瞒身份混迹魔道长达数...” 　　“这位记者，不要胡言乱语！我们帮主是驰名南疆第一魔，你说的那个人跟他绝无关联！” 　　“好好好，那我想问一下秦代掌门，幻海教作为西泽第一大教。许院长在背后暗操独治，对外大搞金融骗局，卷进了无数宗门，现在债主就在我们会场外声讨，请问您如何回应?” 　　“简直可笑，我们帮主压根不姓许，再说我们根本没有债主，债主都在古修传承的争夺里死了，外面那些人不过是敌对宗门故意借机来搞我们。” 　　“可根据我们调查，那古修传承是许院长修的新坟，而且里面的人没有被全部炸死...” 　　“我警告你啊！你这是赤裸裸的诽谤！” 　　“这个问题暂且搁置，那请问东荒妖族怎么看待他呢？” 　　“我要给他生孩子。”-----龙族龙女如是说。 ———————— 新书《末日生存方案供应商》连载中，已完本书《流氓帝师》",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oc0f2833a623ce0f207ed72c24f2633b4~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791261916&x-signature=wG6ErMZK9uzQ6UME3AGKOY6HK%2BM%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oc0f2833a623ce0f207ed72c24f2633b4~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791347319&x-signature=TC9YiYK5Md%2F8KngfQYdGvKCsBwY%3D",
           "url": "https://fanqienovel.com/page/7261895220290128908"
         },
         {
           "title": "全员恶仙！！！",
           "author": "天外有山",
-          "reads": "16.7万",
+          "reads": "16.6万",
           "intro": "本书又名《全员恶仙》《全员恶仙:我有一座种仙观》 【无女主+无刀+疯批+全程高能】 传闻世间，有一座道观，里面有一块神奇的土。 只要将人当成一粒‘种子’，种进土里，就能成仙。 李十五寻仙十载，终于寻得道观，也将自己给种进土里，却是没想到…… 欢迎来到，全员恶仙的世界。 慎入!!!",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2ob54241468d23ce92d2106e0ea9dd09d6~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791261916&x-signature=LZr3oCCT1B9xEMU%2FV9cI%2B2uZsek%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2ob54241468d23ce92d2106e0ea9dd09d6~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791347319&x-signature=%2FuXdl1w%2F6SkHQutpkG1tlcQnj7g%3D",
           "url": "https://fanqienovel.com/page/7474582323657182232"
-        },
-        {
-          "title": "开局长生不死，谁都以为我无敌",
-          "author": "以非当年少",
-          "reads": "16.9万",
-          "intro": "陈长安跟在美女师父身边万年之久，不老不死，却始终无法修炼，最终被师父赶走，带着伙伴麒麟大黄，游历人间，回归陈家，获得天生胎珠，终得修炼之法。 陈长安也没想到，自己的修炼天赋，竟然落在了娘胎之中？",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o8a42d08651955a605291bd3ffbdb63a7~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791261916&x-signature=YoqtiKZR9XfqragFJ1dH7bj0sSU%3D",
-          "url": "https://fanqienovel.com/page/7263344278955363385"
-        },
-        {
-          "title": "合欢宗修丹道，师姐助我炼尽天下",
-          "author": "无毒小丈夫",
-          "reads": "16.8万",
-          "intro": "【脑洞】+【暗黑】+【双修反采】+【丹道炼化】 +【多女主】 别人采阳补阴，他靠药渣无敌。 沈一飞，合欢宗最底层的杂役，三年饥一顿饱一顿，全靠炼丹炉里的废料续命。 无意中得到一尊“万物鼎”—— 炼人，得功法；炼妖，得神通；炼鬼，通幽冥。 从此，沈一飞走向炼尽天下万物之路。",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/4236575db0288708b334dd7f0344034e~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1791261916&x-signature=M6IQkguEoA7TncaISUBNX7klpqM%3D",
-          "url": "https://fanqienovel.com/page/7616535240856570905"
         }
       ]
     }
