@@ -2,14 +2,14 @@
   "channel": "male",
   "board": "read",
   "label": "男频阅读榜",
-  "date": "2026-10-09",
-  "prev_date": "2026-10-08",
+  "date": "2026-10-10",
+  "prev_date": "2026-10-09",
   "types": [
     {
       "type": "all",
       "url": "api/male/read/all.json",
       "category_count": 19,
-      "book_count": 360
+      "book_count": 380
     },
     {
       "type": "西方奇幻",
@@ -64,12 +64,12 @@
     {
       "type": "历史脑洞",
       "url": "api/male/read/%E5%8E%86%E5%8F%B2%E8%84%91%E6%B4%9E.json",
-      "book_count": 10
+      "book_count": 20
     },
     {
       "type": "悬疑脑洞",
       "url": "api/male/read/%E6%82%AC%E7%96%91%E8%84%91%E6%B4%9E.json",
-      "book_count": 10
+      "book_count": 20
     },
     {
       "type": "都市脑洞",
