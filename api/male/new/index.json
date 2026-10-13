@@ -2,14 +2,14 @@
   "channel": "male",
   "board": "new",
   "label": "男频新书榜",
-  "date": "2026-10-12",
-  "prev_date": "2026-10-11",
+  "date": "2026-10-13",
+  "prev_date": "2026-10-12",
   "types": [
     {
       "type": "all",
       "url": "api/male/new/all.json",
       "category_count": 19,
-      "book_count": 370
+      "book_count": 380
     },
     {
       "type": "西方奇幻",
@@ -64,7 +64,7 @@
     {
       "type": "历史脑洞",
       "url": "api/male/new/%E5%8E%86%E5%8F%B2%E8%84%91%E6%B4%9E.json",
-      "book_count": 10
+      "book_count": 20
     },
     {
       "type": "悬疑脑洞",

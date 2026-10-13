@@ -2,14 +2,14 @@
   "channel": "female",
   "board": "new",
   "label": "女频新书榜",
-  "date": "2026-10-12",
-  "prev_date": "2026-10-11",
+  "date": "2026-10-13",
+  "prev_date": "2026-10-12",
   "types": [
     {
       "type": "all",
       "url": "api/female/new/all.json",
       "category_count": 18,
-      "book_count": 360
+      "book_count": 350
     },
     {
       "type": "古风世情",
@@ -74,7 +74,7 @@
     {
       "type": "青春甜宠",
       "url": "api/female/new/%E9%9D%92%E6%98%A5%E7%94%9C%E5%AE%A0.json",
-      "book_count": 20
+      "book_count": 10
     },
     {
       "type": "星光璀璨",

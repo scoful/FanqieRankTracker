@@ -2,14 +2,14 @@
   "channel": "male",
   "board": "read",
   "label": "男频阅读榜",
-  "date": "2026-10-12",
-  "prev_date": "2026-10-11",
+  "date": "2026-10-13",
+  "prev_date": "2026-10-12",
   "types": [
     {
       "type": "all",
       "url": "api/male/read/all.json",
       "category_count": 19,
-      "book_count": 350
+      "book_count": 370
     },
     {
       "type": "西方奇幻",
@@ -44,7 +44,7 @@
     {
       "type": "历史古代",
       "url": "api/male/read/%E5%8E%86%E5%8F%B2%E5%8F%A4%E4%BB%A3.json",
-      "book_count": 20
+      "book_count": 10
     },
     {
       "type": "战神赘婿",
@@ -59,7 +59,7 @@
     {
       "type": "传统玄幻",
       "url": "api/male/read/%E4%BC%A0%E7%BB%9F%E7%8E%84%E5%B9%BB.json",
-      "book_count": 10
+      "book_count": 20
     },
     {
       "type": "历史脑洞",
@@ -104,7 +104,7 @@
     {
       "type": "男频衍生",
       "url": "api/male/read/%E7%94%B7%E9%A2%91%E8%A1%8D%E7%94%9F.json",
-      "book_count": 0
+      "book_count": 20
     }
   ]
 }
