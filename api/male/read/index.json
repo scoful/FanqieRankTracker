@@ -2,14 +2,14 @@
   "channel": "male",
   "board": "read",
   "label": "男频阅读榜",
-  "date": "2026-10-13",
-  "prev_date": "2026-10-12",
+  "date": "2026-10-14",
+  "prev_date": "2026-10-13",
   "types": [
     {
       "type": "all",
       "url": "api/male/read/all.json",
       "category_count": 19,
-      "book_count": 370
+      "book_count": 380
     },
     {
       "type": "西方奇幻",
@@ -44,7 +44,7 @@
     {
       "type": "历史古代",
       "url": "api/male/read/%E5%8E%86%E5%8F%B2%E5%8F%A4%E4%BB%A3.json",
-      "book_count": 10
+      "book_count": 20
     },
     {
       "type": "战神赘婿",
