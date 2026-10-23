@@ -3,143 +3,135 @@
   "board": "new",
   "label": "男频新书榜",
   "type": "历史古代",
-  "date": "2026-10-22",
-  "prev_date": "2026-10-21",
+  "date": "2026-10-23",
+  "prev_date": "2026-10-22",
   "category": {
     "name": "历史古代",
     "trend": {
       "new_count": 2,
       "dropped_count": 2,
       "new_books": [
-        "关于我被诸葛亮养大这件事儿",
-        "我世袭郡侯，抢个新娘算什么？"
+        "大周状元郎：开局弹劾宰相",
+        "三国：洛水之誓，狗都不信"
       ],
       "dropped_books": [
         {
-          "title": "大明：我爹常十万，开局救朱标",
-          "intro": "好消息：我穿成了鄂国公常遇春的三公子。我姐是太子朱标的太子妃，我姐夫是史上最稳的储君，开局满门勋贵，富贵泼天。 坏消息：史书上，我爹转眼 \"暴卒\" 柳河川，我姐夫熬不过洪武二十五年，我那没出生的大外甥"
+          "title": "叛出刘邦立子婴，啊是关中王来了",
+          "intro": "他穿越楚汉争霸。 拜为刘邦麾下大将军，打关中，破三秦，战功赫赫，威震天下。 却被刘邦忌惮，功高盖主，被猜忌。 挂印封金，再入关中，立之前被他救下的子婴！ 败项羽，平六国，擒刘邦。 “啊是关中王来了！”"
         },
         {
-          "title": "女皇陛下怎么这么屑？",
-          "intro": "（一战+大英+大缺大德+屑屑人+灰线） 起飞起飞，从未如此美妙的开局，玛格丽特·凯瑟琳·贝尔法斯特不由的如此想到。 她居然穿越到了人类历史上最庞大的帝国，而且还成为了贵族。 啊，不要想象有钱人的生活，"
+          "title": "大明：满级嫡孙，老朱杀疯了",
+          "intro": "洪武二十五年，太子朱标合棺入陵。 庶子朱允炆狂喜，满朝文武欲推其上位。 皇陵前，朱元璋心灰意冷，准备举起屠刀清洗淮西勋贵，为朱允炆铺路。 就在此时，八百里加急震惊天下！ 一尊修罗杀神，率十万大雪龙骑踏"
         }
       ],
       "top_risers": [
         {
-          "title": "我叫九江，李景隆那个九江！",
+          "title": "我世袭郡侯，抢个新娘算什么？",
+          "change": "+6"
+        },
+        {
+          "title": "关于我被诸葛亮养大这件事儿",
           "change": "+4"
         },
         {
-          "title": "大明开局乞丐我被洪武帝后盯上了",
-          "change": "+1"
-        },
-        {
-          "title": "刚拜完把子，兄弟说他叫李世民",
-          "change": "+1"
+          "title": "我叫九江，李景隆那个九江！",
+          "change": "+3"
         }
       ],
       "top_fallers": [
         {
-          "title": "大明：满级嫡孙，老朱杀疯了",
-          "change": "-4"
+          "title": "大周的诗仙，竟然是个赘婿",
+          "change": "-2"
         },
         {
-          "title": "唐末：逃荒，从建山寨造火铳开始",
-          "change": "-3"
+          "title": "大明：请朱棣进位太上皇",
+          "change": "-2"
         },
         {
-          "title": "大唐：我娶你姐，李世民你兴奋啥",
+          "title": "大明开局乞丐我被洪武帝后盯上了",
           "change": "-1"
         }
       ],
       "reads_growth": [
         {
           "title": "我叫九江，李景隆那个九江！",
-          "growth": "+3.9万"
+          "growth": "+11.8万"
         },
         {
           "title": "大唐：憨子别动手！有话好好说！",
-          "growth": "+1.7万"
+          "growth": "+1.4万"
         },
         {
-          "title": "袁家不认，我，便是新的乱世",
-          "growth": "+5000"
+          "title": "我世袭郡侯，抢个新娘算什么？",
+          "growth": "+1.2万"
         }
       ],
-      "summary": "**🔥 题材趋势** 大明题材统治榜单，占比近半，洪武/永乐朝权力斗争、朱标/朱允熥/朱高煦等“夺嫡”变体是核心爆点。穿越者从“边缘身份”（私生子、乞丐、赘婿）切入，快速介入高层博弈。开篇即“请洪武赴死”“请朱棣进位太上皇”类极端冲突成为新书吸引流量的标准动作。\n**📖 读者偏好** 读者偏好“高杠杆”爽点：开局即面临生死危机或身份碾压，随后以现代知识/预知历史快速翻盘。打脸对象多为皇权或世家，反转要快、狠。标题直给情绪，如“憨子”“兴奋啥”“别动手”等口语化表达点击率更高。对历史考据要求低，重人物互动与梗密度。\n**🆕 新上榜作品** 《关于我被诸葛亮养大这件事儿》以“养父诸葛亮”为核心，主打情感羁绊与救赎，差异化明显；《我世袭郡侯，抢个新娘算什么？》延续“躺平被扰”+强冲突开局，但题材较传统。\n**📉 掉出榜单** 《大明：我爹常十万》与《女皇陛下》掉榜，前者因“满门勋贵”设定缺乏新鲜感，后者“一战+大英”题材与男频历史主流（华夏争霸）受众错位。\n**💡 值得关注** 《风起奉天1904》以“反日”情绪切入近代架空，题材稀缺，若后续争霸线铺开，潜力较大。《刚拜完把子，兄弟说他叫李世民》将“结拜”梗与历史名人结合，互动感强，有出圈可能。",
+      "summary": "**🔥 题材趋势** 明朝题材持续霸榜，且从“开局”梗向“政变/夺权”升级，如朱高煦逼宫、朱允熥弑祖，爽点从个体打脸转向皇权争夺。大唐题材则聚焦“熟人局”错位喜剧，如与李世民结拜、娶其姐，利用历史认知差制造反差爽感。\n**📖 读者偏好** 高在读作品（如榜首29.8万）共性为“高概念+强冲突”：憨子武夫、拽王公侯等极致人设，配以“拳头讲理”或“律法管不着”的即时爽感。历史文读者对“身份逆袭”与“颠覆既定命运”的渴望强烈，主角必须主动掀桌而非被动隐忍。\n**🆕 新上榜作品** 《大周状元郎》以“弹劾宰相”切入朝堂博弈，节奏快；《三国：洛水之誓》吃“高平陵之变”名场面红利，主打“不信誓约”的理性翻盘，题材新鲜度与历史名梗结合紧密。\n**📉 掉出榜单** 《叛出刘邦》《满级嫡孙》均因开局冲突铺垫过长、缺乏瞬时爆发力而掉榜，说明该分类下读者耐心极低，三章内无“爽点炸点”即弃书。\n**💡 值得关注** 《风起奉天1904》为稀缺的清末架空题材，以“揍浪人”提供民族情绪爽点，差异化明显；《寒门状元》以“卷死嫡兄”的另类逆袭路径，为同质化明初题材提供新变体。",
       "source": "ai"
     },
     "books": [
       {
         "title": "大唐：憨子别动手！有话好好说！",
         "author": "南瓜变成菜鸟",
-        "reads": "28.4万",
+        "reads": "29.8万",
         "intro": "（评分刚出）简介无力，请移步正文。 穿越成房玄龄的私生子，因不善言语被当成憨子！ “我虽不善言辞，但也会几分拳脚！” “有什么话，跟我的拳头说吧！”",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o1bc7cf361bd79cf78c77681a13a07a02~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793245229&x-signature=vNRdZrOoQiwABmPs%2Fad55GRI7FY%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o1bc7cf361bd79cf78c77681a13a07a02~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793331934&x-signature=MnNlq5KOmUCpcPp6TeM5%2F3WfoGo%3D",
         "url": "https://fanqienovel.com/page/7679029299269094424"
+      },
+      {
+        "title": "我叫九江，李景隆那个九江！",
+        "author": "绕指烟寒",
+        "reads": "22.2万",
+        "intro": "我舅爷是洪武皇帝，父亲是国公，表叔是最稳太子，你让我别拽？有哪条大明律规定人是不可以拽的？拽犯大明律吗？",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o81446720d7d35c312b4e2d1e42ae4ed2~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793331934&x-signature=QO6%2Fh8SE5VgajpNXzrYabjc16Iw%3D",
+        "url": "https://fanqienovel.com/page/7694087107047869465"
       },
       {
         "title": "大明开局乞丐我被洪武帝后盯上了",
         "author": "峰下遛狗",
-        "reads": "13.6万",
+        "reads": "13.3万",
         "intro": "【朱雄英】【穿越】【多女主】 我叫朱英，二十一世纪社畜，意外穿越来到大明，成了一名乞丐，苟活于应天府。机缘巧合结识一对老年夫妇，没想到这二人竟然是朱元璋和马秀英！ 自此朱英一跃成为大明最尊贵的人！ 制糖，抚民！除吕氏，入东宫！ 一步一步走到最高！",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2ob0cc706e729c195a6bb51c94bc8ed7e4~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793245229&x-signature=xiWNSR8qs7SpO2nqGJdZdgEd1Hw%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2ob0cc706e729c195a6bb51c94bc8ed7e4~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793331934&x-signature=2qabU9xJWwIptbIoB3bYMMB9M%2FM%3D",
         "url": "https://fanqienovel.com/page/7683355725581519934"
       },
       {
         "title": "大唐：我娶你姐，李世民你兴奋啥",
         "author": "天命在我",
-        "reads": "11.9万",
+        "reads": "11.1万",
         "intro": "隋末，太原留守李渊挥师南下，一路势如破竹，却在渭水北岸碰到了最强悍的敌人。 时值隋朝守将陈凡在此阻挡，李家父子虽轮番上阵，却无奈望河兴叹。 进退两难之际，李渊之女李秀宁挺身而出，以一己之力说服陈凡归唐。 从此，陈凡化身战神，为大唐攻城掠地，最终迎来皇帝赐婚，迎娶李世民的姐姐平阳公主。 至此，陈凡彻底走上人生巅峰，开启了一代权臣之路。 武德时期，他深受高祖器重，为李唐征战四方，就连秦琼和尉迟恭等唐初名将，皆是他的部下。 玄武门之变时，他又成为了太子李建成和秦王李世民极力拉拢的军方大佬，地位足以撼动王朝未来的走向。 贞观时期，他的功勋位居凌烟阁第一，就连长孙无忌也甘居其后。 高宗继位后，他的权势更是大到长孙无忌和武则天都不得不联手才能与之对抗的地步。 无数年来，他与妻子李秀宁携手并进，共同手握着大唐的命运，二人的子孙，更是取代关陇贵族，成为了大唐第一世家……",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oe2df6b1bef874e1d8f265907429dea3f~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793245229&x-signature=l9iHVKG%2BRYd8wkyXuEJxSndvJyA%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oe2df6b1bef874e1d8f265907429dea3f~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793331934&x-signature=jGNvbaic6ti2boT3ztmpbRnhJX8%3D",
         "url": "https://fanqienovel.com/page/7683839176755661849"
       },
       {
         "title": "大明：开局政变，请洪武赴死！",
         "author": "小小西下士",
-        "reads": "11.2万",
+        "reads": "10.1万",
         "intro": "【纯古法手搓工艺】 洪武二十五年，太子朱标薨。 朱元璋夜召朱标二子，问其志向。 朱允炆立志使天下太平，百姓安乐。 上称：“善。” 又问次子允熥。 朱允熥曰：“愿为凤阳一乞儿。” 帝大怒，遂废为庶人。 是夜，风雨大作，朱允熥剑指皇宫，向世人宣告。 我！当今皇帝之嫡孙、懿文太子之嫡子、已故太子妃常氏之遗孤，今夜请洪武赴死！",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o60a9db0ca683de79f4d7913850bc9122~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793245229&x-signature=53j4insW28kgE%2FYWOlbdDxcvlas%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o60a9db0ca683de79f4d7913850bc9122~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793331934&x-signature=LyiqOEDaf6pHkJL%2BYb%2FaL215MJs%3D",
         "url": "https://fanqienovel.com/page/7685592130961558552"
-      },
-      {
-        "title": "我叫九江，李景隆那个九江！",
-        "author": "绕指烟寒",
-        "reads": "10.4万",
-        "intro": "我舅爷是洪武皇帝，父亲是国公，表叔是最稳太子，你让我别拽？有哪条大明律规定人是不可以拽的？拽犯大明律吗？",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o81446720d7d35c312b4e2d1e42ae4ed2~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793245229&x-signature=KLRWYXjUEFrVDXYc2vM9PXtDfeY%3D",
-        "url": "https://fanqienovel.com/page/7694087107047869465"
       },
       {
         "title": "我的侧妃是前朝公主？",
         "author": "上层海",
-        "reads": "9.8万",
+        "reads": "9.4万",
         "intro": "作为太祖皇帝最小的儿子，李重安从小要什么有什么。 他尤其爱美，甚至到了近乎挑剔的地步。 小时候，天底下最漂亮的玉佩是他的，最好看的宝马也是他的；衣要最好的料子，杯盏要最精巧的样式，就连院子里养的鸟，都得挑羽毛最漂亮的。 长大以后，果不其然，连天底下最美的女子也成了他的王妃。 只可惜，这位大美人待他实在算不上温柔。 没关系。 疼爱他的母后很快又给他赐了一位侧妃。 容貌竟丝毫不输正妃，性子瞧着还安静得多。 李重安顿时觉得，这日子总算又舒坦了。 直到有一天，他忽然发现—— 等等。 他这个侧妃…… 怎么越看越不对劲？",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o4c65805d47820c96683d9f694c5fa71e~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793245229&x-signature=yaq%2FPJVGzComyh1x6Jx%2Fi%2Bz1oU8%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o4c65805d47820c96683d9f694c5fa71e~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793331934&x-signature=BiQpA3sY0RWHUZHuoffSsbmcQsQ%3D",
         "url": "https://fanqienovel.com/page/7684935110499503129"
-      },
-      {
-        "title": "叛出刘邦立子婴，啊是关中王来了",
-        "author": "我爱柯基犬",
-        "reads": "8.9万",
-        "intro": "他穿越楚汉争霸。 拜为刘邦麾下大将军，打关中，破三秦，战功赫赫，威震天下。 却被刘邦忌惮，功高盖主，被猜忌。 挂印封金，再入关中，立之前被他救下的子婴！ 败项羽，平六国，擒刘邦。 “啊是关中王来了！”",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o341c30a049552e4665a38762ce5c1ea2~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793245229&x-signature=TCTiUimRKMCB5lkq67Vy4OisrOg%3D",
-        "url": "https://fanqienovel.com/page/7690026093926943769"
       },
       {
         "title": "袁家不认，我，便是新的乱世",
         "author": "撼天阙",
-        "reads": "7.4万",
+        "reads": "8.3万",
         "intro": "他是袁绍的私生子，五岁丧母，七岁镇惊马。 黄巾乱起，他每战先登，斩华雄，战吕布。 然而出身卑贱，所有战功尽数归于袁氏，自己只落得猜忌与冷遇。 心冷意寒，他转身投了董卓，封侯领兵。 破兖州、攻徐州，威震中原。 袁家弃我，那我便跳出袁氏桎梏，于乱世积蓄雄兵。 待时机一到，挥师南下，向袁绍讨回所有亏欠，从卑微弃子，闯出属于自己的帝王基业。",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2of2443208fb9d850fac46518e08f67700~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793245229&x-signature=3W5GUgYd%2BG%2F8j2JWwy%2FC406HxnI%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2of2443208fb9d850fac46518e08f67700~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793331934&x-signature=nHar7f09jGntPaXbTTIbIzJ3YDc%3D",
         "url": "https://fanqienovel.com/page/7687953760882019352"
       },
       {
         "title": "风起奉天1904",
         "author": "想飞的肥鱼",
-        "reads": "6.3万",
+        "reads": "5.7万",
         "intro": "一朝醒来，姚启宸魂穿到了1904年的奉天城。 看着自己后面那根大粗辫子，他懵了，这给他干哪来了。 姚启宸还没想明白怎么回事。 就看到一个日本的浪人当街欺负国人。 怎么穿越过来的先不管。 眼下，先把这个小八嘎打了再说。 PS：本文为穿越架空文，发生的所有故事都在平行时空。 我是嘎嘎新的新人作者，笔力有限，还望嘴下留情啊！",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o0ce9180e8a1473fed1a8e78b76fa39a4~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793245229&x-signature=75p3wzC14EGNhkHIrBl4BO4tDyA%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o0ce9180e8a1473fed1a8e78b76fa39a4~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793331934&x-signature=AswCinz4ShK2bFl%2BOj7e%2Fn1KQNM%3D",
         "url": "https://fanqienovel.com/page/7683851628570496024"
       },
       {
@@ -147,88 +139,96 @@
         "author": "無可无不可",
         "reads": "4.5万",
         "intro": "崔策穿过来时，家里穷得只剩一个美得不像话的笨蛋娘亲。 　　好消息：娘被太守看上了，要娶进门作续弦。 　　坏消息：没人想要他这个拖油瓶。 　　嫡兄陆昭斜他：“缩后院去，别出来丢人。” 　　崔策点头：“好。” 他就真缩进了后院，嫡兄斗鸡走狗搂丫鬟，他五更开始背《策论》。 　　嫡兄一觉睡到日上三竿，他袖口的墨已经干了三回。 　　嫡兄宴会上推杯换盏，他把《大学》翻得卷了边，灯油烧干了三盏。 　　嫡兄起初还笑话他：“穷酸，装什么用功。” 　　卷王在此，谁还能睡得着觉！ 　　再后来，嫡兄们，慌了！一个个天不亮就滚去学堂开卷。 　　三年后乡试放榜，报喜差役敲开太守府大门，扯着嗓子喊： 　　“恭喜陆老爷！令郎高中解元，崔策崔公子是哪位？” 　　满堂寂静。 　　嫡兄手里那只画眉鸟吓得扑棱棱飞上了房梁。 　　太守陆衡愣了半晌，转头看向后院那间偏院。 　　门开了，崔策走出来，向前是无限光明的前程。 　　嫡兄们彻底慌了！ 　　“操，你他娘的还真考上了。” 而有一天，战火熊熊燃起，北方的金人虎视眈眈。 这群在互相撕咬中成长起来的少年，各自奔赴了自己的战场。 奸猾者死于血战，忠烈者殒于谗言，雄才者困于内争，勇将者亡于宵小……",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o2635f95b38196263fe1dfb053ab996d7~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793245229&x-signature=28kt%2FjCx0HY0NI2DJ8uGGD5qLIs%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o2635f95b38196263fe1dfb053ab996d7~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793331934&x-signature=z9TPJujsGxu8x6cUFp5okfiWR4A%3D",
         "url": "https://fanqienovel.com/page/7682297421602245657"
+      },
+      {
+        "title": "关于我被诸葛亮养大这件事儿",
+        "author": "笑看秋月与春风",
+        "reads": "4万",
+        "intro": "【轻松】【无系统】【无后宫】【历史文】 我穿越到汉末三国，被诸葛亮养大。 他教我读书，带我种地，替我操心婚事。我知道他以后会累死，五丈原秋风一起，命就没了。 所以这次，换我来。 我就一个目的，让我的阿兄，别像历史上那样累死。 至于手段嘛……现代人的学杂费，可是一分钱都没白交的。",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2ocad837cb175986c7cf60499432199bf5~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793331934&x-signature=7d0rNoOz81WsYw1a%2B%2FuBuhsDIAo%3D",
+        "url": "https://fanqienovel.com/page/7692192133750459454"
+      },
+      {
+        "title": "我世袭郡侯，抢个新娘算什么？",
+        "author": "落雪长安",
+        "reads": "3.9万",
+        "intro": "顾承宁魂穿大梁王朝。 父亲顾茂，为救皇帝而死，母亲赵莹为救皇后而亡。 就这出身，一辈子躺平了。 然而，开局未婚妻就要退婚跟别人。 这他能忍？ 于是，直接抢了未婚妻弟弟的新娘……",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o1dfd7b545e50c74c44f7ca171dc39cde~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793331937&x-signature=uUNqqM0c8IhtTE7kSyzhmCjCnog%3D",
+        "url": "https://fanqienovel.com/page/7690800860464434200"
       },
       {
         "title": "大宋：开局招安梁山泊",
         "author": "笑笑棠",
-        "reads": "3.6万",
+        "reads": "3.7万",
         "intro": "一觉醒来，穿成了宋徽宗的第五子，肃王赵枢。 赵枢本想继续摆烂：斗鸡、走狗、赏画，熬过靖康，跑去江南当个富王爷。 直到奉旨招安梁山那天，翻开贼首名册... 八十万禁军教头林冲，行者武松，花和尚鲁智深……这个世界，有一整座梁山泊！ 赵枢当场掀了剧本。 龙归大海，虎入深山。 靖康将至，金军南下，史书写好的是二圣北狩、中原陆沉。 赵枢合上名册，只问一句。 这回，轮到谁围谁的城？",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o04b98cbde4ecd22db670d23a86b23e1d~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793245232&x-signature=P4PB0EPe5FWiJbHVPFWG8Wd9QAo%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o04b98cbde4ecd22db670d23a86b23e1d~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793331937&x-signature=pTx2NPgyccivd6Hi55cbC2aQCHE%3D",
         "url": "https://fanqienovel.com/page/7690331535597112344"
+      },
+      {
+        "title": "刚拜完把子，兄弟说他叫李世民",
+        "author": "大唐彦祖",
+        "reads": "3.3万",
+        "intro": "陈继祖穿越大唐，恰逢河西旱灾，在流浪去长安的路上遇到一名即将死去的少年。 陈继祖带着少年的遗愿来到对方远在长安为官的亲属家中。 只是这位亲属总喜欢问些奇怪的事。 “继祖，你这个水能龙骨水车怎么制造的？” “继祖，你这个抗生素再给我两粒呗？” “继祖，你上次做的诗再与我说一遍，我没记清楚。” 陈继祖则笑着道：“咱哥两相处这么久了，我对你也不藏拙，你对我也不藏私，不如咱哥俩结拜吧，有福同享的那种。” 于是…… “我陈继祖愿与阁下结成异性兄弟，不求同生，不求同死，只求同福。” “我李世民愿与阁下结成异性兄弟，不求同生，不求同死，只求同福。” 陈继祖：“等等！你说你叫什么？李世民？哪个李世民？” “你是大唐皇帝啊？”",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o232859eb840a36497c89f62f03b1f211~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793331937&x-signature=TVNhaV%2BBnWapRw6f2UlFgkrBlEE%3D",
+        "url": "https://fanqienovel.com/page/7691698189681822782"
       },
       {
         "title": "大周的诗仙，竟然是个赘婿",
         "author": "落笔惊鸿啊",
-        "reads": "3.4万",
+        "reads": "3.1万",
         "intro": "评分刚出，后面会涨。 穿越大周，沈砚成了人人嘲笑的林家赘婿。 本想靠着前世记忆，抄几首诗、赚点银子，安安稳稳过日子。 谁知一场诗会彻底改变了他的命运。 当所有人都以为他只是个会作诗的赘婿时，却不知道，这位名满天下的“诗仙”，已悄然踏入大周朝堂。 沈砚只想问一句： “我就想躺平，怎么就成王了？”",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o3065c3b236f78e9499ad2f378d050d89~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793245232&x-signature=ElFDh8mfNZXrFoCJhOD1WlGy3hY%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o3065c3b236f78e9499ad2f378d050d89~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793331937&x-signature=axgIXXpG9EajXz4hFhWu%2BgAPUGk%3D",
         "url": "https://fanqienovel.com/page/7684573738926345278"
       },
       {
         "title": "大明：请朱棣进位太上皇",
         "author": "这个八戒有点傻",
-        "reads": "3.1万",
-        "intro": "永乐元年，已经穿越两年的朱高煦看着朱棣要将自己调离京城，想要立朱高炽为太子，终于不再忍。 你朱老四奉天靖难，我朱高煦便来一次玄武门对掏！ 两年多时间的谋划，当朱高煦提着滴血的长剑推开殿门，来到朱棣身前。 “儿臣，请陛下进位太上皇！” 永乐元年？ 这是靖武元年！",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o64071db132f5389c49e26c3030ebb7bb~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793245232&x-signature=lUQD0yIhC5GoVfNlm7xoo0yaOow%3D",
-        "url": "https://fanqienovel.com/page/7681877218640792600"
-      },
-      {
-        "title": "关于我被诸葛亮养大这件事儿",
-        "author": "笑看秋月与春风",
         "reads": "3万",
-        "intro": "【轻松】【无系统】【无后宫】【历史文】 我穿越到汉末三国，被诸葛亮养大。 他教我读书，带我种地，替我操心婚事。我知道他以后会累死，五丈原秋风一起，命就没了。 所以这次，换我来。 我就一个目的，让我的阿兄，别像历史上那样累死。 至于手段嘛……现代人的学杂费，可是一分钱都没白交的。",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2ocad837cb175986c7cf60499432199bf5~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793245232&x-signature=TumA%2B4pQ9YqO9W%2BHg5N9jaYl39k%3D",
-        "url": "https://fanqienovel.com/page/7692192133750459454"
+        "intro": "永乐元年，已经穿越两年的朱高煦看着朱棣要将自己调离京城，想要立朱高炽为太子，终于不再忍。 你朱老四奉天靖难，我朱高煦便来一次玄武门对掏！ 两年多时间的谋划，当朱高煦提着滴血的长剑推开殿门，来到朱棣身前。 “儿臣，请陛下进位太上皇！” 永乐元年？ 这是靖武元年！",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o64071db132f5389c49e26c3030ebb7bb~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793331937&x-signature=5h1cJZ8XSOw9el71%2FE3N%2FkhGOwo%3D",
+        "url": "https://fanqienovel.com/page/7681877218640792600"
       },
       {
         "title": "洪武七年：我成了蓝玉",
         "author": "多一点i",
-        "reads": "2.7万",
+        "reads": "2.5万",
         "intro": "冲天大运，我居然魂穿到了洪武七年的蓝玉身上。 原本担心命不久矣结果发现现在的老朱还没黑化！ 蹬鼻子上脸模式启动！ 保住朱标和雄英！ 老朱想杀我，我只能说：老朱啊～你又急！ 一不小心把老朱熬死了，结果没想到朱标又整幺蛾子！ 我大明第一外姓王蓝玉！不同意！ 将妖妇吕氏剥皮充草！",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o7db01efb1b09303b91a53bf6225dfc6d~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793245232&x-signature=HADTGfvK3dJe3XIhTe6xZ3A99HY%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o7db01efb1b09303b91a53bf6225dfc6d~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793331937&x-signature=lkHWBpFpi%2BEKpWihlnH4BEg%2FTRo%3D",
         "url": "https://fanqienovel.com/page/7685394729361493054"
-      },
-      {
-        "title": "刚拜完把子，兄弟说他叫李世民",
-        "author": "大唐彦祖",
-        "reads": "2.7万",
-        "intro": "陈继祖穿越大唐，恰逢河西旱灾，在流浪去长安的路上遇到一名即将死去的少年。 陈继祖带着少年的遗愿来到对方远在长安为官的亲属家中。 只是这位亲属总喜欢问些奇怪的事。 “继祖，你这个水能龙骨水车怎么制造的？” “继祖，你这个抗生素再给我两粒呗？” “继祖，你上次做的诗再与我说一遍，我没记清楚。” 陈继祖则笑着道：“咱哥两相处这么久了，我对你也不藏拙，你对我也不藏私，不如咱哥俩结拜吧，有福同享的那种。” 于是…… “我陈继祖愿与阁下结成异性兄弟，不求同生，不求同死，只求同福。” “我李世民愿与阁下结成异性兄弟，不求同生，不求同死，只求同福。” 陈继祖：“等等！你说你叫什么？李世民？哪个李世民？” “你是大唐皇帝啊？”",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o232859eb840a36497c89f62f03b1f211~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793245232&x-signature=%2BCudz9jtViln%2BmYz5BkuCZFAcd0%3D",
-        "url": "https://fanqienovel.com/page/7691698189681822782"
-      },
-      {
-        "title": "我世袭郡侯，抢个新娘算什么？",
-        "author": "落雪长安",
-        "reads": "2.7万",
-        "intro": "顾承宁魂穿大梁王朝。 父亲顾茂，为救皇帝而死，母亲赵莹为救皇后而亡。 就这出身，一辈子躺平了。 然而，开局未婚妻就要退婚跟别人。 这他能忍？ 于是，直接抢了未婚妻弟弟的新娘……",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o1dfd7b545e50c74c44f7ca171dc39cde~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793245232&x-signature=yYlRNEE4B4INDLeL%2Bacs11oScaw%3D",
-        "url": "https://fanqienovel.com/page/7690800860464434200"
       },
       {
         "title": "唐末：逃荒，从建山寨造火铳开始",
         "author": "虬髯大叔",
-        "reads": "2.6万",
+        "reads": "2.4万",
         "intro": "特种兵兵王李贤穿越唐末，开局妹妹就被地主家抢走，李贤连杀四人，抢回妹妹，又趁着夜色端掉了地主家，而后带着妹妹开始逃荒。 他以自身的一身本领纠集流民，占山建寨，挖煤铁、炼毒盐、造火铳，黑火药在手，硬通货我有。 藩镇割据算什么？等火铳一响，这天下就该换主人了。 从一座山寨开始，打到长安去。",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2of6dc221ce68e94e544e9ae2487188f98~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793245232&x-signature=OEXQyujCu65GxOiBrahcKn91cD4%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2of6dc221ce68e94e544e9ae2487188f98~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793331937&x-signature=MHl68HwTCg%2B54tgiYiJpgubmP40%3D",
         "url": "https://fanqienovel.com/page/7679758222621690942"
       },
       {
         "title": "敢乱看，就会被病娇公主狠狠教育",
         "author": "桑梓大叔",
-        "reads": "2.3万",
+        "reads": "2.4万",
         "intro": "【多女主+历史架空+古代争霸+病娇公主】 身为顶尖大学博士生，赫赫有名的材料学家，由于孙极达平时压力大，养成个特殊癖好。 游玩男人们都喜欢的小游戏。 然后，他穿越了，穿越到游戏的绑架案中。 幸运的是，他是绑匪。 不幸的是，他帮了公主。 幸运的是，公主放过了他，并爱上了他。 不幸的是，公主是病娇！！ 看病娇处对象，是种乐趣。 跟病娇处对象，是个灾难！ 公主：你看哪呢？喜欢她的腿，那我取下来给你好不好？ 公主：来人！孙准驸马犯了渎职之罪，关入我闺房之中！ 孙极达：我哪儿渎职？兵练的不强？还是刀炼得不锋？ 公主：呵呵，两个时辰未与我相见，不是旷工？不是渎职？ ？？？ 公主殿下，这样腻乎，我很累啊，生产队的驴都没我累。",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o10e21b13be7e55c61e73ebd4be0a3e70~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793245232&x-signature=0Az07xImJz6GvI1cYmeZeRIYxKA%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o10e21b13be7e55c61e73ebd4be0a3e70~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793331937&x-signature=%2FexA61e9d7eMcjJue1jYPWJ4XFI%3D",
         "url": "https://fanqienovel.com/page/7683182122189720600"
       },
       {
-        "title": "大明：满级嫡孙，老朱杀疯了",
-        "author": "爱吃武汉莲藕的尙怡",
-        "reads": "2.2万",
-        "intro": "洪武二十五年，太子朱标合棺入陵。 庶子朱允炆狂喜，满朝文武欲推其上位。 皇陵前，朱元璋心灰意冷，准备举起屠刀清洗淮西勋贵，为朱允炆铺路。 就在此时，八百里加急震惊天下！ 一尊修罗杀神，率十万大雪龙骑踏破漠北，携毁天灭地之势兵临应天府！ 奉天殿前，少年卸下面具，赫然长着一张与朱标七分相似，却更具帝王杀伐之气的脸！ 他，竟是当年马皇后死遁藏于九边历练的真嫡长孙——朱允煌！ 回归之日，一脚踹翻朱允炆，一刀斩落贪官头！ 舅姥爷蓝玉狂热叩首：“这才是大明唯一继承人！”",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o64230241110967e56b8b1e81d91a0e86~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793245232&x-signature=zpNESLi97%2FQ%2FVYwpkK%2Bv8pDh%2B%2BI%3D",
-        "url": "https://fanqienovel.com/page/7687463658267348030"
+        "title": "大周状元郎：开局弹劾宰相",
+        "author": "封山大猫",
+        "reads": "2.4万",
+        "intro": "李游穿过来二十二年，成了大周新科状元，一时风光无限。 还没来得及享受，就被当朝宰相陈辅“看中”了。 陈辅：入我门下，三年给你个侍郎。 李游：你一个奸相算老几？ 陈辅笑了：有骨气，那你去当驸马吧。 李游：？？？ 驸马不得掌实权，不得拜相，不得带兵。 这是祖制。 满朝文武等着看新科状元怎么破局。 李游慌了三秒，然后出班，整了整衣冠，一本正经： “陛下，臣弹劾陈辅，干涉皇家内事，越权僭越，其心可诛！”",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2of332a55eedd895ab3d727c157ea49078~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793331937&x-signature=J1CPvSpSvWWAISpFVdQ%2BY9XBf4o%3D",
+        "url": "https://fanqienovel.com/page/7650009237422099481"
+      },
+      {
+        "title": "三国：洛水之誓，狗都不信",
+        "author": "金陵小布衣",
+        "reads": "2.3万",
+        "intro": "前人田土后人收，更有收人在后头。 曹彦穿越而来，身为曹真之子，曹爽亲弟，恰逢高平陵之变，命悬一线！ 司马懿对着洛水指天发誓，只要曹爽交出兵权，便保曹家荣华富贵。 曹彦对着这个千年骗局，大喊道：洛水之誓，狗都不信！ 他苦劝大哥不要去做那富家翁，奈何曹爽听不进去。 曹彦抓住唯一生机，求取镇北将军、幽州牧，从洛阳虎口脱身，奔赴北疆。 以幽州一隅，抗衡手握天下的司马氏。 重耳在外而安，他要为曹魏留存火种，守住大魏北疆。 待到羽翼丰满，以“清君侧”名义，重夺天下！ 司马氏阻止不了五胡乱华，我曹某人挥师反杀。 “五胡可往，我亦可往。”",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o2e5d0d86c106294c78c6f4d3bc318636~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793331937&x-signature=JL16sLiEUV7lUTwuHpDXgus14TE%3D",
+        "url": "https://fanqienovel.com/page/7685793837591055384"
       }
     ]
   },
@@ -239,135 +239,127 @@
         "new_count": 2,
         "dropped_count": 2,
         "new_books": [
-          "关于我被诸葛亮养大这件事儿",
-          "我世袭郡侯，抢个新娘算什么？"
+          "大周状元郎：开局弹劾宰相",
+          "三国：洛水之誓，狗都不信"
         ],
         "dropped_books": [
           {
-            "title": "大明：我爹常十万，开局救朱标",
-            "intro": "好消息：我穿成了鄂国公常遇春的三公子。我姐是太子朱标的太子妃，我姐夫是史上最稳的储君，开局满门勋贵，富贵泼天。 坏消息：史书上，我爹转眼 \"暴卒\" 柳河川，我姐夫熬不过洪武二十五年，我那没出生的大外甥"
+            "title": "叛出刘邦立子婴，啊是关中王来了",
+            "intro": "他穿越楚汉争霸。 拜为刘邦麾下大将军，打关中，破三秦，战功赫赫，威震天下。 却被刘邦忌惮，功高盖主，被猜忌。 挂印封金，再入关中，立之前被他救下的子婴！ 败项羽，平六国，擒刘邦。 “啊是关中王来了！”"
           },
           {
-            "title": "女皇陛下怎么这么屑？",
-            "intro": "（一战+大英+大缺大德+屑屑人+灰线） 起飞起飞，从未如此美妙的开局，玛格丽特·凯瑟琳·贝尔法斯特不由的如此想到。 她居然穿越到了人类历史上最庞大的帝国，而且还成为了贵族。 啊，不要想象有钱人的生活，"
+            "title": "大明：满级嫡孙，老朱杀疯了",
+            "intro": "洪武二十五年，太子朱标合棺入陵。 庶子朱允炆狂喜，满朝文武欲推其上位。 皇陵前，朱元璋心灰意冷，准备举起屠刀清洗淮西勋贵，为朱允炆铺路。 就在此时，八百里加急震惊天下！ 一尊修罗杀神，率十万大雪龙骑踏"
           }
         ],
         "top_risers": [
           {
-            "title": "我叫九江，李景隆那个九江！",
+            "title": "我世袭郡侯，抢个新娘算什么？",
+            "change": "+6"
+          },
+          {
+            "title": "关于我被诸葛亮养大这件事儿",
             "change": "+4"
           },
           {
-            "title": "大明开局乞丐我被洪武帝后盯上了",
-            "change": "+1"
-          },
-          {
-            "title": "刚拜完把子，兄弟说他叫李世民",
-            "change": "+1"
+            "title": "我叫九江，李景隆那个九江！",
+            "change": "+3"
           }
         ],
         "top_fallers": [
           {
-            "title": "大明：满级嫡孙，老朱杀疯了",
-            "change": "-4"
+            "title": "大周的诗仙，竟然是个赘婿",
+            "change": "-2"
           },
           {
-            "title": "唐末：逃荒，从建山寨造火铳开始",
-            "change": "-3"
+            "title": "大明：请朱棣进位太上皇",
+            "change": "-2"
           },
           {
-            "title": "大唐：我娶你姐，李世民你兴奋啥",
+            "title": "大明开局乞丐我被洪武帝后盯上了",
             "change": "-1"
           }
         ],
         "reads_growth": [
           {
             "title": "我叫九江，李景隆那个九江！",
-            "growth": "+3.9万"
+            "growth": "+11.8万"
           },
           {
             "title": "大唐：憨子别动手！有话好好说！",
-            "growth": "+1.7万"
+            "growth": "+1.4万"
           },
           {
-            "title": "袁家不认，我，便是新的乱世",
-            "growth": "+5000"
+            "title": "我世袭郡侯，抢个新娘算什么？",
+            "growth": "+1.2万"
           }
         ],
-        "summary": "**🔥 题材趋势** 大明题材统治榜单，占比近半，洪武/永乐朝权力斗争、朱标/朱允熥/朱高煦等“夺嫡”变体是核心爆点。穿越者从“边缘身份”（私生子、乞丐、赘婿）切入，快速介入高层博弈。开篇即“请洪武赴死”“请朱棣进位太上皇”类极端冲突成为新书吸引流量的标准动作。\n**📖 读者偏好** 读者偏好“高杠杆”爽点：开局即面临生死危机或身份碾压，随后以现代知识/预知历史快速翻盘。打脸对象多为皇权或世家，反转要快、狠。标题直给情绪，如“憨子”“兴奋啥”“别动手”等口语化表达点击率更高。对历史考据要求低，重人物互动与梗密度。\n**🆕 新上榜作品** 《关于我被诸葛亮养大这件事儿》以“养父诸葛亮”为核心，主打情感羁绊与救赎，差异化明显；《我世袭郡侯，抢个新娘算什么？》延续“躺平被扰”+强冲突开局，但题材较传统。\n**📉 掉出榜单** 《大明：我爹常十万》与《女皇陛下》掉榜，前者因“满门勋贵”设定缺乏新鲜感，后者“一战+大英”题材与男频历史主流（华夏争霸）受众错位。\n**💡 值得关注** 《风起奉天1904》以“反日”情绪切入近代架空，题材稀缺，若后续争霸线铺开，潜力较大。《刚拜完把子，兄弟说他叫李世民》将“结拜”梗与历史名人结合，互动感强，有出圈可能。",
+        "summary": "**🔥 题材趋势** 明朝题材持续霸榜，且从“开局”梗向“政变/夺权”升级，如朱高煦逼宫、朱允熥弑祖，爽点从个体打脸转向皇权争夺。大唐题材则聚焦“熟人局”错位喜剧，如与李世民结拜、娶其姐，利用历史认知差制造反差爽感。\n**📖 读者偏好** 高在读作品（如榜首29.8万）共性为“高概念+强冲突”：憨子武夫、拽王公侯等极致人设，配以“拳头讲理”或“律法管不着”的即时爽感。历史文读者对“身份逆袭”与“颠覆既定命运”的渴望强烈，主角必须主动掀桌而非被动隐忍。\n**🆕 新上榜作品** 《大周状元郎》以“弹劾宰相”切入朝堂博弈，节奏快；《三国：洛水之誓》吃“高平陵之变”名场面红利，主打“不信誓约”的理性翻盘，题材新鲜度与历史名梗结合紧密。\n**📉 掉出榜单** 《叛出刘邦》《满级嫡孙》均因开局冲突铺垫过长、缺乏瞬时爆发力而掉榜，说明该分类下读者耐心极低，三章内无“爽点炸点”即弃书。\n**💡 值得关注** 《风起奉天1904》为稀缺的清末架空题材，以“揍浪人”提供民族情绪爽点，差异化明显；《寒门状元》以“卷死嫡兄”的另类逆袭路径，为同质化明初题材提供新变体。",
         "source": "ai"
       },
       "books": [
         {
           "title": "大唐：憨子别动手！有话好好说！",
           "author": "南瓜变成菜鸟",
-          "reads": "28.4万",
+          "reads": "29.8万",
           "intro": "（评分刚出）简介无力，请移步正文。 穿越成房玄龄的私生子，因不善言语被当成憨子！ “我虽不善言辞，但也会几分拳脚！” “有什么话，跟我的拳头说吧！”",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o1bc7cf361bd79cf78c77681a13a07a02~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793245229&x-signature=vNRdZrOoQiwABmPs%2Fad55GRI7FY%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o1bc7cf361bd79cf78c77681a13a07a02~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793331934&x-signature=MnNlq5KOmUCpcPp6TeM5%2F3WfoGo%3D",
           "url": "https://fanqienovel.com/page/7679029299269094424"
+        },
+        {
+          "title": "我叫九江，李景隆那个九江！",
+          "author": "绕指烟寒",
+          "reads": "22.2万",
+          "intro": "我舅爷是洪武皇帝，父亲是国公，表叔是最稳太子，你让我别拽？有哪条大明律规定人是不可以拽的？拽犯大明律吗？",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o81446720d7d35c312b4e2d1e42ae4ed2~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793331934&x-signature=QO6%2Fh8SE5VgajpNXzrYabjc16Iw%3D",
+          "url": "https://fanqienovel.com/page/7694087107047869465"
         },
         {
           "title": "大明开局乞丐我被洪武帝后盯上了",
           "author": "峰下遛狗",
-          "reads": "13.6万",
+          "reads": "13.3万",
           "intro": "【朱雄英】【穿越】【多女主】 我叫朱英，二十一世纪社畜，意外穿越来到大明，成了一名乞丐，苟活于应天府。机缘巧合结识一对老年夫妇，没想到这二人竟然是朱元璋和马秀英！ 自此朱英一跃成为大明最尊贵的人！ 制糖，抚民！除吕氏，入东宫！ 一步一步走到最高！",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2ob0cc706e729c195a6bb51c94bc8ed7e4~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793245229&x-signature=xiWNSR8qs7SpO2nqGJdZdgEd1Hw%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2ob0cc706e729c195a6bb51c94bc8ed7e4~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793331934&x-signature=2qabU9xJWwIptbIoB3bYMMB9M%2FM%3D",
           "url": "https://fanqienovel.com/page/7683355725581519934"
         },
         {
           "title": "大唐：我娶你姐，李世民你兴奋啥",
           "author": "天命在我",
-          "reads": "11.9万",
+          "reads": "11.1万",
           "intro": "隋末，太原留守李渊挥师南下，一路势如破竹，却在渭水北岸碰到了最强悍的敌人。 时值隋朝守将陈凡在此阻挡，李家父子虽轮番上阵，却无奈望河兴叹。 进退两难之际，李渊之女李秀宁挺身而出，以一己之力说服陈凡归唐。 从此，陈凡化身战神，为大唐攻城掠地，最终迎来皇帝赐婚，迎娶李世民的姐姐平阳公主。 至此，陈凡彻底走上人生巅峰，开启了一代权臣之路。 武德时期，他深受高祖器重，为李唐征战四方，就连秦琼和尉迟恭等唐初名将，皆是他的部下。 玄武门之变时，他又成为了太子李建成和秦王李世民极力拉拢的军方大佬，地位足以撼动王朝未来的走向。 贞观时期，他的功勋位居凌烟阁第一，就连长孙无忌也甘居其后。 高宗继位后，他的权势更是大到长孙无忌和武则天都不得不联手才能与之对抗的地步。 无数年来，他与妻子李秀宁携手并进，共同手握着大唐的命运，二人的子孙，更是取代关陇贵族，成为了大唐第一世家……",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oe2df6b1bef874e1d8f265907429dea3f~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793245229&x-signature=l9iHVKG%2BRYd8wkyXuEJxSndvJyA%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oe2df6b1bef874e1d8f265907429dea3f~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793331934&x-signature=jGNvbaic6ti2boT3ztmpbRnhJX8%3D",
           "url": "https://fanqienovel.com/page/7683839176755661849"
         },
         {
           "title": "大明：开局政变，请洪武赴死！",
           "author": "小小西下士",
-          "reads": "11.2万",
+          "reads": "10.1万",
           "intro": "【纯古法手搓工艺】 洪武二十五年，太子朱标薨。 朱元璋夜召朱标二子，问其志向。 朱允炆立志使天下太平，百姓安乐。 上称：“善。” 又问次子允熥。 朱允熥曰：“愿为凤阳一乞儿。” 帝大怒，遂废为庶人。 是夜，风雨大作，朱允熥剑指皇宫，向世人宣告。 我！当今皇帝之嫡孙、懿文太子之嫡子、已故太子妃常氏之遗孤，今夜请洪武赴死！",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o60a9db0ca683de79f4d7913850bc9122~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793245229&x-signature=53j4insW28kgE%2FYWOlbdDxcvlas%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o60a9db0ca683de79f4d7913850bc9122~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793331934&x-signature=LyiqOEDaf6pHkJL%2BYb%2FaL215MJs%3D",
           "url": "https://fanqienovel.com/page/7685592130961558552"
-        },
-        {
-          "title": "我叫九江，李景隆那个九江！",
-          "author": "绕指烟寒",
-          "reads": "10.4万",
-          "intro": "我舅爷是洪武皇帝，父亲是国公，表叔是最稳太子，你让我别拽？有哪条大明律规定人是不可以拽的？拽犯大明律吗？",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o81446720d7d35c312b4e2d1e42ae4ed2~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793245229&x-signature=KLRWYXjUEFrVDXYc2vM9PXtDfeY%3D",
-          "url": "https://fanqienovel.com/page/7694087107047869465"
         },
         {
           "title": "我的侧妃是前朝公主？",
           "author": "上层海",
-          "reads": "9.8万",
+          "reads": "9.4万",
           "intro": "作为太祖皇帝最小的儿子，李重安从小要什么有什么。 他尤其爱美，甚至到了近乎挑剔的地步。 小时候，天底下最漂亮的玉佩是他的，最好看的宝马也是他的；衣要最好的料子，杯盏要最精巧的样式，就连院子里养的鸟，都得挑羽毛最漂亮的。 长大以后，果不其然，连天底下最美的女子也成了他的王妃。 只可惜，这位大美人待他实在算不上温柔。 没关系。 疼爱他的母后很快又给他赐了一位侧妃。 容貌竟丝毫不输正妃，性子瞧着还安静得多。 李重安顿时觉得，这日子总算又舒坦了。 直到有一天，他忽然发现—— 等等。 他这个侧妃…… 怎么越看越不对劲？",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o4c65805d47820c96683d9f694c5fa71e~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793245229&x-signature=yaq%2FPJVGzComyh1x6Jx%2Fi%2Bz1oU8%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o4c65805d47820c96683d9f694c5fa71e~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793331934&x-signature=BiQpA3sY0RWHUZHuoffSsbmcQsQ%3D",
           "url": "https://fanqienovel.com/page/7684935110499503129"
-        },
-        {
-          "title": "叛出刘邦立子婴，啊是关中王来了",
-          "author": "我爱柯基犬",
-          "reads": "8.9万",
-          "intro": "他穿越楚汉争霸。 拜为刘邦麾下大将军，打关中，破三秦，战功赫赫，威震天下。 却被刘邦忌惮，功高盖主，被猜忌。 挂印封金，再入关中，立之前被他救下的子婴！ 败项羽，平六国，擒刘邦。 “啊是关中王来了！”",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o341c30a049552e4665a38762ce5c1ea2~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793245229&x-signature=TCTiUimRKMCB5lkq67Vy4OisrOg%3D",
-          "url": "https://fanqienovel.com/page/7690026093926943769"
         },
         {
           "title": "袁家不认，我，便是新的乱世",
           "author": "撼天阙",
-          "reads": "7.4万",
+          "reads": "8.3万",
           "intro": "他是袁绍的私生子，五岁丧母，七岁镇惊马。 黄巾乱起，他每战先登，斩华雄，战吕布。 然而出身卑贱，所有战功尽数归于袁氏，自己只落得猜忌与冷遇。 心冷意寒，他转身投了董卓，封侯领兵。 破兖州、攻徐州，威震中原。 袁家弃我，那我便跳出袁氏桎梏，于乱世积蓄雄兵。 待时机一到，挥师南下，向袁绍讨回所有亏欠，从卑微弃子，闯出属于自己的帝王基业。",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2of2443208fb9d850fac46518e08f67700~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793245229&x-signature=3W5GUgYd%2BG%2F8j2JWwy%2FC406HxnI%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2of2443208fb9d850fac46518e08f67700~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793331934&x-signature=nHar7f09jGntPaXbTTIbIzJ3YDc%3D",
           "url": "https://fanqienovel.com/page/7687953760882019352"
         },
         {
           "title": "风起奉天1904",
           "author": "想飞的肥鱼",
-          "reads": "6.3万",
+          "reads": "5.7万",
           "intro": "一朝醒来，姚启宸魂穿到了1904年的奉天城。 看着自己后面那根大粗辫子，他懵了，这给他干哪来了。 姚启宸还没想明白怎么回事。 就看到一个日本的浪人当街欺负国人。 怎么穿越过来的先不管。 眼下，先把这个小八嘎打了再说。 PS：本文为穿越架空文，发生的所有故事都在平行时空。 我是嘎嘎新的新人作者，笔力有限，还望嘴下留情啊！",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o0ce9180e8a1473fed1a8e78b76fa39a4~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793245229&x-signature=75p3wzC14EGNhkHIrBl4BO4tDyA%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o0ce9180e8a1473fed1a8e78b76fa39a4~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793331934&x-signature=AswCinz4ShK2bFl%2BOj7e%2Fn1KQNM%3D",
           "url": "https://fanqienovel.com/page/7683851628570496024"
         },
         {
@@ -375,88 +367,96 @@
           "author": "無可无不可",
           "reads": "4.5万",
           "intro": "崔策穿过来时，家里穷得只剩一个美得不像话的笨蛋娘亲。 　　好消息：娘被太守看上了，要娶进门作续弦。 　　坏消息：没人想要他这个拖油瓶。 　　嫡兄陆昭斜他：“缩后院去，别出来丢人。” 　　崔策点头：“好。” 他就真缩进了后院，嫡兄斗鸡走狗搂丫鬟，他五更开始背《策论》。 　　嫡兄一觉睡到日上三竿，他袖口的墨已经干了三回。 　　嫡兄宴会上推杯换盏，他把《大学》翻得卷了边，灯油烧干了三盏。 　　嫡兄起初还笑话他：“穷酸，装什么用功。” 　　卷王在此，谁还能睡得着觉！ 　　再后来，嫡兄们，慌了！一个个天不亮就滚去学堂开卷。 　　三年后乡试放榜，报喜差役敲开太守府大门，扯着嗓子喊： 　　“恭喜陆老爷！令郎高中解元，崔策崔公子是哪位？” 　　满堂寂静。 　　嫡兄手里那只画眉鸟吓得扑棱棱飞上了房梁。 　　太守陆衡愣了半晌，转头看向后院那间偏院。 　　门开了，崔策走出来，向前是无限光明的前程。 　　嫡兄们彻底慌了！ 　　“操，你他娘的还真考上了。” 而有一天，战火熊熊燃起，北方的金人虎视眈眈。 这群在互相撕咬中成长起来的少年，各自奔赴了自己的战场。 奸猾者死于血战，忠烈者殒于谗言，雄才者困于内争，勇将者亡于宵小……",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o2635f95b38196263fe1dfb053ab996d7~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793245229&x-signature=28kt%2FjCx0HY0NI2DJ8uGGD5qLIs%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o2635f95b38196263fe1dfb053ab996d7~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793331934&x-signature=z9TPJujsGxu8x6cUFp5okfiWR4A%3D",
           "url": "https://fanqienovel.com/page/7682297421602245657"
+        },
+        {
+          "title": "关于我被诸葛亮养大这件事儿",
+          "author": "笑看秋月与春风",
+          "reads": "4万",
+          "intro": "【轻松】【无系统】【无后宫】【历史文】 我穿越到汉末三国，被诸葛亮养大。 他教我读书，带我种地，替我操心婚事。我知道他以后会累死，五丈原秋风一起，命就没了。 所以这次，换我来。 我就一个目的，让我的阿兄，别像历史上那样累死。 至于手段嘛……现代人的学杂费，可是一分钱都没白交的。",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2ocad837cb175986c7cf60499432199bf5~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793331934&x-signature=7d0rNoOz81WsYw1a%2B%2FuBuhsDIAo%3D",
+          "url": "https://fanqienovel.com/page/7692192133750459454"
+        },
+        {
+          "title": "我世袭郡侯，抢个新娘算什么？",
+          "author": "落雪长安",
+          "reads": "3.9万",
+          "intro": "顾承宁魂穿大梁王朝。 父亲顾茂，为救皇帝而死，母亲赵莹为救皇后而亡。 就这出身，一辈子躺平了。 然而，开局未婚妻就要退婚跟别人。 这他能忍？ 于是，直接抢了未婚妻弟弟的新娘……",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o1dfd7b545e50c74c44f7ca171dc39cde~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793331937&x-signature=uUNqqM0c8IhtTE7kSyzhmCjCnog%3D",
+          "url": "https://fanqienovel.com/page/7690800860464434200"
         },
         {
           "title": "大宋：开局招安梁山泊",
           "author": "笑笑棠",
-          "reads": "3.6万",
+          "reads": "3.7万",
           "intro": "一觉醒来，穿成了宋徽宗的第五子，肃王赵枢。 赵枢本想继续摆烂：斗鸡、走狗、赏画，熬过靖康，跑去江南当个富王爷。 直到奉旨招安梁山那天，翻开贼首名册... 八十万禁军教头林冲，行者武松，花和尚鲁智深……这个世界，有一整座梁山泊！ 赵枢当场掀了剧本。 龙归大海，虎入深山。 靖康将至，金军南下，史书写好的是二圣北狩、中原陆沉。 赵枢合上名册，只问一句。 这回，轮到谁围谁的城？",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o04b98cbde4ecd22db670d23a86b23e1d~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793245232&x-signature=P4PB0EPe5FWiJbHVPFWG8Wd9QAo%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o04b98cbde4ecd22db670d23a86b23e1d~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793331937&x-signature=pTx2NPgyccivd6Hi55cbC2aQCHE%3D",
           "url": "https://fanqienovel.com/page/7690331535597112344"
+        },
+        {
+          "title": "刚拜完把子，兄弟说他叫李世民",
+          "author": "大唐彦祖",
+          "reads": "3.3万",
+          "intro": "陈继祖穿越大唐，恰逢河西旱灾，在流浪去长安的路上遇到一名即将死去的少年。 陈继祖带着少年的遗愿来到对方远在长安为官的亲属家中。 只是这位亲属总喜欢问些奇怪的事。 “继祖，你这个水能龙骨水车怎么制造的？” “继祖，你这个抗生素再给我两粒呗？” “继祖，你上次做的诗再与我说一遍，我没记清楚。” 陈继祖则笑着道：“咱哥两相处这么久了，我对你也不藏拙，你对我也不藏私，不如咱哥俩结拜吧，有福同享的那种。” 于是…… “我陈继祖愿与阁下结成异性兄弟，不求同生，不求同死，只求同福。” “我李世民愿与阁下结成异性兄弟，不求同生，不求同死，只求同福。” 陈继祖：“等等！你说你叫什么？李世民？哪个李世民？” “你是大唐皇帝啊？”",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o232859eb840a36497c89f62f03b1f211~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793331937&x-signature=TVNhaV%2BBnWapRw6f2UlFgkrBlEE%3D",
+          "url": "https://fanqienovel.com/page/7691698189681822782"
         },
         {
           "title": "大周的诗仙，竟然是个赘婿",
           "author": "落笔惊鸿啊",
-          "reads": "3.4万",
+          "reads": "3.1万",
           "intro": "评分刚出，后面会涨。 穿越大周，沈砚成了人人嘲笑的林家赘婿。 本想靠着前世记忆，抄几首诗、赚点银子，安安稳稳过日子。 谁知一场诗会彻底改变了他的命运。 当所有人都以为他只是个会作诗的赘婿时，却不知道，这位名满天下的“诗仙”，已悄然踏入大周朝堂。 沈砚只想问一句： “我就想躺平，怎么就成王了？”",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o3065c3b236f78e9499ad2f378d050d89~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793245232&x-signature=ElFDh8mfNZXrFoCJhOD1WlGy3hY%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o3065c3b236f78e9499ad2f378d050d89~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793331937&x-signature=axgIXXpG9EajXz4hFhWu%2BgAPUGk%3D",
           "url": "https://fanqienovel.com/page/7684573738926345278"
         },
         {
           "title": "大明：请朱棣进位太上皇",
           "author": "这个八戒有点傻",
-          "reads": "3.1万",
-          "intro": "永乐元年，已经穿越两年的朱高煦看着朱棣要将自己调离京城，想要立朱高炽为太子，终于不再忍。 你朱老四奉天靖难，我朱高煦便来一次玄武门对掏！ 两年多时间的谋划，当朱高煦提着滴血的长剑推开殿门，来到朱棣身前。 “儿臣，请陛下进位太上皇！” 永乐元年？ 这是靖武元年！",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o64071db132f5389c49e26c3030ebb7bb~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793245232&x-signature=lUQD0yIhC5GoVfNlm7xoo0yaOow%3D",
-          "url": "https://fanqienovel.com/page/7681877218640792600"
-        },
-        {
-          "title": "关于我被诸葛亮养大这件事儿",
-          "author": "笑看秋月与春风",
           "reads": "3万",
-          "intro": "【轻松】【无系统】【无后宫】【历史文】 我穿越到汉末三国，被诸葛亮养大。 他教我读书，带我种地，替我操心婚事。我知道他以后会累死，五丈原秋风一起，命就没了。 所以这次，换我来。 我就一个目的，让我的阿兄，别像历史上那样累死。 至于手段嘛……现代人的学杂费，可是一分钱都没白交的。",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2ocad837cb175986c7cf60499432199bf5~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793245232&x-signature=TumA%2B4pQ9YqO9W%2BHg5N9jaYl39k%3D",
-          "url": "https://fanqienovel.com/page/7692192133750459454"
+          "intro": "永乐元年，已经穿越两年的朱高煦看着朱棣要将自己调离京城，想要立朱高炽为太子，终于不再忍。 你朱老四奉天靖难，我朱高煦便来一次玄武门对掏！ 两年多时间的谋划，当朱高煦提着滴血的长剑推开殿门，来到朱棣身前。 “儿臣，请陛下进位太上皇！” 永乐元年？ 这是靖武元年！",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o64071db132f5389c49e26c3030ebb7bb~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793331937&x-signature=5h1cJZ8XSOw9el71%2FE3N%2FkhGOwo%3D",
+          "url": "https://fanqienovel.com/page/7681877218640792600"
         },
         {
           "title": "洪武七年：我成了蓝玉",
           "author": "多一点i",
-          "reads": "2.7万",
+          "reads": "2.5万",
           "intro": "冲天大运，我居然魂穿到了洪武七年的蓝玉身上。 原本担心命不久矣结果发现现在的老朱还没黑化！ 蹬鼻子上脸模式启动！ 保住朱标和雄英！ 老朱想杀我，我只能说：老朱啊～你又急！ 一不小心把老朱熬死了，结果没想到朱标又整幺蛾子！ 我大明第一外姓王蓝玉！不同意！ 将妖妇吕氏剥皮充草！",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o7db01efb1b09303b91a53bf6225dfc6d~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793245232&x-signature=HADTGfvK3dJe3XIhTe6xZ3A99HY%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o7db01efb1b09303b91a53bf6225dfc6d~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793331937&x-signature=lkHWBpFpi%2BEKpWihlnH4BEg%2FTRo%3D",
           "url": "https://fanqienovel.com/page/7685394729361493054"
-        },
-        {
-          "title": "刚拜完把子，兄弟说他叫李世民",
-          "author": "大唐彦祖",
-          "reads": "2.7万",
-          "intro": "陈继祖穿越大唐，恰逢河西旱灾，在流浪去长安的路上遇到一名即将死去的少年。 陈继祖带着少年的遗愿来到对方远在长安为官的亲属家中。 只是这位亲属总喜欢问些奇怪的事。 “继祖，你这个水能龙骨水车怎么制造的？” “继祖，你这个抗生素再给我两粒呗？” “继祖，你上次做的诗再与我说一遍，我没记清楚。” 陈继祖则笑着道：“咱哥两相处这么久了，我对你也不藏拙，你对我也不藏私，不如咱哥俩结拜吧，有福同享的那种。” 于是…… “我陈继祖愿与阁下结成异性兄弟，不求同生，不求同死，只求同福。” “我李世民愿与阁下结成异性兄弟，不求同生，不求同死，只求同福。” 陈继祖：“等等！你说你叫什么？李世民？哪个李世民？” “你是大唐皇帝啊？”",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o232859eb840a36497c89f62f03b1f211~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793245232&x-signature=%2BCudz9jtViln%2BmYz5BkuCZFAcd0%3D",
-          "url": "https://fanqienovel.com/page/7691698189681822782"
-        },
-        {
-          "title": "我世袭郡侯，抢个新娘算什么？",
-          "author": "落雪长安",
-          "reads": "2.7万",
-          "intro": "顾承宁魂穿大梁王朝。 父亲顾茂，为救皇帝而死，母亲赵莹为救皇后而亡。 就这出身，一辈子躺平了。 然而，开局未婚妻就要退婚跟别人。 这他能忍？ 于是，直接抢了未婚妻弟弟的新娘……",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o1dfd7b545e50c74c44f7ca171dc39cde~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793245232&x-signature=yYlRNEE4B4INDLeL%2Bacs11oScaw%3D",
-          "url": "https://fanqienovel.com/page/7690800860464434200"
         },
         {
           "title": "唐末：逃荒，从建山寨造火铳开始",
           "author": "虬髯大叔",
-          "reads": "2.6万",
+          "reads": "2.4万",
           "intro": "特种兵兵王李贤穿越唐末，开局妹妹就被地主家抢走，李贤连杀四人，抢回妹妹，又趁着夜色端掉了地主家，而后带着妹妹开始逃荒。 他以自身的一身本领纠集流民，占山建寨，挖煤铁、炼毒盐、造火铳，黑火药在手，硬通货我有。 藩镇割据算什么？等火铳一响，这天下就该换主人了。 从一座山寨开始，打到长安去。",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2of6dc221ce68e94e544e9ae2487188f98~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793245232&x-signature=OEXQyujCu65GxOiBrahcKn91cD4%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2of6dc221ce68e94e544e9ae2487188f98~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793331937&x-signature=MHl68HwTCg%2B54tgiYiJpgubmP40%3D",
           "url": "https://fanqienovel.com/page/7679758222621690942"
         },
         {
           "title": "敢乱看，就会被病娇公主狠狠教育",
           "author": "桑梓大叔",
-          "reads": "2.3万",
+          "reads": "2.4万",
           "intro": "【多女主+历史架空+古代争霸+病娇公主】 身为顶尖大学博士生，赫赫有名的材料学家，由于孙极达平时压力大，养成个特殊癖好。 游玩男人们都喜欢的小游戏。 然后，他穿越了，穿越到游戏的绑架案中。 幸运的是，他是绑匪。 不幸的是，他帮了公主。 幸运的是，公主放过了他，并爱上了他。 不幸的是，公主是病娇！！ 看病娇处对象，是种乐趣。 跟病娇处对象，是个灾难！ 公主：你看哪呢？喜欢她的腿，那我取下来给你好不好？ 公主：来人！孙准驸马犯了渎职之罪，关入我闺房之中！ 孙极达：我哪儿渎职？兵练的不强？还是刀炼得不锋？ 公主：呵呵，两个时辰未与我相见，不是旷工？不是渎职？ ？？？ 公主殿下，这样腻乎，我很累啊，生产队的驴都没我累。",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o10e21b13be7e55c61e73ebd4be0a3e70~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793245232&x-signature=0Az07xImJz6GvI1cYmeZeRIYxKA%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o10e21b13be7e55c61e73ebd4be0a3e70~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793331937&x-signature=%2FexA61e9d7eMcjJue1jYPWJ4XFI%3D",
           "url": "https://fanqienovel.com/page/7683182122189720600"
         },
         {
-          "title": "大明：满级嫡孙，老朱杀疯了",
-          "author": "爱吃武汉莲藕的尙怡",
-          "reads": "2.2万",
-          "intro": "洪武二十五年，太子朱标合棺入陵。 庶子朱允炆狂喜，满朝文武欲推其上位。 皇陵前，朱元璋心灰意冷，准备举起屠刀清洗淮西勋贵，为朱允炆铺路。 就在此时，八百里加急震惊天下！ 一尊修罗杀神，率十万大雪龙骑踏破漠北，携毁天灭地之势兵临应天府！ 奉天殿前，少年卸下面具，赫然长着一张与朱标七分相似，却更具帝王杀伐之气的脸！ 他，竟是当年马皇后死遁藏于九边历练的真嫡长孙——朱允煌！ 回归之日，一脚踹翻朱允炆，一刀斩落贪官头！ 舅姥爷蓝玉狂热叩首：“这才是大明唯一继承人！”",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o64230241110967e56b8b1e81d91a0e86~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793245232&x-signature=zpNESLi97%2FQ%2FVYwpkK%2Bv8pDh%2B%2BI%3D",
-          "url": "https://fanqienovel.com/page/7687463658267348030"
+          "title": "大周状元郎：开局弹劾宰相",
+          "author": "封山大猫",
+          "reads": "2.4万",
+          "intro": "李游穿过来二十二年，成了大周新科状元，一时风光无限。 还没来得及享受，就被当朝宰相陈辅“看中”了。 陈辅：入我门下，三年给你个侍郎。 李游：你一个奸相算老几？ 陈辅笑了：有骨气，那你去当驸马吧。 李游：？？？ 驸马不得掌实权，不得拜相，不得带兵。 这是祖制。 满朝文武等着看新科状元怎么破局。 李游慌了三秒，然后出班，整了整衣冠，一本正经： “陛下，臣弹劾陈辅，干涉皇家内事，越权僭越，其心可诛！”",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2of332a55eedd895ab3d727c157ea49078~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793331937&x-signature=J1CPvSpSvWWAISpFVdQ%2BY9XBf4o%3D",
+          "url": "https://fanqienovel.com/page/7650009237422099481"
+        },
+        {
+          "title": "三国：洛水之誓，狗都不信",
+          "author": "金陵小布衣",
+          "reads": "2.3万",
+          "intro": "前人田土后人收，更有收人在后头。 曹彦穿越而来，身为曹真之子，曹爽亲弟，恰逢高平陵之变，命悬一线！ 司马懿对着洛水指天发誓，只要曹爽交出兵权，便保曹家荣华富贵。 曹彦对着这个千年骗局，大喊道：洛水之誓，狗都不信！ 他苦劝大哥不要去做那富家翁，奈何曹爽听不进去。 曹彦抓住唯一生机，求取镇北将军、幽州牧，从洛阳虎口脱身，奔赴北疆。 以幽州一隅，抗衡手握天下的司马氏。 重耳在外而安，他要为曹魏留存火种，守住大魏北疆。 待到羽翼丰满，以“清君侧”名义，重夺天下！ 司马氏阻止不了五胡乱华，我曹某人挥师反杀。 “五胡可往，我亦可往。”",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o2e5d0d86c106294c78c6f4d3bc318636~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793331937&x-signature=JL16sLiEUV7lUTwuHpDXgus14TE%3D",
+          "url": "https://fanqienovel.com/page/7685793837591055384"
         }
       ]
     }
