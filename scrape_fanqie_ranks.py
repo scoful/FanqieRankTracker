@@ -6,7 +6,7 @@ import os
 import time
 from datetime import datetime
 
-from playwright.sync_api import sync_playwright
+from playwright.sync_api import TimeoutError as PlaywrightTimeoutError, sync_playwright
 
 from scripts.board_config import (
     BOARDS,
@@ -134,6 +134,19 @@ def write_json(path: str, payload: dict):
         json.dump(payload, f, ensure_ascii=False, indent=2)
 
 
+def open_rank_page(page, url):
+    for attempt in range(3):
+        try:
+            page.goto(url, wait_until="domcontentloaded", timeout=60000)
+            page.wait_for_selector('a[href^="/page/"]', timeout=30000)
+            return
+        except PlaywrightTimeoutError:
+            if attempt == 2:
+                raise
+            print(f"榜单入口页加载超时，5 秒后重试 ({attempt + 1}/3)")
+            time.sleep(5)
+
+
 def scrape_one_board(page, board_cfg: dict, limit: int = 30, sleep_sec: float = 5):
     channel = board_cfg["channel"]
     board = board_cfg["board"]
@@ -154,8 +167,7 @@ def scrape_one_board(page, board_cfg: dict, limit: int = 30, sleep_sec: float = 
     entry = init_url(board_cfg)
     print(f"\n===== {label} ({channel}/{board}) =====")
     print(f"[{datetime.now().strftime('%H:%M:%S')}] 入口: {entry}")
-    page.goto(entry, wait_until="load", timeout=30000)
-    page.wait_for_selector('a[href^="/page/"]', timeout=8000)
+    open_rank_page(page, entry)
 
     categories_js = f"""
     () => {{
