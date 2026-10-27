@@ -3,232 +3,228 @@
   "board": "new",
   "label": "男频新书榜",
   "type": "男频衍生",
-  "date": "2026-10-26",
-  "prev_date": "2026-10-25",
+  "date": "2026-10-27",
+  "prev_date": "2026-10-26",
   "category": {
     "name": "男频衍生",
     "trend": {
       "new_count": 2,
       "dropped_count": 2,
       "new_books": [
-        "四合院之我是周猛",
-        "四合院：我金发碧眼，说是自己人"
+        "名义：汉大？不，我是总部的",
+        "诸界：从四合院开始"
       ],
       "dropped_books": [
         {
-          "title": "名义：空降汉东，我就是规矩！",
-          "intro": "汉东有四绝：高育良的汉大帮、李达康的不粘锅、祁同伟的胜天半子、陈岩石的退而不休！ 宁怀远，空降汉东！ 从这一开始，汉东的规矩变了，我就是规矩！ 不管是谁，不按照规矩办事，那就休怪我无情！ 陈岩石，伪君"
+          "title": "四合院：1948年开局暴富躺平",
+          "intro": "宋子明穿到1948年大上海，系统却要他到北京四合院才激活，偏偏还是【乐享系统】 这下子宋子明有点头大，有这享乐为主的系统，跑路到香港不好吗？赚点钱、住豪宅、再多娶几个姨太太、泡泡女明星，平时还可以打牌"
         },
         {
-          "title": "爱情公寓：开局让许红豆对我负责",
-          "intro": "好消息：林帆穿越了，有车有房，还白捡了个天仙般的女朋友许红豆。 坏消息：女朋友是个极度理智的酒店大堂经理，而且同居地点在爱情公寓。 当五星级酒店的满级职业素养，撞上全员神经病的公寓邻居…… 林帆的日常"
+          "title": "四合院：开局被抓壮丁",
+          "intro": "【年代】【四合院】【空间】 赵川意外来到了1944年，开局就被抓了壮丁，而此时距离抗战胜利还有相当长的一段时间，面对着如此天崩开局，他该如何活下去，而且活的越来越好。 本书多女主，对人物年龄略作更改。"
         }
       ],
       "top_risers": [
         {
-          "title": "霍格沃茨：马尔福竟是傲娇千金？",
-          "change": "+4"
+          "title": "四合院：我金发碧眼，说是自己人",
+          "change": "+6"
         },
         {
           "title": "笑傲：开局选华山派天赋三选一",
-          "change": "+4"
+          "change": "+3"
         },
         {
-          "title": "名义：我能源圣子，创飞所有人",
-          "change": "+2"
+          "title": "四合院之我是周猛",
+          "change": "+3"
         }
       ],
       "top_fallers": [
         {
-          "title": "名义赵瑞龙，动点脑就骂我纨绔？",
-          "change": "-3"
-        },
-        {
           "title": "港综：给兄弟花钱，我百倍返还",
-          "change": "-2"
+          "change": "-1"
         },
         {
-          "title": "名义：我！汉东最强搅屎棍",
-          "change": "-2"
+          "title": "名义：我能源圣子，创飞所有人",
+          "change": "-1"
         }
       ],
       "reads_growth": [
         {
           "title": "龙族：我的强化每月刷新",
-          "growth": "+6.7万"
-        },
-        {
-          "title": "四合院：1948年开局暴富躺平",
-          "growth": "+3.9万"
+          "growth": "+3.5万"
         },
         {
           "title": "霍格沃茨：马尔福竟是傲娇千金？",
-          "growth": "+3.4万"
+          "growth": "+3.3万"
+        },
+        {
+          "title": "美漫，从黑暗奇异博士开始",
+          "growth": "+2.0万"
         }
       ],
-      "summary": "**🔥 题材趋势**：四合院与《名义》同人呈井喷态势，Top20中两者合计占12席，且衍生方向从“取代主角”转向“拱火搅局”的差异化人设。港综、龙族、哈利波特等IP同人稳占中腰部，题材融合（如四合院+抗美援朝）成为新书突围切口。\n\n**📖 读者偏好**：爽点前置极强——系统激活延迟、开局天崩、身份错位等“憋屈-爆发”结构高频出现；打脸对象多为原著权威（沙瑞金、赵瑞龙、马尔福），读者要的是“用规则外手段碾压规则内玩家”的越位快感。\n\n**🆕 新上榜作品**：《四合院之我是周猛》靠“多剧融合+遗产接收”制造悬念钩子；《四合院：我金发碧眼》以“美军脸志愿军心”的极端身份反差+黑科技改变命运，上架爆发力来自身份危机的即时张力。\n\n**📉 掉出榜单**：两本掉榜书均属“空降汉东当规矩制定者”和“爱情公寓+许红豆”的常规同人套路，缺乏拱火/搅局类作品的乐子人差异化标签，在同题材内卷中被挤出。\n\n**💡 值得关注**：拱火流（《不拱火我来汉东干什么》《汉东最强搅屎棍》）正形成子类型，核心卖点是“不建设只拆台”的反英雄爽感；《马尔福傲娇千金》以性转+单女主日常开辟哈利波特同人新赛道，排名上升验证性别反转红利。",
+      "summary": "**🔥 题材趋势**：榜单被《人民的名义》同人屠榜（Top20占8席），“空降汉东+搅局制霸”成最热模板；四合院年代文与龙族/哈利波特等IP衍生构成第二梯队，题材高度集中于“官场博弈+同人解构”与“经典IP+系统金手指”两条主线。\n\n**📖 读者偏好**：爽点前置极快——开篇即空降掌权、系统绑定或身份反转，打脸节奏密集；读者偏爱“搅屎棍/拱火”型主角，争霸布局从单点破局转向全域通吃，对“体制内逆袭+经济神话”组合买单意愿最强。\n\n**🆕 新上榜作品**：《名义：汉大？不，我是总部的》以“总部视角”差异化切入汉大帮叙事，血缘梗+辈分压制制造新鲜打脸点；《诸界：从四合院开始》主打懒散咸鱼穿诸天，反套路躺平流在快节奏榜单中形成辨识度。\n\n**📉 掉出榜单**：两本四合院年代文《1948年开局暴富躺平》《开局被抓壮丁》双双出局，说明纯年代生存+系统慢热型开局在新书榜爆发力不足，缺乏强冲突钩子即被挤出。\n\n**💡 值得关注**：名义同人内部已现同质化内卷，Top3即占榜单在读量近三成，腰部作品靠“乐子/拱火”人设硬撑；龙族同人（第2、10名）以“压分+模拟器”机制稳住基本盘，IP衍生中“反套路角色性转/群像误解”是下一波差异化切口。",
       "source": "ai"
     },
     "books": [
       {
-        "title": "四合院：1948年开局暴富躺平",
-        "author": "喜欢蓝地柏的黑蛇魂",
-        "reads": "47.2万",
-        "intro": "宋子明穿到1948年大上海，系统却要他到北京四合院才激活，偏偏还是【乐享系统】 这下子宋子明有点头大，有这享乐为主的系统，跑路到香港不好吗？赚点钱、住豪宅、再多娶几个姨太太、泡泡女明星，平时还可以打牌、出海、去澳门，再不然还可以出国，世界那么大，到处转转玩玩，享乐吗？这不就是享乐？ 为什么非要到四合院呢？没办法，只能先干一票大的，从大上海搜刮亿点钱跟物资，再到北京躺平赚积分。 ……",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oce1568b14a73c19d94467c7fa22a29e6~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793590835&x-signature=R2wl125ReBJ%2B8UCzDzEwrlmNdRE%3D",
-        "url": "https://fanqienovel.com/page/7691614728883276824"
-      },
-      {
         "title": "名义：取代沙瑞金，拿捏汉东全局",
         "author": "萧疏净",
-        "reads": "37.5万",
+        "reads": "36.7万",
         "intro": "一纸调令，将远在魔都的林致远调到了汉东。 汉东复杂，表面上有秘书帮、汉大帮两座山头互掐，暗地里还有本地世家坐山观虎斗，林致远岂能让他们如意？ 汉东的两大山头林致远要打掉，首先是高育良、李达康两人跑不了。 本地世家也要清理，赵瑞春的赵家、陈岩石的陈家、梁璐的梁家、陆亦可的陆家、林华华的林家，谁都别想跑。 在打击两大山头和本土世家的同时，林致远也没有放弃经济发展，彼时正值AI科技爆发的前夜，林致远自然不会错过这个千载难逢的好机会。",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o8d1d253c48554d3217e79eceb3c33ebe~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793590835&x-signature=4DvRftEdQ981UneQyJlIwpoPI3o%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o8d1d253c48554d3217e79eceb3c33ebe~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793678805&x-signature=dXhVLPkO7N59FATLfI6NSxJ9D68%3D",
         "url": "https://fanqienovel.com/page/7684534214074584089"
+      },
+      {
+        "title": "龙族：我的强化每月刷新",
+        "author": "养只小狗叫港港",
+        "reads": "36.2万",
+        "intro": "【已压分】 好消息：沈疏穿越了，是他最喜欢的小说《龙族》，还有金手指。 坏消息：他开局选了两个前期乏力的强化。 【延迟满足：在三年后获得S级血统，期间无法获得新的强化】 【越挫越勇：选定一名目标进行挑战，将其战胜后可获得奖励，在此之前，失败的次数越多，最终的奖励就越丰厚。】 当三年之期已到，卡塞尔学院的大门洞开，临近高考的沈疏终于迎来了属于自己的肆意青春。 接下来向你走来的，是卡塞尔学院的新锐S级之一、路明非最好的使用者、昂热校长最宝贝的爱徒、狮心会会长与学生会主席的挚友兼对手、执行部最锋利的王牌、某位大小姐最在意的冤家，沈疏！ 【原创主角】【不拆原著CP】【楚夏】【凯诺】【路绘或路零（待定）】【龙族】【战斗爽！！一般情况下不留隔夜仇】 【不是保姆文】 【金手指其实就是金铲铲里的海克斯强化 但是防止读者宝贝们没玩过 就叫随机强化了OvO】",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o236fbc3d0e4f50cd0bcb6a34a636d403~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793678805&x-signature=GPFniGAIe4Acztca4J1ZooHTKqU%3D",
+        "url": "https://fanqienovel.com/page/7682611293668248600"
       },
       {
         "title": "不拱火我来汉东干什么？",
         "author": "黄四强本强",
         "reads": "33.1万",
         "intro": "《无AI，纯手搓》 不保姆，只拱火。 一纸调令，空降汉东。 面对日益紧张的汉东局势，秦河决定多添一把柴火。 拱火，甩锅，扣帽子，有我才有天。 誓要将汉东拱到举世皆敌。 问苍茫大地，谁主沉浮！",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o1ec5532053ce1e34c97af01606d8bcf3~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793590835&x-signature=g0IJoguTQI0eUxVqs83BhNN%2BHD4%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o1ec5532053ce1e34c97af01606d8bcf3~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793678805&x-signature=1Gvq0ZzG8dp0ihCI2dyhjUTwQ9g%3D",
         "url": "https://fanqienovel.com/page/7679903132029029401"
-      },
-      {
-        "title": "龙族：我的强化每月刷新",
-        "author": "养只小狗叫港港",
-        "reads": "32.7万",
-        "intro": "【已压分】 好消息：沈疏穿越了，是他最喜欢的小说《龙族》，还有金手指。 坏消息：他开局选了两个前期乏力的强化。 【延迟满足：在三年后获得S级血统，期间无法获得新的强化】 【越挫越勇：选定一名目标进行挑战，将其战胜后可获得奖励，在此之前，失败的次数越多，最终的奖励就越丰厚。】 当三年之期已到，卡塞尔学院的大门洞开，临近高考的沈疏终于迎来了属于自己的肆意青春。 接下来向你走来的，是卡塞尔学院的新锐S级之一、路明非最好的使用者、昂热校长最宝贝的爱徒、狮心会会长与学生会主席的挚友兼对手、执行部最锋利的王牌、某位大小姐最在意的冤家，沈疏！ 【原创主角】【不拆原著CP】【楚夏】【凯诺】【路绘或路零（待定）】【龙族】【战斗爽！！一般情况下不留隔夜仇】 【不是保姆文】 【金手指其实就是金铲铲里的海克斯强化 但是防止读者宝贝们没玩过 就叫随机强化了OvO】",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o236fbc3d0e4f50cd0bcb6a34a636d403~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793590835&x-signature=iPzA3rnGoZxerrLaJPpvOQVK1Es%3D",
-        "url": "https://fanqienovel.com/page/7682611293668248600"
       },
       {
         "title": "四合院：大军进城，我系统吓跑了",
         "author": "吃面加个蛋",
-        "reads": "25.9万",
+        "reads": "27.4万",
         "intro": "轻松—日常——单女主—秦淮茹 周景明来到了1949年，还是四合院的世界，本来以为有系统的他可以在这个时代活的很滋润，结果大军进城时，系统被吓跑了！只留下一个基本功能，这不完犊子了吗？",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oa66dafeb2cf2e8dad275bc88b49d2393~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793590835&x-signature=7KxJ%2FNe7Ju0%2Bie4vdkQEt8r2ZA4%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oa66dafeb2cf2e8dad275bc88b49d2393~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793678805&x-signature=Nn2mncpaAoUYALPyl1IWmx0aaZA%3D",
         "url": "https://fanqienovel.com/page/7683390156291705880"
-      },
-      {
-        "title": "港综：给兄弟花钱，我百倍返还",
-        "author": "芋头丁",
-        "reads": "25.7万",
-        "intro": "穿越八十年代港岛，沈枭替大B出生入死，入狱三年。 大B答应他：“出来之后，扎职红棍！” 三年后。 沈枭出狱。 大B没来，陈浩南没来，只让人送来两万港币，还准备让他去看停车场。 就在这时—— 【兄弟百倍返现系统绑定成功！】 只要是真心认沈枭做兄弟的人，沈枭花在他们身上的每一分钱，都能百倍返现！ 兄弟受伤？十万医药费！ 【返现一千万！】 兄弟跟自己出生入死？一人十万奖金！ 【返现一个亿！】 兄弟没地方住？买楼，一人一套！ 从此港岛江湖彻底看不懂了。 别的大哥收小弟，是为了让小弟赚钱养自己。 沈枭收小弟，却生怕兄弟花得太少！ 大B：“出来混哪有你这么发钱的？” 沈枭：“所以你的兄弟，现在都想跟我。” 陈浩南：“我讲的是义气！” 沈枭对此只有一句话： “出来混，嘴上讲义气有什么用？我沈枭的兄弟替我流血，我就让他跟我一起富贵！” 话音落下，沈枭看向自己身后上万名小弟。 “来，告诉他们，现在整个港岛谁是老大！” 小弟们齐声道：“枭哥！”",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o4e470d1db9b172468978cb79a0bc0906~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793590835&x-signature=hEkQVTqUxoLL68aw9SteNLzrdeA%3D",
-        "url": "https://fanqienovel.com/page/7687525826979433496"
       },
       {
         "title": "霍格沃茨：马尔福竟是傲娇千金？",
         "author": "东云浅",
-        "reads": "23.9万",
+        "reads": "27.2万",
         "intro": "【穿越哈利＋傲娇恶役千金＋单女主＋轻松日常＋魔法冒险】 “波特，我允许你成为我的朋友。” “你为什么总是和那些白痴在一起，让我帮你找到你真正的朋友。” 穿越成为哈利·波特，他提前想好了如何应对霍格沃茨的种种危机。 唯独没想到，那个本该与自己处处作对的马尔福，竟然是个漂亮金发大小姐。 看着递到面前的手，哈利当场愣住。 马尔福。 你怎么变成女生了？ 然而，这几秒钟的沉默，已经足够让大小姐认定——他竟敢当众拒绝自己！ “你会为今天的无礼付出代价，波特！” 从此，哈利的校园生活里，多了一位非要让他低头的马尔福小姐。 她要在飞行课上赢过他，在魔药课上压他一头，还要让他明白，错过马尔福家的友谊，是多么愚蠢的决定。 可较劲的次数越来越多，事情渐渐有些不对。 对此...... 出身高贵的马尔福小姐红着脸表示： “波特，别误会，我一点都不关心你!” “我只是还没赢过你，才不许你死在别人手里!”",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oee2d0111d82a5f61c379819023f59d24~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793590835&x-signature=U%2BHIuok0jM%2BWVKAtVc1H%2B%2F2pR2A%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oee2d0111d82a5f61c379819023f59d24~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793678805&x-signature=qo1mKrEa6j6hP8lmVyu70J6tx4Q%3D",
         "url": "https://fanqienovel.com/page/7694267542633712665"
       },
       {
         "title": "美漫，从黑暗奇异博士开始",
         "author": "两元一串的钵钵鸡",
-        "reads": "23.6万",
+        "reads": "25.6万",
         "intro": "【漫威】【DC】 林旭穿越漫威八年，好不容易从一个中产发展到资本家，最后发现居然是黑暗奇异博士的宇宙 作为一个没有系统的普通人，他只能进行一场跨越时间线惊天骗局。 维山帝:古一被永恒挖走了，斯特兰奇不靠谱，王太稳重，传承白魔法的任务，就交给你了！ 目前:《黑暗奇异》《超凡》《三蛛》《金刚狼》《终局之战》《无限奥创》《金刚狼3》《死侍与金刚狼》",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o864c9025d1c505d623c49dde68feff1f~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793590835&x-signature=c%2BGvM8jGUvKiA0uUyIWfQvWhC4c%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o864c9025d1c505d623c49dde68feff1f~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793678805&x-signature=c5Bj9rGtwqoGsIh9jDilkJcMhow%3D",
         "url": "https://fanqienovel.com/page/7595538355538889790"
+      },
+      {
+        "title": "港综：给兄弟花钱，我百倍返还",
+        "author": "芋头丁",
+        "reads": "25万",
+        "intro": "穿越八十年代港岛，沈枭替大B出生入死，入狱三年。 大B答应他：“出来之后，扎职红棍！” 三年后。 沈枭出狱。 大B没来，陈浩南没来，只让人送来两万港币，还准备让他去看停车场。 就在这时—— 【兄弟百倍返现系统绑定成功！】 只要是真心认沈枭做兄弟的人，沈枭花在他们身上的每一分钱，都能百倍返现！ 兄弟受伤？十万医药费！ 【返现一千万！】 兄弟跟自己出生入死？一人十万奖金！ 【返现一个亿！】 兄弟没地方住？买楼，一人一套！ 从此港岛江湖彻底看不懂了。 别的大哥收小弟，是为了让小弟赚钱养自己。 沈枭收小弟，却生怕兄弟花得太少！ 大B：“出来混哪有你这么发钱的？” 沈枭：“所以你的兄弟，现在都想跟我。” 陈浩南：“我讲的是义气！” 沈枭对此只有一句话： “出来混，嘴上讲义气有什么用？我沈枭的兄弟替我流血，我就让他跟我一起富贵！” 话音落下，沈枭看向自己身后上万名小弟。 “来，告诉他们，现在整个港岛谁是老大！” 小弟们齐声道：“枭哥！”",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o4e470d1db9b172468978cb79a0bc0906~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793678805&x-signature=kinMBZHEWc%2BPu71ieq2Dr5vHr%2Fc%3D",
+        "url": "https://fanqienovel.com/page/7687525826979433496"
       },
       {
         "title": "四合院：我在1944是个败家子",
         "author": "好无李的小仙女",
-        "reads": "21.1万",
+        "reads": "20.5万",
         "intro": "蓝星一个40岁的中年老登秦长林，功成名就后，一时间心血来潮，回了那个已经快是无人村的农村老家，把爷爷，大伯，三叔，还有父亲，一共四块宅基地，一起盖了一个一千三百平的三进四合院…还给堂兄弟，堂姐妹都留了房间，让他们偶尔回老家有个落脚的地方，谁知道在准备过春节大团圆的时候，他熬夜看了一本非常哇塞的四合院同人小说，随后就昏睡了过去，再睁眼就是1944年的四九城，还是一个18岁的富家少爷身上…",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oe5ab3ef0b4e03ef99deadf8621d9ded7~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793590835&x-signature=bKn7JrjKL0gvZjrpKXPfr7tLbRc%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oe5ab3ef0b4e03ef99deadf8621d9ded7~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793678805&x-signature=Cc3yiWSC41ziBXX%2BMOr6%2FVqy%2Bno%3D",
         "url": "https://fanqienovel.com/page/7688534882523286552"
       },
       {
         "title": "名义赵瑞龙，动点脑就骂我纨绔？",
         "author": "秃驴放开",
-        "reads": "21万",
+        "reads": "19.9万",
         "intro": "【纯手搓】魂穿人民名义，刚穿就成为汉东太子赵瑞龙。 可是这时候时间不等人。 大风厂的大火即将点燃，上面的审判也要接踵而来。 既然都想置于死地，那就不如做一个不懂规矩的纨绔子弟。 ...... “大风厂价值十个亿是吧？行，这地我们不要了！让给他们了。但大风厂员工需要归还之前已经支付的下岗安置费，四千五百万和抵押贷款的费用。并且我们不赚谁也别想赚，这次我盯着，谁敢在大风厂这上面犯罪我赵瑞龙第一个不答应。” “美食城污染环境是吧？行，那美食城我们也不要了，设备搬迁，人员撤离，我们去其他地方建，只要有我赵瑞龙，何处不是美食城？” “育良书记，小凤的事情我来处理，和你没一点关系。” “这钱赚多少是赚啊？同伟，是时候让出股份了！” “.......” 沙瑞金：“欺天了！！！” 【人民名义】【仕途】【乐子】【搞笑】【剧情流】【不无脑】",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o8404d137e8cfdf29a227031ddb081bcb~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793590835&x-signature=TzQ9I8yVj4eC9HYp6%2FqjWkQT8W8%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o8404d137e8cfdf29a227031ddb081bcb~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793678805&x-signature=vzwBmKM482KA7iQNaGJ76XbULw0%3D",
         "url": "https://fanqienovel.com/page/7687526098841635865"
-      },
-      {
-        "title": "四合院：开局被抓壮丁",
-        "author": "千一千末",
-        "reads": "20.3万",
-        "intro": "【年代】【四合院】【空间】 赵川意外来到了1944年，开局就被抓了壮丁，而此时距离抗战胜利还有相当长的一段时间，面对着如此天崩开局，他该如何活下去，而且活的越来越好。 本书多女主，对人物年龄略作更改。",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o8a957d48148ed62d50e7d20a03af8157~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793590838&x-signature=G6CGMcKAPCj0Ua9VghwGp1%2B%2B2wc%3D",
-        "url": "https://fanqienovel.com/page/7677557780772834366"
       },
       {
         "title": "龙族：什么叫他们都模拟过我！？",
         "author": "云上生花",
-        "reads": "19.3万",
+        "reads": "19.7万",
         "intro": "【非路明非】、【多女主】 我叫苏然，我发现自己好像穿越到了某个和地球相似的世界，不过没关系，我还有个成就系统可以助我走上人生巅峰。 然后，我就遇到了卡塞尔学院的老流氓校长…… 等等，这个龙族世界是不是有点不太对劲？你们怎么一个个都不按剧情走啊？你们为什么要用这种眼神看着我？等等，这几位姑娘，你们怎么一副看渣男的表情啊？我们不熟吧？ “我是酒德麻衣，一个忍者，正在为魔鬼服务，这一天，我发现自己有了一个模拟人生的系统……” “我是昂热，正在享受阳光沙滩，看泳装美女的时候，我眼前忽然多了个模拟人生的系统……” “我是路明非，这平常的一天，我忽然发现自己拥有了模拟未来的超能力……” “我是……” 没时间怀念路明非了，接下来登场的是：对龙特攻、残血战神、不败神话、妇女之友、域外天魔、跳出一切规则与约束，在无数种未来之中依旧取得最后胜利，夺取世界权柄的苏然大人！",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2ob3a1a095b34e1c260b0f416ee6d9f394~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793590838&x-signature=26DPAo35OjmCDHQPJHS6b2oTsuk%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2ob3a1a095b34e1c260b0f416ee6d9f394~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793678805&x-signature=SWTmtAEK6iaHytI0%2BN%2Fd75q8qLA%3D",
         "url": "https://fanqienovel.com/page/7690200548854729790"
       },
       {
         "title": "爱情公寓魅魔，我成女神们团宠了",
         "author": "摸鱼小能豆子",
-        "reads": "16.9万",
+        "reads": "17.4万",
         "intro": "【多女主＋爽文＋团宠日常】 前一脚刚准备出门，后一脚夏木就来到了一个综影视融合的世界。 凭借着无与伦比的颜值身材，碰到的各色女神都开始黏上了他。 林宛瑜：“我就说爱情公寓有宝贝，夏木就是我要找的宝藏。” 诺澜：“亲爱的，我们要永远在一起！” 秦羽墨：“走，跟我进屋” 心凌：“夏木你知道的，我是一个传统的女孩，所以我不介意做小。” 乔晶晶：“夏木，你才是我的荣耀！” 诸葛大力：“大力才能出奇迹！” 夏木：“我超威，我怎么成魅魔了？”",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o613e8aca5977220e9c9107d250676e36~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793590838&x-signature=W5wwCJfh1c6mJr5Ul1J1XE%2F3ow0%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o613e8aca5977220e9c9107d250676e36~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793678808&x-signature=avrc5icKPo1FT5UL3gb0V2cnkN0%3D",
         "url": "https://fanqienovel.com/page/7688599803621559320"
       },
       {
         "title": "名义：穿越孙连城，制霸汉东",
         "author": "东阳大官人",
-        "reads": "15.6万",
+        "reads": "15.7万",
         "intro": "孙连城胎穿名义的世界，成了婴儿时期的宇宙区长，从水木大学开毕业，孙连城步入仕途，名义剧情开局，孙连城便空降汉东，开启了制霸汉东的生涯。 简介无力，请看正文。",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o25dbfea2997e32b6f61c6bf623a9e7f9~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793590838&x-signature=tVcRKpviiiweWoZruKeCYqZXknM%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o25dbfea2997e32b6f61c6bf623a9e7f9~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793678808&x-signature=ES196I7wTlUyT21XHP6m2hDYp8c%3D",
         "url": "https://fanqienovel.com/page/7679106059226598424"
-      },
-      {
-        "title": "名义：我能源圣子，创飞所有人",
-        "author": "后宫好看吗",
-        "reads": "14.2万",
-        "intro": "现在火一点的名义书，好评都被举报光了，大家不要被影响。 【乐子】【纯架空，不映射任何现实】 周离重生名义世界四十几年，凭借记忆成为天骄。 你钟家吃老赵的绝户，三杰瑞吃小阁老的绝户，这我都不管。 但你一个小猴子，也把我们当成进步的血包？ 周离果断进场汉东。 我就拱点小火而已，你们怎么都打起来啦？",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2od440cf265dbf39a8a3f9e91995d92ccf~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793590838&x-signature=Ns30XDaxDFtYuAkrry%2FbAQsK7Jg%3D",
-        "url": "https://fanqienovel.com/page/7692222765419465752"
       },
       {
         "title": "笑傲：开局选华山派天赋三选一",
         "author": "丹桂香十里",
-        "reads": "14万",
+        "reads": "15万",
         "intro": "全球秘境降临。 穿越而来的李阳面临深渊裂隙妖魔与秘境试炼的双重绝境。 他手握熟知剧情的底牌，开局逆天反选致死率99%的华山派！ 幸得词条系统觉醒，万物皆可杀，万物皆可爆词条！ 【资质平平】合成【天纵奇才】。 后山杀猛虎爆根骨，同门切磋刷词条。 凭借高级词条，李阳半日顿悟混元功，一剑惊爆风清扬！ 当他随手拆解各种绝学。 无数武林神话皆倒吸冷气。 直到蓝星防线崩塌，妖魔压境。 李阳携无敌词条踏破虚空：“我有一剑，可屠尽世间魔！”",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oa20f5a9ee0283d1b8319920ef4f7a334~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793590838&x-signature=PLESAJgNoYwF6%2FvJfMue648qdew%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oa20f5a9ee0283d1b8319920ef4f7a334~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793678808&x-signature=nQ%2FVHzbfEcBjL0ZZX4QVEIHAT4U%3D",
         "url": "https://fanqienovel.com/page/7689753038952598553"
-      },
-      {
-        "title": "名义：我！汉东最强搅屎棍",
-        "author": "川崎重机车",
-        "reads": "13.9万",
-        "intro": "【汉东大舞台有梗你就来】 穿越《人民的名义》世界，开局李定国空降汉东。 二十二岁基层起家，徒手盘活末流城市，硬生生干出逆天经济神话！ 论搞经济，他冠绝汉东，无人能敌！ 论耍嘴炮，他舌战群委，硬刚老牌大佬！ 论搞事情，他是整个汉东官场，人人头疼的头号搅屎棍！ 人人直呼：新来的李书记，简直是汉东第一搅屎棍！",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oafb87d523b8e4bba102cc6b4946f7735~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793590838&x-signature=9oaO%2FeYhObF%2FvxN0mqPuDDz%2F2J8%3D",
-        "url": "https://fanqienovel.com/page/7688383617755515966"
-      },
-      {
-        "title": "四合院之我是周猛",
-        "author": "徕者",
-        "reads": "13.8万",
-        "intro": "再收到父母的信件来到四九城之后，周猛才知道，自己这是穿越到了一个各种电视剧结合的世界。 而自己连自己父母的样子都没有见到。 从接到那封书信的时候，就是去四九城接收他们的遗产。",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o2cf9d939c81f0aa1ace865955f3a648c~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793590838&x-signature=vQZhXbvNOgIOP2V10OrBIIfZg9c%3D",
-        "url": "https://fanqienovel.com/page/7670091358345907225"
-      },
-      {
-        "title": "万界降临，无敌从金光咒开始",
-        "author": "白云蓝天白云",
-        "reads": "13.5万",
-        "intro": "【无女主+穿越较快+无敌文】 封尘穿越蓝星，靠着文抄攒下第一桶金！ 身负母星馈赠：金光咒！ 财富自由加身体健康！ 哈哈哈哈，哥哥的快乐你想象不到！ 直到那一天，万界时空交汇！ 也好， 挂来！ 无敌之路至此开始！",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o436717c0ecb512f3e9ae3dfe5a7cbde0~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793590838&x-signature=HxYxF75ZfVFW3lZeLVr0ccPd7Dg%3D",
-        "url": "https://fanqienovel.com/page/7683505666400455742"
       },
       {
         "title": "四合院：我金发碧眼，说是自己人",
         "author": "光明宅叔",
-        "reads": "13.5万",
+        "reads": "14.2万",
         "intro": "评分刚出，后面会涨！【手打+抗美援朝+四合院+清戾气+黑科技+改变命运！】 2050年，正在给星际运输舰维修的吴礼穿越到1950年的朝鲜战场。 “举起手来！”志愿军战士的枪口对准了他，因为吴礼是金发碧眼，高鼻深目的美军军官！ “同志们，别开枪！自己人！” 前身叫威廉·吴，爷爷从广东偷渡到鹰酱，奶奶是鹰酱人，父亲是混血，一家人被顶级家族追杀，只剩他一个活口混进美军躲避追杀。 脑子里还有个650米长的星际运输舰，能收能放，能量无限。 西方脸，龙国心！用一张洋人脸，穿着美军军服，大摇大摆走进美军补给基地，搬空物资。 战争结束，居然被安排进了轧钢厂，住进了宇宙级禽兽窝：禽满四合院！",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o03e40698aff5e6cc10a2d91a9a909469~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793590838&x-signature=tUDnCqjP4Y5ahgMlj2m%2FXHOFLVQ%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o03e40698aff5e6cc10a2d91a9a909469~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793678808&x-signature=TSQsCi677RO%2Ff%2Fcf4CQfIwx1zno%3D",
         "url": "https://fanqienovel.com/page/7689743798468889625"
+      },
+      {
+        "title": "四合院之我是周猛",
+        "author": "徕者",
+        "reads": "14.2万",
+        "intro": "再收到父母的信件来到四九城之后，周猛才知道，自己这是穿越到了一个各种电视剧结合的世界。 而自己连自己父母的样子都没有见到。 从接到那封书信的时候，就是去四九城接收他们的遗产。",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o2cf9d939c81f0aa1ace865955f3a648c~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793678808&x-signature=2YnTOv9%2Bbz0mXTzWquQZyYWMmnE%3D",
+        "url": "https://fanqienovel.com/page/7670091358345907225"
+      },
+      {
+        "title": "名义：我能源圣子，创飞所有人",
+        "author": "后宫好看吗",
+        "reads": "13.7万",
+        "intro": "现在火一点的名义书，好评都被举报光了，大家不要被影响。 【乐子】【纯架空，不映射任何现实】 周离重生名义世界四十几年，凭借记忆成为天骄。 你钟家吃老赵的绝户，三杰瑞吃小阁老的绝户，这我都不管。 但你一个小猴子，也把我们当成进步的血包？ 周离果断进场汉东。 我就拱点小火而已，你们怎么都打起来啦？",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2od440cf265dbf39a8a3f9e91995d92ccf~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793678808&x-signature=rAinzmmTI9cgJAvj2HidYgd%2FSMA%3D",
+        "url": "https://fanqienovel.com/page/7692222765419465752"
+      },
+      {
+        "title": "名义：我！汉东最强搅屎棍",
+        "author": "川崎重机车",
+        "reads": "13.5万",
+        "intro": "【汉东大舞台有梗你就来】 穿越《人民的名义》世界，开局李定国空降汉东。 二十二岁基层起家，徒手盘活末流城市，硬生生干出逆天经济神话！ 论搞经济，他冠绝汉东，无人能敌！ 论耍嘴炮，他舌战群委，硬刚老牌大佬！ 论搞事情，他是整个汉东官场，人人头疼的头号搅屎棍！ 人人直呼：新来的李书记，简直是汉东第一搅屎棍！",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oafb87d523b8e4bba102cc6b4946f7735~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793678808&x-signature=dMVpkgR2f2WMrK9Z4U63xv6Qrpc%3D",
+        "url": "https://fanqienovel.com/page/7688383617755515966"
+      },
+      {
+        "title": "万界降临，无敌从金光咒开始",
+        "author": "白云蓝天白云",
+        "reads": "13.4万",
+        "intro": "【无女主+穿越较快+无敌文】 封尘穿越蓝星，靠着文抄攒下第一桶金！ 身负母星馈赠：金光咒！ 财富自由加身体健康！ 哈哈哈哈，哥哥的快乐你想象不到！ 直到那一天，万界时空交汇！ 也好， 挂来！ 无敌之路至此开始！",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o436717c0ecb512f3e9ae3dfe5a7cbde0~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793678808&x-signature=Z%2BsIHkBruzxdkKuTlkUOkCH4APQ%3D",
+        "url": "https://fanqienovel.com/page/7683505666400455742"
+      },
+      {
+        "title": "名义：汉大？不，我是总部的",
+        "author": "少弋",
+        "reads": "13.3万",
+        "intro": "王志东穿越成名义中的一员！ 本想走广大读者的老路，但没想到，汉大，门槛也不是一般人能进的！ 无奈 ，只能读了工业大学，好歹也是以前汉大分出来的！ 师伯：汉大还有帮派了？我还是第一批进入汉大 的，虽然只待了两年就分了， 但我是不是也算汉大的？我这个老头子，要不要也听命令？ 高育良：谁？老祖？根上也是汉大的？自己人？ 祁同伟：太好了，老祖安排人来了，我是不是可以进步了？ 沙瑞金：这怎么能允许呢？也是汉大的人？ 沙瑞金岳父：汉大个屁，人家以前跟的是谁，你知道吗？那是五十年代汽车厂的人！ 王志东：汉大？有问题？处理可以，但我们又不是没人了，处理，也只能我们来处理，你们代理，算怎么回事？ 高育良？该退休就退休！ 祁同伟？想进步我不拦着，指望我？谁理你？",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2obc4e173b777333d872df95ae85e81542~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793678808&x-signature=v8VF%2F3QJUKCLj09lyyNVRfPe1OU%3D",
+        "url": "https://fanqienovel.com/page/7696407699348540441"
+      },
+      {
+        "title": "诸界：从四合院开始",
+        "author": "吾宁似魔",
+        "reads": "12.9万",
+        "intro": "顾阳穿越到了影视世界，融合进灵魂的次元核心要带着主角去哪？ 从四合院到民国，从古代到玄幻，为哪般？ 次元核心本以为选定的御主能龙傲天，谁知道顾阳的性子懒散，讨厌麻烦，躺平当咸鱼。 不想沾惹任何事情的主角能把次元碎片恢复成次元世界吗？ 四合院，他从根子上就把众禽变成众情，去了港城后，又怎么继续躺平？ 民国，他是随波逐流还是成为弄潮儿？这世道艰难之下又隐藏着什么？玄幻的手段和神奇的怪物真的存在吗？ 西幻，如何从一个小小的落魄领主成为一方霸主？是经营领地，还是组建骑士团烧杀抢掠？ 古代，如何成为家族顶梁柱，带领家族在乱世中保全自身成为一方世家。 …………",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o4749260153ccbdc8bd8d224961f659a7~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793678808&x-signature=lQQIxp1gTn8OKCS1OejV9McmtFY%3D",
+        "url": "https://fanqienovel.com/page/7692226757776116798"
       }
     ]
   },
@@ -239,224 +235,220 @@
         "new_count": 2,
         "dropped_count": 2,
         "new_books": [
-          "四合院之我是周猛",
-          "四合院：我金发碧眼，说是自己人"
+          "名义：汉大？不，我是总部的",
+          "诸界：从四合院开始"
         ],
         "dropped_books": [
           {
-            "title": "名义：空降汉东，我就是规矩！",
-            "intro": "汉东有四绝：高育良的汉大帮、李达康的不粘锅、祁同伟的胜天半子、陈岩石的退而不休！ 宁怀远，空降汉东！ 从这一开始，汉东的规矩变了，我就是规矩！ 不管是谁，不按照规矩办事，那就休怪我无情！ 陈岩石，伪君"
+            "title": "四合院：1948年开局暴富躺平",
+            "intro": "宋子明穿到1948年大上海，系统却要他到北京四合院才激活，偏偏还是【乐享系统】 这下子宋子明有点头大，有这享乐为主的系统，跑路到香港不好吗？赚点钱、住豪宅、再多娶几个姨太太、泡泡女明星，平时还可以打牌"
           },
           {
-            "title": "爱情公寓：开局让许红豆对我负责",
-            "intro": "好消息：林帆穿越了，有车有房，还白捡了个天仙般的女朋友许红豆。 坏消息：女朋友是个极度理智的酒店大堂经理，而且同居地点在爱情公寓。 当五星级酒店的满级职业素养，撞上全员神经病的公寓邻居…… 林帆的日常"
+            "title": "四合院：开局被抓壮丁",
+            "intro": "【年代】【四合院】【空间】 赵川意外来到了1944年，开局就被抓了壮丁，而此时距离抗战胜利还有相当长的一段时间，面对着如此天崩开局，他该如何活下去，而且活的越来越好。 本书多女主，对人物年龄略作更改。"
           }
         ],
         "top_risers": [
           {
-            "title": "霍格沃茨：马尔福竟是傲娇千金？",
-            "change": "+4"
+            "title": "四合院：我金发碧眼，说是自己人",
+            "change": "+6"
           },
           {
             "title": "笑傲：开局选华山派天赋三选一",
-            "change": "+4"
+            "change": "+3"
           },
           {
-            "title": "名义：我能源圣子，创飞所有人",
-            "change": "+2"
+            "title": "四合院之我是周猛",
+            "change": "+3"
           }
         ],
         "top_fallers": [
           {
-            "title": "名义赵瑞龙，动点脑就骂我纨绔？",
-            "change": "-3"
-          },
-          {
             "title": "港综：给兄弟花钱，我百倍返还",
-            "change": "-2"
+            "change": "-1"
           },
           {
-            "title": "名义：我！汉东最强搅屎棍",
-            "change": "-2"
+            "title": "名义：我能源圣子，创飞所有人",
+            "change": "-1"
           }
         ],
         "reads_growth": [
           {
             "title": "龙族：我的强化每月刷新",
-            "growth": "+6.7万"
-          },
-          {
-            "title": "四合院：1948年开局暴富躺平",
-            "growth": "+3.9万"
+            "growth": "+3.5万"
           },
           {
             "title": "霍格沃茨：马尔福竟是傲娇千金？",
-            "growth": "+3.4万"
+            "growth": "+3.3万"
+          },
+          {
+            "title": "美漫，从黑暗奇异博士开始",
+            "growth": "+2.0万"
           }
         ],
-        "summary": "**🔥 题材趋势**：四合院与《名义》同人呈井喷态势，Top20中两者合计占12席，且衍生方向从“取代主角”转向“拱火搅局”的差异化人设。港综、龙族、哈利波特等IP同人稳占中腰部，题材融合（如四合院+抗美援朝）成为新书突围切口。\n\n**📖 读者偏好**：爽点前置极强——系统激活延迟、开局天崩、身份错位等“憋屈-爆发”结构高频出现；打脸对象多为原著权威（沙瑞金、赵瑞龙、马尔福），读者要的是“用规则外手段碾压规则内玩家”的越位快感。\n\n**🆕 新上榜作品**：《四合院之我是周猛》靠“多剧融合+遗产接收”制造悬念钩子；《四合院：我金发碧眼》以“美军脸志愿军心”的极端身份反差+黑科技改变命运，上架爆发力来自身份危机的即时张力。\n\n**📉 掉出榜单**：两本掉榜书均属“空降汉东当规矩制定者”和“爱情公寓+许红豆”的常规同人套路，缺乏拱火/搅局类作品的乐子人差异化标签，在同题材内卷中被挤出。\n\n**💡 值得关注**：拱火流（《不拱火我来汉东干什么》《汉东最强搅屎棍》）正形成子类型，核心卖点是“不建设只拆台”的反英雄爽感；《马尔福傲娇千金》以性转+单女主日常开辟哈利波特同人新赛道，排名上升验证性别反转红利。",
+        "summary": "**🔥 题材趋势**：榜单被《人民的名义》同人屠榜（Top20占8席），“空降汉东+搅局制霸”成最热模板；四合院年代文与龙族/哈利波特等IP衍生构成第二梯队，题材高度集中于“官场博弈+同人解构”与“经典IP+系统金手指”两条主线。\n\n**📖 读者偏好**：爽点前置极快——开篇即空降掌权、系统绑定或身份反转，打脸节奏密集；读者偏爱“搅屎棍/拱火”型主角，争霸布局从单点破局转向全域通吃，对“体制内逆袭+经济神话”组合买单意愿最强。\n\n**🆕 新上榜作品**：《名义：汉大？不，我是总部的》以“总部视角”差异化切入汉大帮叙事，血缘梗+辈分压制制造新鲜打脸点；《诸界：从四合院开始》主打懒散咸鱼穿诸天，反套路躺平流在快节奏榜单中形成辨识度。\n\n**📉 掉出榜单**：两本四合院年代文《1948年开局暴富躺平》《开局被抓壮丁》双双出局，说明纯年代生存+系统慢热型开局在新书榜爆发力不足，缺乏强冲突钩子即被挤出。\n\n**💡 值得关注**：名义同人内部已现同质化内卷，Top3即占榜单在读量近三成，腰部作品靠“乐子/拱火”人设硬撑；龙族同人（第2、10名）以“压分+模拟器”机制稳住基本盘，IP衍生中“反套路角色性转/群像误解”是下一波差异化切口。",
         "source": "ai"
       },
       "books": [
         {
-          "title": "四合院：1948年开局暴富躺平",
-          "author": "喜欢蓝地柏的黑蛇魂",
-          "reads": "47.2万",
-          "intro": "宋子明穿到1948年大上海，系统却要他到北京四合院才激活，偏偏还是【乐享系统】 这下子宋子明有点头大，有这享乐为主的系统，跑路到香港不好吗？赚点钱、住豪宅、再多娶几个姨太太、泡泡女明星，平时还可以打牌、出海、去澳门，再不然还可以出国，世界那么大，到处转转玩玩，享乐吗？这不就是享乐？ 为什么非要到四合院呢？没办法，只能先干一票大的，从大上海搜刮亿点钱跟物资，再到北京躺平赚积分。 ……",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oce1568b14a73c19d94467c7fa22a29e6~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793590835&x-signature=R2wl125ReBJ%2B8UCzDzEwrlmNdRE%3D",
-          "url": "https://fanqienovel.com/page/7691614728883276824"
-        },
-        {
           "title": "名义：取代沙瑞金，拿捏汉东全局",
           "author": "萧疏净",
-          "reads": "37.5万",
+          "reads": "36.7万",
           "intro": "一纸调令，将远在魔都的林致远调到了汉东。 汉东复杂，表面上有秘书帮、汉大帮两座山头互掐，暗地里还有本地世家坐山观虎斗，林致远岂能让他们如意？ 汉东的两大山头林致远要打掉，首先是高育良、李达康两人跑不了。 本地世家也要清理，赵瑞春的赵家、陈岩石的陈家、梁璐的梁家、陆亦可的陆家、林华华的林家，谁都别想跑。 在打击两大山头和本土世家的同时，林致远也没有放弃经济发展，彼时正值AI科技爆发的前夜，林致远自然不会错过这个千载难逢的好机会。",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o8d1d253c48554d3217e79eceb3c33ebe~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793590835&x-signature=4DvRftEdQ981UneQyJlIwpoPI3o%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o8d1d253c48554d3217e79eceb3c33ebe~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793678805&x-signature=dXhVLPkO7N59FATLfI6NSxJ9D68%3D",
           "url": "https://fanqienovel.com/page/7684534214074584089"
+        },
+        {
+          "title": "龙族：我的强化每月刷新",
+          "author": "养只小狗叫港港",
+          "reads": "36.2万",
+          "intro": "【已压分】 好消息：沈疏穿越了，是他最喜欢的小说《龙族》，还有金手指。 坏消息：他开局选了两个前期乏力的强化。 【延迟满足：在三年后获得S级血统，期间无法获得新的强化】 【越挫越勇：选定一名目标进行挑战，将其战胜后可获得奖励，在此之前，失败的次数越多，最终的奖励就越丰厚。】 当三年之期已到，卡塞尔学院的大门洞开，临近高考的沈疏终于迎来了属于自己的肆意青春。 接下来向你走来的，是卡塞尔学院的新锐S级之一、路明非最好的使用者、昂热校长最宝贝的爱徒、狮心会会长与学生会主席的挚友兼对手、执行部最锋利的王牌、某位大小姐最在意的冤家，沈疏！ 【原创主角】【不拆原著CP】【楚夏】【凯诺】【路绘或路零（待定）】【龙族】【战斗爽！！一般情况下不留隔夜仇】 【不是保姆文】 【金手指其实就是金铲铲里的海克斯强化 但是防止读者宝贝们没玩过 就叫随机强化了OvO】",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o236fbc3d0e4f50cd0bcb6a34a636d403~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793678805&x-signature=GPFniGAIe4Acztca4J1ZooHTKqU%3D",
+          "url": "https://fanqienovel.com/page/7682611293668248600"
         },
         {
           "title": "不拱火我来汉东干什么？",
           "author": "黄四强本强",
           "reads": "33.1万",
           "intro": "《无AI，纯手搓》 不保姆，只拱火。 一纸调令，空降汉东。 面对日益紧张的汉东局势，秦河决定多添一把柴火。 拱火，甩锅，扣帽子，有我才有天。 誓要将汉东拱到举世皆敌。 问苍茫大地，谁主沉浮！",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o1ec5532053ce1e34c97af01606d8bcf3~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793590835&x-signature=g0IJoguTQI0eUxVqs83BhNN%2BHD4%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o1ec5532053ce1e34c97af01606d8bcf3~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793678805&x-signature=1Gvq0ZzG8dp0ihCI2dyhjUTwQ9g%3D",
           "url": "https://fanqienovel.com/page/7679903132029029401"
-        },
-        {
-          "title": "龙族：我的强化每月刷新",
-          "author": "养只小狗叫港港",
-          "reads": "32.7万",
-          "intro": "【已压分】 好消息：沈疏穿越了，是他最喜欢的小说《龙族》，还有金手指。 坏消息：他开局选了两个前期乏力的强化。 【延迟满足：在三年后获得S级血统，期间无法获得新的强化】 【越挫越勇：选定一名目标进行挑战，将其战胜后可获得奖励，在此之前，失败的次数越多，最终的奖励就越丰厚。】 当三年之期已到，卡塞尔学院的大门洞开，临近高考的沈疏终于迎来了属于自己的肆意青春。 接下来向你走来的，是卡塞尔学院的新锐S级之一、路明非最好的使用者、昂热校长最宝贝的爱徒、狮心会会长与学生会主席的挚友兼对手、执行部最锋利的王牌、某位大小姐最在意的冤家，沈疏！ 【原创主角】【不拆原著CP】【楚夏】【凯诺】【路绘或路零（待定）】【龙族】【战斗爽！！一般情况下不留隔夜仇】 【不是保姆文】 【金手指其实就是金铲铲里的海克斯强化 但是防止读者宝贝们没玩过 就叫随机强化了OvO】",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o236fbc3d0e4f50cd0bcb6a34a636d403~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793590835&x-signature=iPzA3rnGoZxerrLaJPpvOQVK1Es%3D",
-          "url": "https://fanqienovel.com/page/7682611293668248600"
         },
         {
           "title": "四合院：大军进城，我系统吓跑了",
           "author": "吃面加个蛋",
-          "reads": "25.9万",
+          "reads": "27.4万",
           "intro": "轻松—日常——单女主—秦淮茹 周景明来到了1949年，还是四合院的世界，本来以为有系统的他可以在这个时代活的很滋润，结果大军进城时，系统被吓跑了！只留下一个基本功能，这不完犊子了吗？",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oa66dafeb2cf2e8dad275bc88b49d2393~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793590835&x-signature=7KxJ%2FNe7Ju0%2Bie4vdkQEt8r2ZA4%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oa66dafeb2cf2e8dad275bc88b49d2393~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793678805&x-signature=Nn2mncpaAoUYALPyl1IWmx0aaZA%3D",
           "url": "https://fanqienovel.com/page/7683390156291705880"
-        },
-        {
-          "title": "港综：给兄弟花钱，我百倍返还",
-          "author": "芋头丁",
-          "reads": "25.7万",
-          "intro": "穿越八十年代港岛，沈枭替大B出生入死，入狱三年。 大B答应他：“出来之后，扎职红棍！” 三年后。 沈枭出狱。 大B没来，陈浩南没来，只让人送来两万港币，还准备让他去看停车场。 就在这时—— 【兄弟百倍返现系统绑定成功！】 只要是真心认沈枭做兄弟的人，沈枭花在他们身上的每一分钱，都能百倍返现！ 兄弟受伤？十万医药费！ 【返现一千万！】 兄弟跟自己出生入死？一人十万奖金！ 【返现一个亿！】 兄弟没地方住？买楼，一人一套！ 从此港岛江湖彻底看不懂了。 别的大哥收小弟，是为了让小弟赚钱养自己。 沈枭收小弟，却生怕兄弟花得太少！ 大B：“出来混哪有你这么发钱的？” 沈枭：“所以你的兄弟，现在都想跟我。” 陈浩南：“我讲的是义气！” 沈枭对此只有一句话： “出来混，嘴上讲义气有什么用？我沈枭的兄弟替我流血，我就让他跟我一起富贵！” 话音落下，沈枭看向自己身后上万名小弟。 “来，告诉他们，现在整个港岛谁是老大！” 小弟们齐声道：“枭哥！”",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o4e470d1db9b172468978cb79a0bc0906~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793590835&x-signature=hEkQVTqUxoLL68aw9SteNLzrdeA%3D",
-          "url": "https://fanqienovel.com/page/7687525826979433496"
         },
         {
           "title": "霍格沃茨：马尔福竟是傲娇千金？",
           "author": "东云浅",
-          "reads": "23.9万",
+          "reads": "27.2万",
           "intro": "【穿越哈利＋傲娇恶役千金＋单女主＋轻松日常＋魔法冒险】 “波特，我允许你成为我的朋友。” “你为什么总是和那些白痴在一起，让我帮你找到你真正的朋友。” 穿越成为哈利·波特，他提前想好了如何应对霍格沃茨的种种危机。 唯独没想到，那个本该与自己处处作对的马尔福，竟然是个漂亮金发大小姐。 看着递到面前的手，哈利当场愣住。 马尔福。 你怎么变成女生了？ 然而，这几秒钟的沉默，已经足够让大小姐认定——他竟敢当众拒绝自己！ “你会为今天的无礼付出代价，波特！” 从此，哈利的校园生活里，多了一位非要让他低头的马尔福小姐。 她要在飞行课上赢过他，在魔药课上压他一头，还要让他明白，错过马尔福家的友谊，是多么愚蠢的决定。 可较劲的次数越来越多，事情渐渐有些不对。 对此...... 出身高贵的马尔福小姐红着脸表示： “波特，别误会，我一点都不关心你!” “我只是还没赢过你，才不许你死在别人手里!”",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oee2d0111d82a5f61c379819023f59d24~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793590835&x-signature=U%2BHIuok0jM%2BWVKAtVc1H%2B%2F2pR2A%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oee2d0111d82a5f61c379819023f59d24~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793678805&x-signature=qo1mKrEa6j6hP8lmVyu70J6tx4Q%3D",
           "url": "https://fanqienovel.com/page/7694267542633712665"
         },
         {
           "title": "美漫，从黑暗奇异博士开始",
           "author": "两元一串的钵钵鸡",
-          "reads": "23.6万",
+          "reads": "25.6万",
           "intro": "【漫威】【DC】 林旭穿越漫威八年，好不容易从一个中产发展到资本家，最后发现居然是黑暗奇异博士的宇宙 作为一个没有系统的普通人，他只能进行一场跨越时间线惊天骗局。 维山帝:古一被永恒挖走了，斯特兰奇不靠谱，王太稳重，传承白魔法的任务，就交给你了！ 目前:《黑暗奇异》《超凡》《三蛛》《金刚狼》《终局之战》《无限奥创》《金刚狼3》《死侍与金刚狼》",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o864c9025d1c505d623c49dde68feff1f~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793590835&x-signature=c%2BGvM8jGUvKiA0uUyIWfQvWhC4c%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o864c9025d1c505d623c49dde68feff1f~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793678805&x-signature=c5Bj9rGtwqoGsIh9jDilkJcMhow%3D",
           "url": "https://fanqienovel.com/page/7595538355538889790"
+        },
+        {
+          "title": "港综：给兄弟花钱，我百倍返还",
+          "author": "芋头丁",
+          "reads": "25万",
+          "intro": "穿越八十年代港岛，沈枭替大B出生入死，入狱三年。 大B答应他：“出来之后，扎职红棍！” 三年后。 沈枭出狱。 大B没来，陈浩南没来，只让人送来两万港币，还准备让他去看停车场。 就在这时—— 【兄弟百倍返现系统绑定成功！】 只要是真心认沈枭做兄弟的人，沈枭花在他们身上的每一分钱，都能百倍返现！ 兄弟受伤？十万医药费！ 【返现一千万！】 兄弟跟自己出生入死？一人十万奖金！ 【返现一个亿！】 兄弟没地方住？买楼，一人一套！ 从此港岛江湖彻底看不懂了。 别的大哥收小弟，是为了让小弟赚钱养自己。 沈枭收小弟，却生怕兄弟花得太少！ 大B：“出来混哪有你这么发钱的？” 沈枭：“所以你的兄弟，现在都想跟我。” 陈浩南：“我讲的是义气！” 沈枭对此只有一句话： “出来混，嘴上讲义气有什么用？我沈枭的兄弟替我流血，我就让他跟我一起富贵！” 话音落下，沈枭看向自己身后上万名小弟。 “来，告诉他们，现在整个港岛谁是老大！” 小弟们齐声道：“枭哥！”",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o4e470d1db9b172468978cb79a0bc0906~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793678805&x-signature=kinMBZHEWc%2BPu71ieq2Dr5vHr%2Fc%3D",
+          "url": "https://fanqienovel.com/page/7687525826979433496"
         },
         {
           "title": "四合院：我在1944是个败家子",
           "author": "好无李的小仙女",
-          "reads": "21.1万",
+          "reads": "20.5万",
           "intro": "蓝星一个40岁的中年老登秦长林，功成名就后，一时间心血来潮，回了那个已经快是无人村的农村老家，把爷爷，大伯，三叔，还有父亲，一共四块宅基地，一起盖了一个一千三百平的三进四合院…还给堂兄弟，堂姐妹都留了房间，让他们偶尔回老家有个落脚的地方，谁知道在准备过春节大团圆的时候，他熬夜看了一本非常哇塞的四合院同人小说，随后就昏睡了过去，再睁眼就是1944年的四九城，还是一个18岁的富家少爷身上…",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oe5ab3ef0b4e03ef99deadf8621d9ded7~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793590835&x-signature=bKn7JrjKL0gvZjrpKXPfr7tLbRc%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oe5ab3ef0b4e03ef99deadf8621d9ded7~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793678805&x-signature=Cc3yiWSC41ziBXX%2BMOr6%2FVqy%2Bno%3D",
           "url": "https://fanqienovel.com/page/7688534882523286552"
         },
         {
           "title": "名义赵瑞龙，动点脑就骂我纨绔？",
           "author": "秃驴放开",
-          "reads": "21万",
+          "reads": "19.9万",
           "intro": "【纯手搓】魂穿人民名义，刚穿就成为汉东太子赵瑞龙。 可是这时候时间不等人。 大风厂的大火即将点燃，上面的审判也要接踵而来。 既然都想置于死地，那就不如做一个不懂规矩的纨绔子弟。 ...... “大风厂价值十个亿是吧？行，这地我们不要了！让给他们了。但大风厂员工需要归还之前已经支付的下岗安置费，四千五百万和抵押贷款的费用。并且我们不赚谁也别想赚，这次我盯着，谁敢在大风厂这上面犯罪我赵瑞龙第一个不答应。” “美食城污染环境是吧？行，那美食城我们也不要了，设备搬迁，人员撤离，我们去其他地方建，只要有我赵瑞龙，何处不是美食城？” “育良书记，小凤的事情我来处理，和你没一点关系。” “这钱赚多少是赚啊？同伟，是时候让出股份了！” “.......” 沙瑞金：“欺天了！！！” 【人民名义】【仕途】【乐子】【搞笑】【剧情流】【不无脑】",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o8404d137e8cfdf29a227031ddb081bcb~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793590835&x-signature=TzQ9I8yVj4eC9HYp6%2FqjWkQT8W8%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o8404d137e8cfdf29a227031ddb081bcb~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793678805&x-signature=vzwBmKM482KA7iQNaGJ76XbULw0%3D",
           "url": "https://fanqienovel.com/page/7687526098841635865"
-        },
-        {
-          "title": "四合院：开局被抓壮丁",
-          "author": "千一千末",
-          "reads": "20.3万",
-          "intro": "【年代】【四合院】【空间】 赵川意外来到了1944年，开局就被抓了壮丁，而此时距离抗战胜利还有相当长的一段时间，面对着如此天崩开局，他该如何活下去，而且活的越来越好。 本书多女主，对人物年龄略作更改。",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o8a957d48148ed62d50e7d20a03af8157~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793590838&x-signature=G6CGMcKAPCj0Ua9VghwGp1%2B%2B2wc%3D",
-          "url": "https://fanqienovel.com/page/7677557780772834366"
         },
         {
           "title": "龙族：什么叫他们都模拟过我！？",
           "author": "云上生花",
-          "reads": "19.3万",
+          "reads": "19.7万",
           "intro": "【非路明非】、【多女主】 我叫苏然，我发现自己好像穿越到了某个和地球相似的世界，不过没关系，我还有个成就系统可以助我走上人生巅峰。 然后，我就遇到了卡塞尔学院的老流氓校长…… 等等，这个龙族世界是不是有点不太对劲？你们怎么一个个都不按剧情走啊？你们为什么要用这种眼神看着我？等等，这几位姑娘，你们怎么一副看渣男的表情啊？我们不熟吧？ “我是酒德麻衣，一个忍者，正在为魔鬼服务，这一天，我发现自己有了一个模拟人生的系统……” “我是昂热，正在享受阳光沙滩，看泳装美女的时候，我眼前忽然多了个模拟人生的系统……” “我是路明非，这平常的一天，我忽然发现自己拥有了模拟未来的超能力……” “我是……” 没时间怀念路明非了，接下来登场的是：对龙特攻、残血战神、不败神话、妇女之友、域外天魔、跳出一切规则与约束，在无数种未来之中依旧取得最后胜利，夺取世界权柄的苏然大人！",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2ob3a1a095b34e1c260b0f416ee6d9f394~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793590838&x-signature=26DPAo35OjmCDHQPJHS6b2oTsuk%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2ob3a1a095b34e1c260b0f416ee6d9f394~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793678805&x-signature=SWTmtAEK6iaHytI0%2BN%2Fd75q8qLA%3D",
           "url": "https://fanqienovel.com/page/7690200548854729790"
         },
         {
           "title": "爱情公寓魅魔，我成女神们团宠了",
           "author": "摸鱼小能豆子",
-          "reads": "16.9万",
+          "reads": "17.4万",
           "intro": "【多女主＋爽文＋团宠日常】 前一脚刚准备出门，后一脚夏木就来到了一个综影视融合的世界。 凭借着无与伦比的颜值身材，碰到的各色女神都开始黏上了他。 林宛瑜：“我就说爱情公寓有宝贝，夏木就是我要找的宝藏。” 诺澜：“亲爱的，我们要永远在一起！” 秦羽墨：“走，跟我进屋” 心凌：“夏木你知道的，我是一个传统的女孩，所以我不介意做小。” 乔晶晶：“夏木，你才是我的荣耀！” 诸葛大力：“大力才能出奇迹！” 夏木：“我超威，我怎么成魅魔了？”",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o613e8aca5977220e9c9107d250676e36~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793590838&x-signature=W5wwCJfh1c6mJr5Ul1J1XE%2F3ow0%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o613e8aca5977220e9c9107d250676e36~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793678808&x-signature=avrc5icKPo1FT5UL3gb0V2cnkN0%3D",
           "url": "https://fanqienovel.com/page/7688599803621559320"
         },
         {
           "title": "名义：穿越孙连城，制霸汉东",
           "author": "东阳大官人",
-          "reads": "15.6万",
+          "reads": "15.7万",
           "intro": "孙连城胎穿名义的世界，成了婴儿时期的宇宙区长，从水木大学开毕业，孙连城步入仕途，名义剧情开局，孙连城便空降汉东，开启了制霸汉东的生涯。 简介无力，请看正文。",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o25dbfea2997e32b6f61c6bf623a9e7f9~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793590838&x-signature=tVcRKpviiiweWoZruKeCYqZXknM%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o25dbfea2997e32b6f61c6bf623a9e7f9~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793678808&x-signature=ES196I7wTlUyT21XHP6m2hDYp8c%3D",
           "url": "https://fanqienovel.com/page/7679106059226598424"
-        },
-        {
-          "title": "名义：我能源圣子，创飞所有人",
-          "author": "后宫好看吗",
-          "reads": "14.2万",
-          "intro": "现在火一点的名义书，好评都被举报光了，大家不要被影响。 【乐子】【纯架空，不映射任何现实】 周离重生名义世界四十几年，凭借记忆成为天骄。 你钟家吃老赵的绝户，三杰瑞吃小阁老的绝户，这我都不管。 但你一个小猴子，也把我们当成进步的血包？ 周离果断进场汉东。 我就拱点小火而已，你们怎么都打起来啦？",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2od440cf265dbf39a8a3f9e91995d92ccf~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793590838&x-signature=Ns30XDaxDFtYuAkrry%2FbAQsK7Jg%3D",
-          "url": "https://fanqienovel.com/page/7692222765419465752"
         },
         {
           "title": "笑傲：开局选华山派天赋三选一",
           "author": "丹桂香十里",
-          "reads": "14万",
+          "reads": "15万",
           "intro": "全球秘境降临。 穿越而来的李阳面临深渊裂隙妖魔与秘境试炼的双重绝境。 他手握熟知剧情的底牌，开局逆天反选致死率99%的华山派！ 幸得词条系统觉醒，万物皆可杀，万物皆可爆词条！ 【资质平平】合成【天纵奇才】。 后山杀猛虎爆根骨，同门切磋刷词条。 凭借高级词条，李阳半日顿悟混元功，一剑惊爆风清扬！ 当他随手拆解各种绝学。 无数武林神话皆倒吸冷气。 直到蓝星防线崩塌，妖魔压境。 李阳携无敌词条踏破虚空：“我有一剑，可屠尽世间魔！”",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oa20f5a9ee0283d1b8319920ef4f7a334~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793590838&x-signature=PLESAJgNoYwF6%2FvJfMue648qdew%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oa20f5a9ee0283d1b8319920ef4f7a334~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793678808&x-signature=nQ%2FVHzbfEcBjL0ZZX4QVEIHAT4U%3D",
           "url": "https://fanqienovel.com/page/7689753038952598553"
-        },
-        {
-          "title": "名义：我！汉东最强搅屎棍",
-          "author": "川崎重机车",
-          "reads": "13.9万",
-          "intro": "【汉东大舞台有梗你就来】 穿越《人民的名义》世界，开局李定国空降汉东。 二十二岁基层起家，徒手盘活末流城市，硬生生干出逆天经济神话！ 论搞经济，他冠绝汉东，无人能敌！ 论耍嘴炮，他舌战群委，硬刚老牌大佬！ 论搞事情，他是整个汉东官场，人人头疼的头号搅屎棍！ 人人直呼：新来的李书记，简直是汉东第一搅屎棍！",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oafb87d523b8e4bba102cc6b4946f7735~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793590838&x-signature=9oaO%2FeYhObF%2FvxN0mqPuDDz%2F2J8%3D",
-          "url": "https://fanqienovel.com/page/7688383617755515966"
-        },
-        {
-          "title": "四合院之我是周猛",
-          "author": "徕者",
-          "reads": "13.8万",
-          "intro": "再收到父母的信件来到四九城之后，周猛才知道，自己这是穿越到了一个各种电视剧结合的世界。 而自己连自己父母的样子都没有见到。 从接到那封书信的时候，就是去四九城接收他们的遗产。",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o2cf9d939c81f0aa1ace865955f3a648c~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793590838&x-signature=vQZhXbvNOgIOP2V10OrBIIfZg9c%3D",
-          "url": "https://fanqienovel.com/page/7670091358345907225"
-        },
-        {
-          "title": "万界降临，无敌从金光咒开始",
-          "author": "白云蓝天白云",
-          "reads": "13.5万",
-          "intro": "【无女主+穿越较快+无敌文】 封尘穿越蓝星，靠着文抄攒下第一桶金！ 身负母星馈赠：金光咒！ 财富自由加身体健康！ 哈哈哈哈，哥哥的快乐你想象不到！ 直到那一天，万界时空交汇！ 也好， 挂来！ 无敌之路至此开始！",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o436717c0ecb512f3e9ae3dfe5a7cbde0~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793590838&x-signature=HxYxF75ZfVFW3lZeLVr0ccPd7Dg%3D",
-          "url": "https://fanqienovel.com/page/7683505666400455742"
         },
         {
           "title": "四合院：我金发碧眼，说是自己人",
           "author": "光明宅叔",
-          "reads": "13.5万",
+          "reads": "14.2万",
           "intro": "评分刚出，后面会涨！【手打+抗美援朝+四合院+清戾气+黑科技+改变命运！】 2050年，正在给星际运输舰维修的吴礼穿越到1950年的朝鲜战场。 “举起手来！”志愿军战士的枪口对准了他，因为吴礼是金发碧眼，高鼻深目的美军军官！ “同志们，别开枪！自己人！” 前身叫威廉·吴，爷爷从广东偷渡到鹰酱，奶奶是鹰酱人，父亲是混血，一家人被顶级家族追杀，只剩他一个活口混进美军躲避追杀。 脑子里还有个650米长的星际运输舰，能收能放，能量无限。 西方脸，龙国心！用一张洋人脸，穿着美军军服，大摇大摆走进美军补给基地，搬空物资。 战争结束，居然被安排进了轧钢厂，住进了宇宙级禽兽窝：禽满四合院！",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o03e40698aff5e6cc10a2d91a9a909469~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793590838&x-signature=tUDnCqjP4Y5ahgMlj2m%2FXHOFLVQ%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o03e40698aff5e6cc10a2d91a9a909469~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793678808&x-signature=TSQsCi677RO%2Ff%2Fcf4CQfIwx1zno%3D",
           "url": "https://fanqienovel.com/page/7689743798468889625"
+        },
+        {
+          "title": "四合院之我是周猛",
+          "author": "徕者",
+          "reads": "14.2万",
+          "intro": "再收到父母的信件来到四九城之后，周猛才知道，自己这是穿越到了一个各种电视剧结合的世界。 而自己连自己父母的样子都没有见到。 从接到那封书信的时候，就是去四九城接收他们的遗产。",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o2cf9d939c81f0aa1ace865955f3a648c~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793678808&x-signature=2YnTOv9%2Bbz0mXTzWquQZyYWMmnE%3D",
+          "url": "https://fanqienovel.com/page/7670091358345907225"
+        },
+        {
+          "title": "名义：我能源圣子，创飞所有人",
+          "author": "后宫好看吗",
+          "reads": "13.7万",
+          "intro": "现在火一点的名义书，好评都被举报光了，大家不要被影响。 【乐子】【纯架空，不映射任何现实】 周离重生名义世界四十几年，凭借记忆成为天骄。 你钟家吃老赵的绝户，三杰瑞吃小阁老的绝户，这我都不管。 但你一个小猴子，也把我们当成进步的血包？ 周离果断进场汉东。 我就拱点小火而已，你们怎么都打起来啦？",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2od440cf265dbf39a8a3f9e91995d92ccf~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793678808&x-signature=rAinzmmTI9cgJAvj2HidYgd%2FSMA%3D",
+          "url": "https://fanqienovel.com/page/7692222765419465752"
+        },
+        {
+          "title": "名义：我！汉东最强搅屎棍",
+          "author": "川崎重机车",
+          "reads": "13.5万",
+          "intro": "【汉东大舞台有梗你就来】 穿越《人民的名义》世界，开局李定国空降汉东。 二十二岁基层起家，徒手盘活末流城市，硬生生干出逆天经济神话！ 论搞经济，他冠绝汉东，无人能敌！ 论耍嘴炮，他舌战群委，硬刚老牌大佬！ 论搞事情，他是整个汉东官场，人人头疼的头号搅屎棍！ 人人直呼：新来的李书记，简直是汉东第一搅屎棍！",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oafb87d523b8e4bba102cc6b4946f7735~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793678808&x-signature=dMVpkgR2f2WMrK9Z4U63xv6Qrpc%3D",
+          "url": "https://fanqienovel.com/page/7688383617755515966"
+        },
+        {
+          "title": "万界降临，无敌从金光咒开始",
+          "author": "白云蓝天白云",
+          "reads": "13.4万",
+          "intro": "【无女主+穿越较快+无敌文】 封尘穿越蓝星，靠着文抄攒下第一桶金！ 身负母星馈赠：金光咒！ 财富自由加身体健康！ 哈哈哈哈，哥哥的快乐你想象不到！ 直到那一天，万界时空交汇！ 也好， 挂来！ 无敌之路至此开始！",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o436717c0ecb512f3e9ae3dfe5a7cbde0~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793678808&x-signature=Z%2BsIHkBruzxdkKuTlkUOkCH4APQ%3D",
+          "url": "https://fanqienovel.com/page/7683505666400455742"
+        },
+        {
+          "title": "名义：汉大？不，我是总部的",
+          "author": "少弋",
+          "reads": "13.3万",
+          "intro": "王志东穿越成名义中的一员！ 本想走广大读者的老路，但没想到，汉大，门槛也不是一般人能进的！ 无奈 ，只能读了工业大学，好歹也是以前汉大分出来的！ 师伯：汉大还有帮派了？我还是第一批进入汉大 的，虽然只待了两年就分了， 但我是不是也算汉大的？我这个老头子，要不要也听命令？ 高育良：谁？老祖？根上也是汉大的？自己人？ 祁同伟：太好了，老祖安排人来了，我是不是可以进步了？ 沙瑞金：这怎么能允许呢？也是汉大的人？ 沙瑞金岳父：汉大个屁，人家以前跟的是谁，你知道吗？那是五十年代汽车厂的人！ 王志东：汉大？有问题？处理可以，但我们又不是没人了，处理，也只能我们来处理，你们代理，算怎么回事？ 高育良？该退休就退休！ 祁同伟？想进步我不拦着，指望我？谁理你？",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2obc4e173b777333d872df95ae85e81542~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793678808&x-signature=v8VF%2F3QJUKCLj09lyyNVRfPe1OU%3D",
+          "url": "https://fanqienovel.com/page/7696407699348540441"
+        },
+        {
+          "title": "诸界：从四合院开始",
+          "author": "吾宁似魔",
+          "reads": "12.9万",
+          "intro": "顾阳穿越到了影视世界，融合进灵魂的次元核心要带着主角去哪？ 从四合院到民国，从古代到玄幻，为哪般？ 次元核心本以为选定的御主能龙傲天，谁知道顾阳的性子懒散，讨厌麻烦，躺平当咸鱼。 不想沾惹任何事情的主角能把次元碎片恢复成次元世界吗？ 四合院，他从根子上就把众禽变成众情，去了港城后，又怎么继续躺平？ 民国，他是随波逐流还是成为弄潮儿？这世道艰难之下又隐藏着什么？玄幻的手段和神奇的怪物真的存在吗？ 西幻，如何从一个小小的落魄领主成为一方霸主？是经营领地，还是组建骑士团烧杀抢掠？ 古代，如何成为家族顶梁柱，带领家族在乱世中保全自身成为一方世家。 …………",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o4749260153ccbdc8bd8d224961f659a7~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793678808&x-signature=lQQIxp1gTn8OKCS1OejV9McmtFY%3D",
+          "url": "https://fanqienovel.com/page/7692226757776116798"
         }
       ]
     }
