@@ -3,234 +3,220 @@
   "board": "new",
   "label": "男频新书榜",
   "type": "都市种田",
-  "date": "2026-10-29",
-  "prev_date": "2026-10-28",
+  "date": "2026-10-30",
+  "prev_date": "2026-10-29",
   "category": {
     "name": "都市种田",
     "trend": {
-      "new_count": 4,
-      "dropped_count": 4,
-      "new_books": [
-        "我在荒岛的逍遥生活",
-        "重生83：赘婿靠赶海翻身做主",
-        "年代：开局二两玉米面养活女知青",
-        "七零灵泉空间：赶山打猎护全家"
-      ],
-      "dropped_books": [
-        {
-          "title": "返乡青年，我开了一家猛货大排档",
-          "intro": "【单女主】【有系统】【日常种田文】 在陈耀明老家流传一句话： 宁可睡地板，也要当老板。 三十岁的陈耀明辞职回到沿海老家，接手父母经营二十年餐厅。 一家普通的海鲜大排档，却有来自全世界的生猛海鲜。"
-        },
-        {
-          "title": "灾荒年：带五妹大兴安岭建桃源",
-          "intro": "1959年，灾荒降临，物资奇缺。 东北重工基地突发大爆炸，陆沉的养父被敌特栽赃成主谋，面临灭顶之灾！ 生死存亡之际，陆沉带着“万物图鉴与生态空间”双重金手指重生在爆炸前一天。 开局精准锁定炸药，反杀敌"
-        },
-        {
-          "title": "60年代，空间在手，红颜我也有",
-          "intro": "【年代+空间+致富+打猎+杀伐果断+亲情】… 平行世界，不要对号入座。 陆文宇穿越了，穿越到60年代农村。 他有痛爱的父母，相亲相爱兄弟姐妹，凭着空间，让家人顿顿能吃肉，不用再饿肚子，上山打野，下河抓"
-        },
-        {
-          "title": "后妈骗我下乡？我送她亲儿去西北",
-          "intro": "一睁眼，姥爷留下的八卦盘融入脑海，鬼谷八门遁开启！ 坤位-鬼谷空间：万亩灵田，时间加速，物资无限！ 兑位-鬼谷通灵：百兽为眼，监控全城！ 震位-鬼谷医术：金针济世，起死回生！ …… 恰逢渣爹后妈逼我下"
-        }
-      ],
+      "new_count": 0,
+      "dropped_count": 0,
+      "new_books": [],
+      "dropped_books": [],
       "top_risers": [
         {
-          "title": "重回1998：妈祖赐我赶海神技",
+          "title": "年代真少爷重生了？可我是假少爷",
           "change": "+5"
         },
         {
-          "title": "手机通九零：死刑混子爹成首富了",
-          "change": "+4"
+          "title": "我在荒岛的逍遥生活",
+          "change": "+3"
         },
         {
-          "title": "重生1980：川娃子入京开酒楼",
-          "change": "+3"
+          "title": "年代：开局二两玉米面养活女知青",
+          "change": "+2"
         }
       ],
       "top_fallers": [
         {
-          "title": "穿到六零，吃瓜看戏",
-          "change": "-1"
+          "title": "重生八零：开局把媳妇让给死对头",
+          "change": "-5"
+        },
+        {
+          "title": "全家逼我坐牢，出狱后我报复全家",
+          "change": "-3"
+        },
+        {
+          "title": "手机通九零：死刑混子爹成首富了",
+          "change": "-2"
         }
       ],
       "reads_growth": [
         {
-          "title": "红色人生模拟，我怎么成老干部了",
-          "growth": "+1.4万"
-        },
-        {
-          "title": "重回1998：妈祖赐我赶海神技",
-          "growth": "+1.3万"
-        },
-        {
           "title": "年代真少爷重生了？可我是假少爷",
-          "growth": "+1.0万"
+          "growth": "+1.5万"
+        },
+        {
+          "title": "重生80：我靠赶山养三家",
+          "growth": "+9000"
+        },
+        {
+          "title": "重生82年，军夫的随身空间",
+          "growth": "+8000"
         }
       ],
-      "summary": "**🔥 题材趋势**：年代文（70-90年代）霸榜，赶海、赶山、打猎三大\"资源获取\"流派成型；\"重生+空间/系统\"仍是标配，但\"跨时空通话\"\"妈祖赐技能\"等轻奇幻钩子开始冒头。\n**📖 读者偏好**：家庭伦理冲突是核心引擎——断亲、虐渣爹后娘、护妹护家，爽点绑定\"家人翻身\"而非个人称霸；日常烟火气（美食、赶海收货）提供治愈感，戾气过重反被弃。\n**🆕 新上榜作品**：《我在荒岛的逍遥生活》以无系统纯生存+年龄差切入，题材稀缺；《重生83赶海》《七零灵泉空间》延续赶海/空间流但靠\"赘婿翻身\"\"护全家\"细化情绪。\n**📉 掉出榜单**：大排档、灾荒建桃源等\"经营/基建\"向作品掉榜，说明读者更偏好\"即时收获感\"（赶海爆桶、打猎见肉）而非慢热建设。\n**💡 值得关注**：《手机通九零》跨时空父子协作+救母线，情感与爽感双高，排名持续上升；《红色人生模拟》以模拟器映照现实老干部设定，年代+脑洞融合有长线潜力。",
+      "summary": "**🔥 题材趋势** 年代文（70-90年代）占据绝对统治地位，核心公式=重生/穿越+空间/系统+赶山/赶海/美食。细分赛道中“赶山打猎”与“赶海”形成两大流派，近期“跨时空通话”（手机通九零）成为新变量。\n\n**📖 读者偏好** 爽点从“发家致富”转向“断亲分家+护短复仇”，极品亲戚压迫越狠、反击越果断越吸量。读者对“无戾气日常”和“杀伐果断”形成两极需求，中间态作品容易掉队。\n\n**🆕 新上榜作品** 本期无新上榜，榜单固化明显，头部《见鬼！求生系统把我投放到80年》以“求生系统误投年代”的错位设定稳居第一，说明“系统+年代”的复合脑洞仍是流量密码。\n\n**📉 掉出榜单** 本期无掉榜，但中腰部排名波动剧烈，《重生八零：开局把媳妇让给死对头》-5、《全家逼我坐牢》-3，说明“让妻/坐牢”类虐主开局留存风险高。\n\n**💡 值得关注** 《手机通九零：死刑混子爹成首富了》跨时空父子协作+复活亲妈的设定兼具情绪爆点与新鲜感，若后续节奏稳住有望冲顶。",
       "source": "ai"
     },
     "books": [
       {
         "title": "见鬼！求生系统把我投放到80年",
         "author": "铁蛋他哥",
-        "reads": "27.6万",
+        "reads": "26.1万",
         "intro": "一觉醒来，别人被投放到无尽海域求生，池海被送去了80年代！ 好嘛，别人求生，他重生。 前世的遗憾，他要一点一点的挽回。看着别人糟心的求生日常，池海能多吃一碗饭，顺便还能搞点不要钱的淡水换取他们最珍贵的物资。 别人开局小木筏，池海直接分产一艘机动船，秒升2级拿奖励。 开挂的人生，总是这么无聊……",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oca85dff4651eaea3b31c6824467b3dfc~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793854042&x-signature=%2BNoL03gNk1ZAiz9Ubu1wTEji%2BZ8%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oca85dff4651eaea3b31c6824467b3dfc~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793940450&x-signature=6TjJPHq2NCSLHaERjdtXdM9t%2BrU%3D",
         "url": "https://fanqienovel.com/page/7688179542275394584"
       },
       {
         "title": "红色人生模拟，我怎么成老干部了",
         "author": "兰若寺小妖",
-        "reads": "22.9万",
-        "intro": "评分刚出【年代】【征战岁月】【穿书】【模拟器】【搞笑】【治愈】【护短】【腹黑】【家长里短】 七零年代，小老头张三湾觉醒红色人生模拟器，从苏区一路杀到铁原。 谁知模拟人生居然映照到了现实，平平无奇的无业小老头最后被补认为了退休老干部。 重生归来的女儿张清菡去亲生家庭打脸复仇，小老头带着一帮老战友在后面摇旗呐喊，撑腰护短。 你什么档次的家庭，敢偏袒假千金，还欺负我女儿？！ 女频逻辑？认得大爷我砂锅大的拳头吗？！ 高门权贵？大爷们这辈子杀得最多的就是这玩意！",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o6b0e840788cac6bdc717ea84694070b7~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793854042&x-signature=MqdHIvenUTDUz7P9Z0GmvQj%2B%2Fn4%3D",
+        "reads": "23.5万",
+        "intro": "评分刚出【年代】【征战岁月】【穿书】【模拟器】【搞笑】【治愈】【护短】【腹黑】【家长里短】 七零年代，小老头张三湾觉醒红色人生模拟器，却不想模拟映照现实。 平平无奇的无业小老头居然是隐藏大佬。 重生归来的女儿张清菡去亲生家庭打脸复仇，小老头带着一帮老战友在后面摇旗呐喊，撑腰护短。 你什么档次的家庭，敢偏袒假千金，还欺负我女儿？！ 女频逻辑？认得大爷我砂锅大的拳头吗？！ 高门权贵？大爷们这辈子收拾得最多的就是这玩意！",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o6b0e840788cac6bdc717ea84694070b7~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793940450&x-signature=xDa2AC2CqT2FNb38IX6mV9n6VgY%3D",
         "url": "https://fanqienovel.com/page/7671104761956928574"
       },
       {
         "title": "穿到六零，吃瓜看戏",
         "author": "皮皮的小猪",
-        "reads": "20.6万",
+        "reads": "19.9万",
         "intro": "周曜穿到艰苦的六十年代，附带个能种植的空间，绑定了吃瓜系统。 爹娘双职工，三姐一妹，他是家中唯一的耀祖。 畅享美好未来时，娘因公殉职。 娘去世俩月，渣爹打着娶个后娘照顾他们姐弟的幌子再婚。 后娘带着三个拖油瓶进门，几个月后后娘生了对双胞胎儿子。 他不再是渣爹心中唯一的耀祖。 后娘仗着生了两个耀祖，枕头风吹的厉害。 周曜什么都吃就是不吃亏。 渣爹偏向小耀祖，他就收拾小耀祖。 后娘两面三刀，收拾小耀祖。 有吃有喝，不缺钱财，没事吃吃瓜、打打小耀祖。 在艰苦年代过的有滋有味。",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/ai/p2ocd3fa52095ff90a83b2ce0c32531affd~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793854042&x-signature=I8NM8X0BlpgmeS%2FEfJ0D8aBXkaM%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/ai/p2ocd3fa52095ff90a83b2ce0c32531affd~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793940450&x-signature=qx2x6oKi6cvGUnuTd0fA%2BZzPs0c%3D",
         "url": "https://fanqienovel.com/page/7656638836415417368"
       },
       {
         "title": "重生82年，军夫的随身空间",
         "author": "雪绝影",
-        "reads": "10万",
+        "reads": "10.8万",
         "intro": "重生八十年代，跟着军医媳妇去随军。 王宇本想当个软饭男，奈何总有麻烦找上门，虽然是赘婿，也不得不把责任给扛起来。",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o1db5279d0847152c5c0468d768dab469~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793854042&x-signature=XDU0jGlXdKs7SY0R6pApnIYCKEg%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o1db5279d0847152c5c0468d768dab469~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793940450&x-signature=Bbxax%2FGElXvVdkp7KlKBXlBNf8A%3D",
         "url": "https://fanqienovel.com/page/7685677769899904025"
+      },
+      {
+        "title": "年代真少爷重生了？可我是假少爷",
+        "author": "文顺",
+        "reads": "7.6万",
+        "intro": "【重生77年】、【不下乡】 叶淮活了二十年才知道自己是冒牌货。 家境富裕的林家不是他的原生家庭，他的原生家庭穷困潦倒。 生父牺牲，母亲瘫痪，姐姐死了，弟弟体弱，全家就是大写的惨剧。 重生的真少爷林学文回到富贵林家，作为假少爷的叶淮则是回到穷困叶家生活。 叶淮想着，他得把这个家扛起来，先和未婚妻退婚，先立业再考虑婚姻大事。 没想到的是，就算是叶淮回了穷家，白富美未婚妻硬是不退亲，追过来要嫁他。 于是，真白富美千金嫁给穷酸假少爷，政府大院的人都惊掉了下巴。 · 所有人都觉得，叶淮和庄若雪要过一辈子的苦日子。 万万没想到，叶淮靠着医术过得风生水起。 叶淮买大彩电了，叶淮买大房子了，叶淮生龙凤胎了。 叶淮的医术大名到了海外，就连金发碧眼的外国人也过来求医！ 林家真少爷林学文红了眼，明明重生的是自己，怎么富贵的还是假少爷！",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o0c93cd2b112ed49f066ddb3e11ffb14b~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793940450&x-signature=5sEafmv%2BbviQsrIVwYFP%2FPJE4Wk%3D",
+        "url": "https://fanqienovel.com/page/7689684270062767166"
       },
       {
         "title": "入赘猎户家后，我在山上杀疯了",
         "author": "常山钓子龙",
-        "reads": "8万",
+        "reads": "7.5万",
         "intro": "【年代+空间+种田打猎+单女主+杀伐果断】 现代钓鱼佬搏斗巨物失败，一朝穿越到1959年，成为下放“右派”的随迁家属，开局就遇到猎户独女借种。 被迫入赘后，他打猎、种田、养家，偶尔再帮治安队抓一下藏在山里的坏人。 慢慢地，整座大山都成了他的后花园！",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o19552b24ff316b0ff7c6c51fbcc2dfe2~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793854042&x-signature=BaK3zY46RfTfr0X4mQneH83Yxn0%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o19552b24ff316b0ff7c6c51fbcc2dfe2~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793940450&x-signature=Z3fDeBHh6pe5Q9zlo1kWYsQemiE%3D",
         "url": "https://fanqienovel.com/page/7670190326853684248"
       },
       {
         "title": "重生1980：川娃子入京开酒楼",
         "author": "小肥仔",
-        "reads": "6.6万",
+        "reads": "6.8万",
         "intro": "【美食】【年代】【日常】【种田】【无戾气】【轻松爽文】 1980年，陆宏伟觉醒前世美食博主记忆，一纸京城托孤信送到手上。 他随母亲北上京城，原以为只是接个小丫头回川渝老家养。 万万没想到，到了京城，就回不去了~~ 从此，京城胡同多了一个川娃子，不对，是多了一大家子。 烟火人间，川菜飘香满京城。 鱼香肉丝，麻婆豆腐，干煸土豆丝，烧白，夫妻肺片…… 钵~钵鸡，一毛一串的，钵~钵鸡！",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o9c6ad895a03ccb2aea2e51216dc8314a~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793854042&x-signature=N4EddZYAayTkIUvq09xkgk%2BRPIg%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o9c6ad895a03ccb2aea2e51216dc8314a~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793940450&x-signature=IKqMG7Z20EctMtRSKN1oF6BJN9E%3D",
         "url": "https://fanqienovel.com/page/7684992731424246809"
-      },
-      {
-        "title": "手机通九零：死刑混子爹成首富了",
-        "author": "狗二河",
-        "reads": "6.5万",
-        "intro": "【电话穿越九零年代】+【浪子回头】+【原配一生】+【创业大亨】 横跨两个时空，2026对话1994，父子俩通力配合。 复活了癌症去世的亲妈，救出了锒铛入狱的亲爹，老爹逆袭创一代，儿子躺赢富二代！！ 好赌的爹，生病的妈，破碎的家，我不逆袭谁逆袭？ 2026年32岁还在送外卖的陈予安，母亲积劳成疾病死，父亲三十年前杀人入狱被判无期，人生一地狼藉。 意外之下，一通电话打到了1994年的亲爹手上，父子俩跨时空对话。 陈予安：你去救我妈，给她养身体！ 陈勇：好嘞儿子，你妈身体倍棒！ 陈予安：你不要跟狐朋狗友出去赌钱，他们做局骗你！ 陈勇：好嘞儿子，狐朋狗友都被我送进监狱了，咱家钱一分没少！ 陈予安：你不要踢人出头去打架斗殴，会被判刑！ 陈勇：好嘞儿子，我改邪归正不当混混了，这一辈子不再进监狱！ 陈予安：你赶紧去海边村子买房，二十年后开发成豪华CBD，拆迁能分上千万！ 陈勇：好嘞儿子，举家搬迁，让你成为拆二代！ 陈予安：地产风口，快递风口，互联网电商风口，你通通抓住！ 陈勇：儿子，你是富二代了，这两个亿拿去随便花！",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o21c44ecc922627041ebc5af1343ca6fc~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793854042&x-signature=D%2Fw51XuJx%2BdwHRJAtfEehDwbr3s%3D",
-        "url": "https://fanqienovel.com/page/7678681776125922329"
       },
       {
         "title": "七零知青：我在陕北等高考",
         "author": "锅包肉要加醋",
         "reads": "6.4万",
         "intro": "评分刚出，以后会涨的。一觉酒醒，赵卫东穿越到 1976 年 —— 弟弟先斩后奏，替他报名下乡，他收拾行装，踏上陕北插队之路。 贫瘠黄土，口粮紧缺，繁重农活压得人喘不过气。 万幸，他清楚此后历史的每一个走向。别人困在乡村苦等返乡，赵卫东白天挣工分、夜里就着煤油灯翻课本 ，静静等待一年后那场改变命运的高考。",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o85e07d2473c5fc6ba67d07ba7798801b~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793854042&x-signature=e%2BHQhjqQeMDtweULxnUxTxXy2Xo%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o85e07d2473c5fc6ba67d07ba7798801b~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793940450&x-signature=Vrb1rV62fGXUCjZ1siPX5wEd0ZE%3D",
         "url": "https://fanqienovel.com/page/7679744398350896152"
       },
       {
-        "title": "全家逼我坐牢，出狱后我报复全家",
-        "author": "喵白",
-        "reads": "6.2万",
-        "intro": "【年代+无系统+无空间+小井胡同+发家致富】 曹为民重生了。 他重生到出狱的那一天。 上辈子，全家人逼他替大哥坐牢，母亲更是跪下求他。 愚孝的他，听从母亲的话，替大哥背了黑锅，蹲了七年的劳改农场。 从劳改农场出来后，家里所有人都视他为累赘。 为了丢弃他，母亲拿了后院寡妇的‘彩礼’，把他入赘到寡妇家，让他替寡妇养家，让寡妇吸血，更是让他供养全家。 辛苦一辈子，他替哥坐牢，帮弟弟凑彩礼，帮妹妹出买房钱，更是帮寡妇养大孩子，可最后却落得孤苦伶仃冻死在桥下的结局。 重生一世，他要报复全家！再过好自己的小日子！",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o06e75d4f3c660946a5dddb522975365d~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793854042&x-signature=icLrUKj%2BLG3I5bAkMqrWTDhlInc%3D",
-        "url": "https://fanqienovel.com/page/7658933299099733017"
-      },
-      {
-        "title": "年代真少爷重生了？可我是假少爷",
-        "author": "文顺",
-        "reads": "6.1万",
-        "intro": "【重生77年】、【不下乡】 叶淮活了二十年才知道自己是冒牌货。 家境富裕的林家不是他的原生家庭，他的原生家庭穷困潦倒。 生父牺牲，母亲瘫痪，姐姐死了，弟弟体弱，全家就是大写的惨剧。 重生的真少爷林学文回到富贵林家，作为假少爷的叶淮则是回到穷困叶家生活。 叶淮想着，他得把这个家扛起来，先和未婚妻退婚，先立业再考虑婚姻大事。 没想到的是，就算是叶淮回了穷家，白富美未婚妻硬是不退亲，追过来要嫁他。 于是，真白富美千金嫁给穷酸假少爷，政府大院的人都惊掉了下巴。 · 所有人都觉得，叶淮和庄若雪要过一辈子的苦日子。 万万没想到，叶淮靠着医术过得风生水起。 叶淮买大彩电了，叶淮买大房子了，叶淮生龙凤胎了。 叶淮的医术大名到了海外，就连金发碧眼的外国人也过来求医！ 林家真少爷林学文红了眼，明明重生的是自己，怎么富贵的还是假少爷！",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o0c93cd2b112ed49f066ddb3e11ffb14b~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793854042&x-signature=ArKekpC3g6e02AH5JQ1dr7drTzk%3D",
-        "url": "https://fanqienovel.com/page/7689684270062767166"
+        "title": "手机通九零：死刑混子爹成首富了",
+        "author": "狗二河",
+        "reads": "6.3万",
+        "intro": "【电话穿越九零年代】+【浪子回头】+【原配一生】+【创业大亨】 横跨两个时空，2026对话1994，父子俩通力配合。 复活了癌症去世的亲妈，救出了锒铛入狱的亲爹，老爹逆袭创一代，儿子躺赢富二代！！ 好赌的爹，生病的妈，破碎的家，我不逆袭谁逆袭？ 2026年32岁还在送外卖的陈予安，母亲积劳成疾病死，父亲三十年前杀人入狱被判无期，人生一地狼藉。 意外之下，一通电话打到了1994年的亲爹手上，父子俩跨时空对话。 陈予安：你去救我妈，给她养身体！ 陈勇：好嘞儿子，你妈身体倍棒！ 陈予安：你不要跟狐朋狗友出去赌钱，他们做局骗你！ 陈勇：好嘞儿子，狐朋狗友都被我送进监狱了，咱家钱一分没少！ 陈予安：你不要踢人出头去打架斗殴，会被判刑！ 陈勇：好嘞儿子，我改邪归正不当混混了，这一辈子不再进监狱！ 陈予安：你赶紧去海边村子买房，二十年后开发成豪华CBD，拆迁能分上千万！ 陈勇：好嘞儿子，举家搬迁，让你成为拆二代！ 陈予安：地产风口，快递风口，互联网电商风口，你通通抓住！ 陈勇：儿子，你是富二代了，这两个亿拿去随便花！",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o21c44ecc922627041ebc5af1343ca6fc~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793940450&x-signature=Pi3HtoupCaghvH3zF4GLkdtHd3g%3D",
+        "url": "https://fanqienovel.com/page/7678681776125922329"
       },
       {
         "title": "重回1998：妈祖赐我赶海神技",
         "author": "神奇骑士",
-        "reads": "5.6万",
+        "reads": "6.3万",
         "intro": "（赶海+逆袭+带家人致富+轻松日常） 高天强重生回到1998年，妹妹被逼婚的那一天。 　　奶奶陈秀莲为了五千块彩礼，逼迫他十八岁的亲妹妹，嫁给邻村赌鬼张麻子。 　　前世，妹妹被家暴至死，弟弟高考被顶替，他家产被夺。 　　一家人被偏心的奶奶吸血至死！ 　　这一世，高天强不忍了！ 　　他抄起镰刀，当众断亲分家，带着母亲和弟弟妹妹住进海边荒屋！ 　　村里人都笑他傻，有地不要，偏要赶海。 　　但没人知道，他左臂有妈祖，右臂有龙王。 　　妈祖指路，海货无处躲。 　　龙王护体，大海任他游。 　　从赶海开始，他包滩涂、建船队、开渔场，成为了华国最大的海产大王。 　　当陈秀莲舔着老脸来认亲时，高天强只回了一句话： 　　“当年你卖我妹妹的时候，怎么没想过今天？”",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o5411af85fb7257a1a012e0eb7cd5b21d~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793854045&x-signature=wRq9C%2BCVJIi6szIBbwETQUx61EI%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o5411af85fb7257a1a012e0eb7cd5b21d~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793940450&x-signature=xKYDwFJO54uja04E6qifieqabg0%3D",
         "url": "https://fanqienovel.com/page/7679968698370640920"
       },
       {
         "title": "重生80：我靠赶山养三家",
         "author": "又是一年花惊寒食",
-        "reads": "5.2万",
+        "reads": "6.1万",
         "intro": "陈放重生了，重生在遍地黄金的八十年代，身边还多了三个千娇百媚的前妻。 五个可怜巴巴的孩子抬起脑袋望着他。 看着眼前四处漏风的房子、空空如也的米缸，陈放沉默了。 这一次，他要努力养活全家！ 陈放拿起祖传的猎枪，一头扎进了长白山。 碗里的麦麸变成了大肉，破瓦房换成了砖屋，五个孩子的脸上也渐渐有了神采。 三个妻子看他的眼神从嫌弃、悔恨，变成了带着崇拜的爱意。 走上人生巅峰，从一杆猎枪开始！",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o2e9c29567eaa30ce89bf473bd6b0bf37~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793854045&x-signature=%2FaEhoCn3q7G0VFAdzaS2fmPyd4g%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o2e9c29567eaa30ce89bf473bd6b0bf37~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793940453&x-signature=ipdgElkBeR6ictj9Kcto48hFQos%3D",
         "url": "https://fanqienovel.com/page/7688977460976700441"
       },
       {
-        "title": "重生八零：开局把媳妇让给死对头",
-        "author": "李不如",
-        "reads": "4.4万",
-        "intro": "【年代+拒绝扶弟魔+娶女知青+无系统+乡村+发家致富】 李扬重生1980，开局把扶弟魔妻子让给死对头，反手娶了下放女知青。 李扬救了同村曹成刚，对方却趁机杀了李扬，还叫嚣，如果当年他娶了王慧敏，李扬今天的成就，财富都是他的。 他哪里知道扶弟魔妻子王慧敏害得父母姐姐姐夫横死。 外甥女因为吃了她弟弟一块糖，被她推下河淹死。 已成华夏汉服行业霸主的李扬意外得知真相后，幡然悔悟，把妻子送去打靶。 可没想到，死对头曹成刚趁机杀了他。 还扬言是为王慧敏报仇，他才是世上最爱王慧敏的男人。 李扬睁开眼发现重生回到1980年，曹成刚挑衅，说王慧敏一定会和他好，看不上李扬。 呵呵...，都重生了，谁还娶扶弟魔啊！ 李扬立马选择退出，反手娶了前世救他一命，内心深深爱着他的知青许乔。 有着前世超越时代的眼光，夫妻两人从给影楼画幕布开始，一步一步发家致富，打造汉服产业帝国。 而自以为抱得美人归的曹成刚，却发现样样比不过李扬，还越过越穷。 曹成刚蓦然回首，发现家产全被王慧敏搬回娘家去了。 俩人大打一场后离婚，给不了娘家供养，王慧敏被娘家赶出家门。 她找到李扬，情愿当三。 李扬呵呵一笑：滚粗，给老子当丫鬟都嫌你脏。",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o3ac37bef7e9e69732ac058d22283cf38~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793854045&x-signature=NoZXpIt3JJ0smJjG9HFqYVtNqkY%3D",
-        "url": "https://fanqienovel.com/page/7682742447268432958"
-      },
-      {
-        "title": "中奖184亿后，回东北躺平",
-        "author": "黄河大街南",
-        "reads": "4.3万",
-        "intro": "评分刚出，后面会涨（爱国+另类躺平+认识差爽感+睡后收入+治愈） 在魔都工作的沈砚，运气差到极点时，意外中了大奖，选择回东北老家躺平。 心态转变了，身体也好起来，财富也不断的增长。 爷爷山村，父亲阳城，沈砚魔都，三代人的来时路就是沈砚的归途。 开店、炒股、买楼、景区逐渐做大，细节满满。 有些慢热，喜欢的加个书架。",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o54f84394c9ba1768d314f611cbf6cabf~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793854045&x-signature=NllZaD%2BSMUnPTY6v4oJ%2B7ZhOJV4%3D",
-        "url": "https://fanqienovel.com/page/7659310157607734297"
-      },
-      {
-        "title": "我是亿万富豪，还得再等二十年",
-        "author": "回头看一二三",
-        "reads": "4.1万",
-        "intro": "周开诚重生了，回到十六岁，中考的前一天。 毫无意外，他考砸了，但是他不在乎。 再过八年，比特币会出现，再过二十年，他会变成亿万富翁。 现在的问题是——他得好好地活到那天。 十六岁的身体，六百块钱，一张身份证，和一个他不想再待下去的家。 …… 这是一本生活向的小说，只有娓娓道来的时间流逝，没有雄心万丈，没有杀伐果断。",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o8c29489c217a246b565ca0ccb318d561~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793854045&x-signature=X8zIbwc3ZyzRbIi5PeKCKk0XFJg%3D",
-        "url": "https://fanqienovel.com/page/7674885041708616728"
+        "title": "全家逼我坐牢，出狱后我报复全家",
+        "author": "喵白",
+        "reads": "5.7万",
+        "intro": "【年代+无系统+无空间+小井胡同+发家致富】 曹为民重生了。 他重生到出狱的那一天。 上辈子，全家人逼他替大哥坐牢，母亲更是跪下求他。 愚孝的他，听从母亲的话，替大哥背了黑锅，蹲了七年的劳改农场。 从劳改农场出来后，家里所有人都视他为累赘。 为了丢弃他，母亲拿了后院寡妇的‘彩礼’，把他入赘到寡妇家，让他替寡妇养家，让寡妇吸血，更是让他供养全家。 辛苦一辈子，他替哥坐牢，帮弟弟凑彩礼，帮妹妹出买房钱，更是帮寡妇养大孩子，可最后却落得孤苦伶仃冻死在桥下的结局。 重生一世，他要报复全家！再过好自己的小日子！",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o06e75d4f3c660946a5dddb522975365d~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793940453&x-signature=bxzHjF%2BOZbRK%2BAPFCED4I4pqQSY%3D",
+        "url": "https://fanqienovel.com/page/7658933299099733017"
       },
       {
         "title": "我在荒岛的逍遥生活",
         "author": "大红袍泡酒",
-        "reads": "3.9万",
+        "reads": "4.7万",
         "intro": "【无系统+年龄差+生存】 一场海难，林枫流落无人荒岛，身边只有邻村美女秦如玉。 为了活下去，林枫被歹人打晕沉入海里，没想到，意外获得了神秘力量。",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o7aa8ee1c3c52fdceef720a74426775a8~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793854045&x-signature=WNs4sue2%2B557choCpNhxz2DHGj8%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o7aa8ee1c3c52fdceef720a74426775a8~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793940453&x-signature=IYb5N0eAjCXCOVOpwPEUknZx04s%3D",
         "url": "https://fanqienovel.com/page/7693936373824244798"
+      },
+      {
+        "title": "我是亿万富豪，还得再等二十年",
+        "author": "回头看一二三",
+        "reads": "4.3万",
+        "intro": "周开诚重生了，回到十六岁，中考的前一天。 毫无意外，他考砸了，但是他不在乎。 再过八年，比特币会出现，再过二十年，他会变成亿万富翁。 现在的问题是——他得好好地活到那天。 十六岁的身体，六百块钱，一张身份证，和一个他不想再待下去的家。 …… 这是一本生活向的小说，只有娓娓道来的时间流逝，没有雄心万丈，没有杀伐果断。",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o8c29489c217a246b565ca0ccb318d561~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793940453&x-signature=5ig2UkzFFakn5mBi9GTu213CMns%3D",
+        "url": "https://fanqienovel.com/page/7674885041708616728"
+      },
+      {
+        "title": "中奖184亿后，回东北躺平",
+        "author": "黄河大街南",
+        "reads": "4.1万",
+        "intro": "评分刚出，后面会涨（爱国+另类躺平+认识差爽感+睡后收入+治愈） 在魔都工作的沈砚，运气差到极点时，意外中了大奖，选择回东北老家躺平。 心态转变了，身体也好起来，财富也不断的增长。 爷爷山村，父亲阳城，沈砚魔都，三代人的来时路就是沈砚的归途。 开店、炒股、买楼、景区逐渐做大，细节满满。 有些慢热，喜欢的加个书架。",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o54f84394c9ba1768d314f611cbf6cabf~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793940453&x-signature=dlcDqlm2q%2FaGSg1hfwaw3bo%2F%2FDI%3D",
+        "url": "https://fanqienovel.com/page/7659310157607734297"
       },
       {
         "title": "狩猎在东北，从娶绝美大小姐开始",
         "author": "虾米",
-        "reads": "3.8万",
+        "reads": "4万",
         "intro": "张大棒重生回到了1979年，那个虫鸣蛙叫的夏天！ 一睁眼，发现居然和资本家秋雅大小姐钻了被窝！ 上辈子他做了叛徒，临阵逃脱没有负责，导致秋雅最终惨死，带着孩子孤独终老！ 无尽的懊悔痛苦涌上心头。 这辈子，他绝不辜负……也要把这个深爱的女人娶回家！ 他要赚钱，他要致富，要弥补上一世的遗憾！ 白山黑水，大美龙江，他提着猎枪，春天穿梭在东北老山林，猛揍黑瞎子，手搓山君！ 夏天，他赶上采药，挖人参，下河套子抓鱼。 秋天，他打松塔，采榛子，挖哈士蟆子。 冬天，一人一狗，驰骋林海雪原，吃的是粘豆包，喝的是酸菜汤！ 带着媳妇孩子，打冰嘎，堆雪娃，享受着大东北深厚的风土人情！！",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o79b69528ab65350386efaf239c91472c~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793854045&x-signature=JG2tV5nye%2F7pMC7EgG5j0eq76NE%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o79b69528ab65350386efaf239c91472c~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793940453&x-signature=gWKTxQYUj07buUeLGTYSrO4VuPM%3D",
         "url": "https://fanqienovel.com/page/7686131997218982937"
-      },
-      {
-        "title": "重生83：赘婿靠赶海翻身做主",
-        "author": "我爱小地雷",
-        "reads": "3.2万",
-        "intro": "[重生]➕[赘婿]➕[赶海]➕[系统] 上门女婿顶不住80年代的流言蜚语沉迷喝酒！ 老丈人养了三年觉得是个养不熟的白眼狼，要求分家，导致老婆周楠带着儿子周振投海。 自那天刘晨被周家扔出了周家大门，也是那天刘晨醒了，一直干到身价千万。 却在病床上重生到分家那天，一切都还来的及，老婆孩子都在！ 重生了怎么能没个系统呢，刘晨觉醒了海图系统，移动的探鱼雷达，别人空桶，他的桶已经满的盖不住了。",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2of565a18f4b6a48a75a7a418407369b37~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793854045&x-signature=T7TG0ZIa0pkfgGJhes%2BgKevaw%2Fw%3D",
-        "url": "https://fanqienovel.com/page/7661275940546169880"
       },
       {
         "title": "年代：开局二两玉米面养活女知青",
         "author": "宅猫不睡觉",
-        "reads": "3.1万",
+        "reads": "3.9万",
         "intro": "【年代文日常，微系统无空间，赶山种田，家长里短，多女主，不喜勿入。】 好消息：穿越了。 坏消息：穿成了一个抱错的假少爷，被厂长爹一脚踢下乡当知青。 更坏的消息：原主还是个又懒又穷还欠工分的“少爷秧子”。 顾川蹲在漏风的土坯房里，摸遍全身只找到一个系统。 【低保签到系统。每日签到，获得最低限度生存保障。】 别人系统给的是黄金万两、神功盖世。 他开局是每天二两玉米面、每月十斤白面加一勺油外和初级厨艺精通技能卡。 穷是穷了点，但提升威望就能提升奖励。 杂乱不堪的土坯房，两个娇滴滴的女知青求着合住。 一个温软如月，一个清冷如雪，每天在院子里晃来晃去，晃得他连饭都快做不下去了。 什么？有人说他一个假少爷配不上？ 顾川笑了一声：“那就配不上吧，反正城里好看的姑娘多的是。”",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o3c1accd74f4d74fd61035db9fb3b0565~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793854045&x-signature=gVkpk%2FmK7O6%2Fkm%2FUW16ovrqLy30%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o3c1accd74f4d74fd61035db9fb3b0565~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793940453&x-signature=%2FIXEAnxanlsRADstGtmigixFH88%3D",
         "url": "https://fanqienovel.com/page/7676336214542126104"
+      },
+      {
+        "title": "重生八零：开局把媳妇让给死对头",
+        "author": "李不如",
+        "reads": "3.9万",
+        "intro": "【年代+拒绝扶弟魔+娶女知青+无系统+乡村+发家致富】 李扬重生1980，开局把扶弟魔妻子让给死对头，反手娶了下放女知青。 李扬救了同村曹成刚，对方却趁机杀了李扬，还叫嚣，如果当年他娶了王慧敏，李扬今天的成就，财富都是他的。 他哪里知道扶弟魔妻子王慧敏害得父母姐姐姐夫横死。 外甥女因为吃了她弟弟一块糖，被她推下河淹死。 已成华夏汉服行业霸主的李扬意外得知真相后，幡然悔悟，把妻子送去打靶。 可没想到，死对头曹成刚趁机杀了他。 还扬言是为王慧敏报仇，他才是世上最爱王慧敏的男人。 李扬睁开眼发现重生回到1980年，曹成刚挑衅，说王慧敏一定会和他好，看不上李扬。 呵呵...，都重生了，谁还娶扶弟魔啊！ 李扬立马选择退出，反手娶了前世救他一命，内心深深爱着他的知青许乔。 有着前世超越时代的眼光，夫妻两人从给影楼画幕布开始，一步一步发家致富，打造汉服产业帝国。 而自以为抱得美人归的曹成刚，却发现样样比不过李扬，还越过越穷。 曹成刚蓦然回首，发现家产全被王慧敏搬回娘家去了。 俩人大打一场后离婚，给不了娘家供养，王慧敏被娘家赶出家门。 她找到李扬，情愿当三。 李扬呵呵一笑：滚粗，给老子当丫鬟都嫌你脏。",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o3ac37bef7e9e69732ac058d22283cf38~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793940453&x-signature=8A4gbSlPm4QNj%2Big1WHX6xTlitc%3D",
+        "url": "https://fanqienovel.com/page/7682742447268432958"
       },
       {
         "title": "七零灵泉空间：赶山打猎护全家",
         "author": "花66",
-        "reads": "3万",
+        "reads": "3.3万",
         "intro": "（打猎＋赶山＋养野兽＋灵泉＋空间）林舟一朝魂穿七零困难年代，刚睁眼便落入算计。 趁他昏迷不醒，偏心爷奶伙同大伯一家闯进家门，要强带走他媳妇，逼她改嫁，霸占他家房屋口粮。 绝境之中，随身灵泉空间意外激活！ 内有灵田可种五谷，灵泉滋养万物，还能稳妥存放物资。 闲暇赶山，进山打猎，空间还可培育作物、驯养野兽。 极品亲戚步步算计、不断压榨？他直接撕破脸面，果断断亲，远离这泥潭。 粮食紧缺，票证难寻，他靠着灵田灵泉悄悄积攒物资，死死护住身边亲人。 在物资匮乏的艰苦岁月里，一家人精打细算，避开风波，谋求安稳，日子一天天越过越红火。",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o6dc9d13a8920c3b7f9a01409726fcb38~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793854045&x-signature=tfNNxOYsMakGTGSe8FETfi2Thvg%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o6dc9d13a8920c3b7f9a01409726fcb38~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793940453&x-signature=sX%2BcBbYijHAHXPNsfgkgxaLMxi8%3D",
         "url": "https://fanqienovel.com/page/7686456774865472537"
+      },
+      {
+        "title": "重生83：赘婿靠赶海翻身做主",
+        "author": "我爱小地雷",
+        "reads": "3万",
+        "intro": "[重生]➕[赘婿]➕[赶海]➕[系统] 上门女婿顶不住80年代的流言蜚语沉迷喝酒！ 老丈人养了三年觉得是个养不熟的白眼狼，要求分家，导致老婆周楠带着儿子周振投海。 自那天刘晨被周家扔出了周家大门，也是那天刘晨醒了，一直干到身价千万。 却在病床上重生到分家那天，一切都还来的及，老婆孩子都在！ 重生了怎么能没个系统呢，刘晨觉醒了海图系统，移动的探鱼雷达，别人空桶，他的桶已经满的盖不住了。",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2of565a18f4b6a48a75a7a418407369b37~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793940453&x-signature=pZUe%2F1iFRd%2BD3tbmnF2CYfhjbv4%3D",
+        "url": "https://fanqienovel.com/page/7661275940546169880"
       }
     ]
   },
@@ -238,229 +224,215 @@
     {
       "name": "都市种田",
       "trend": {
-        "new_count": 4,
-        "dropped_count": 4,
-        "new_books": [
-          "我在荒岛的逍遥生活",
-          "重生83：赘婿靠赶海翻身做主",
-          "年代：开局二两玉米面养活女知青",
-          "七零灵泉空间：赶山打猎护全家"
-        ],
-        "dropped_books": [
-          {
-            "title": "返乡青年，我开了一家猛货大排档",
-            "intro": "【单女主】【有系统】【日常种田文】 在陈耀明老家流传一句话： 宁可睡地板，也要当老板。 三十岁的陈耀明辞职回到沿海老家，接手父母经营二十年餐厅。 一家普通的海鲜大排档，却有来自全世界的生猛海鲜。"
-          },
-          {
-            "title": "灾荒年：带五妹大兴安岭建桃源",
-            "intro": "1959年，灾荒降临，物资奇缺。 东北重工基地突发大爆炸，陆沉的养父被敌特栽赃成主谋，面临灭顶之灾！ 生死存亡之际，陆沉带着“万物图鉴与生态空间”双重金手指重生在爆炸前一天。 开局精准锁定炸药，反杀敌"
-          },
-          {
-            "title": "60年代，空间在手，红颜我也有",
-            "intro": "【年代+空间+致富+打猎+杀伐果断+亲情】… 平行世界，不要对号入座。 陆文宇穿越了，穿越到60年代农村。 他有痛爱的父母，相亲相爱兄弟姐妹，凭着空间，让家人顿顿能吃肉，不用再饿肚子，上山打野，下河抓"
-          },
-          {
-            "title": "后妈骗我下乡？我送她亲儿去西北",
-            "intro": "一睁眼，姥爷留下的八卦盘融入脑海，鬼谷八门遁开启！ 坤位-鬼谷空间：万亩灵田，时间加速，物资无限！ 兑位-鬼谷通灵：百兽为眼，监控全城！ 震位-鬼谷医术：金针济世，起死回生！ …… 恰逢渣爹后妈逼我下"
-          }
-        ],
+        "new_count": 0,
+        "dropped_count": 0,
+        "new_books": [],
+        "dropped_books": [],
         "top_risers": [
           {
-            "title": "重回1998：妈祖赐我赶海神技",
+            "title": "年代真少爷重生了？可我是假少爷",
             "change": "+5"
           },
           {
-            "title": "手机通九零：死刑混子爹成首富了",
-            "change": "+4"
+            "title": "我在荒岛的逍遥生活",
+            "change": "+3"
           },
           {
-            "title": "重生1980：川娃子入京开酒楼",
-            "change": "+3"
+            "title": "年代：开局二两玉米面养活女知青",
+            "change": "+2"
           }
         ],
         "top_fallers": [
           {
-            "title": "穿到六零，吃瓜看戏",
-            "change": "-1"
+            "title": "重生八零：开局把媳妇让给死对头",
+            "change": "-5"
+          },
+          {
+            "title": "全家逼我坐牢，出狱后我报复全家",
+            "change": "-3"
+          },
+          {
+            "title": "手机通九零：死刑混子爹成首富了",
+            "change": "-2"
           }
         ],
         "reads_growth": [
           {
-            "title": "红色人生模拟，我怎么成老干部了",
-            "growth": "+1.4万"
-          },
-          {
-            "title": "重回1998：妈祖赐我赶海神技",
-            "growth": "+1.3万"
-          },
-          {
             "title": "年代真少爷重生了？可我是假少爷",
-            "growth": "+1.0万"
+            "growth": "+1.5万"
+          },
+          {
+            "title": "重生80：我靠赶山养三家",
+            "growth": "+9000"
+          },
+          {
+            "title": "重生82年，军夫的随身空间",
+            "growth": "+8000"
           }
         ],
-        "summary": "**🔥 题材趋势**：年代文（70-90年代）霸榜，赶海、赶山、打猎三大\"资源获取\"流派成型；\"重生+空间/系统\"仍是标配，但\"跨时空通话\"\"妈祖赐技能\"等轻奇幻钩子开始冒头。\n**📖 读者偏好**：家庭伦理冲突是核心引擎——断亲、虐渣爹后娘、护妹护家，爽点绑定\"家人翻身\"而非个人称霸；日常烟火气（美食、赶海收货）提供治愈感，戾气过重反被弃。\n**🆕 新上榜作品**：《我在荒岛的逍遥生活》以无系统纯生存+年龄差切入，题材稀缺；《重生83赶海》《七零灵泉空间》延续赶海/空间流但靠\"赘婿翻身\"\"护全家\"细化情绪。\n**📉 掉出榜单**：大排档、灾荒建桃源等\"经营/基建\"向作品掉榜，说明读者更偏好\"即时收获感\"（赶海爆桶、打猎见肉）而非慢热建设。\n**💡 值得关注**：《手机通九零》跨时空父子协作+救母线，情感与爽感双高，排名持续上升；《红色人生模拟》以模拟器映照现实老干部设定，年代+脑洞融合有长线潜力。",
+        "summary": "**🔥 题材趋势** 年代文（70-90年代）占据绝对统治地位，核心公式=重生/穿越+空间/系统+赶山/赶海/美食。细分赛道中“赶山打猎”与“赶海”形成两大流派，近期“跨时空通话”（手机通九零）成为新变量。\n\n**📖 读者偏好** 爽点从“发家致富”转向“断亲分家+护短复仇”，极品亲戚压迫越狠、反击越果断越吸量。读者对“无戾气日常”和“杀伐果断”形成两极需求，中间态作品容易掉队。\n\n**🆕 新上榜作品** 本期无新上榜，榜单固化明显，头部《见鬼！求生系统把我投放到80年》以“求生系统误投年代”的错位设定稳居第一，说明“系统+年代”的复合脑洞仍是流量密码。\n\n**📉 掉出榜单** 本期无掉榜，但中腰部排名波动剧烈，《重生八零：开局把媳妇让给死对头》-5、《全家逼我坐牢》-3，说明“让妻/坐牢”类虐主开局留存风险高。\n\n**💡 值得关注** 《手机通九零：死刑混子爹成首富了》跨时空父子协作+复活亲妈的设定兼具情绪爆点与新鲜感，若后续节奏稳住有望冲顶。",
         "source": "ai"
       },
       "books": [
         {
           "title": "见鬼！求生系统把我投放到80年",
           "author": "铁蛋他哥",
-          "reads": "27.6万",
+          "reads": "26.1万",
           "intro": "一觉醒来，别人被投放到无尽海域求生，池海被送去了80年代！ 好嘛，别人求生，他重生。 前世的遗憾，他要一点一点的挽回。看着别人糟心的求生日常，池海能多吃一碗饭，顺便还能搞点不要钱的淡水换取他们最珍贵的物资。 别人开局小木筏，池海直接分产一艘机动船，秒升2级拿奖励。 开挂的人生，总是这么无聊……",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oca85dff4651eaea3b31c6824467b3dfc~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793854042&x-signature=%2BNoL03gNk1ZAiz9Ubu1wTEji%2BZ8%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oca85dff4651eaea3b31c6824467b3dfc~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793940450&x-signature=6TjJPHq2NCSLHaERjdtXdM9t%2BrU%3D",
           "url": "https://fanqienovel.com/page/7688179542275394584"
         },
         {
           "title": "红色人生模拟，我怎么成老干部了",
           "author": "兰若寺小妖",
-          "reads": "22.9万",
-          "intro": "评分刚出【年代】【征战岁月】【穿书】【模拟器】【搞笑】【治愈】【护短】【腹黑】【家长里短】 七零年代，小老头张三湾觉醒红色人生模拟器，从苏区一路杀到铁原。 谁知模拟人生居然映照到了现实，平平无奇的无业小老头最后被补认为了退休老干部。 重生归来的女儿张清菡去亲生家庭打脸复仇，小老头带着一帮老战友在后面摇旗呐喊，撑腰护短。 你什么档次的家庭，敢偏袒假千金，还欺负我女儿？！ 女频逻辑？认得大爷我砂锅大的拳头吗？！ 高门权贵？大爷们这辈子杀得最多的就是这玩意！",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o6b0e840788cac6bdc717ea84694070b7~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793854042&x-signature=MqdHIvenUTDUz7P9Z0GmvQj%2B%2Fn4%3D",
+          "reads": "23.5万",
+          "intro": "评分刚出【年代】【征战岁月】【穿书】【模拟器】【搞笑】【治愈】【护短】【腹黑】【家长里短】 七零年代，小老头张三湾觉醒红色人生模拟器，却不想模拟映照现实。 平平无奇的无业小老头居然是隐藏大佬。 重生归来的女儿张清菡去亲生家庭打脸复仇，小老头带着一帮老战友在后面摇旗呐喊，撑腰护短。 你什么档次的家庭，敢偏袒假千金，还欺负我女儿？！ 女频逻辑？认得大爷我砂锅大的拳头吗？！ 高门权贵？大爷们这辈子收拾得最多的就是这玩意！",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o6b0e840788cac6bdc717ea84694070b7~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793940450&x-signature=xDa2AC2CqT2FNb38IX6mV9n6VgY%3D",
           "url": "https://fanqienovel.com/page/7671104761956928574"
         },
         {
           "title": "穿到六零，吃瓜看戏",
           "author": "皮皮的小猪",
-          "reads": "20.6万",
+          "reads": "19.9万",
           "intro": "周曜穿到艰苦的六十年代，附带个能种植的空间，绑定了吃瓜系统。 爹娘双职工，三姐一妹，他是家中唯一的耀祖。 畅享美好未来时，娘因公殉职。 娘去世俩月，渣爹打着娶个后娘照顾他们姐弟的幌子再婚。 后娘带着三个拖油瓶进门，几个月后后娘生了对双胞胎儿子。 他不再是渣爹心中唯一的耀祖。 后娘仗着生了两个耀祖，枕头风吹的厉害。 周曜什么都吃就是不吃亏。 渣爹偏向小耀祖，他就收拾小耀祖。 后娘两面三刀，收拾小耀祖。 有吃有喝，不缺钱财，没事吃吃瓜、打打小耀祖。 在艰苦年代过的有滋有味。",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/ai/p2ocd3fa52095ff90a83b2ce0c32531affd~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793854042&x-signature=I8NM8X0BlpgmeS%2FEfJ0D8aBXkaM%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/ai/p2ocd3fa52095ff90a83b2ce0c32531affd~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793940450&x-signature=qx2x6oKi6cvGUnuTd0fA%2BZzPs0c%3D",
           "url": "https://fanqienovel.com/page/7656638836415417368"
         },
         {
           "title": "重生82年，军夫的随身空间",
           "author": "雪绝影",
-          "reads": "10万",
+          "reads": "10.8万",
           "intro": "重生八十年代，跟着军医媳妇去随军。 王宇本想当个软饭男，奈何总有麻烦找上门，虽然是赘婿，也不得不把责任给扛起来。",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o1db5279d0847152c5c0468d768dab469~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793854042&x-signature=XDU0jGlXdKs7SY0R6pApnIYCKEg%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o1db5279d0847152c5c0468d768dab469~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793940450&x-signature=Bbxax%2FGElXvVdkp7KlKBXlBNf8A%3D",
           "url": "https://fanqienovel.com/page/7685677769899904025"
+        },
+        {
+          "title": "年代真少爷重生了？可我是假少爷",
+          "author": "文顺",
+          "reads": "7.6万",
+          "intro": "【重生77年】、【不下乡】 叶淮活了二十年才知道自己是冒牌货。 家境富裕的林家不是他的原生家庭，他的原生家庭穷困潦倒。 生父牺牲，母亲瘫痪，姐姐死了，弟弟体弱，全家就是大写的惨剧。 重生的真少爷林学文回到富贵林家，作为假少爷的叶淮则是回到穷困叶家生活。 叶淮想着，他得把这个家扛起来，先和未婚妻退婚，先立业再考虑婚姻大事。 没想到的是，就算是叶淮回了穷家，白富美未婚妻硬是不退亲，追过来要嫁他。 于是，真白富美千金嫁给穷酸假少爷，政府大院的人都惊掉了下巴。 · 所有人都觉得，叶淮和庄若雪要过一辈子的苦日子。 万万没想到，叶淮靠着医术过得风生水起。 叶淮买大彩电了，叶淮买大房子了，叶淮生龙凤胎了。 叶淮的医术大名到了海外，就连金发碧眼的外国人也过来求医！ 林家真少爷林学文红了眼，明明重生的是自己，怎么富贵的还是假少爷！",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o0c93cd2b112ed49f066ddb3e11ffb14b~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793940450&x-signature=5sEafmv%2BbviQsrIVwYFP%2FPJE4Wk%3D",
+          "url": "https://fanqienovel.com/page/7689684270062767166"
         },
         {
           "title": "入赘猎户家后，我在山上杀疯了",
           "author": "常山钓子龙",
-          "reads": "8万",
+          "reads": "7.5万",
           "intro": "【年代+空间+种田打猎+单女主+杀伐果断】 现代钓鱼佬搏斗巨物失败，一朝穿越到1959年，成为下放“右派”的随迁家属，开局就遇到猎户独女借种。 被迫入赘后，他打猎、种田、养家，偶尔再帮治安队抓一下藏在山里的坏人。 慢慢地，整座大山都成了他的后花园！",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o19552b24ff316b0ff7c6c51fbcc2dfe2~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793854042&x-signature=BaK3zY46RfTfr0X4mQneH83Yxn0%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o19552b24ff316b0ff7c6c51fbcc2dfe2~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793940450&x-signature=Z3fDeBHh6pe5Q9zlo1kWYsQemiE%3D",
           "url": "https://fanqienovel.com/page/7670190326853684248"
         },
         {
           "title": "重生1980：川娃子入京开酒楼",
           "author": "小肥仔",
-          "reads": "6.6万",
+          "reads": "6.8万",
           "intro": "【美食】【年代】【日常】【种田】【无戾气】【轻松爽文】 1980年，陆宏伟觉醒前世美食博主记忆，一纸京城托孤信送到手上。 他随母亲北上京城，原以为只是接个小丫头回川渝老家养。 万万没想到，到了京城，就回不去了~~ 从此，京城胡同多了一个川娃子，不对，是多了一大家子。 烟火人间，川菜飘香满京城。 鱼香肉丝，麻婆豆腐，干煸土豆丝，烧白，夫妻肺片…… 钵~钵鸡，一毛一串的，钵~钵鸡！",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o9c6ad895a03ccb2aea2e51216dc8314a~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793854042&x-signature=N4EddZYAayTkIUvq09xkgk%2BRPIg%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o9c6ad895a03ccb2aea2e51216dc8314a~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793940450&x-signature=IKqMG7Z20EctMtRSKN1oF6BJN9E%3D",
           "url": "https://fanqienovel.com/page/7684992731424246809"
-        },
-        {
-          "title": "手机通九零：死刑混子爹成首富了",
-          "author": "狗二河",
-          "reads": "6.5万",
-          "intro": "【电话穿越九零年代】+【浪子回头】+【原配一生】+【创业大亨】 横跨两个时空，2026对话1994，父子俩通力配合。 复活了癌症去世的亲妈，救出了锒铛入狱的亲爹，老爹逆袭创一代，儿子躺赢富二代！！ 好赌的爹，生病的妈，破碎的家，我不逆袭谁逆袭？ 2026年32岁还在送外卖的陈予安，母亲积劳成疾病死，父亲三十年前杀人入狱被判无期，人生一地狼藉。 意外之下，一通电话打到了1994年的亲爹手上，父子俩跨时空对话。 陈予安：你去救我妈，给她养身体！ 陈勇：好嘞儿子，你妈身体倍棒！ 陈予安：你不要跟狐朋狗友出去赌钱，他们做局骗你！ 陈勇：好嘞儿子，狐朋狗友都被我送进监狱了，咱家钱一分没少！ 陈予安：你不要踢人出头去打架斗殴，会被判刑！ 陈勇：好嘞儿子，我改邪归正不当混混了，这一辈子不再进监狱！ 陈予安：你赶紧去海边村子买房，二十年后开发成豪华CBD，拆迁能分上千万！ 陈勇：好嘞儿子，举家搬迁，让你成为拆二代！ 陈予安：地产风口，快递风口，互联网电商风口，你通通抓住！ 陈勇：儿子，你是富二代了，这两个亿拿去随便花！",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o21c44ecc922627041ebc5af1343ca6fc~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793854042&x-signature=D%2Fw51XuJx%2BdwHRJAtfEehDwbr3s%3D",
-          "url": "https://fanqienovel.com/page/7678681776125922329"
         },
         {
           "title": "七零知青：我在陕北等高考",
           "author": "锅包肉要加醋",
           "reads": "6.4万",
           "intro": "评分刚出，以后会涨的。一觉酒醒，赵卫东穿越到 1976 年 —— 弟弟先斩后奏，替他报名下乡，他收拾行装，踏上陕北插队之路。 贫瘠黄土，口粮紧缺，繁重农活压得人喘不过气。 万幸，他清楚此后历史的每一个走向。别人困在乡村苦等返乡，赵卫东白天挣工分、夜里就着煤油灯翻课本 ，静静等待一年后那场改变命运的高考。",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o85e07d2473c5fc6ba67d07ba7798801b~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793854042&x-signature=e%2BHQhjqQeMDtweULxnUxTxXy2Xo%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o85e07d2473c5fc6ba67d07ba7798801b~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793940450&x-signature=Vrb1rV62fGXUCjZ1siPX5wEd0ZE%3D",
           "url": "https://fanqienovel.com/page/7679744398350896152"
         },
         {
-          "title": "全家逼我坐牢，出狱后我报复全家",
-          "author": "喵白",
-          "reads": "6.2万",
-          "intro": "【年代+无系统+无空间+小井胡同+发家致富】 曹为民重生了。 他重生到出狱的那一天。 上辈子，全家人逼他替大哥坐牢，母亲更是跪下求他。 愚孝的他，听从母亲的话，替大哥背了黑锅，蹲了七年的劳改农场。 从劳改农场出来后，家里所有人都视他为累赘。 为了丢弃他，母亲拿了后院寡妇的‘彩礼’，把他入赘到寡妇家，让他替寡妇养家，让寡妇吸血，更是让他供养全家。 辛苦一辈子，他替哥坐牢，帮弟弟凑彩礼，帮妹妹出买房钱，更是帮寡妇养大孩子，可最后却落得孤苦伶仃冻死在桥下的结局。 重生一世，他要报复全家！再过好自己的小日子！",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o06e75d4f3c660946a5dddb522975365d~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793854042&x-signature=icLrUKj%2BLG3I5bAkMqrWTDhlInc%3D",
-          "url": "https://fanqienovel.com/page/7658933299099733017"
-        },
-        {
-          "title": "年代真少爷重生了？可我是假少爷",
-          "author": "文顺",
-          "reads": "6.1万",
-          "intro": "【重生77年】、【不下乡】 叶淮活了二十年才知道自己是冒牌货。 家境富裕的林家不是他的原生家庭，他的原生家庭穷困潦倒。 生父牺牲，母亲瘫痪，姐姐死了，弟弟体弱，全家就是大写的惨剧。 重生的真少爷林学文回到富贵林家，作为假少爷的叶淮则是回到穷困叶家生活。 叶淮想着，他得把这个家扛起来，先和未婚妻退婚，先立业再考虑婚姻大事。 没想到的是，就算是叶淮回了穷家，白富美未婚妻硬是不退亲，追过来要嫁他。 于是，真白富美千金嫁给穷酸假少爷，政府大院的人都惊掉了下巴。 · 所有人都觉得，叶淮和庄若雪要过一辈子的苦日子。 万万没想到，叶淮靠着医术过得风生水起。 叶淮买大彩电了，叶淮买大房子了，叶淮生龙凤胎了。 叶淮的医术大名到了海外，就连金发碧眼的外国人也过来求医！ 林家真少爷林学文红了眼，明明重生的是自己，怎么富贵的还是假少爷！",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o0c93cd2b112ed49f066ddb3e11ffb14b~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793854042&x-signature=ArKekpC3g6e02AH5JQ1dr7drTzk%3D",
-          "url": "https://fanqienovel.com/page/7689684270062767166"
+          "title": "手机通九零：死刑混子爹成首富了",
+          "author": "狗二河",
+          "reads": "6.3万",
+          "intro": "【电话穿越九零年代】+【浪子回头】+【原配一生】+【创业大亨】 横跨两个时空，2026对话1994，父子俩通力配合。 复活了癌症去世的亲妈，救出了锒铛入狱的亲爹，老爹逆袭创一代，儿子躺赢富二代！！ 好赌的爹，生病的妈，破碎的家，我不逆袭谁逆袭？ 2026年32岁还在送外卖的陈予安，母亲积劳成疾病死，父亲三十年前杀人入狱被判无期，人生一地狼藉。 意外之下，一通电话打到了1994年的亲爹手上，父子俩跨时空对话。 陈予安：你去救我妈，给她养身体！ 陈勇：好嘞儿子，你妈身体倍棒！ 陈予安：你不要跟狐朋狗友出去赌钱，他们做局骗你！ 陈勇：好嘞儿子，狐朋狗友都被我送进监狱了，咱家钱一分没少！ 陈予安：你不要踢人出头去打架斗殴，会被判刑！ 陈勇：好嘞儿子，我改邪归正不当混混了，这一辈子不再进监狱！ 陈予安：你赶紧去海边村子买房，二十年后开发成豪华CBD，拆迁能分上千万！ 陈勇：好嘞儿子，举家搬迁，让你成为拆二代！ 陈予安：地产风口，快递风口，互联网电商风口，你通通抓住！ 陈勇：儿子，你是富二代了，这两个亿拿去随便花！",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o21c44ecc922627041ebc5af1343ca6fc~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793940450&x-signature=Pi3HtoupCaghvH3zF4GLkdtHd3g%3D",
+          "url": "https://fanqienovel.com/page/7678681776125922329"
         },
         {
           "title": "重回1998：妈祖赐我赶海神技",
           "author": "神奇骑士",
-          "reads": "5.6万",
+          "reads": "6.3万",
           "intro": "（赶海+逆袭+带家人致富+轻松日常） 高天强重生回到1998年，妹妹被逼婚的那一天。 　　奶奶陈秀莲为了五千块彩礼，逼迫他十八岁的亲妹妹，嫁给邻村赌鬼张麻子。 　　前世，妹妹被家暴至死，弟弟高考被顶替，他家产被夺。 　　一家人被偏心的奶奶吸血至死！ 　　这一世，高天强不忍了！ 　　他抄起镰刀，当众断亲分家，带着母亲和弟弟妹妹住进海边荒屋！ 　　村里人都笑他傻，有地不要，偏要赶海。 　　但没人知道，他左臂有妈祖，右臂有龙王。 　　妈祖指路，海货无处躲。 　　龙王护体，大海任他游。 　　从赶海开始，他包滩涂、建船队、开渔场，成为了华国最大的海产大王。 　　当陈秀莲舔着老脸来认亲时，高天强只回了一句话： 　　“当年你卖我妹妹的时候，怎么没想过今天？”",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o5411af85fb7257a1a012e0eb7cd5b21d~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793854045&x-signature=wRq9C%2BCVJIi6szIBbwETQUx61EI%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o5411af85fb7257a1a012e0eb7cd5b21d~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793940450&x-signature=xKYDwFJO54uja04E6qifieqabg0%3D",
           "url": "https://fanqienovel.com/page/7679968698370640920"
         },
         {
           "title": "重生80：我靠赶山养三家",
           "author": "又是一年花惊寒食",
-          "reads": "5.2万",
+          "reads": "6.1万",
           "intro": "陈放重生了，重生在遍地黄金的八十年代，身边还多了三个千娇百媚的前妻。 五个可怜巴巴的孩子抬起脑袋望着他。 看着眼前四处漏风的房子、空空如也的米缸，陈放沉默了。 这一次，他要努力养活全家！ 陈放拿起祖传的猎枪，一头扎进了长白山。 碗里的麦麸变成了大肉，破瓦房换成了砖屋，五个孩子的脸上也渐渐有了神采。 三个妻子看他的眼神从嫌弃、悔恨，变成了带着崇拜的爱意。 走上人生巅峰，从一杆猎枪开始！",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o2e9c29567eaa30ce89bf473bd6b0bf37~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793854045&x-signature=%2FaEhoCn3q7G0VFAdzaS2fmPyd4g%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o2e9c29567eaa30ce89bf473bd6b0bf37~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793940453&x-signature=ipdgElkBeR6ictj9Kcto48hFQos%3D",
           "url": "https://fanqienovel.com/page/7688977460976700441"
         },
         {
-          "title": "重生八零：开局把媳妇让给死对头",
-          "author": "李不如",
-          "reads": "4.4万",
-          "intro": "【年代+拒绝扶弟魔+娶女知青+无系统+乡村+发家致富】 李扬重生1980，开局把扶弟魔妻子让给死对头，反手娶了下放女知青。 李扬救了同村曹成刚，对方却趁机杀了李扬，还叫嚣，如果当年他娶了王慧敏，李扬今天的成就，财富都是他的。 他哪里知道扶弟魔妻子王慧敏害得父母姐姐姐夫横死。 外甥女因为吃了她弟弟一块糖，被她推下河淹死。 已成华夏汉服行业霸主的李扬意外得知真相后，幡然悔悟，把妻子送去打靶。 可没想到，死对头曹成刚趁机杀了他。 还扬言是为王慧敏报仇，他才是世上最爱王慧敏的男人。 李扬睁开眼发现重生回到1980年，曹成刚挑衅，说王慧敏一定会和他好，看不上李扬。 呵呵...，都重生了，谁还娶扶弟魔啊！ 李扬立马选择退出，反手娶了前世救他一命，内心深深爱着他的知青许乔。 有着前世超越时代的眼光，夫妻两人从给影楼画幕布开始，一步一步发家致富，打造汉服产业帝国。 而自以为抱得美人归的曹成刚，却发现样样比不过李扬，还越过越穷。 曹成刚蓦然回首，发现家产全被王慧敏搬回娘家去了。 俩人大打一场后离婚，给不了娘家供养，王慧敏被娘家赶出家门。 她找到李扬，情愿当三。 李扬呵呵一笑：滚粗，给老子当丫鬟都嫌你脏。",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o3ac37bef7e9e69732ac058d22283cf38~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793854045&x-signature=NoZXpIt3JJ0smJjG9HFqYVtNqkY%3D",
-          "url": "https://fanqienovel.com/page/7682742447268432958"
-        },
-        {
-          "title": "中奖184亿后，回东北躺平",
-          "author": "黄河大街南",
-          "reads": "4.3万",
-          "intro": "评分刚出，后面会涨（爱国+另类躺平+认识差爽感+睡后收入+治愈） 在魔都工作的沈砚，运气差到极点时，意外中了大奖，选择回东北老家躺平。 心态转变了，身体也好起来，财富也不断的增长。 爷爷山村，父亲阳城，沈砚魔都，三代人的来时路就是沈砚的归途。 开店、炒股、买楼、景区逐渐做大，细节满满。 有些慢热，喜欢的加个书架。",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o54f84394c9ba1768d314f611cbf6cabf~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793854045&x-signature=NllZaD%2BSMUnPTY6v4oJ%2B7ZhOJV4%3D",
-          "url": "https://fanqienovel.com/page/7659310157607734297"
-        },
-        {
-          "title": "我是亿万富豪，还得再等二十年",
-          "author": "回头看一二三",
-          "reads": "4.1万",
-          "intro": "周开诚重生了，回到十六岁，中考的前一天。 毫无意外，他考砸了，但是他不在乎。 再过八年，比特币会出现，再过二十年，他会变成亿万富翁。 现在的问题是——他得好好地活到那天。 十六岁的身体，六百块钱，一张身份证，和一个他不想再待下去的家。 …… 这是一本生活向的小说，只有娓娓道来的时间流逝，没有雄心万丈，没有杀伐果断。",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o8c29489c217a246b565ca0ccb318d561~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793854045&x-signature=X8zIbwc3ZyzRbIi5PeKCKk0XFJg%3D",
-          "url": "https://fanqienovel.com/page/7674885041708616728"
+          "title": "全家逼我坐牢，出狱后我报复全家",
+          "author": "喵白",
+          "reads": "5.7万",
+          "intro": "【年代+无系统+无空间+小井胡同+发家致富】 曹为民重生了。 他重生到出狱的那一天。 上辈子，全家人逼他替大哥坐牢，母亲更是跪下求他。 愚孝的他，听从母亲的话，替大哥背了黑锅，蹲了七年的劳改农场。 从劳改农场出来后，家里所有人都视他为累赘。 为了丢弃他，母亲拿了后院寡妇的‘彩礼’，把他入赘到寡妇家，让他替寡妇养家，让寡妇吸血，更是让他供养全家。 辛苦一辈子，他替哥坐牢，帮弟弟凑彩礼，帮妹妹出买房钱，更是帮寡妇养大孩子，可最后却落得孤苦伶仃冻死在桥下的结局。 重生一世，他要报复全家！再过好自己的小日子！",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o06e75d4f3c660946a5dddb522975365d~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793940453&x-signature=bxzHjF%2BOZbRK%2BAPFCED4I4pqQSY%3D",
+          "url": "https://fanqienovel.com/page/7658933299099733017"
         },
         {
           "title": "我在荒岛的逍遥生活",
           "author": "大红袍泡酒",
-          "reads": "3.9万",
+          "reads": "4.7万",
           "intro": "【无系统+年龄差+生存】 一场海难，林枫流落无人荒岛，身边只有邻村美女秦如玉。 为了活下去，林枫被歹人打晕沉入海里，没想到，意外获得了神秘力量。",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o7aa8ee1c3c52fdceef720a74426775a8~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793854045&x-signature=WNs4sue2%2B557choCpNhxz2DHGj8%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o7aa8ee1c3c52fdceef720a74426775a8~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793940453&x-signature=IYb5N0eAjCXCOVOpwPEUknZx04s%3D",
           "url": "https://fanqienovel.com/page/7693936373824244798"
+        },
+        {
+          "title": "我是亿万富豪，还得再等二十年",
+          "author": "回头看一二三",
+          "reads": "4.3万",
+          "intro": "周开诚重生了，回到十六岁，中考的前一天。 毫无意外，他考砸了，但是他不在乎。 再过八年，比特币会出现，再过二十年，他会变成亿万富翁。 现在的问题是——他得好好地活到那天。 十六岁的身体，六百块钱，一张身份证，和一个他不想再待下去的家。 …… 这是一本生活向的小说，只有娓娓道来的时间流逝，没有雄心万丈，没有杀伐果断。",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o8c29489c217a246b565ca0ccb318d561~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793940453&x-signature=5ig2UkzFFakn5mBi9GTu213CMns%3D",
+          "url": "https://fanqienovel.com/page/7674885041708616728"
+        },
+        {
+          "title": "中奖184亿后，回东北躺平",
+          "author": "黄河大街南",
+          "reads": "4.1万",
+          "intro": "评分刚出，后面会涨（爱国+另类躺平+认识差爽感+睡后收入+治愈） 在魔都工作的沈砚，运气差到极点时，意外中了大奖，选择回东北老家躺平。 心态转变了，身体也好起来，财富也不断的增长。 爷爷山村，父亲阳城，沈砚魔都，三代人的来时路就是沈砚的归途。 开店、炒股、买楼、景区逐渐做大，细节满满。 有些慢热，喜欢的加个书架。",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o54f84394c9ba1768d314f611cbf6cabf~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793940453&x-signature=dlcDqlm2q%2FaGSg1hfwaw3bo%2F%2FDI%3D",
+          "url": "https://fanqienovel.com/page/7659310157607734297"
         },
         {
           "title": "狩猎在东北，从娶绝美大小姐开始",
           "author": "虾米",
-          "reads": "3.8万",
+          "reads": "4万",
           "intro": "张大棒重生回到了1979年，那个虫鸣蛙叫的夏天！ 一睁眼，发现居然和资本家秋雅大小姐钻了被窝！ 上辈子他做了叛徒，临阵逃脱没有负责，导致秋雅最终惨死，带着孩子孤独终老！ 无尽的懊悔痛苦涌上心头。 这辈子，他绝不辜负……也要把这个深爱的女人娶回家！ 他要赚钱，他要致富，要弥补上一世的遗憾！ 白山黑水，大美龙江，他提着猎枪，春天穿梭在东北老山林，猛揍黑瞎子，手搓山君！ 夏天，他赶上采药，挖人参，下河套子抓鱼。 秋天，他打松塔，采榛子，挖哈士蟆子。 冬天，一人一狗，驰骋林海雪原，吃的是粘豆包，喝的是酸菜汤！ 带着媳妇孩子，打冰嘎，堆雪娃，享受着大东北深厚的风土人情！！",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o79b69528ab65350386efaf239c91472c~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793854045&x-signature=JG2tV5nye%2F7pMC7EgG5j0eq76NE%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o79b69528ab65350386efaf239c91472c~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793940453&x-signature=gWKTxQYUj07buUeLGTYSrO4VuPM%3D",
           "url": "https://fanqienovel.com/page/7686131997218982937"
-        },
-        {
-          "title": "重生83：赘婿靠赶海翻身做主",
-          "author": "我爱小地雷",
-          "reads": "3.2万",
-          "intro": "[重生]➕[赘婿]➕[赶海]➕[系统] 上门女婿顶不住80年代的流言蜚语沉迷喝酒！ 老丈人养了三年觉得是个养不熟的白眼狼，要求分家，导致老婆周楠带着儿子周振投海。 自那天刘晨被周家扔出了周家大门，也是那天刘晨醒了，一直干到身价千万。 却在病床上重生到分家那天，一切都还来的及，老婆孩子都在！ 重生了怎么能没个系统呢，刘晨觉醒了海图系统，移动的探鱼雷达，别人空桶，他的桶已经满的盖不住了。",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2of565a18f4b6a48a75a7a418407369b37~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793854045&x-signature=T7TG0ZIa0pkfgGJhes%2BgKevaw%2Fw%3D",
-          "url": "https://fanqienovel.com/page/7661275940546169880"
         },
         {
           "title": "年代：开局二两玉米面养活女知青",
           "author": "宅猫不睡觉",
-          "reads": "3.1万",
+          "reads": "3.9万",
           "intro": "【年代文日常，微系统无空间，赶山种田，家长里短，多女主，不喜勿入。】 好消息：穿越了。 坏消息：穿成了一个抱错的假少爷，被厂长爹一脚踢下乡当知青。 更坏的消息：原主还是个又懒又穷还欠工分的“少爷秧子”。 顾川蹲在漏风的土坯房里，摸遍全身只找到一个系统。 【低保签到系统。每日签到，获得最低限度生存保障。】 别人系统给的是黄金万两、神功盖世。 他开局是每天二两玉米面、每月十斤白面加一勺油外和初级厨艺精通技能卡。 穷是穷了点，但提升威望就能提升奖励。 杂乱不堪的土坯房，两个娇滴滴的女知青求着合住。 一个温软如月，一个清冷如雪，每天在院子里晃来晃去，晃得他连饭都快做不下去了。 什么？有人说他一个假少爷配不上？ 顾川笑了一声：“那就配不上吧，反正城里好看的姑娘多的是。”",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o3c1accd74f4d74fd61035db9fb3b0565~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793854045&x-signature=gVkpk%2FmK7O6%2Fkm%2FUW16ovrqLy30%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o3c1accd74f4d74fd61035db9fb3b0565~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793940453&x-signature=%2FIXEAnxanlsRADstGtmigixFH88%3D",
           "url": "https://fanqienovel.com/page/7676336214542126104"
+        },
+        {
+          "title": "重生八零：开局把媳妇让给死对头",
+          "author": "李不如",
+          "reads": "3.9万",
+          "intro": "【年代+拒绝扶弟魔+娶女知青+无系统+乡村+发家致富】 李扬重生1980，开局把扶弟魔妻子让给死对头，反手娶了下放女知青。 李扬救了同村曹成刚，对方却趁机杀了李扬，还叫嚣，如果当年他娶了王慧敏，李扬今天的成就，财富都是他的。 他哪里知道扶弟魔妻子王慧敏害得父母姐姐姐夫横死。 外甥女因为吃了她弟弟一块糖，被她推下河淹死。 已成华夏汉服行业霸主的李扬意外得知真相后，幡然悔悟，把妻子送去打靶。 可没想到，死对头曹成刚趁机杀了他。 还扬言是为王慧敏报仇，他才是世上最爱王慧敏的男人。 李扬睁开眼发现重生回到1980年，曹成刚挑衅，说王慧敏一定会和他好，看不上李扬。 呵呵...，都重生了，谁还娶扶弟魔啊！ 李扬立马选择退出，反手娶了前世救他一命，内心深深爱着他的知青许乔。 有着前世超越时代的眼光，夫妻两人从给影楼画幕布开始，一步一步发家致富，打造汉服产业帝国。 而自以为抱得美人归的曹成刚，却发现样样比不过李扬，还越过越穷。 曹成刚蓦然回首，发现家产全被王慧敏搬回娘家去了。 俩人大打一场后离婚，给不了娘家供养，王慧敏被娘家赶出家门。 她找到李扬，情愿当三。 李扬呵呵一笑：滚粗，给老子当丫鬟都嫌你脏。",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o3ac37bef7e9e69732ac058d22283cf38~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793940453&x-signature=8A4gbSlPm4QNj%2Big1WHX6xTlitc%3D",
+          "url": "https://fanqienovel.com/page/7682742447268432958"
         },
         {
           "title": "七零灵泉空间：赶山打猎护全家",
           "author": "花66",
-          "reads": "3万",
+          "reads": "3.3万",
           "intro": "（打猎＋赶山＋养野兽＋灵泉＋空间）林舟一朝魂穿七零困难年代，刚睁眼便落入算计。 趁他昏迷不醒，偏心爷奶伙同大伯一家闯进家门，要强带走他媳妇，逼她改嫁，霸占他家房屋口粮。 绝境之中，随身灵泉空间意外激活！ 内有灵田可种五谷，灵泉滋养万物，还能稳妥存放物资。 闲暇赶山，进山打猎，空间还可培育作物、驯养野兽。 极品亲戚步步算计、不断压榨？他直接撕破脸面，果断断亲，远离这泥潭。 粮食紧缺，票证难寻，他靠着灵田灵泉悄悄积攒物资，死死护住身边亲人。 在物资匮乏的艰苦岁月里，一家人精打细算，避开风波，谋求安稳，日子一天天越过越红火。",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o6dc9d13a8920c3b7f9a01409726fcb38~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793854045&x-signature=tfNNxOYsMakGTGSe8FETfi2Thvg%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o6dc9d13a8920c3b7f9a01409726fcb38~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793940453&x-signature=sX%2BcBbYijHAHXPNsfgkgxaLMxi8%3D",
           "url": "https://fanqienovel.com/page/7686456774865472537"
+        },
+        {
+          "title": "重生83：赘婿靠赶海翻身做主",
+          "author": "我爱小地雷",
+          "reads": "3万",
+          "intro": "[重生]➕[赘婿]➕[赶海]➕[系统] 上门女婿顶不住80年代的流言蜚语沉迷喝酒！ 老丈人养了三年觉得是个养不熟的白眼狼，要求分家，导致老婆周楠带着儿子周振投海。 自那天刘晨被周家扔出了周家大门，也是那天刘晨醒了，一直干到身价千万。 却在病床上重生到分家那天，一切都还来的及，老婆孩子都在！ 重生了怎么能没个系统呢，刘晨觉醒了海图系统，移动的探鱼雷达，别人空桶，他的桶已经满的盖不住了。",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2of565a18f4b6a48a75a7a418407369b37~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1793940453&x-signature=pZUe%2F1iFRd%2BD3tbmnF2CYfhjbv4%3D",
+          "url": "https://fanqienovel.com/page/7661275940546169880"
         }
       ]
     }
