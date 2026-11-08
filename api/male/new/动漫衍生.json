@@ -3,227 +3,220 @@
   "board": "new",
   "label": "男频新书榜",
   "type": "动漫衍生",
-  "date": "2026-11-07",
-  "prev_date": "2026-11-06",
+  "date": "2026-11-08",
+  "prev_date": "2026-11-07",
   "category": {
     "name": "动漫衍生",
     "trend": {
-      "new_count": 1,
-      "dropped_count": 1,
-      "new_books": [
-        "米家观影：阿哈的债务清单"
-      ],
-      "dropped_books": [
-        {
-          "title": "刷崩铁神人二创，寰宇众生破绷了",
-          "intro": "【观影+聊天群+主角工具人】 【观影内容：虚照驾到……】 钱文斌获得观影系统，只要寰宇众生破绷就能获得奖励。 开局播放《虚照驾到》 龙晶：第一眼看过去以为我活到头了。 虚照：诽谤啊！这是诽谤啊！小心我"
-        }
-      ],
+      "new_count": 0,
+      "dropped_count": 0,
+      "new_books": [],
+      "dropped_books": [],
       "top_risers": [
         {
+          "title": "成龙历险记：慷慨圣主有多强？",
+          "change": "+2"
+        },
+        {
+          "title": "一人，我用神机百炼打造机械天灾",
+          "change": "+2"
+        },
+        {
           "title": "诸天观影：平行宇宙大粪坑理论",
-          "change": "+6"
-        },
-        {
-          "title": "恐怖版：我与植物娘的反抗",
-          "change": "+4"
-        },
-        {
-          "title": "崩铁：寰宇最坚定命途行者",
           "change": "+2"
         }
       ],
       "top_fallers": [
         {
-          "title": "型月：未婚妻露维亚，抽爆FGO",
-          "change": "-4"
+          "title": "崩铁：二创天幕，开局逃婚知更鸟",
+          "change": "-5"
         },
         {
           "title": "宝可梦：龙系世家出了个妖精大师",
           "change": "-2"
         },
         {
-          "title": "一人，我用神机百炼打造机械天灾",
-          "change": "-2"
+          "title": "海贼：门门果实？可曾听闻次元斩",
+          "change": "-1"
         }
       ],
       "reads_growth": [
         {
           "title": "火影：第七班拜错师，全忍界疯了",
-          "growth": "+4.5万"
+          "growth": "+5.1万"
         },
         {
           "title": "成龙历险记：慷慨圣主有多强？",
-          "growth": "+2.9万"
+          "growth": "+3.0万"
         },
         {
-          "title": "诸天观影：平行宇宙大粪坑理论",
-          "growth": "+1.9万"
+          "title": "恐怖版：我与植物娘的反抗",
+          "growth": "+1.7万"
         }
       ],
-      "summary": "**🔥 题材趋势**：崩铁、一人之下、火影三足鼎立；观影体/天幕流密集上榜，Top20中占6席，已成动漫衍生最大流量池。\n**📖 读者偏好**：玩梗、抽象、乐子人文化主导，读者要“情绪值”和“破防名场面”；授徒返还、加点系统等强反馈金手指更易起量。\n**🆕 新上榜作品**：《米家观影：阿哈的债务清单》踩中崩铁+原神双IP，以“星神债务”抽象梗切入，轻量搞笑，适合碎片阅读。\n**📉 掉出榜单**：《刷崩铁神人二创》同类天幕文竞争激烈，无差异化梗则迅速被替代，说明观影体赛道已进入“梗密度”内卷阶段。\n**💡 值得关注**：《诸天观影：平行宇宙大粪坑理论》+6，美漫+抽象赤石路线差异化明显，钢铁侠、蝙蝠侠等名场面解构具备破圈潜力。",
+      "summary": "**🔥 题材趋势**：崩铁、一人之下、海贼三分天下，天幕/观影体与二创直播成新增长点，火影靠“拜错师”反套路稳居榜首。\n**📖 读者偏好**：玩梗、抽象、乐子人属性权重飙升，多女主+日常轻松向优于苦大仇深，对“迫害角色+情绪值系统”有强互动欲。\n**🆕 新上榜作品**：本期无新上榜，榜单固化明显。\n**📉 掉出榜单**：本期无掉出。\n**💡 值得关注**：崩铁二创天幕类排名下滑，说明纯观影体审美疲劳；《成龙历险记》圣主+诸天掠夺逆势上升，跨宇宙收集流或成下一个破局点。",
       "source": "ai"
     },
     "books": [
       {
         "title": "火影：第七班拜错师，全忍界疯了",
         "author": "成风起",
-        "reads": "39.5万",
+        "reads": "44.6万",
         "intro": "风间穿越火影世界，阴差阳错成为第七班导师，绑定【授徒返还系统】。 　　只要徒弟变强或赠予机缘，他就能获得最高万倍的暴击返还！ 　　看着眼前的三小只，风间果断当起了外包头子： 　　“鸣人，搓丸子没前途，去找迈特凯学八门遁甲，再学个百豪之术，打不死就往死里开门！” 　　“佐助，别搭理大蛇丸那个变态，自来也的仙术配你的写轮眼才是绝对无敌，去妙木山修仙吧！” 　　“小樱，没有血脉就相信科学！喏，这是大蛇丸的实验室坐标，去进修人体改造，用科技征服忍界！” 　　第四次忍界大战，宇智波斑狂傲降临，睥睨天下：“你也想起舞吗？” 　　然而，迎接他的却是三个画风诡异的年轻人。 　　漩涡鸣人开启多重影分身之术外加八门遁甲：“宇智波斑？吃我一招夜凯·八千连弹！” 　　宇智波佐助驾驭着百米高的仙法·须佐能乎，蛤蟆油混合着天照黑炎：“仙法·雷炎天照！” 　　戴着金丝眼镜的春野樱推了推镜框，身后列阵着历代火影与十万基因改造秽土大军：“宇智波斑的细胞端粒酶，具有极高的解剖研究价值。” 　　看着被按在地上疯狂摩擦的斑，全忍界都疯了。 而坐在高处嗑瓜子的风间却打了个哈欠：“基操勿六，我只是个平平无奇的带队老师罢了。”",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o22f8e79985b81994c074db88bf5fbf5f~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794632594&x-signature=ADNbtN6HHGWRtPQtsK3%2FXzBsm4o%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o22f8e79985b81994c074db88bf5fbf5f~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794718501&x-signature=6QHIFfpXRByyQrQfPcQ01a1db7E%3D",
         "url": "https://fanqienovel.com/page/7694963562489318424"
       },
       {
         "title": "崩铁：迫害完她们后，我有点死了",
         "author": "辰昱熙",
-        "reads": "31.6万",
+        "reads": "31.3万",
         "intro": "［多女主+玩梗+搞笑+日常］ 穿越崩铁，开局落地仙舟，白离雪感觉自己有一点死了。 “什么叫我金手指需要不断牵动别人的情绪来获取情绪值？” 如果放在以前，白离雪会义正言辞的拒绝： “欺骗别人感情这种事，我做不到。” 而如今，少年看着自己手中的雷火双剑，不自觉的咬咬牙…… —————— 于是，白离雪便开始了…… “丹恒，就当是为了我好吗？使用化龙妙法吧。” “姬子，这就是……最后一课了……” “杨叔！我做到了那个男人没能做的事！我已经超越了他！” “三月，你该抓住的手，已经不是我了。” “星？！你为啥直接跟我表白啊？！旮旯给木里不是这样的！！” “青雀，我已经不能耍起了。” “符玄大人一米一。” “镜流，你的剑不够快，也不够狠。” “黑塔女士你的帽子怎么尖尖的？” “阮梅，你逾矩了。” “知更鸟……星期日知道会杀了我的。” “花火，你这个天生邪恶的欢愉小鬼，我这就亲手……” “流萤！准备好了吗？！现在！就在这里！” ……… —————— 直到后来，被白离雪迫害的她们全部找上门来时，少年这才扯出一抹尴尬的微笑： “噫，可以和解吗？",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o2b2c159aab629a1b64a7b8c6d5507f76~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794632594&x-signature=g7mCRYwWdyeAVkICBWuFkOQJHDc%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o2b2c159aab629a1b64a7b8c6d5507f76~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794718501&x-signature=9aosDLo%2FVW8jNJttHR4HuwBJKYA%3D",
         "url": "https://fanqienovel.com/page/7677577671416499262"
-      },
-      {
-        "title": "海贼：门门果实？可曾听闻次元斩",
-        "author": "biubiu随笔",
-        "reads": "23.7万",
-        "intro": "【评分刚出，会涨的！】穿越海贼世界十五年，罗恩一直不理解一件事。 门门果实这么离谱的空间能力，为什么有人只拿它开门跑路？ 门，代表空间的开启，同样也代表空间的闭合。 所以当大剑豪的剑，遇上门门果实以后…… ——【次元斩】诞生了。 敌人想逃？不好意思，你前面的路也是门。 至于碰上暂时打不过的怪物？罗恩更不在乎，门一关人就没了。 打得过的抓不到，打不过的跑不掉。 这就是罗恩最让整片大海头疼的地方。 不过，比起他的恐怖实力，世界政府后来发现了另一件更加麻烦的事情—— 这个被萨卡斯基从小捡回来养大的怪物，似乎从没打算按任何人的“正义”活着。",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2ob2a7faf4c15184f8ec0cb1b3100b8c56~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794632594&x-signature=mtvheVDwXbYCdf4%2B97Jo%2BCKArcg%3D",
-        "url": "https://fanqienovel.com/page/7693917862703926334"
       },
       {
         "title": "天幕通原神，开局钟离还在藏",
         "author": "摸鱼青总",
-        "reads": "23.6万",
+        "reads": "24.1万",
         "intro": "一句“钟离还在藏”，古老的璃月神明瞬间掉马。 当天幕笼罩七国，源自平行时空的故事也得以为人所知晓。 风起地的大树下，众人见证法尔伽的归来。 层岩巨渊里，浮舍自污秽中挣脱。 神樱树下，真与影的相逢。 雨林与黄沙之畔，大慈树王再度被铭记。 欧庇克莱歌剧院的审判席…… 圣火竞技场灼热的火焰…… 银月之庭内回荡的歌声…… …… 当深渊锚定世界，不被选择的恨意涌现。 自有另一个世界的爱与信仰，将其消融化解。",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o7efb7f388747ba182d664edaae7879cd~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794632594&x-signature=Pa6dtXi1TI36nPMqzm2XEvzR9EI%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o7efb7f388747ba182d664edaae7879cd~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794718501&x-signature=OOkSOamHNmzA6wuLoA%2Fooe4h2o8%3D",
         "url": "https://fanqienovel.com/page/7688252963269119001"
       },
       {
-        "title": "一人：开局通背拳，结局武仙人",
-        "author": "金墨水",
-        "reads": "22.1万",
-        "intro": "【一人之下+加点+天赋词条+圆满结局+问鼎】 林承风穿越到异人世界，资质平庸，拜师无门。 所幸觉醒修炼系统。 只要努力修炼，就能获得经验。 功法满级，还能觉醒天赋。 别人拜师入道。 他则独自苦练拳法十年。 一门普通的《通背拳》，被他练到了无人知晓的境界。 第九响，拳劲轰雷。 第十响，心猿显化！ 三一绝学——《逆生三重》，被他练至满级。 冯虚御风，逆生成仙！ 多年以后。 有人问： “林承风，你的武道是谁教的？” 林承风想了想，回答： “时间。”",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o6ad9e6418863e99a73435bcc42e5798f~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794632594&x-signature=QaaTyGshaoR2lOyxqNyFUeHMZWo%3D",
-        "url": "https://fanqienovel.com/page/7695987381370899481"
-      },
-      {
-        "title": "崩铁：二创天幕，开局逃婚知更鸟",
-        "author": "打到不知天地为何物",
-        "reads": "19.9万",
-        "intro": "卷战力？卷命途？卷冒险？ 太累，不如吃软饭！ 穿越崩铁宇宙两年半后，顾长歌终于领悟了软饭的核心！ 凭借一张帅脸和抄袭蓝星老歌。 顾长歌成功傍上身为银河顶流歌姬的知更鸟。 本想从此躺平摆烂，日子逍遥快活。 结果二创直播间突然降临！ 各种离谱视频满天飞，无数沙雕名场面公开处刑！ 【知更鸟深情破防：长歌，你的世界以后没有我了，没关系，你要幸福…顾长歌，顾长歌，没有你我可怎么活啊！！】 【虚照拼命挽留 ：顾长歌，你别走好不好，我养你啊！】  【星语出惊人：万一有了的话，打掉就好了啊！】 一夜之间。 顾长歌硬生生被二创视频整成了万恶之源！ 惨遭全银河通缉！ 啥事没干的顾长歌一脸懵逼：“不是，我只是想安静地吃口软饭啊！！”",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o6e7193d7f567d95a83de99e7148870a1~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794632594&x-signature=mh455Y%2BY5MKKKFc0zSLr0Ul9COk%3D",
-        "url": "https://fanqienovel.com/page/7694594694184979481"
+        "title": "海贼：门门果实？可曾听闻次元斩",
+        "author": "biubiu随笔",
+        "reads": "22.9万",
+        "intro": "【评分刚出，会涨的！】穿越海贼世界十五年，罗恩一直不理解一件事。 门门果实这么离谱的空间能力，为什么有人只拿它开门跑路？ 门，代表空间的开启，同样也代表空间的闭合。 所以当大剑豪的剑，遇上门门果实以后…… ——【次元斩】诞生了。 敌人想逃？不好意思，你前面的路也是门。 至于碰上暂时打不过的怪物？罗恩更不在乎，门一关人就没了。 打得过的抓不到，打不过的跑不掉。 这就是罗恩最让整片大海头疼的地方。 不过，比起他的恐怖实力，世界政府后来发现了另一件更加麻烦的事情—— 这个被萨卡斯基从小捡回来养大的怪物，似乎从没打算按任何人的“正义”活着。",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2ob2a7faf4c15184f8ec0cb1b3100b8c56~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794718501&x-signature=0Iu%2FfoAF1kGC%2BGRLAicgKwH%2Bw5c%3D",
+        "url": "https://fanqienovel.com/page/7693917862703926334"
       },
       {
         "title": "成龙历险记：慷慨圣主有多强？",
         "author": "疯狂的duck",
-        "reads": "19.7万",
+        "reads": "22.7万",
         "intro": "【慷慨圣主】+【收集所有超凡力量】+【穿梭各种宇宙】 关凯意外穿越成为成龙历险记宇宙里的圣主。 从此，从前那个众所周知不守承诺、抠门儿、不要脸的圣主，成为了慷慨大方信守承诺的圣主陛下。 符咒、面具、魔气等所有超凡力量，全都落入关凯手里。 当掌握了所有超凡力量后，关凯发现，原来世间有多个宇宙。 通过欧若拉之眼，他穿梭于火影、海贼、龙珠、漫威、DC、斗破、斗罗、遮天等各种宇宙间掠夺超凡资源强化自身。 …… 当八大不死神明再次现身成龙宇宙，关凯一人独占八大不死神明却能不落下风。 只因为，“我现在什么都不缺了！”",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o24fa2b2237c5b2d736e9628242acdc7e~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794632594&x-signature=sE%2BLsOC88k1553FS1uW9bV%2BEyds%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o24fa2b2237c5b2d736e9628242acdc7e~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794718501&x-signature=VOvsmBMuwsBV98VEMIYMFnPSl00%3D",
         "url": "https://fanqienovel.com/page/7685687777861569560"
+      },
+      {
+        "title": "一人：开局通背拳，结局武仙人",
+        "author": "金墨水",
+        "reads": "21万",
+        "intro": "【一人之下+加点+天赋词条+圆满结局+问鼎】 林承风穿越到异人世界，资质平庸，拜师无门。 所幸觉醒修炼系统。 只要努力修炼，就能获得经验。 功法满级，还能觉醒天赋。 别人拜师入道。 他则独自苦练拳法十年。 一门普通的《通背拳》，被他练到了无人知晓的境界。 第九响，拳劲轰雷。 第十响，心猿显化！ 三一绝学——《逆生三重》，被他练至满级。 冯虚御风，逆生成仙！ 多年以后。 有人问： “林承风，你的武道是谁教的？” 林承风想了想，回答： “时间。”",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o6ad9e6418863e99a73435bcc42e5798f~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794718501&x-signature=80bkGTT0MNjXP3Jjw7IPlkkqvpQ%3D",
+        "url": "https://fanqienovel.com/page/7695987381370899481"
       },
       {
         "title": "崩铁：寰宇最坚定命途行者",
         "author": "垚焱",
-        "reads": "17.4万",
+        "reads": "18.9万",
         "intro": "这一天，崩铁世界来了一位串子。 他凭一己之力，成功做到站中间，随机向十六个方向开串。 景星：“首先，我不是命途行者。“ “其次，我一向是「开拓」、「毁灭」、「巡猎」、「智识」、「同谐」、「虚无」、「存护」、「丰饶」、「贪饕」、「记忆」、「纯美」、「繁育」、「神秘」、「均衡」、「大伟哥」最坚定的践行者！” “你问我「欢愉」？「欢愉」已经死了，你挑的嘛，啊哈！”",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2occ2cd0372eda35bfaef7038ecf5038f6~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794632594&x-signature=DRU9nnVLuVwRWhL93CALMw32d88%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2occ2cd0372eda35bfaef7038ecf5038f6~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794718501&x-signature=d6E5Z2dC6E8yV9mup5Q6SySbf58%3D",
         "url": "https://fanqienovel.com/page/7697566047599086654"
       },
       {
         "title": "恐怖版：我与植物娘的反抗",
         "author": "鬼牌铭殇",
-        "reads": "16.6万",
+        "reads": "18.3万",
         "intro": "灵感。。天师的本子，看好。。不错，就写了一本小说，且看且珍惜，我也不知道我会写成什么样。《多女主》+《一百日》+《调教》+《诡异》+《恐怖》+《丧尸》+《植物娘》+《植物大战僵尸世界观》+《九叔》+《冒险》+《成长》+《遗憾》 白糯儿：我可是大名鼎鼎的天师！法号糯米天师！我怎么可能会喜欢上他！他除了会挥剑、会煮饭、会照顾人、会站出来清理邪祟、会逗我笑。。会。。（完了，我不会真喜欢他吧？！都怪他！为什么要在我们被诡异围剿时亲我啊！！！可恶！） 玉笙：你问我吗？我当然有喜欢的人，虽然他不是植物的基因，但我就是喜欢上他了。虽然《玉米道士》的名气没有《糯米天师》高，但我喜欢一个人就是要大胆承认，我可不会像某个天师一样，不敢承认，结果比我都还在乎那个人。 青豆：你们看着我干嘛？虽然他救了我们豌豆一族的大姐，不对啊？？你们不该去问寒冰上校吗？说的好像你们对他没有意思一样！干嘛都来问我啊？！ 寒冰上校：把铭殇叫过来，我们需要商讨一下林间那匹诡异的应对办法了，不能让它们扩散出去。什么？！那个老坚果动作比我都快？准备直升机！我今天还就非要和她抢人了！",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o953ce0b4a7c7b05812a19e8b89295931~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794632594&x-signature=OiSSgCt67k5rk9O6sj%2B7qmt%2BclM%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o953ce0b4a7c7b05812a19e8b89295931~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794718501&x-signature=uHt5bLvjbW0%2FxHaMOwviz6uBe3I%3D",
         "url": "https://fanqienovel.com/page/7692823024109636670"
-      },
-      {
-        "title": "宝可梦：龙系世家出了个妖精大师",
-        "author": "一只幽影猫",
-        "reads": "16.1万",
-        "intro": "江越穿越到一个精灵与现实融合的世界。 这里有训练家大学、职业联赛、秘境探索，也有传承数代的精灵世家。 而江越这一世，偏偏出生在赫赫有名的龙系世家。 父亲是龙系道馆馆主。 姐姐年纪轻轻便踏入准天王领域，王牌更是一只暴飞龙。 按理来说，江越从小就不缺强大的龙系精灵。 可六岁那年，他觉醒了一个坑爹系统。 【宿主只能收服妖精系，或未来拥有妖精属性的精灵。】 【精灵资质不得低于天王级。】 江越：“……” 天王资质？ 整个江家都找不出几只！ 可谁也没想到，多年以后，江越会带着妖精大队站上世界大赛之巅。 七夕青鸟、仙子伊布、沙奈朵......也就算了。 我问你这蒂安希、哲尔尼亚斯和苍响是哪来的？ 还有那个长得像胖丁的家伙，怎么看都有点不对劲！ 几乎同一时间，全世界都在讨论一个问题。 一个龙系世家出生的家伙—— 为什么最后成了妖精系大师？",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2odae189863d518cf22e57eb51904b8e37~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794632594&x-signature=T%2BN0DtUZAZ7ja7FwfZECmKhhidY%3D",
-        "url": "https://fanqienovel.com/page/7686500611117812761"
       },
       {
         "title": "一人，我用神机百炼打造机械天灾",
         "author": "摸条锦鲤",
-        "reads": "15.7万",
+        "reads": "16.2万",
         "intro": "时代在进步，科技在发展，异人的手段也应该与时俱进。 双全手可以因为基因的研究更进一步。 禽兽师可以随着微生物研究进步成为生物师。 那么我认为炼器师也应该随时代而进步。 说着，赵墨一挥手，无人机遮天蔽日，机械狗漫山遍野，迷你兵偶从各个角落冒出来。 铠甲覆盖，神兵护身，赵墨笑道： 诸位，时代变了！",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o1b6a47c03ed25e82e72b791919eeed1b~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794632597&x-signature=TqBUGUgtnShvBvYFw0TvKAZbDKs%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o1b6a47c03ed25e82e72b791919eeed1b~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794718501&x-signature=qzNUpNRrwqxzKTcNzEhuPPCdamc%3D",
         "url": "https://fanqienovel.com/page/7694635792500542489"
       },
       {
         "title": "诸天观影：平行宇宙大粪坑理论",
         "author": "芜湖飞人555",
-        "reads": "15.2万",
+        "reads": "16.1万",
         "intro": "【天幕+诸天万界+抽象+主打美漫】 诸天万界有着无穷无尽的可能，于是便诞生了平行宇宙粪坑理论，它指的是在如此多的可能里总有一个令你不忍直视的勾石世界。 而诸天万界终于迎来了一个抽象巨星，天幕来了一个赤石大王。 …… “停停！”钢铁侠看着天幕上，逐渐红温：“什么叫钢铁侠其实是给？” 《六条腿走进巷子，两条腿出，谜底：布鲁斯一家》 蝙蝠侠：？ 《奇异博士着小子最精了，终局之战搁那玩疯狂水世界，巨爽巨解压。》 奇异博士：？ 《傲娇千金马尔芙与哈利波特二三事》 斯内普：成何体统！！！ 《性转哈莉波特与斯内普二三事》 斯内普：格兰芬多加1亿分！ …… PS：漫威，DC，哈利波特，成龙历险记等作品……（作者是云，然后有大量烂梗，慎入）",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o48cdd93ccfa449cd7f276d210b5beed5~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794632597&x-signature=WjlycEvaYycnvY0cMmMXki5NS5Y%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o48cdd93ccfa449cd7f276d210b5beed5~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794718501&x-signature=5bte3xWBEseu5sv2I5bDYNKMlPU%3D",
         "url": "https://fanqienovel.com/page/7695421777236741144"
       },
       {
-        "title": "自定义术式的我去咒回找乐子了",
-        "author": "纸鸢雏鸾",
-        "reads": "15.1万",
-        "intro": "【咒术回战+咒术转盘+乐子人+伪模拟+无AI纯手搓】 作为咒回嗜血乐子人观众的白鸟杌只是每天熬夜在咒术回战社区高强度论战搞抽象 就因睡眠不足导致精神恍惚，在上厕所的时候滑倒头卡进马桶里活活憋死 但他却因此穿越到咒术回战的世界，绑定斗傩系统，拥有了自定义术式的金手指 只要编写出一份逻辑足够自洽、构造足够完善的术式，就可以带着它穿越到咒回世界亲自参与剧情 “虽然花两分钟时间写出一个超雄秒杀术式借过所有人的确很爽快，但那是…废物的思维！” 白鸟杌如是说 “带着攻击力弱鸡，但有点雷霆臭阴机制的术式在宿傩脸上搅屎，这才是强者的思维！” 系统：你疑似有点毛病 白鸟杌：是吗…是啊！的确是啊！ 系统：乐",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o6c491a0afdf201bda9a0d42ce4f0975e~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794632597&x-signature=QOWIEsxNpnTWwvgTFkqDSa%2FenQI%3D",
-        "url": "https://fanqienovel.com/page/7683122498954611774"
+        "title": "崩铁：二创天幕，开局逃婚知更鸟",
+        "author": "打到不知天地为何物",
+        "reads": "15.7万",
+        "intro": "卷战力？卷命途？卷冒险？ 太累，不如吃软饭！ 穿越崩铁宇宙两年半后，顾长歌终于领悟了软饭的核心！ 凭借一张帅脸和抄袭蓝星老歌。 顾长歌成功傍上身为银河顶流歌姬的知更鸟。 本想从此躺平摆烂，日子逍遥快活。 结果二创直播间突然降临！ 各种离谱视频满天飞，无数沙雕名场面公开处刑！ 【知更鸟深情破防：长歌，你的世界以后没有我了，没关系，你要幸福…顾长歌，顾长歌，没有你我可怎么活啊！！】 【虚照拼命挽留 ：顾长歌，你别走好不好，我养你啊！】  【星语出惊人：万一有了的话，打掉就好了啊！】 一夜之间。 顾长歌硬生生被二创视频整成了万恶之源！ 惨遭全银河通缉！ 啥事没干的顾长歌一脸懵逼：“不是，我只是想安静地吃口软饭啊！！”",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o6e7193d7f567d95a83de99e7148870a1~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794718504&x-signature=2JiDpw%2BQ%2B7K0SgSX0LGQk99%2BL7k%3D",
+        "url": "https://fanqienovel.com/page/7694594694184979481"
+      },
+      {
+        "title": "宝可梦：龙系世家出了个妖精大师",
+        "author": "一只幽影猫",
+        "reads": "15.6万",
+        "intro": "江越穿越到一个精灵与现实融合的世界。 这里有训练家大学、职业联赛、秘境探索，也有传承数代的精灵世家。 而江越这一世，偏偏出生在赫赫有名的龙系世家。 父亲是龙系道馆馆主。 姐姐年纪轻轻便踏入准天王领域，王牌更是一只暴飞龙。 按理来说，江越从小就不缺强大的龙系精灵。 可六岁那年，他觉醒了一个坑爹系统。 【宿主只能收服妖精系，或未来拥有妖精属性的精灵。】 【精灵资质不得低于天王级。】 江越：“……” 天王资质？ 整个江家都找不出几只！ 可谁也没想到，多年以后，江越会带着妖精大队站上世界大赛之巅。 七夕青鸟、仙子伊布、沙奈朵......也就算了。 我问你这蒂安希、哲尔尼亚斯和苍响是哪来的？ 还有那个长得像胖丁的家伙，怎么看都有点不对劲！ 几乎同一时间，全世界都在讨论一个问题。 一个龙系世家出生的家伙—— 为什么最后成了妖精系大师？",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2odae189863d518cf22e57eb51904b8e37~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794718504&x-signature=K8OBqi1FN9DQRf7eCXbn9%2BUPeIw%3D",
+        "url": "https://fanqienovel.com/page/7686500611117812761"
       },
       {
         "title": "崩铁观影：姬爸坏老骰真拼啊",
         "author": "画龙止于点睛",
-        "reads": "14.6万",
+        "reads": "15.2万",
         "intro": "【观影】+【聊天群】 光幕降临，给与所有人通晓自身命运的权利！ 星：哇塞！他连姬子的咖啡都敢喝，还不止一杯？姬子的父亲这么猛吗？ 三月七：等等，什么叫做姬子的父亲是绝灭大君啊？啥？他还是前领航员我见？！ 归寂：姬子她是没有了父亲，但她还有我啊，我完全可以…… 瓦尔特：拟似黑洞！",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o055fbf8ce79013c57f94ecc0fd63ec4b~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794632597&x-signature=HQwP%2BbEEJiNh9%2Bby91deDO%2BICjw%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o055fbf8ce79013c57f94ecc0fd63ec4b~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794718504&x-signature=Iamo%2Fnf2lTEh5SBBFikCYIvGBP4%3D",
         "url": "https://fanqienovel.com/page/7686861414920621081"
+      },
+      {
+        "title": "自定义术式的我去咒回找乐子了",
+        "author": "纸鸢雏鸾",
+        "reads": "14.8万",
+        "intro": "【咒术回战+咒术转盘+乐子人+伪模拟+无AI纯手搓】 作为咒回嗜血乐子人观众的白鸟杌只是每天熬夜在咒术回战社区高强度论战搞抽象 就因睡眠不足导致精神恍惚，在上厕所的时候滑倒头卡进马桶里活活憋死 但他却因此穿越到咒术回战的世界，绑定斗傩系统，拥有了自定义术式的金手指 只要编写出一份逻辑足够自洽、构造足够完善的术式，就可以带着它穿越到咒回世界亲自参与剧情 “虽然花两分钟时间写出一个超雄秒杀术式借过所有人的确很爽快，但那是…废物的思维！” 白鸟杌如是说 “带着攻击力弱鸡，但有点雷霆臭阴机制的术式在宿傩脸上搅屎，这才是强者的思维！” 系统：你疑似有点毛病 白鸟杌：是吗…是啊！的确是啊！ 系统：乐",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o6c491a0afdf201bda9a0d42ce4f0975e~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794718504&x-signature=bIx%2Fjw0yt%2FLwFg3JL2J3QruW%2BaM%3D",
+        "url": "https://fanqienovel.com/page/7683122498954611774"
       },
       {
         "title": "型月：未婚妻露维亚，抽爆FGO",
         "author": "阿笙笙阿笙",
-        "reads": "14.6万",
+        "reads": "13.4万",
         "intro": "【fate】【fgo】【多女主】【圣杯战争】评分刚出，还在涨 重生成艾德费尔特的天才自然顺理成章的成了露维亚的未婚夫。 为了统子哥奖池里的【吾乃撕裂星辰之雷霆】、【虚空存之以神】、【银河生命论】，圣杯战争也是不得不品的一环。 只见召唤阵光芒一闪，Caster人头落地（大嘘） 风情中东，性感黑皮。 召唤使魔，十个戒指…… 不是？我此世最无脑之轮椅呢？！ 什么叫你是人类最古之断章狗？！ 啧，我管你这那！从今天开始你就是所罗门王了！！ 环顾四周，冬木全是重量级选手—— 绝对不开全知全能之星之南桐王。 越升级突破穿得越厚实之铝铜王。 圆脸络腮胡且荤素不忌之通吃王。 进场必给主君未婚妻牛走之枪。 重度精神分裂之紧身衣杂技团。 铝铜王那死缠烂打的病娇迷弟。 以及认错了自家众人拾柴火焰高的重度眼疾元帅…… 就这？就这啊？！ 不对！什么叫时辰硬吃起源弹？什么叫刷子绑架爱丽？什么又叫时辰雁夜联手？ 你这圣杯战争喵的对劲吗？！",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2ob47f34e794643e5c32a1bcacdd29da4d~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794632597&x-signature=vdTfERAXVySytdZFCbdJEuG3ywA%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2ob47f34e794643e5c32a1bcacdd29da4d~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794718504&x-signature=mM8VeEKIX5Wu3CkcC5L3QmCtUeA%3D",
         "url": "https://fanqienovel.com/page/7689023694567394329"
       },
       {
         "title": "一人：你苦修功法？我直接加点！",
         "author": "异途",
-        "reads": "13.9万",
+        "reads": "13.1万",
         "intro": "吃百家饭的都有个好人缘，学百家艺的都是个好材料。 什么？你问我学百家艺的人缘怎么样？嗯.......... 穿越一人之下，苏晨的得到了一个，完成任务就能获得修为与功法点的系统，自此。委托界迎来了它最严厉的父亲。",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o58cd43fb2eefb184e59262d74be47819~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794632597&x-signature=CgouMpTRDva4eRZs7DYz1moOsbE%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o58cd43fb2eefb184e59262d74be47819~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794718504&x-signature=P7tJhV8UxbjWFZijNYhumiNT1uU%3D",
         "url": "https://fanqienovel.com/page/7675773310172400664"
-      },
-      {
-        "title": "超神：我自为王",
-        "author": "束凤",
-        "reads": "13.5万",
-        "intro": "顾清穿越超神，开局成就三代神。 面对天使的调查。 “按理说你这个级别的天使还无权调查我。” “你们的层次太低，永远无法理解我现在的状态。” “我顾清一生行事，何须向诸神解释。” “太好了，顾清来了，我们没救了！” 雄兵连的宿命、天使的正义、恶魔的混乱、饕餮的入侵…… 与我何干？",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2ob195f7ab63d3402a418c29903cf27981~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794632597&x-signature=OQ7uK7h%2F5O1xQIb8hyClIMOAoC4%3D",
-        "url": "https://fanqienovel.com/page/7690615041682312217"
       },
       {
         "title": "海贼：百兽海贼团的大日金乌",
         "author": "阿飞的笔",
-        "reads": "12.3万",
+        "reads": "12.1万",
         "intro": "【幻兽种】➕【多女主】➕【不降智】 卡恩被大运天尊抬到海贼世界，吃下幻兽种金乌果实。 明白出来混要讲势力，要讲背景的卡恩果断选择把自己的天赋带到百兽海贼团。 不要跟我讲道德，因为我是海贼。 海贼工作者一定要会当海贼！ 8岁的卡恩： 赴汤蹈火啊，凯老师！ 13岁的卡恩：老登，我的海贼船停你港口不会丢吧？ 18岁的卡恩：老凯头，汝团汝女吾养之，汝勿虑也。安心退休吧。",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o6d004220089a7dcb6f4d438714c8cb99~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794632597&x-signature=rXzC%2Fj9ZE5pghzgD4nyZG7HQXdE%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o6d004220089a7dcb6f4d438714c8cb99~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794718504&x-signature=D1OEdISBbbA8U%2Bvyjdo2qVwRSVc%3D",
         "url": "https://fanqienovel.com/page/7692834354845715518"
       },
       {
-        "title": "崩铁：好像确实有点疯狂了",
-        "author": "一梦阑干",
-        "reads": "11.9万",
-        "intro": "［穿越+模拟+命途颠佬+修罗场+冲师逆徒+后宫+强制爱］ 系统：来模拟吧 沈月酌：OK 第一世：教了个天才，搞了一些大事 第二世：教了个剑首，救了一些友人 第三世：教了个歌星，进了一些黑屋 系统：这这。。对嘛？ 沈月酌：你就说结局是不是好的吧。 黑塔：那这个结局确实是好的 直接就是给他关起来了 管这么多干啥，模拟就完事了 主角即使没有系统，也是个颠佬了。 本书又可以叫《崩铁：老师模拟器》《崩铁：我真只是想当一个老师而已》《崩铁：我的教资怎么一闪一闪的》",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o0d1c16c5e6da168d83fa93692f60f6f6~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794632597&x-signature=6%2Fw01XOB3jMNLVpumIfVZwauk0o%3D",
-        "url": "https://fanqienovel.com/page/7672857496293215256"
+        "title": "超神：我自为王",
+        "author": "束凤",
+        "reads": "11.6万",
+        "intro": "顾清穿越超神，开局成就三代神。 面对天使的调查。 “按理说你这个级别的天使还无权调查我。” “你们的层次太低，永远无法理解我现在的状态。” “我顾清一生行事，何须向诸神解释。” “太好了，顾清来了，我们没救了！” 雄兵连的宿命、天使的正义、恶魔的混乱、饕餮的入侵…… 与我何干？",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2ob195f7ab63d3402a418c29903cf27981~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794718504&x-signature=rFg%2B%2FOrjOldoznJEq9b3ZRzlF3w%3D",
+        "url": "https://fanqienovel.com/page/7690615041682312217"
       },
       {
         "title": "米家观影：阿哈的债务清单",
         "author": "一个该溜子",
-        "reads": "11.3万",
+        "reads": "11.6万",
         "intro": "那一日，天幕降临，旅行者刚抵达蒙德，开拓者对峙可可利亚，琪亚娜在补考…… 崩坏世界，崩铁世界，提瓦特世界，新艾利都，各个世界的走向将通过天幕播放。 第一个播放内容是崩铁星神，第二个是欢愉星神阿哈的债务清单…… 帕姆：阿哈，快点还债帕！ 虚照：我不是阿哈。 真珠：不是阿哈？马老师是吧，催稿催稿。 虚照：咕，杀了我吧。 ……",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o4fc7b926c0415ebf1734ec656d20cf07~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794632597&x-signature=c9yKEG%2BaBtZ216RNAXjL%2F2dUEYY%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o4fc7b926c0415ebf1734ec656d20cf07~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794718504&x-signature=bOE%2BVHLFJ%2FshYJcWdGWQj3jescY%3D",
         "url": "https://fanqienovel.com/page/7685011803851459608"
+      },
+      {
+        "title": "崩铁：好像确实有点疯狂了",
+        "author": "一梦阑干",
+        "reads": "11.1万",
+        "intro": "［穿越+模拟+命途颠佬+修罗场+冲师逆徒+后宫+强制爱］ 系统：来模拟吧 沈月酌：OK 第一世：教了个天才，搞了一些大事 第二世：教了个剑首，救了一些友人 第三世：教了个歌星，进了一些黑屋 系统：这这。。对嘛？ 沈月酌：你就说结局是不是好的吧。 黑塔：那这个结局确实是好的 直接就是给他关起来了 管这么多干啥，模拟就完事了 主角即使没有系统，也是个颠佬了。 本书又可以叫《崩铁：老师模拟器》《崩铁：我真只是想当一个老师而已》《崩铁：我的教资怎么一闪一闪的》",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o0d1c16c5e6da168d83fa93692f60f6f6~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794718504&x-signature=pWaugJ2ZucZT26pfXR4wY4Z2EVg%3D",
+        "url": "https://fanqienovel.com/page/7672857496293215256"
       }
     ]
   },
@@ -231,222 +224,215 @@
     {
       "name": "动漫衍生",
       "trend": {
-        "new_count": 1,
-        "dropped_count": 1,
-        "new_books": [
-          "米家观影：阿哈的债务清单"
-        ],
-        "dropped_books": [
-          {
-            "title": "刷崩铁神人二创，寰宇众生破绷了",
-            "intro": "【观影+聊天群+主角工具人】 【观影内容：虚照驾到……】 钱文斌获得观影系统，只要寰宇众生破绷就能获得奖励。 开局播放《虚照驾到》 龙晶：第一眼看过去以为我活到头了。 虚照：诽谤啊！这是诽谤啊！小心我"
-          }
-        ],
+        "new_count": 0,
+        "dropped_count": 0,
+        "new_books": [],
+        "dropped_books": [],
         "top_risers": [
           {
+            "title": "成龙历险记：慷慨圣主有多强？",
+            "change": "+2"
+          },
+          {
+            "title": "一人，我用神机百炼打造机械天灾",
+            "change": "+2"
+          },
+          {
             "title": "诸天观影：平行宇宙大粪坑理论",
-            "change": "+6"
-          },
-          {
-            "title": "恐怖版：我与植物娘的反抗",
-            "change": "+4"
-          },
-          {
-            "title": "崩铁：寰宇最坚定命途行者",
             "change": "+2"
           }
         ],
         "top_fallers": [
           {
-            "title": "型月：未婚妻露维亚，抽爆FGO",
-            "change": "-4"
+            "title": "崩铁：二创天幕，开局逃婚知更鸟",
+            "change": "-5"
           },
           {
             "title": "宝可梦：龙系世家出了个妖精大师",
             "change": "-2"
           },
           {
-            "title": "一人，我用神机百炼打造机械天灾",
-            "change": "-2"
+            "title": "海贼：门门果实？可曾听闻次元斩",
+            "change": "-1"
           }
         ],
         "reads_growth": [
           {
             "title": "火影：第七班拜错师，全忍界疯了",
-            "growth": "+4.5万"
+            "growth": "+5.1万"
           },
           {
             "title": "成龙历险记：慷慨圣主有多强？",
-            "growth": "+2.9万"
+            "growth": "+3.0万"
           },
           {
-            "title": "诸天观影：平行宇宙大粪坑理论",
-            "growth": "+1.9万"
+            "title": "恐怖版：我与植物娘的反抗",
+            "growth": "+1.7万"
           }
         ],
-        "summary": "**🔥 题材趋势**：崩铁、一人之下、火影三足鼎立；观影体/天幕流密集上榜，Top20中占6席，已成动漫衍生最大流量池。\n**📖 读者偏好**：玩梗、抽象、乐子人文化主导，读者要“情绪值”和“破防名场面”；授徒返还、加点系统等强反馈金手指更易起量。\n**🆕 新上榜作品**：《米家观影：阿哈的债务清单》踩中崩铁+原神双IP，以“星神债务”抽象梗切入，轻量搞笑，适合碎片阅读。\n**📉 掉出榜单**：《刷崩铁神人二创》同类天幕文竞争激烈，无差异化梗则迅速被替代，说明观影体赛道已进入“梗密度”内卷阶段。\n**💡 值得关注**：《诸天观影：平行宇宙大粪坑理论》+6，美漫+抽象赤石路线差异化明显，钢铁侠、蝙蝠侠等名场面解构具备破圈潜力。",
+        "summary": "**🔥 题材趋势**：崩铁、一人之下、海贼三分天下，天幕/观影体与二创直播成新增长点，火影靠“拜错师”反套路稳居榜首。\n**📖 读者偏好**：玩梗、抽象、乐子人属性权重飙升，多女主+日常轻松向优于苦大仇深，对“迫害角色+情绪值系统”有强互动欲。\n**🆕 新上榜作品**：本期无新上榜，榜单固化明显。\n**📉 掉出榜单**：本期无掉出。\n**💡 值得关注**：崩铁二创天幕类排名下滑，说明纯观影体审美疲劳；《成龙历险记》圣主+诸天掠夺逆势上升，跨宇宙收集流或成下一个破局点。",
         "source": "ai"
       },
       "books": [
         {
           "title": "火影：第七班拜错师，全忍界疯了",
           "author": "成风起",
-          "reads": "39.5万",
+          "reads": "44.6万",
           "intro": "风间穿越火影世界，阴差阳错成为第七班导师，绑定【授徒返还系统】。 　　只要徒弟变强或赠予机缘，他就能获得最高万倍的暴击返还！ 　　看着眼前的三小只，风间果断当起了外包头子： 　　“鸣人，搓丸子没前途，去找迈特凯学八门遁甲，再学个百豪之术，打不死就往死里开门！” 　　“佐助，别搭理大蛇丸那个变态，自来也的仙术配你的写轮眼才是绝对无敌，去妙木山修仙吧！” 　　“小樱，没有血脉就相信科学！喏，这是大蛇丸的实验室坐标，去进修人体改造，用科技征服忍界！” 　　第四次忍界大战，宇智波斑狂傲降临，睥睨天下：“你也想起舞吗？” 　　然而，迎接他的却是三个画风诡异的年轻人。 　　漩涡鸣人开启多重影分身之术外加八门遁甲：“宇智波斑？吃我一招夜凯·八千连弹！” 　　宇智波佐助驾驭着百米高的仙法·须佐能乎，蛤蟆油混合着天照黑炎：“仙法·雷炎天照！” 　　戴着金丝眼镜的春野樱推了推镜框，身后列阵着历代火影与十万基因改造秽土大军：“宇智波斑的细胞端粒酶，具有极高的解剖研究价值。” 　　看着被按在地上疯狂摩擦的斑，全忍界都疯了。 而坐在高处嗑瓜子的风间却打了个哈欠：“基操勿六，我只是个平平无奇的带队老师罢了。”",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o22f8e79985b81994c074db88bf5fbf5f~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794632594&x-signature=ADNbtN6HHGWRtPQtsK3%2FXzBsm4o%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o22f8e79985b81994c074db88bf5fbf5f~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794718501&x-signature=6QHIFfpXRByyQrQfPcQ01a1db7E%3D",
           "url": "https://fanqienovel.com/page/7694963562489318424"
         },
         {
           "title": "崩铁：迫害完她们后，我有点死了",
           "author": "辰昱熙",
-          "reads": "31.6万",
+          "reads": "31.3万",
           "intro": "［多女主+玩梗+搞笑+日常］ 穿越崩铁，开局落地仙舟，白离雪感觉自己有一点死了。 “什么叫我金手指需要不断牵动别人的情绪来获取情绪值？” 如果放在以前，白离雪会义正言辞的拒绝： “欺骗别人感情这种事，我做不到。” 而如今，少年看着自己手中的雷火双剑，不自觉的咬咬牙…… —————— 于是，白离雪便开始了…… “丹恒，就当是为了我好吗？使用化龙妙法吧。” “姬子，这就是……最后一课了……” “杨叔！我做到了那个男人没能做的事！我已经超越了他！” “三月，你该抓住的手，已经不是我了。” “星？！你为啥直接跟我表白啊？！旮旯给木里不是这样的！！” “青雀，我已经不能耍起了。” “符玄大人一米一。” “镜流，你的剑不够快，也不够狠。” “黑塔女士你的帽子怎么尖尖的？” “阮梅，你逾矩了。” “知更鸟……星期日知道会杀了我的。” “花火，你这个天生邪恶的欢愉小鬼，我这就亲手……” “流萤！准备好了吗？！现在！就在这里！” ……… —————— 直到后来，被白离雪迫害的她们全部找上门来时，少年这才扯出一抹尴尬的微笑： “噫，可以和解吗？",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o2b2c159aab629a1b64a7b8c6d5507f76~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794632594&x-signature=g7mCRYwWdyeAVkICBWuFkOQJHDc%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o2b2c159aab629a1b64a7b8c6d5507f76~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794718501&x-signature=9aosDLo%2FVW8jNJttHR4HuwBJKYA%3D",
           "url": "https://fanqienovel.com/page/7677577671416499262"
-        },
-        {
-          "title": "海贼：门门果实？可曾听闻次元斩",
-          "author": "biubiu随笔",
-          "reads": "23.7万",
-          "intro": "【评分刚出，会涨的！】穿越海贼世界十五年，罗恩一直不理解一件事。 门门果实这么离谱的空间能力，为什么有人只拿它开门跑路？ 门，代表空间的开启，同样也代表空间的闭合。 所以当大剑豪的剑，遇上门门果实以后…… ——【次元斩】诞生了。 敌人想逃？不好意思，你前面的路也是门。 至于碰上暂时打不过的怪物？罗恩更不在乎，门一关人就没了。 打得过的抓不到，打不过的跑不掉。 这就是罗恩最让整片大海头疼的地方。 不过，比起他的恐怖实力，世界政府后来发现了另一件更加麻烦的事情—— 这个被萨卡斯基从小捡回来养大的怪物，似乎从没打算按任何人的“正义”活着。",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2ob2a7faf4c15184f8ec0cb1b3100b8c56~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794632594&x-signature=mtvheVDwXbYCdf4%2B97Jo%2BCKArcg%3D",
-          "url": "https://fanqienovel.com/page/7693917862703926334"
         },
         {
           "title": "天幕通原神，开局钟离还在藏",
           "author": "摸鱼青总",
-          "reads": "23.6万",
+          "reads": "24.1万",
           "intro": "一句“钟离还在藏”，古老的璃月神明瞬间掉马。 当天幕笼罩七国，源自平行时空的故事也得以为人所知晓。 风起地的大树下，众人见证法尔伽的归来。 层岩巨渊里，浮舍自污秽中挣脱。 神樱树下，真与影的相逢。 雨林与黄沙之畔，大慈树王再度被铭记。 欧庇克莱歌剧院的审判席…… 圣火竞技场灼热的火焰…… 银月之庭内回荡的歌声…… …… 当深渊锚定世界，不被选择的恨意涌现。 自有另一个世界的爱与信仰，将其消融化解。",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o7efb7f388747ba182d664edaae7879cd~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794632594&x-signature=Pa6dtXi1TI36nPMqzm2XEvzR9EI%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o7efb7f388747ba182d664edaae7879cd~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794718501&x-signature=OOkSOamHNmzA6wuLoA%2Fooe4h2o8%3D",
           "url": "https://fanqienovel.com/page/7688252963269119001"
         },
         {
-          "title": "一人：开局通背拳，结局武仙人",
-          "author": "金墨水",
-          "reads": "22.1万",
-          "intro": "【一人之下+加点+天赋词条+圆满结局+问鼎】 林承风穿越到异人世界，资质平庸，拜师无门。 所幸觉醒修炼系统。 只要努力修炼，就能获得经验。 功法满级，还能觉醒天赋。 别人拜师入道。 他则独自苦练拳法十年。 一门普通的《通背拳》，被他练到了无人知晓的境界。 第九响，拳劲轰雷。 第十响，心猿显化！ 三一绝学——《逆生三重》，被他练至满级。 冯虚御风，逆生成仙！ 多年以后。 有人问： “林承风，你的武道是谁教的？” 林承风想了想，回答： “时间。”",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o6ad9e6418863e99a73435bcc42e5798f~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794632594&x-signature=QaaTyGshaoR2lOyxqNyFUeHMZWo%3D",
-          "url": "https://fanqienovel.com/page/7695987381370899481"
-        },
-        {
-          "title": "崩铁：二创天幕，开局逃婚知更鸟",
-          "author": "打到不知天地为何物",
-          "reads": "19.9万",
-          "intro": "卷战力？卷命途？卷冒险？ 太累，不如吃软饭！ 穿越崩铁宇宙两年半后，顾长歌终于领悟了软饭的核心！ 凭借一张帅脸和抄袭蓝星老歌。 顾长歌成功傍上身为银河顶流歌姬的知更鸟。 本想从此躺平摆烂，日子逍遥快活。 结果二创直播间突然降临！ 各种离谱视频满天飞，无数沙雕名场面公开处刑！ 【知更鸟深情破防：长歌，你的世界以后没有我了，没关系，你要幸福…顾长歌，顾长歌，没有你我可怎么活啊！！】 【虚照拼命挽留 ：顾长歌，你别走好不好，我养你啊！】  【星语出惊人：万一有了的话，打掉就好了啊！】 一夜之间。 顾长歌硬生生被二创视频整成了万恶之源！ 惨遭全银河通缉！ 啥事没干的顾长歌一脸懵逼：“不是，我只是想安静地吃口软饭啊！！”",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o6e7193d7f567d95a83de99e7148870a1~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794632594&x-signature=mh455Y%2BY5MKKKFc0zSLr0Ul9COk%3D",
-          "url": "https://fanqienovel.com/page/7694594694184979481"
+          "title": "海贼：门门果实？可曾听闻次元斩",
+          "author": "biubiu随笔",
+          "reads": "22.9万",
+          "intro": "【评分刚出，会涨的！】穿越海贼世界十五年，罗恩一直不理解一件事。 门门果实这么离谱的空间能力，为什么有人只拿它开门跑路？ 门，代表空间的开启，同样也代表空间的闭合。 所以当大剑豪的剑，遇上门门果实以后…… ——【次元斩】诞生了。 敌人想逃？不好意思，你前面的路也是门。 至于碰上暂时打不过的怪物？罗恩更不在乎，门一关人就没了。 打得过的抓不到，打不过的跑不掉。 这就是罗恩最让整片大海头疼的地方。 不过，比起他的恐怖实力，世界政府后来发现了另一件更加麻烦的事情—— 这个被萨卡斯基从小捡回来养大的怪物，似乎从没打算按任何人的“正义”活着。",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2ob2a7faf4c15184f8ec0cb1b3100b8c56~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794718501&x-signature=0Iu%2FfoAF1kGC%2BGRLAicgKwH%2Bw5c%3D",
+          "url": "https://fanqienovel.com/page/7693917862703926334"
         },
         {
           "title": "成龙历险记：慷慨圣主有多强？",
           "author": "疯狂的duck",
-          "reads": "19.7万",
+          "reads": "22.7万",
           "intro": "【慷慨圣主】+【收集所有超凡力量】+【穿梭各种宇宙】 关凯意外穿越成为成龙历险记宇宙里的圣主。 从此，从前那个众所周知不守承诺、抠门儿、不要脸的圣主，成为了慷慨大方信守承诺的圣主陛下。 符咒、面具、魔气等所有超凡力量，全都落入关凯手里。 当掌握了所有超凡力量后，关凯发现，原来世间有多个宇宙。 通过欧若拉之眼，他穿梭于火影、海贼、龙珠、漫威、DC、斗破、斗罗、遮天等各种宇宙间掠夺超凡资源强化自身。 …… 当八大不死神明再次现身成龙宇宙，关凯一人独占八大不死神明却能不落下风。 只因为，“我现在什么都不缺了！”",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o24fa2b2237c5b2d736e9628242acdc7e~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794632594&x-signature=sE%2BLsOC88k1553FS1uW9bV%2BEyds%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o24fa2b2237c5b2d736e9628242acdc7e~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794718501&x-signature=VOvsmBMuwsBV98VEMIYMFnPSl00%3D",
           "url": "https://fanqienovel.com/page/7685687777861569560"
+        },
+        {
+          "title": "一人：开局通背拳，结局武仙人",
+          "author": "金墨水",
+          "reads": "21万",
+          "intro": "【一人之下+加点+天赋词条+圆满结局+问鼎】 林承风穿越到异人世界，资质平庸，拜师无门。 所幸觉醒修炼系统。 只要努力修炼，就能获得经验。 功法满级，还能觉醒天赋。 别人拜师入道。 他则独自苦练拳法十年。 一门普通的《通背拳》，被他练到了无人知晓的境界。 第九响，拳劲轰雷。 第十响，心猿显化！ 三一绝学——《逆生三重》，被他练至满级。 冯虚御风，逆生成仙！ 多年以后。 有人问： “林承风，你的武道是谁教的？” 林承风想了想，回答： “时间。”",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o6ad9e6418863e99a73435bcc42e5798f~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794718501&x-signature=80bkGTT0MNjXP3Jjw7IPlkkqvpQ%3D",
+          "url": "https://fanqienovel.com/page/7695987381370899481"
         },
         {
           "title": "崩铁：寰宇最坚定命途行者",
           "author": "垚焱",
-          "reads": "17.4万",
+          "reads": "18.9万",
           "intro": "这一天，崩铁世界来了一位串子。 他凭一己之力，成功做到站中间，随机向十六个方向开串。 景星：“首先，我不是命途行者。“ “其次，我一向是「开拓」、「毁灭」、「巡猎」、「智识」、「同谐」、「虚无」、「存护」、「丰饶」、「贪饕」、「记忆」、「纯美」、「繁育」、「神秘」、「均衡」、「大伟哥」最坚定的践行者！” “你问我「欢愉」？「欢愉」已经死了，你挑的嘛，啊哈！”",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2occ2cd0372eda35bfaef7038ecf5038f6~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794632594&x-signature=DRU9nnVLuVwRWhL93CALMw32d88%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2occ2cd0372eda35bfaef7038ecf5038f6~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794718501&x-signature=d6E5Z2dC6E8yV9mup5Q6SySbf58%3D",
           "url": "https://fanqienovel.com/page/7697566047599086654"
         },
         {
           "title": "恐怖版：我与植物娘的反抗",
           "author": "鬼牌铭殇",
-          "reads": "16.6万",
+          "reads": "18.3万",
           "intro": "灵感。。天师的本子，看好。。不错，就写了一本小说，且看且珍惜，我也不知道我会写成什么样。《多女主》+《一百日》+《调教》+《诡异》+《恐怖》+《丧尸》+《植物娘》+《植物大战僵尸世界观》+《九叔》+《冒险》+《成长》+《遗憾》 白糯儿：我可是大名鼎鼎的天师！法号糯米天师！我怎么可能会喜欢上他！他除了会挥剑、会煮饭、会照顾人、会站出来清理邪祟、会逗我笑。。会。。（完了，我不会真喜欢他吧？！都怪他！为什么要在我们被诡异围剿时亲我啊！！！可恶！） 玉笙：你问我吗？我当然有喜欢的人，虽然他不是植物的基因，但我就是喜欢上他了。虽然《玉米道士》的名气没有《糯米天师》高，但我喜欢一个人就是要大胆承认，我可不会像某个天师一样，不敢承认，结果比我都还在乎那个人。 青豆：你们看着我干嘛？虽然他救了我们豌豆一族的大姐，不对啊？？你们不该去问寒冰上校吗？说的好像你们对他没有意思一样！干嘛都来问我啊？！ 寒冰上校：把铭殇叫过来，我们需要商讨一下林间那匹诡异的应对办法了，不能让它们扩散出去。什么？！那个老坚果动作比我都快？准备直升机！我今天还就非要和她抢人了！",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o953ce0b4a7c7b05812a19e8b89295931~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794632594&x-signature=OiSSgCt67k5rk9O6sj%2B7qmt%2BclM%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o953ce0b4a7c7b05812a19e8b89295931~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794718501&x-signature=uHt5bLvjbW0%2FxHaMOwviz6uBe3I%3D",
           "url": "https://fanqienovel.com/page/7692823024109636670"
-        },
-        {
-          "title": "宝可梦：龙系世家出了个妖精大师",
-          "author": "一只幽影猫",
-          "reads": "16.1万",
-          "intro": "江越穿越到一个精灵与现实融合的世界。 这里有训练家大学、职业联赛、秘境探索，也有传承数代的精灵世家。 而江越这一世，偏偏出生在赫赫有名的龙系世家。 父亲是龙系道馆馆主。 姐姐年纪轻轻便踏入准天王领域，王牌更是一只暴飞龙。 按理来说，江越从小就不缺强大的龙系精灵。 可六岁那年，他觉醒了一个坑爹系统。 【宿主只能收服妖精系，或未来拥有妖精属性的精灵。】 【精灵资质不得低于天王级。】 江越：“……” 天王资质？ 整个江家都找不出几只！ 可谁也没想到，多年以后，江越会带着妖精大队站上世界大赛之巅。 七夕青鸟、仙子伊布、沙奈朵......也就算了。 我问你这蒂安希、哲尔尼亚斯和苍响是哪来的？ 还有那个长得像胖丁的家伙，怎么看都有点不对劲！ 几乎同一时间，全世界都在讨论一个问题。 一个龙系世家出生的家伙—— 为什么最后成了妖精系大师？",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2odae189863d518cf22e57eb51904b8e37~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794632594&x-signature=T%2BN0DtUZAZ7ja7FwfZECmKhhidY%3D",
-          "url": "https://fanqienovel.com/page/7686500611117812761"
         },
         {
           "title": "一人，我用神机百炼打造机械天灾",
           "author": "摸条锦鲤",
-          "reads": "15.7万",
+          "reads": "16.2万",
           "intro": "时代在进步，科技在发展，异人的手段也应该与时俱进。 双全手可以因为基因的研究更进一步。 禽兽师可以随着微生物研究进步成为生物师。 那么我认为炼器师也应该随时代而进步。 说着，赵墨一挥手，无人机遮天蔽日，机械狗漫山遍野，迷你兵偶从各个角落冒出来。 铠甲覆盖，神兵护身，赵墨笑道： 诸位，时代变了！",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o1b6a47c03ed25e82e72b791919eeed1b~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794632597&x-signature=TqBUGUgtnShvBvYFw0TvKAZbDKs%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o1b6a47c03ed25e82e72b791919eeed1b~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794718501&x-signature=qzNUpNRrwqxzKTcNzEhuPPCdamc%3D",
           "url": "https://fanqienovel.com/page/7694635792500542489"
         },
         {
           "title": "诸天观影：平行宇宙大粪坑理论",
           "author": "芜湖飞人555",
-          "reads": "15.2万",
+          "reads": "16.1万",
           "intro": "【天幕+诸天万界+抽象+主打美漫】 诸天万界有着无穷无尽的可能，于是便诞生了平行宇宙粪坑理论，它指的是在如此多的可能里总有一个令你不忍直视的勾石世界。 而诸天万界终于迎来了一个抽象巨星，天幕来了一个赤石大王。 …… “停停！”钢铁侠看着天幕上，逐渐红温：“什么叫钢铁侠其实是给？” 《六条腿走进巷子，两条腿出，谜底：布鲁斯一家》 蝙蝠侠：？ 《奇异博士着小子最精了，终局之战搁那玩疯狂水世界，巨爽巨解压。》 奇异博士：？ 《傲娇千金马尔芙与哈利波特二三事》 斯内普：成何体统！！！ 《性转哈莉波特与斯内普二三事》 斯内普：格兰芬多加1亿分！ …… PS：漫威，DC，哈利波特，成龙历险记等作品……（作者是云，然后有大量烂梗，慎入）",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o48cdd93ccfa449cd7f276d210b5beed5~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794632597&x-signature=WjlycEvaYycnvY0cMmMXki5NS5Y%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o48cdd93ccfa449cd7f276d210b5beed5~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794718501&x-signature=5bte3xWBEseu5sv2I5bDYNKMlPU%3D",
           "url": "https://fanqienovel.com/page/7695421777236741144"
         },
         {
-          "title": "自定义术式的我去咒回找乐子了",
-          "author": "纸鸢雏鸾",
-          "reads": "15.1万",
-          "intro": "【咒术回战+咒术转盘+乐子人+伪模拟+无AI纯手搓】 作为咒回嗜血乐子人观众的白鸟杌只是每天熬夜在咒术回战社区高强度论战搞抽象 就因睡眠不足导致精神恍惚，在上厕所的时候滑倒头卡进马桶里活活憋死 但他却因此穿越到咒术回战的世界，绑定斗傩系统，拥有了自定义术式的金手指 只要编写出一份逻辑足够自洽、构造足够完善的术式，就可以带着它穿越到咒回世界亲自参与剧情 “虽然花两分钟时间写出一个超雄秒杀术式借过所有人的确很爽快，但那是…废物的思维！” 白鸟杌如是说 “带着攻击力弱鸡，但有点雷霆臭阴机制的术式在宿傩脸上搅屎，这才是强者的思维！” 系统：你疑似有点毛病 白鸟杌：是吗…是啊！的确是啊！ 系统：乐",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o6c491a0afdf201bda9a0d42ce4f0975e~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794632597&x-signature=QOWIEsxNpnTWwvgTFkqDSa%2FenQI%3D",
-          "url": "https://fanqienovel.com/page/7683122498954611774"
+          "title": "崩铁：二创天幕，开局逃婚知更鸟",
+          "author": "打到不知天地为何物",
+          "reads": "15.7万",
+          "intro": "卷战力？卷命途？卷冒险？ 太累，不如吃软饭！ 穿越崩铁宇宙两年半后，顾长歌终于领悟了软饭的核心！ 凭借一张帅脸和抄袭蓝星老歌。 顾长歌成功傍上身为银河顶流歌姬的知更鸟。 本想从此躺平摆烂，日子逍遥快活。 结果二创直播间突然降临！ 各种离谱视频满天飞，无数沙雕名场面公开处刑！ 【知更鸟深情破防：长歌，你的世界以后没有我了，没关系，你要幸福…顾长歌，顾长歌，没有你我可怎么活啊！！】 【虚照拼命挽留 ：顾长歌，你别走好不好，我养你啊！】  【星语出惊人：万一有了的话，打掉就好了啊！】 一夜之间。 顾长歌硬生生被二创视频整成了万恶之源！ 惨遭全银河通缉！ 啥事没干的顾长歌一脸懵逼：“不是，我只是想安静地吃口软饭啊！！”",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o6e7193d7f567d95a83de99e7148870a1~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794718504&x-signature=2JiDpw%2BQ%2B7K0SgSX0LGQk99%2BL7k%3D",
+          "url": "https://fanqienovel.com/page/7694594694184979481"
+        },
+        {
+          "title": "宝可梦：龙系世家出了个妖精大师",
+          "author": "一只幽影猫",
+          "reads": "15.6万",
+          "intro": "江越穿越到一个精灵与现实融合的世界。 这里有训练家大学、职业联赛、秘境探索，也有传承数代的精灵世家。 而江越这一世，偏偏出生在赫赫有名的龙系世家。 父亲是龙系道馆馆主。 姐姐年纪轻轻便踏入准天王领域，王牌更是一只暴飞龙。 按理来说，江越从小就不缺强大的龙系精灵。 可六岁那年，他觉醒了一个坑爹系统。 【宿主只能收服妖精系，或未来拥有妖精属性的精灵。】 【精灵资质不得低于天王级。】 江越：“……” 天王资质？ 整个江家都找不出几只！ 可谁也没想到，多年以后，江越会带着妖精大队站上世界大赛之巅。 七夕青鸟、仙子伊布、沙奈朵......也就算了。 我问你这蒂安希、哲尔尼亚斯和苍响是哪来的？ 还有那个长得像胖丁的家伙，怎么看都有点不对劲！ 几乎同一时间，全世界都在讨论一个问题。 一个龙系世家出生的家伙—— 为什么最后成了妖精系大师？",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2odae189863d518cf22e57eb51904b8e37~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794718504&x-signature=K8OBqi1FN9DQRf7eCXbn9%2BUPeIw%3D",
+          "url": "https://fanqienovel.com/page/7686500611117812761"
         },
         {
           "title": "崩铁观影：姬爸坏老骰真拼啊",
           "author": "画龙止于点睛",
-          "reads": "14.6万",
+          "reads": "15.2万",
           "intro": "【观影】+【聊天群】 光幕降临，给与所有人通晓自身命运的权利！ 星：哇塞！他连姬子的咖啡都敢喝，还不止一杯？姬子的父亲这么猛吗？ 三月七：等等，什么叫做姬子的父亲是绝灭大君啊？啥？他还是前领航员我见？！ 归寂：姬子她是没有了父亲，但她还有我啊，我完全可以…… 瓦尔特：拟似黑洞！",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o055fbf8ce79013c57f94ecc0fd63ec4b~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794632597&x-signature=HQwP%2BbEEJiNh9%2Bby91deDO%2BICjw%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o055fbf8ce79013c57f94ecc0fd63ec4b~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794718504&x-signature=Iamo%2Fnf2lTEh5SBBFikCYIvGBP4%3D",
           "url": "https://fanqienovel.com/page/7686861414920621081"
+        },
+        {
+          "title": "自定义术式的我去咒回找乐子了",
+          "author": "纸鸢雏鸾",
+          "reads": "14.8万",
+          "intro": "【咒术回战+咒术转盘+乐子人+伪模拟+无AI纯手搓】 作为咒回嗜血乐子人观众的白鸟杌只是每天熬夜在咒术回战社区高强度论战搞抽象 就因睡眠不足导致精神恍惚，在上厕所的时候滑倒头卡进马桶里活活憋死 但他却因此穿越到咒术回战的世界，绑定斗傩系统，拥有了自定义术式的金手指 只要编写出一份逻辑足够自洽、构造足够完善的术式，就可以带着它穿越到咒回世界亲自参与剧情 “虽然花两分钟时间写出一个超雄秒杀术式借过所有人的确很爽快，但那是…废物的思维！” 白鸟杌如是说 “带着攻击力弱鸡，但有点雷霆臭阴机制的术式在宿傩脸上搅屎，这才是强者的思维！” 系统：你疑似有点毛病 白鸟杌：是吗…是啊！的确是啊！ 系统：乐",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o6c491a0afdf201bda9a0d42ce4f0975e~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794718504&x-signature=bIx%2Fjw0yt%2FLwFg3JL2J3QruW%2BaM%3D",
+          "url": "https://fanqienovel.com/page/7683122498954611774"
         },
         {
           "title": "型月：未婚妻露维亚，抽爆FGO",
           "author": "阿笙笙阿笙",
-          "reads": "14.6万",
+          "reads": "13.4万",
           "intro": "【fate】【fgo】【多女主】【圣杯战争】评分刚出，还在涨 重生成艾德费尔特的天才自然顺理成章的成了露维亚的未婚夫。 为了统子哥奖池里的【吾乃撕裂星辰之雷霆】、【虚空存之以神】、【银河生命论】，圣杯战争也是不得不品的一环。 只见召唤阵光芒一闪，Caster人头落地（大嘘） 风情中东，性感黑皮。 召唤使魔，十个戒指…… 不是？我此世最无脑之轮椅呢？！ 什么叫你是人类最古之断章狗？！ 啧，我管你这那！从今天开始你就是所罗门王了！！ 环顾四周，冬木全是重量级选手—— 绝对不开全知全能之星之南桐王。 越升级突破穿得越厚实之铝铜王。 圆脸络腮胡且荤素不忌之通吃王。 进场必给主君未婚妻牛走之枪。 重度精神分裂之紧身衣杂技团。 铝铜王那死缠烂打的病娇迷弟。 以及认错了自家众人拾柴火焰高的重度眼疾元帅…… 就这？就这啊？！ 不对！什么叫时辰硬吃起源弹？什么叫刷子绑架爱丽？什么又叫时辰雁夜联手？ 你这圣杯战争喵的对劲吗？！",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2ob47f34e794643e5c32a1bcacdd29da4d~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794632597&x-signature=vdTfERAXVySytdZFCbdJEuG3ywA%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2ob47f34e794643e5c32a1bcacdd29da4d~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794718504&x-signature=mM8VeEKIX5Wu3CkcC5L3QmCtUeA%3D",
           "url": "https://fanqienovel.com/page/7689023694567394329"
         },
         {
           "title": "一人：你苦修功法？我直接加点！",
           "author": "异途",
-          "reads": "13.9万",
+          "reads": "13.1万",
           "intro": "吃百家饭的都有个好人缘，学百家艺的都是个好材料。 什么？你问我学百家艺的人缘怎么样？嗯.......... 穿越一人之下，苏晨的得到了一个，完成任务就能获得修为与功法点的系统，自此。委托界迎来了它最严厉的父亲。",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o58cd43fb2eefb184e59262d74be47819~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794632597&x-signature=CgouMpTRDva4eRZs7DYz1moOsbE%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o58cd43fb2eefb184e59262d74be47819~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794718504&x-signature=P7tJhV8UxbjWFZijNYhumiNT1uU%3D",
           "url": "https://fanqienovel.com/page/7675773310172400664"
-        },
-        {
-          "title": "超神：我自为王",
-          "author": "束凤",
-          "reads": "13.5万",
-          "intro": "顾清穿越超神，开局成就三代神。 面对天使的调查。 “按理说你这个级别的天使还无权调查我。” “你们的层次太低，永远无法理解我现在的状态。” “我顾清一生行事，何须向诸神解释。” “太好了，顾清来了，我们没救了！” 雄兵连的宿命、天使的正义、恶魔的混乱、饕餮的入侵…… 与我何干？",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2ob195f7ab63d3402a418c29903cf27981~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794632597&x-signature=OQ7uK7h%2F5O1xQIb8hyClIMOAoC4%3D",
-          "url": "https://fanqienovel.com/page/7690615041682312217"
         },
         {
           "title": "海贼：百兽海贼团的大日金乌",
           "author": "阿飞的笔",
-          "reads": "12.3万",
+          "reads": "12.1万",
           "intro": "【幻兽种】➕【多女主】➕【不降智】 卡恩被大运天尊抬到海贼世界，吃下幻兽种金乌果实。 明白出来混要讲势力，要讲背景的卡恩果断选择把自己的天赋带到百兽海贼团。 不要跟我讲道德，因为我是海贼。 海贼工作者一定要会当海贼！ 8岁的卡恩： 赴汤蹈火啊，凯老师！ 13岁的卡恩：老登，我的海贼船停你港口不会丢吧？ 18岁的卡恩：老凯头，汝团汝女吾养之，汝勿虑也。安心退休吧。",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o6d004220089a7dcb6f4d438714c8cb99~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794632597&x-signature=rXzC%2Fj9ZE5pghzgD4nyZG7HQXdE%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o6d004220089a7dcb6f4d438714c8cb99~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794718504&x-signature=D1OEdISBbbA8U%2Bvyjdo2qVwRSVc%3D",
           "url": "https://fanqienovel.com/page/7692834354845715518"
         },
         {
-          "title": "崩铁：好像确实有点疯狂了",
-          "author": "一梦阑干",
-          "reads": "11.9万",
-          "intro": "［穿越+模拟+命途颠佬+修罗场+冲师逆徒+后宫+强制爱］ 系统：来模拟吧 沈月酌：OK 第一世：教了个天才，搞了一些大事 第二世：教了个剑首，救了一些友人 第三世：教了个歌星，进了一些黑屋 系统：这这。。对嘛？ 沈月酌：你就说结局是不是好的吧。 黑塔：那这个结局确实是好的 直接就是给他关起来了 管这么多干啥，模拟就完事了 主角即使没有系统，也是个颠佬了。 本书又可以叫《崩铁：老师模拟器》《崩铁：我真只是想当一个老师而已》《崩铁：我的教资怎么一闪一闪的》",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o0d1c16c5e6da168d83fa93692f60f6f6~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794632597&x-signature=6%2Fw01XOB3jMNLVpumIfVZwauk0o%3D",
-          "url": "https://fanqienovel.com/page/7672857496293215256"
+          "title": "超神：我自为王",
+          "author": "束凤",
+          "reads": "11.6万",
+          "intro": "顾清穿越超神，开局成就三代神。 面对天使的调查。 “按理说你这个级别的天使还无权调查我。” “你们的层次太低，永远无法理解我现在的状态。” “我顾清一生行事，何须向诸神解释。” “太好了，顾清来了，我们没救了！” 雄兵连的宿命、天使的正义、恶魔的混乱、饕餮的入侵…… 与我何干？",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2ob195f7ab63d3402a418c29903cf27981~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794718504&x-signature=rFg%2B%2FOrjOldoznJEq9b3ZRzlF3w%3D",
+          "url": "https://fanqienovel.com/page/7690615041682312217"
         },
         {
           "title": "米家观影：阿哈的债务清单",
           "author": "一个该溜子",
-          "reads": "11.3万",
+          "reads": "11.6万",
           "intro": "那一日，天幕降临，旅行者刚抵达蒙德，开拓者对峙可可利亚，琪亚娜在补考…… 崩坏世界，崩铁世界，提瓦特世界，新艾利都，各个世界的走向将通过天幕播放。 第一个播放内容是崩铁星神，第二个是欢愉星神阿哈的债务清单…… 帕姆：阿哈，快点还债帕！ 虚照：我不是阿哈。 真珠：不是阿哈？马老师是吧，催稿催稿。 虚照：咕，杀了我吧。 ……",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o4fc7b926c0415ebf1734ec656d20cf07~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794632597&x-signature=c9yKEG%2BaBtZ216RNAXjL%2F2dUEYY%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o4fc7b926c0415ebf1734ec656d20cf07~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794718504&x-signature=bOE%2BVHLFJ%2FshYJcWdGWQj3jescY%3D",
           "url": "https://fanqienovel.com/page/7685011803851459608"
+        },
+        {
+          "title": "崩铁：好像确实有点疯狂了",
+          "author": "一梦阑干",
+          "reads": "11.1万",
+          "intro": "［穿越+模拟+命途颠佬+修罗场+冲师逆徒+后宫+强制爱］ 系统：来模拟吧 沈月酌：OK 第一世：教了个天才，搞了一些大事 第二世：教了个剑首，救了一些友人 第三世：教了个歌星，进了一些黑屋 系统：这这。。对嘛？ 沈月酌：你就说结局是不是好的吧。 黑塔：那这个结局确实是好的 直接就是给他关起来了 管这么多干啥，模拟就完事了 主角即使没有系统，也是个颠佬了。 本书又可以叫《崩铁：老师模拟器》《崩铁：我真只是想当一个老师而已》《崩铁：我的教资怎么一闪一闪的》",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o0d1c16c5e6da168d83fa93692f60f6f6~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1794718504&x-signature=pWaugJ2ZucZT26pfXR4wY4Z2EVg%3D",
+          "url": "https://fanqienovel.com/page/7672857496293215256"
         }
       ]
     }
