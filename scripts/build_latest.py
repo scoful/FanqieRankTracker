@@ -352,6 +352,42 @@ def build_batch_ai_prompt(batch: list, board_label_text: str = "",
     )
 
 
+def build_safe_ai_prompt(cat_name: str, trend: dict,
+                         board_label_text: str = "",
+                         focus_hint: str = "") -> str:
+    """构建脱敏版 AI 总结 prompt：只含统计数据，不含书名和简介。
+
+    用于原始 prompt 被内容安全策略拦截（content_policy_violation）时
+    追加的安全重试。
+    """
+    stats = [
+        f"- 新上榜：{trend.get('new_count', 0)} 本",
+        f"- 掉出榜单：{trend.get('dropped_count', 0)} 本",
+    ]
+    risers = trend.get("top_risers", [])
+    if risers:
+        stats.append(f"- 排名最高上升 {risers[0]['change'].lstrip('+')} 位")
+    fallers = trend.get("top_fallers", [])
+    if fallers:
+        stats.append(f"- 排名最大下降 {fallers[0]['change'].lstrip('-')} 位")
+    growth = trend.get("reads_growth", [])
+    if growth:
+        stats.append(f"- 阅读量最高增长 {growth[0]['growth']}")
+    stats_text = "\n".join(stats)
+
+    board_line = f"（{board_label_text}）" if board_label_text else ""
+    focus_line = f"\n\n{focus_hint}" if focus_hint else ""
+    return f"""你是一位网文行业分析师。请根据以下统计数据，为番茄小说「{cat_name}」分类榜单{board_line}写一段趋势快评。{focus_line}
+
+## 统计数据（较上一期）
+{stats_text}
+
+## 输出要求
+- 数据中不含书名，输出也不要提及任何具体书名
+- 结合该分类的常见题材特点，解读上述变动反映的读者偏好与题材风向
+- 2-4 句话，150 字以内，语言简洁专业，像行业快报"""
+
+
 def parse_batch_response(response_text: str, cat_names: list) -> dict:
     """解析批量 AI 响应，返回 {cat_name: summary} 字典。"""
     results = {}
@@ -908,6 +944,15 @@ def is_rule_summary(summary: str) -> bool:
     return False
 
 
+def is_content_policy_error(exc: Exception) -> bool:
+    """判断异常是否为提供商内容安全策略拦截（content_policy_violation）。
+
+    这类拒绝由 prompt 内容触发（如书名/简介中的敏感词），是确定性的，
+    重试原文无望，需要脱敏后重试。
+    """
+    return "content_policy_violation" in str(exc)
+
+
 def generate_ai_summaries(categories: list, trends: dict,
                           api_key: str, base_url: str,
                           model: str, force: bool = False,
@@ -1038,6 +1083,7 @@ def generate_ai_summaries(categories: list, trends: dict,
                                      board_label_text, focus_hint)
             max_retries = 3
             success = False
+            policy_blocked = False
             for attempt in range(1, max_retries + 1):
                 try:
                     response = client.chat.completions.create(
@@ -1062,9 +1108,41 @@ def generate_ai_summaries(categories: list, trends: dict,
                     break
                 except Exception as e:
                     print(f"    ⚠️  {cat_name} 第 {attempt} 次失败: {e}")
+                    policy_blocked = (policy_blocked
+                                      or is_content_policy_error(e))
                     if attempt < max_retries:
                         import time
                         time.sleep(5 * attempt)
+
+            # 内容安全拦截是确定性拒绝（书名/简介触发提供商审核），
+            # 追加一次不含书名和简介的脱敏重试
+            if not success and policy_blocked:
+                print(f"    🛡️  {cat_name} 被内容安全策略拦截，追加脱敏重试...")
+                safe_prompt = build_safe_ai_prompt(cat_name, trend,
+                                                   board_label_text,
+                                                   focus_hint)
+                try:
+                    response = client.chat.completions.create(
+                        model=model,
+                        messages=[{"role": "user", "content": safe_prompt}],
+                        max_tokens=800,
+                        temperature=chat_temperature(model, 0.7),
+                        **chat_create_kwargs(model),
+                    )
+                    content = response.choices[0].message.content
+                    if not content or not content.strip():
+                        finish = response.choices[0].finish_reason
+                        raise ValueError(
+                            f"API 返回空内容 (finish_reason={finish})")
+                    trends[cat_name]["summary"] = content.strip()
+                    trends[cat_name]["source"] = "ai"
+                    print(f"    ✅ {cat_name}（脱敏重试成功）")
+                    _save_trends_incremental(
+                        trend_path, trend_date, prev_date, trends
+                    )
+                    success = True
+                except Exception as e:
+                    print(f"    ⚠️  {cat_name} 脱敏重试失败: {e}")
 
             if not success:
                 print(f"    ❌ {cat_name} 最终失败")
