@@ -3,227 +3,232 @@
   "board": "new",
   "label": "男频新书榜",
   "type": "都市日常",
-  "date": "2026-11-19",
-  "prev_date": "2026-11-18",
+  "date": "2026-11-20",
+  "prev_date": "2026-11-19",
   "category": {
     "name": "都市日常",
     "trend": {
-      "new_count": 1,
-      "dropped_count": 1,
+      "new_count": 2,
+      "dropped_count": 2,
       "new_books": [
-        "坏女人们重生后，对我病娇式痴迷"
+        "凤流金陵",
+        "百倍头奖到账，回东北老家猫冬"
       ],
       "dropped_books": [
         {
-          "title": "大院逆子",
-          "intro": "这不是一个英雄的故事，这是一个活着的人，替死去的人活着的故事。 军旅、对越自卫反击战、侦察兵、兄弟情、父子情、年代、成长、热血、虐点、泪点。"
+          "title": "暑假包养的顶美，竟是大一辅导员",
+          "intro": "【单女主】+【甜文】+【姐弟恋】+【日常轻松】 我叫林言，继承亿万家产后，花五十万签下了一个女孩的暑假。 她姓秋，是颜值逆天的学霸，也是我钦定的专属家教。 两个月里，我让她辅导功课，顺便看她脸红，日子"
+        },
+        {
+          "title": "开局看守所：我成了地下大佬",
+          "intro": "【90年代江湖＋热血爽文＋兄弟情义＋无系统】 “王兴毅，给我兄弟认个错，再拿点医药费，今天这事就算过去了！” 刚从看守所出来的王兴毅，陪大哥吃顿饭，竟然惹上了复州有钱有势的章老三。 仗着家里开着高丰集"
         }
       ],
       "top_risers": [
         {
-          "title": "女局长：扫黑之路",
+          "title": "坏女人们重生后，对我病娇式痴迷",
+          "change": "+4"
+        },
+        {
+          "title": "都重生了，谁还追求高冷校花啊",
           "change": "+2"
         },
         {
-          "title": "开局公司出事，我升职加薪",
-          "change": "+1"
-        },
-        {
-          "title": "顶美有个局长爹，还要打工？",
-          "change": "+1"
+          "title": "不老中登的闷骚人生！",
+          "change": "+2"
         }
       ],
       "top_fallers": [
         {
-          "title": "开局看守所：我成了地下大佬",
+          "title": "沪上风流高手",
+          "change": "-5"
+        },
+        {
+          "title": "离婚后，我继承了百亿美元遗产",
           "change": "-3"
         },
         {
-          "title": "沪上风流高手",
-          "change": "-2"
-        },
-        {
-          "title": "新婚前夜陪白月光，这婚还结什么",
+          "title": "刚毕业入职，上司姐姐要玩养成？",
           "change": "-2"
         }
       ],
       "reads_growth": [
         {
           "title": "彩票中奖后回老家躺平",
-          "growth": "+1.2万"
+          "growth": "+1.0万"
         },
         {
           "title": "三无校花求收留同居后黏人又磨人",
-          "growth": "+9000"
+          "growth": "+6000"
         },
         {
-          "title": "开局！被好兄弟送给了他姐姐",
-          "growth": "+8000"
+          "title": "坏女人们重生后，对我病娇式痴迷",
+          "growth": "+3000"
         }
       ],
-      "summary": "**🔥 题材趋势** 榜单呈\"强情绪+强关系\"双核驱动：病娇女总裁、替身白月光、离婚逆袭等极端情感冲突题材密集，同时\"中奖躺平\"\"扫黑\"等现实向分支冒头，说明读者对\"憋屈-爆发\"的情绪过山车需求极稳。\n**📖 读者偏好** 开篇即高潮的\"打脸反转\"是硬通货——新婚前夜被绿、中奖当天离婚、被兄弟送给姐姐，前三章必须完成\"受辱-觉醒-反杀\"闭环；单女主甜文与多女主爽文并行，但\"无绿帽\"标签出现频率上升，读者对主角尊严敏感度提高。\n**🆕 新上榜作品** 《坏女人们重生后，对我病娇式痴迷》以\"男频女尊+病娇修罗场\"切入，把女频热门元素反向输出到男频，差异化明显，但需观察后续能否维持修罗场张力。\n**📉 掉出榜单** 《大院逆子》军旅现实题材出局，说明纯情怀向、缺系统金手指的硬核现实文在新书爆发期劣势明显，读者更倾向\"轻设定+快反馈\"。\n**💡 值得关注** 《顶美有个局长爹》用\"变身文+顶配家世\"做反差喜剧，把传统男频\"废柴逆袭\"翻转成\"顶美躺平\"，题材新鲜度高；《扫黑风暴之怒海惊涛》靠强冲突和公职身份打出差异化，验证\"体制内爽文\"有稳定受众。",
+      "summary": "**🔥 题材趋势** 榜单呈现“关系反转+身份落差”主导，病娇女总裁、重生追夫火葬场、中奖暴富躺平为三大流量密码，系统元素明显退潮，纯日常情感博弈更吃香。\n**📖 读者偏好** 强情绪拉扯与“先抑后扬”打脸节奏最吸量，单女主/无绿帽成标配，读者对“被偏爱”“被倒追”的代入感需求强烈。\n**🆕 新上榜作品** 《凤流金陵》走黑化复仇线，《百倍头奖到账》主打暴富返乡躺平，均以极端情绪转折快速起量。\n**📉 掉出榜单** 暑假包养辅导员与看守所大佬题材因同质化严重、爽点陈旧被挤出。\n**💡 值得关注** 《顶美有个局长爹》以变身+权贵护短差异化突围，都市日常正从“追女”向“被女追+身份碾压”迁移。",
       "source": "ai"
     },
     "books": [
       {
         "title": "开局！被好兄弟送给了他姐姐",
         "author": "绯妃",
-        "reads": "23.1万",
+        "reads": "21.1万",
         "intro": "【男频+病娇+女总裁】 林阳爹不亲，娘不爱，姐姐不疼，还被半道领养的养子抢走了喜欢的女人。 　　结果，坐着都有系统掉下来，输送完知识就溜。 　　他磨拳搓掌，准备大干一场。 　　结果，他喝了酒，被坑爹兄弟送给了他的病娇女总裁姐姐。 　　美艳的女人把他壁咚在墙边，声音霸道强势，“乖，好好当我的男人。”",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o98dd986cea2710f1f6e7eeca9617da29~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795673883&x-signature=XKtPufd7XTgeU54yoGfi5lM7md4%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o98dd986cea2710f1f6e7eeca9617da29~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795759453&x-signature=QnVw%2B7vTdb%2BSi6IG3ojj0OXGYws%3D",
         "url": "https://fanqienovel.com/page/7687494043038665752"
       },
       {
         "title": "扫黑风暴之怒海惊涛",
         "author": "南第",
-        "reads": "19.5万",
+        "reads": "19万",
         "intro": "文海县，两任公安局长离奇死亡，全家惨遭灭门。而最后一任，更是死在自己的办公室，脑袋被人放置在自己的办公桌上。陆缨临危受命，上任第一天就与黑恶势力的保护伞展开殊死较量，面对歹徒的嚣张与放肆，面对各种威逼与利诱，是就此退去，还是迎难而上？ 在生死抉择面前，陆缨选择了第三者； 在黑白较量间，陆缨选择了殊死一搏； 在公仇与私恨之间，她选择了一揪到底； 在维护正义与扫除黑恶之间，她，义无反顾……",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o6bc2d0e46a6b8f2809f1f60a74feef4c~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795673883&x-signature=di2%2FzWlfpZi00bZ6KyYY20vTwiM%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o6bc2d0e46a6b8f2809f1f60a74feef4c~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795759453&x-signature=1jRUAT7RmsCnl0ulB7aB9i9XG2U%3D",
         "url": "https://fanqienovel.com/page/7685286108313160766"
       },
       {
         "title": "开局公司出事，我升职加薪",
         "author": "砚秋与墨清",
-        "reads": "15.9万",
+        "reads": "15.4万",
         "intro": "背靠大树，原本安安稳稳过日子的马子轩因为一通电话而改变，有人落马，有人升迁，而他的前途，也才刚刚开始。 出道既巅峰的神仙姐姐此刻虽饱受争议，但依旧妥妥的顶流。 原本没有交集的两人一时冲动选择结婚，先婚后爱，两人彼此的依靠，过起了没羞没臊的小日子。 （不种马，无系统，单女主，正经职场文，只为博诸君一笑）",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o1d4b63289e4a163f9c6d47b7c4f48fb4~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795673883&x-signature=3cHgEWqve69xY6bXLfqjcHKRu%2Fs%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o1d4b63289e4a163f9c6d47b7c4f48fb4~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795759453&x-signature=1JwRxWulYR4%2FOX2bL%2B%2BznTlofQY%3D",
         "url": "https://fanqienovel.com/page/7693095249815538750"
       },
       {
         "title": "顶美有个局长爹，还要打工？",
         "author": "狗在财经",
-        "reads": "15.1万",
+        "reads": "15万",
         "intro": "【变身文｜平行世界｜顶美万人迷｜老爹护短｜轻松搞笑｜不嫁】 本书又名我都成顶美了，还要工作呀？ 我叫夏陌，一个大四男生。一觉醒来，我穿越到平行世界，变成了同名不同字的绝色顶流美女——夏沫。 刚睁开眼就遇上绑架，好不容易惊险脱身，望着镜子里那张颠倒众生的脸，我这个直男灵魂直接宕机。 我的家世更是顶配：老爹是魔都治安系统负责人，老妈是三甲医院科室主任。本来我打算直接躺平啃老，结果老爹以帮我恢复记忆为由，把我赶出去接触社会。 “女儿，你就放心去打工，谁敢动你，爹剁他爪子。” 皮囊是万众倾倒的绝世美人，壳子里装的却是直男思维。投行精英、财团大佬、当红偶像一个接一个找上门，烂桃花源源不断，修罗场一场接着一场。 有硬核老爹在后面兜底护航，我一边疯狂吐槽各路追求者，一边硬着头皮搞事业。慢慢我才发现，这张能让所有人沦陷的美貌，远比我想象的更好用。",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o729c9237ab148218a45fe2880ce7c7c6~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795673883&x-signature=agBBz0QMCP1why%2FNsHuunIv%2Boqc%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o729c9237ab148218a45fe2880ce7c7c6~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795759453&x-signature=F%2BPDeAW7vSNhWLjB8v%2BL9x8L6NI%3D",
         "url": "https://fanqienovel.com/page/7699141225852455961"
-      },
-      {
-        "title": "沪上风流高手",
-        "author": "我爱秋月梨",
-        "reads": "14.8万",
-        "intro": "【点开试读五章，不好看你来抽我！】【多女主】【爆爽】 林飞只是个平平无奇的小保安，月薪三千二，每天在岗亭敬礼打杂。 谁料一个暴雨夜，云顶别墅最美的高冷阔太柳舒云醉酒倒怀，一响贪欢。 醒来之后，林飞更得惊世传承，洗经伐髓，从此龙潜出渊，狂飙崛起！ 一手逆天玄术，定人生死，惹得绝色少妇倾心相托，引得千金名媛倒贴竞逐。 一双无敌铁拳，横推诸强，打得嚣张权贵跪地求饶，踏得百亿豪门粉碎成灰！ 林飞自微末中崛起，踏平荆棘，醉卧美人膝，醒掌天下权，成就无上狂龙！",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o6e04fc229057566610cd0b99206e8c53~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795673883&x-signature=%2FbY1PxwdDTWTEkn3z1lRyns8uqY%3D",
-        "url": "https://fanqienovel.com/page/7698363018769337406"
-      },
-      {
-        "title": "男人野性：纵享绝美贵妇偏爱",
-        "author": "炬哲",
-        "reads": "12.6万",
-        "intro": "娇妻需要驯服？ 嘿嘿！ 真男人，就是要有七分沉稳，三分野性。 韩小虎孤身南下昆城，却不料遭女友劈腿。 旧的不去 ，新的不来，他只是冷笑了一声。 机缘巧合之下，坐拥雄厚资本的冰山绝美女老板、调皮可爱的职场名媛、酒吧前台独自酌酒的都市女郎、清纯机灵的尤物医生、霸气侧漏的大佬千金，纷沓而来。 腹黑隐忍的韩小虎，凭借一身胆识和智慧，终于在昆城有了自己的一片天下。 他，早已是无数女人心目中的一座山，一座伟岸的山。 “属于我的，都要一样样拿回来！” “那些对付过我的人，都要为自己的狂妄付出十倍的代价！” 且看他如何搅动风云，逆风翻盘……",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o843f27cbe3498eb74af75b722dc9946c~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795673883&x-signature=f0kcWTDReCOY2ueEbyiOV9sjDDs%3D",
-        "url": "https://fanqienovel.com/page/7692100298436791320"
       },
       {
         "title": "都重生了，谁还追求高冷校花啊",
         "author": "狂汉",
-        "reads": "12.6万",
+        "reads": "12.7万",
         "intro": "【重生校园】+【追夫火葬场】+【无绿帽】+【日常为主】 上辈子，陆浩川当了苏知夏十年舔狗。 从高中追到结婚，他把这个高冷校花捧在手心里，换来的却是她和青梅竹季博辉一个月见面十八次。 \"我没有背叛你。\" 她永远是这副云淡风轻的样子。 车祸醒来，陆浩川回到了 2007 年的高三课堂。 旁边坐着的，正是18岁的苏知夏。 她还是那么清冷高傲，习惯性地用班长的语气命令他：\"上课要专心。\" 陆浩川头也没抬，只回了一个字 —— \"滚。\" 全班都傻了。 那个天天给苏知夏打饭、送水、写情书的超级舔狗，居然敢凶校花了？ 只有陆浩川知道，这辈子，他不会再为这个女人浪费一秒钟。 过目不忘的脑子，先知先觉的眼光，陆浩川要利用重生的福利考一所好大学。 凭前前世的记忆，陆浩川让母亲从玻璃厂退下来，买下学校对面的店面，开了奶茶店。 生意火爆，日进斗金。 再挖几千个比特币，过十年就能躺着成富翁。 至于苏知夏？ 她爱跟谁暧昧跟谁暧昧去。 这辈子，离我越远越好！",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2odaee99e75bafcbfc47cbbbfad7475627~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795673883&x-signature=UEYwN%2BHWAS22h%2Ft%2B1uuhInDU8bw%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2odaee99e75bafcbfc47cbbbfad7475627~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795759453&x-signature=6ktc85vD3cjekisEbrIt%2FaqmOMA%3D",
         "url": "https://fanqienovel.com/page/7686156382269099032"
       },
       {
         "title": "不老中登的闷骚人生！",
         "author": "吟诗作贼",
-        "reads": "11.9万",
+        "reads": "12.1万",
         "intro": "（纯手搓，无AI） 杨鹏撞了大运——死了！ 然后没死成，却又查出了可以领盒饭的病。 麻绳专挑细处断，厄运专找苦命人。 就在他以为这辈子就这样草草收尾的时候， 那张他死后在梦里捡到的破黄纸却让生活变得像是开了挂。 以前是被女人左右，现在左右都是女人。 曾经的小青梅风韵犹存，在一场酒后却乱了方寸。 后来的女警花好事成双，一次次巧合后赔个精光。 一桩桩，一件件，都在讲述着一个中登的不老传奇。 闷骚的人生不需要解释！ 浓缩之后只有四个字：牛而逼之！",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2od14a4a48d4bc1134d201a878d6c0f910~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795673883&x-signature=UgcXu3rfNcIcdETEtwIFc2YFtCY%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2od14a4a48d4bc1134d201a878d6c0f910~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795759453&x-signature=%2FLhejtBnKZPB2Uz7KD3Jqtg8fyU%3D",
         "url": "https://fanqienovel.com/page/7695768098426588222"
       },
       {
-        "title": "刚毕业入职，上司姐姐要玩养成？",
-        "author": "暴走的小火柴",
-        "reads": "11.4万",
-        "intro": "【恋爱日记+甜文+御姐+职场+女上司+同居日常+单女主+先婚后爱+软饭主动喂进嘴里】 本书又名：《大学刚毕业，上司姐姐玩养成？》 　　陈闻，是一名即将进入职场的毕业生。 　　在一场毕业聚会喝醉后，他醒来发现自己旁边睡了一个绝美御姐。 　　原本以为这件事就这么过去，殊不知她居然还是自己的未来上司！ 　　这一天去面试，陈闻看着面前冷艳的女上司直接懵了。 　　这不是昨晚跟自己喝断片睡在一起的御姐吗？ 　　还没等他想好怎么解释，女上司指尖敲着桌面开口：“新来的，从今天起你住我家。” 　　陈闻：“？？？”",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oad52943d77bf76876bb04217ff31fe3e~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795673883&x-signature=yX504ORtePZ0mdyl7KAgScD9r4I%3D",
-        "url": "https://fanqienovel.com/page/7680840397915966488"
+        "title": "男人野性：纵享绝美贵妇偏爱",
+        "author": "炬哲",
+        "reads": "11.7万",
+        "intro": "娇妻需要驯服？ 嘿嘿！ 真男人，就是要有七分沉稳，三分野性。 韩小虎孤身南下昆城，却不料遭女友劈腿。 旧的不去 ，新的不来，他只是冷笑了一声。 机缘巧合之下，坐拥雄厚资本的冰山绝美女老板、调皮可爱的职场名媛、酒吧前台独自酌酒的都市女郎、清纯机灵的尤物医生、霸气侧漏的大佬千金，纷沓而来。 腹黑隐忍的韩小虎，凭借一身胆识和智慧，终于在昆城有了自己的一片天下。 他，早已是无数女人心目中的一座山，一座伟岸的山。 “属于我的，都要一样样拿回来！” “那些对付过我的人，都要为自己的狂妄付出十倍的代价！” 且看他如何搅动风云，逆风翻盘……",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o843f27cbe3498eb74af75b722dc9946c~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795759453&x-signature=RShrPa0IKlfZINBUBAn0iwk7184%3D",
+        "url": "https://fanqienovel.com/page/7692100298436791320"
       },
       {
         "title": "三无校花求收留同居后黏人又磨人",
         "author": "emmmmmqwq",
-        "reads": "11万",
+        "reads": "11.6万",
         "intro": "评分刚出，会涨滴~ 当三无的校花大人求你收留她之后… 虞诚阳拿这个对他一点防备都没有反过来甚至还想着占他便宜的校花大人是一点办法都没有。 毕竟现在人家还黏着他。 “可以先起来吗？” 落颜星摇了摇脑袋… “可是我手麻了啊？” 所以校花大人抬起了她高贵的身子压在了虞诚阳的另一边。 有建议什么的可以说，牢作还是上线的很积极的",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o75c06798203879a5c743e637112c4bca~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795673883&x-signature=DFqpkVA%2By%2BXvrtcgDPwkR560ieQ%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o75c06798203879a5c743e637112c4bca~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795759453&x-signature=5u6nixNIIztO3IhVLx%2FM6i51UTs%3D",
         "url": "https://fanqienovel.com/page/7688291646051453976"
       },
       {
         "title": "彩票中奖后回老家躺平",
         "author": "飞翔的蜗牛1",
-        "reads": "10.6万",
+        "reads": "11.6万",
         "intro": "创业失败欠了一屁股债的刘承泽认命了，把公司转让出去直接回老家！ 但是命运女神终于眷顾他了，他中彩票了！ 有了钱之后该干什么？！ 先忘本？ 回老家以后的刘承泽才发现躺平没那么容易。 尤其是作为家族独苗，被寄予厚望......",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o234d710b505f3edb84b94482668330a3~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795673886&x-signature=2yw7qiDt9UFKMFwo5l57wuyg78g%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o234d710b505f3edb84b94482668330a3~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795759453&x-signature=WQq%2FGzh6ICI8P7%2FIDvJ2xpDJlmo%3D",
         "url": "https://fanqienovel.com/page/7696882841371560985"
+      },
+      {
+        "title": "沪上风流高手",
+        "author": "我爱秋月梨",
+        "reads": "11.4万",
+        "intro": "【点开试读五章，不好看你来抽我！】【多女主】【爆爽】 林飞只是个平平无奇的小保安，月薪三千二，每天在岗亭敬礼打杂。 谁料一个暴雨夜，云顶别墅最美的高冷阔太柳舒云醉酒倒怀，一响贪欢。 醒来之后，林飞更得惊世传承，洗经伐髓，从此龙潜出渊，狂飙崛起！ 一手逆天玄术，定人生死，惹得绝色少妇倾心相托，引得千金名媛倒贴竞逐。 一双无敌铁拳，横推诸强，打得嚣张权贵跪地求饶，踏得百亿豪门粉碎成灰！ 林飞自微末中崛起，踏平荆棘，醉卧美人膝，醒掌天下权，成就无上狂龙！",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o6e04fc229057566610cd0b99206e8c53~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795759453&x-signature=SqC1vFEbhs6w4uzZls6EtRjuPMY%3D",
+        "url": "https://fanqienovel.com/page/7698363018769337406"
+      },
+      {
+        "title": "刚毕业入职，上司姐姐要玩养成？",
+        "author": "暴走的小火柴",
+        "reads": "9.6万",
+        "intro": "【恋爱日记+甜文+御姐+职场+女上司+同居日常+单女主+先婚后爱+软饭主动喂进嘴里】 本书又名：《大学刚毕业，上司姐姐玩养成？》 　　陈闻，是一名即将进入职场的毕业生。 　　在一场毕业聚会喝醉后，他醒来发现自己旁边睡了一个绝美御姐。 　　原本以为这件事就这么过去，殊不知她居然还是自己的未来上司！ 　　这一天去面试，陈闻看着面前冷艳的女上司直接懵了。 　　这不是昨晚跟自己喝断片睡在一起的御姐吗？ 　　还没等他想好怎么解释，女上司指尖敲着桌面开口：“新来的，从今天起你住我家。” 　　陈闻：“？？？”",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oad52943d77bf76876bb04217ff31fe3e~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795759456&x-signature=R22OKMB83qPtOVyMbCuBTao%2BRd4%3D",
+        "url": "https://fanqienovel.com/page/7680840397915966488"
       },
       {
         "title": "女局长：扫黑之路",
         "author": "敏汐",
-        "reads": "7.7万",
+        "reads": "7.4万",
         "intro": "女局长周若晴调任新港，刚到任便在前任局长的葬礼上，遭遇黑老大当众浇酒挑衅。 她心里清楚：踏进新港，就是踏进一张早已织好的网。有些路，明知前方是深渊，也得走下去。",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o6af54cee81b0eceb2646643fa2f31b9d~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795673886&x-signature=RNM5cem4Gkc8xj6J%2FqRDDy5Q%2BKU%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o6af54cee81b0eceb2646643fa2f31b9d~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795759456&x-signature=6Bi7ynAqSXZTYZpqJdQxWGBTmrM%3D",
         "url": "https://fanqienovel.com/page/7688163922611817534"
       },
       {
         "title": "我曾经包养的校花，成了顶头上司",
         "author": "凌康",
-        "reads": "7.3万",
+        "reads": "7万",
         "intro": "曾经，苏屹很喜欢一个女孩，为了跟她在一起，不惜趁着她家人生病急缺钱的时候，包养了她。 后来，苏屹家道中落,从富家少爷沦为了普通人。 而那个女孩，却靠着自身的努力成为了上位者。 这天，女孩突然空降成了苏屹的顶头上司，他们又会擦出什么样的火花呢?",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o7ccd6ca853b1e9736fe3d0970b3c288d~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795673886&x-signature=LVO9rXnNBDxA4GTcG8sKBOzCQyg%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o7ccd6ca853b1e9736fe3d0970b3c288d~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795759456&x-signature=Vnief0FasETHuXg6c3zjGww5FuM%3D",
         "url": "https://fanqienovel.com/page/7696926761119910937"
+      },
+      {
+        "title": "坏女人们重生后，对我病娇式痴迷",
+        "author": "雨停初晴了",
+        "reads": "6.3万",
+        "intro": "【男频女尊+年上多女+病娇修罗场+治愈救赎】 姜云前世过劳而死，转生到女尊世界，只想当一条安心吃软饭的咸鱼。 直到某天。 清冷矜贵的嫣霞姐，强硬的切断所有经济来源，将他牢牢锁在羽翼之下。 温婉明媚的邻家姐姐，再见他时，竟泪如雨下，哽咽着反复道歉。 当红影后、大学学姐……那些他认识或不认识的女人，一个接一个出现在他身边。 她们强势的靠近，偏执的依赖，眼中浓烈到让他心悸的悔恨与爱意，织成了一张无处可逃的网。 而他并不知道。 在不同的上一世，她们各自失去了他。 如今，重生的她们，只有一个共同的疯狂念头！ 将他永远留在身边，用尽一切方式，弥补那锥心刺骨的曾经。",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o33925c719c061afd8533baa51e533cdb~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795759456&x-signature=CnKA%2F8j9HTuEnmu68ovHJPXCfVE%3D",
+        "url": "https://fanqienovel.com/page/7695086628439608382"
       },
       {
         "title": "新婚前夜陪白月光，这婚还结什么",
         "author": "清水映月",
-        "reads": "7.3万",
+        "reads": "6.2万",
         "intro": "【执着追夫+疯狂后悔+离婚干脆+无绿帽】 第二天就是婚礼，林阳却在新婚前夜收到未婚妻闺蜜许倩发来的照片——他掏心掏肺爱了三年的苏沁，正和她的白月光李泽在四季酒馆推杯换盏，笑得满脸酒窝。 他冲出门要去问个明白，却被许倩堵在车库。 她告诉他一个更残忍的真相：“苏沁会看上你，是因为你的眼睛，和李泽一模一样。” 三年感情，不过是一场替身游戏。 他所有的付出、所有的真心，在苏沁眼里，都只是一张脸。 雨夜里，他亲眼看着苏沁和李泽喝完酒，一同回到了酒店。 林阳的心也彻底死了，他想上前拉住这两对狗男女，可却被许倩给拉住了。 第二天，婚礼现场高朋满座。 苏沁穿着婚纱等着他出现——林阳没有去接亲。 只有短短一通电话。“你不是忘不掉你的白月光吗？这婚，你爱跟谁结跟谁结去吧！” ... 直到林阳决然退婚离开之后，苏沁才慢慢看清了李泽，看清了这个世界上真正对她好的人只有林阳。 可是那时醒悟却为时已晚了.... 简介无力，请移至正文....",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o99a25c24e0b2cb15a24f6661607929c1~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795673886&x-signature=8UcEjIphj1XER9aCmulflLauCG8%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o99a25c24e0b2cb15a24f6661607929c1~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795759456&x-signature=EGTHw5zgaG8bey%2FBL1VBXXtxicE%3D",
         "url": "https://fanqienovel.com/page/7687486903846702142"
       },
       {
-        "title": "离婚后，我继承了百亿美元遗产",
-        "author": "道墨书香",
-        "reads": "6.3万",
-        "intro": "【都市日常+多女主+无系统】 【御姐】、【小姨子】、【校花】、【贴近现实】 离婚后，林川意外发现了前妻的真面目。 前妻故意陷害，伪造他酒后家暴的证据，只为让他净身出户失去女儿的抚养权。 满心怒火的林川，意外收到纽约律师事务所驻华办事处发的一封遗产继承邮件。 是那个早年抛妻弃子、远赴大洋彼岸的祖父给他的遗产，价值100亿美元。 …… 傍上富豪的前妻，回头发现自己看不上的男人，身边突然冒出了好多优秀的美女。 连自己的两个妹妹都站在他旁边，愤怒的指责她。 林川看着这个曾经深爱的人，此刻已经没有了愤怒。 因为如今的他，已经拥有了改变一切的力量。 账，他要一笔一笔地算。 几月后，奸夫被自己一手创立的公司踢出局，前妻跪求复合。 抱歉，巅峰产生虚伪的拥护，黄昏见证虔诚的信徒。 现在的你，不配！！！",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o3b97aa0fd2c23ca29c55fae7529148d5~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795673886&x-signature=81RnBGzdROdE3oDrwudn1b0drEM%3D",
-        "url": "https://fanqienovel.com/page/7696382289306979390"
-      },
-      {
-        "title": "暑假包养的顶美，竟是大一辅导员",
-        "author": "最爱吃小草莓",
+        "title": "凤流金陵",
+        "author": "陌上小丑",
         "reads": "6万",
-        "intro": "【单女主】+【甜文】+【姐弟恋】+【日常轻松】 我叫林言，继承亿万家产后，花五十万签下了一个女孩的暑假。 她姓秋，是颜值逆天的学霸，也是我钦定的专属家教。 两个月里，我让她辅导功课，顺便看她脸红，日子过得有滋有味。 她却以为我是个不学无术的纨绔子弟，每天都想着怎么逃离。 ... 暑假结束，她如愿拿到江州大学的offer，兴高采烈搬进职工宿舍，以为从此天高海阔。 她却不知道，我也收到了江州大学的录取通知书。 新生报到那天，她站在讲台上，看着台下的我，手一抖。 而我，正坐在台下，冲她玩味一笑。 “秋老师，好久不见，啊...”",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oe1951b6985558f374848380da7cfe9cb~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795673886&x-signature=KpTkDFbO6hwTsKfvjaAgbPax71E%3D",
-        "url": "https://fanqienovel.com/page/7687467869365357593"
+        "intro": "人们都说，善有善报，恶有恶报。 可被背刺的那一天，张扬读懂了一条信息。 马善被人骑，人善被人欺。 那一日，张扬看尽了人情冷暖，悟透了世间险恶。 原来善良亦要有锋芒，软弱只会成为任人拿捏的工具。 也是从那一天起，张扬决定褪去温良。 从此有仇必报，有怨必偿。 纵然世间有万般不公，也要用拳头还世间一片清明！",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o624fe2fec4bfbc47c5bbca33f363ed83~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795759456&x-signature=0hIz8V8EPtQkMySrRtgkMqCN9o4%3D",
+        "url": "https://fanqienovel.com/page/7654576719617084441"
       },
       {
         "title": "中奖五千万，心机老婆当天离婚",
         "author": "高粱酒醉",
         "reads": "6万",
         "intro": "陈浩买彩票意外中奖5500万，但因为网络故障，老婆拿走的彩票是无效彩票，彩票店老板重新打印一张有效彩票给他，他原本打算把这个好消息告诉老婆，没想到心机老婆第二天带着另外一个男人，拿着离婚协议，要求跟他离婚，原来心机老婆已经知道彩票中奖，但不知道自己手中的彩票是无效彩票，心机老婆想要独吞奖金；既然心机老婆贪得无厌，还背着他跟别的男人搞在一起，就别怪他绝情，他毫不犹豫签字离婚；离婚后，心机前妻还在做着即将成为千万富婆的美梦，挥金如土，负债累累，而他脚踏实地，跟大学校花一起合作开店，生意蒸蒸日上；等到领奖的那天，心机前妻得知手中的彩票是无效彩票，懊悔不已，跑过来求他复婚，他则踹开前妻，跟校花白头偕老……",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o1e904081e676a7dfa3beda5a09a5457a~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795673886&x-signature=pH1WvrFXnB4WWozlovbDD6NSYDs%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o1e904081e676a7dfa3beda5a09a5457a~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795759456&x-signature=64EaXD6DOsLvcP%2FyLUMwmSSKFpg%3D",
         "url": "https://fanqienovel.com/page/7693157593946016792"
       },
       {
-        "title": "坏女人们重生后，对我病娇式痴迷",
-        "author": "雨停初晴了",
-        "reads": "6万",
-        "intro": "【男频女尊+年上多女+病娇修罗场+治愈救赎】 姜云前世过劳而死，转生到女尊世界，只想当一条安心吃软饭的咸鱼。 直到某天。 清冷矜贵的嫣霞姐，强硬的切断所有经济来源，将他牢牢锁在羽翼之下。 温婉明媚的邻家姐姐，再见他时，竟泪如雨下，哽咽着反复道歉。 当红影后、大学学姐……那些他认识或不认识的女人，一个接一个出现在他身边。 她们强势的靠近，偏执的依赖，眼中浓烈到让他心悸的悔恨与爱意，织成了一张无处可逃的网。 而他并不知道。 在不同的上一世，她们各自失去了他。 如今，重生的她们，只有一个共同的疯狂念头！ 将他永远留在身边，用尽一切方式，弥补那锥心刺骨的曾经。",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o33925c719c061afd8533baa51e533cdb~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795673886&x-signature=iq%2F%2BpcGzW%2Bg2lGwIQLqoFJiA3OE%3D",
-        "url": "https://fanqienovel.com/page/7695086628439608382"
+        "title": "离婚后，我继承了百亿美元遗产",
+        "author": "道墨书香",
+        "reads": "5.9万",
+        "intro": "【都市日常+多女主+无系统】 【御姐】、【小姨子】、【校花】、【贴近现实】 离婚后，林川意外发现了前妻的真面目。 前妻故意陷害，伪造他酒后家暴的证据，只为让他净身出户失去女儿的抚养权。 满心怒火的林川，意外收到纽约律师事务所驻华办事处发的一封遗产继承邮件。 是那个早年抛妻弃子、远赴大洋彼岸的祖父给他的遗产，价值100亿美元。 …… 傍上富豪的前妻，回头发现自己看不上的男人，身边突然冒出了好多优秀的美女。 连自己的两个妹妹都站在他旁边，愤怒的指责她。 林川看着这个曾经深爱的人，此刻已经没有了愤怒。 因为如今的他，已经拥有了改变一切的力量。 账，他要一笔一笔地算。 几月后，奸夫被自己一手创立的公司踢出局，前妻跪求复合。 抱歉，巅峰产生虚伪的拥护，黄昏见证虔诚的信徒。 现在的你，不配！！！",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o3b97aa0fd2c23ca29c55fae7529148d5~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795759456&x-signature=A3b9T4EpkXzmotUfjcQQp92aPnI%3D",
+        "url": "https://fanqienovel.com/page/7696382289306979390"
+      },
+      {
+        "title": "百倍头奖到账，回东北老家猫冬",
+        "author": "堆积油米的金满仓",
+        "reads": "5.9万",
+        "intro": "赵磊点儿背是出了名的，干啥啥不顺。抢票永远候补失败，刮刮乐连五块钱都见不着，在南方大厂熬夜加班，眼看年终奖到手却赶上部门原地裁员。揣着微薄的赔偿金站在寒风里，赵磊看着彩票站里的暖气，迈步走了进去……",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oc0cf1cdf535ede57353a81e23cb79bbc~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795759456&x-signature=wK1XFp23N6SIWMyjuzbpUn75q%2FQ%3D",
+        "url": "https://fanqienovel.com/page/7699094783226039321"
       },
       {
         "title": "情迷沪上贵妇",
         "author": "长安探花",
-        "reads": "5.8万",
+        "reads": "5.9万",
         "intro": "我没有想到，刚来上海就会遇到陈洛这种沪上贵妇，更没有想到，往后的日子我们之间会有那么多的纠葛..............",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o772ccf111db52ba6e28f01fe734eebc5~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795673886&x-signature=Ln%2FjoC%2BL6482I%2FHl3YXyyVh%2FZ20%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o772ccf111db52ba6e28f01fe734eebc5~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795759456&x-signature=LVffg1hhYJSq%2FAQYWxm31BPqt0Q%3D",
         "url": "https://fanqienovel.com/page/7690449062172036158"
-      },
-      {
-        "title": "开局看守所：我成了地下大佬",
-        "author": "风流笑笑声",
-        "reads": "5.6万",
-        "intro": "【90年代江湖＋热血爽文＋兄弟情义＋无系统】 “王兴毅，给我兄弟认个错，再拿点医药费，今天这事就算过去了！” 刚从看守所出来的王兴毅，陪大哥吃顿饭，竟然惹上了复州有钱有势的章老三。 仗着家里开着高丰集团，认识一大帮社会大哥，章老三压根没把这个县城里的年轻人放在眼里。 “今天这个错，我要是不认呢？” “不认？不认我今天就收拾你！” “行，你收拾我一个看看！” 结果，章老三连同带来的四五个小兄弟，全被王兴毅打得鼻青脸肿！ 丢了这么大的面子，章老三哪能咽下这口气？ 两万块定金，事成再给两万！ 复州有名的社会大哥钻缝子，带着手底下的狠人找上了王兴毅。 他以为踩死一个地痞易如反掌，却不知道，这个在碾岗区长大的年轻猛人，没那么简单。",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oad239110a10fdaa4ea9dedde0e4f72f4~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795673886&x-signature=2YeChkasrZZq9j83u11XAG7cufc%3D",
-        "url": "https://fanqienovel.com/page/7694734294731738174"
       }
     ]
   },
@@ -231,222 +236,227 @@
     {
       "name": "都市日常",
       "trend": {
-        "new_count": 1,
-        "dropped_count": 1,
+        "new_count": 2,
+        "dropped_count": 2,
         "new_books": [
-          "坏女人们重生后，对我病娇式痴迷"
+          "凤流金陵",
+          "百倍头奖到账，回东北老家猫冬"
         ],
         "dropped_books": [
           {
-            "title": "大院逆子",
-            "intro": "这不是一个英雄的故事，这是一个活着的人，替死去的人活着的故事。 军旅、对越自卫反击战、侦察兵、兄弟情、父子情、年代、成长、热血、虐点、泪点。"
+            "title": "暑假包养的顶美，竟是大一辅导员",
+            "intro": "【单女主】+【甜文】+【姐弟恋】+【日常轻松】 我叫林言，继承亿万家产后，花五十万签下了一个女孩的暑假。 她姓秋，是颜值逆天的学霸，也是我钦定的专属家教。 两个月里，我让她辅导功课，顺便看她脸红，日子"
+          },
+          {
+            "title": "开局看守所：我成了地下大佬",
+            "intro": "【90年代江湖＋热血爽文＋兄弟情义＋无系统】 “王兴毅，给我兄弟认个错，再拿点医药费，今天这事就算过去了！” 刚从看守所出来的王兴毅，陪大哥吃顿饭，竟然惹上了复州有钱有势的章老三。 仗着家里开着高丰集"
           }
         ],
         "top_risers": [
           {
-            "title": "女局长：扫黑之路",
+            "title": "坏女人们重生后，对我病娇式痴迷",
+            "change": "+4"
+          },
+          {
+            "title": "都重生了，谁还追求高冷校花啊",
             "change": "+2"
           },
           {
-            "title": "开局公司出事，我升职加薪",
-            "change": "+1"
-          },
-          {
-            "title": "顶美有个局长爹，还要打工？",
-            "change": "+1"
+            "title": "不老中登的闷骚人生！",
+            "change": "+2"
           }
         ],
         "top_fallers": [
           {
-            "title": "开局看守所：我成了地下大佬",
+            "title": "沪上风流高手",
+            "change": "-5"
+          },
+          {
+            "title": "离婚后，我继承了百亿美元遗产",
             "change": "-3"
           },
           {
-            "title": "沪上风流高手",
-            "change": "-2"
-          },
-          {
-            "title": "新婚前夜陪白月光，这婚还结什么",
+            "title": "刚毕业入职，上司姐姐要玩养成？",
             "change": "-2"
           }
         ],
         "reads_growth": [
           {
             "title": "彩票中奖后回老家躺平",
-            "growth": "+1.2万"
+            "growth": "+1.0万"
           },
           {
             "title": "三无校花求收留同居后黏人又磨人",
-            "growth": "+9000"
+            "growth": "+6000"
           },
           {
-            "title": "开局！被好兄弟送给了他姐姐",
-            "growth": "+8000"
+            "title": "坏女人们重生后，对我病娇式痴迷",
+            "growth": "+3000"
           }
         ],
-        "summary": "**🔥 题材趋势** 榜单呈\"强情绪+强关系\"双核驱动：病娇女总裁、替身白月光、离婚逆袭等极端情感冲突题材密集，同时\"中奖躺平\"\"扫黑\"等现实向分支冒头，说明读者对\"憋屈-爆发\"的情绪过山车需求极稳。\n**📖 读者偏好** 开篇即高潮的\"打脸反转\"是硬通货——新婚前夜被绿、中奖当天离婚、被兄弟送给姐姐，前三章必须完成\"受辱-觉醒-反杀\"闭环；单女主甜文与多女主爽文并行，但\"无绿帽\"标签出现频率上升，读者对主角尊严敏感度提高。\n**🆕 新上榜作品** 《坏女人们重生后，对我病娇式痴迷》以\"男频女尊+病娇修罗场\"切入，把女频热门元素反向输出到男频，差异化明显，但需观察后续能否维持修罗场张力。\n**📉 掉出榜单** 《大院逆子》军旅现实题材出局，说明纯情怀向、缺系统金手指的硬核现实文在新书爆发期劣势明显，读者更倾向\"轻设定+快反馈\"。\n**💡 值得关注** 《顶美有个局长爹》用\"变身文+顶配家世\"做反差喜剧，把传统男频\"废柴逆袭\"翻转成\"顶美躺平\"，题材新鲜度高；《扫黑风暴之怒海惊涛》靠强冲突和公职身份打出差异化，验证\"体制内爽文\"有稳定受众。",
+        "summary": "**🔥 题材趋势** 榜单呈现“关系反转+身份落差”主导，病娇女总裁、重生追夫火葬场、中奖暴富躺平为三大流量密码，系统元素明显退潮，纯日常情感博弈更吃香。\n**📖 读者偏好** 强情绪拉扯与“先抑后扬”打脸节奏最吸量，单女主/无绿帽成标配，读者对“被偏爱”“被倒追”的代入感需求强烈。\n**🆕 新上榜作品** 《凤流金陵》走黑化复仇线，《百倍头奖到账》主打暴富返乡躺平，均以极端情绪转折快速起量。\n**📉 掉出榜单** 暑假包养辅导员与看守所大佬题材因同质化严重、爽点陈旧被挤出。\n**💡 值得关注** 《顶美有个局长爹》以变身+权贵护短差异化突围，都市日常正从“追女”向“被女追+身份碾压”迁移。",
         "source": "ai"
       },
       "books": [
         {
           "title": "开局！被好兄弟送给了他姐姐",
           "author": "绯妃",
-          "reads": "23.1万",
+          "reads": "21.1万",
           "intro": "【男频+病娇+女总裁】 林阳爹不亲，娘不爱，姐姐不疼，还被半道领养的养子抢走了喜欢的女人。 　　结果，坐着都有系统掉下来，输送完知识就溜。 　　他磨拳搓掌，准备大干一场。 　　结果，他喝了酒，被坑爹兄弟送给了他的病娇女总裁姐姐。 　　美艳的女人把他壁咚在墙边，声音霸道强势，“乖，好好当我的男人。”",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o98dd986cea2710f1f6e7eeca9617da29~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795673883&x-signature=XKtPufd7XTgeU54yoGfi5lM7md4%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o98dd986cea2710f1f6e7eeca9617da29~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795759453&x-signature=QnVw%2B7vTdb%2BSi6IG3ojj0OXGYws%3D",
           "url": "https://fanqienovel.com/page/7687494043038665752"
         },
         {
           "title": "扫黑风暴之怒海惊涛",
           "author": "南第",
-          "reads": "19.5万",
+          "reads": "19万",
           "intro": "文海县，两任公安局长离奇死亡，全家惨遭灭门。而最后一任，更是死在自己的办公室，脑袋被人放置在自己的办公桌上。陆缨临危受命，上任第一天就与黑恶势力的保护伞展开殊死较量，面对歹徒的嚣张与放肆，面对各种威逼与利诱，是就此退去，还是迎难而上？ 在生死抉择面前，陆缨选择了第三者； 在黑白较量间，陆缨选择了殊死一搏； 在公仇与私恨之间，她选择了一揪到底； 在维护正义与扫除黑恶之间，她，义无反顾……",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o6bc2d0e46a6b8f2809f1f60a74feef4c~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795673883&x-signature=di2%2FzWlfpZi00bZ6KyYY20vTwiM%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o6bc2d0e46a6b8f2809f1f60a74feef4c~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795759453&x-signature=1jRUAT7RmsCnl0ulB7aB9i9XG2U%3D",
           "url": "https://fanqienovel.com/page/7685286108313160766"
         },
         {
           "title": "开局公司出事，我升职加薪",
           "author": "砚秋与墨清",
-          "reads": "15.9万",
+          "reads": "15.4万",
           "intro": "背靠大树，原本安安稳稳过日子的马子轩因为一通电话而改变，有人落马，有人升迁，而他的前途，也才刚刚开始。 出道既巅峰的神仙姐姐此刻虽饱受争议，但依旧妥妥的顶流。 原本没有交集的两人一时冲动选择结婚，先婚后爱，两人彼此的依靠，过起了没羞没臊的小日子。 （不种马，无系统，单女主，正经职场文，只为博诸君一笑）",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o1d4b63289e4a163f9c6d47b7c4f48fb4~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795673883&x-signature=3cHgEWqve69xY6bXLfqjcHKRu%2Fs%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o1d4b63289e4a163f9c6d47b7c4f48fb4~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795759453&x-signature=1JwRxWulYR4%2FOX2bL%2B%2BznTlofQY%3D",
           "url": "https://fanqienovel.com/page/7693095249815538750"
         },
         {
           "title": "顶美有个局长爹，还要打工？",
           "author": "狗在财经",
-          "reads": "15.1万",
+          "reads": "15万",
           "intro": "【变身文｜平行世界｜顶美万人迷｜老爹护短｜轻松搞笑｜不嫁】 本书又名我都成顶美了，还要工作呀？ 我叫夏陌，一个大四男生。一觉醒来，我穿越到平行世界，变成了同名不同字的绝色顶流美女——夏沫。 刚睁开眼就遇上绑架，好不容易惊险脱身，望着镜子里那张颠倒众生的脸，我这个直男灵魂直接宕机。 我的家世更是顶配：老爹是魔都治安系统负责人，老妈是三甲医院科室主任。本来我打算直接躺平啃老，结果老爹以帮我恢复记忆为由，把我赶出去接触社会。 “女儿，你就放心去打工，谁敢动你，爹剁他爪子。” 皮囊是万众倾倒的绝世美人，壳子里装的却是直男思维。投行精英、财团大佬、当红偶像一个接一个找上门，烂桃花源源不断，修罗场一场接着一场。 有硬核老爹在后面兜底护航，我一边疯狂吐槽各路追求者，一边硬着头皮搞事业。慢慢我才发现，这张能让所有人沦陷的美貌，远比我想象的更好用。",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o729c9237ab148218a45fe2880ce7c7c6~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795673883&x-signature=agBBz0QMCP1why%2FNsHuunIv%2Boqc%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o729c9237ab148218a45fe2880ce7c7c6~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795759453&x-signature=F%2BPDeAW7vSNhWLjB8v%2BL9x8L6NI%3D",
           "url": "https://fanqienovel.com/page/7699141225852455961"
-        },
-        {
-          "title": "沪上风流高手",
-          "author": "我爱秋月梨",
-          "reads": "14.8万",
-          "intro": "【点开试读五章，不好看你来抽我！】【多女主】【爆爽】 林飞只是个平平无奇的小保安，月薪三千二，每天在岗亭敬礼打杂。 谁料一个暴雨夜，云顶别墅最美的高冷阔太柳舒云醉酒倒怀，一响贪欢。 醒来之后，林飞更得惊世传承，洗经伐髓，从此龙潜出渊，狂飙崛起！ 一手逆天玄术，定人生死，惹得绝色少妇倾心相托，引得千金名媛倒贴竞逐。 一双无敌铁拳，横推诸强，打得嚣张权贵跪地求饶，踏得百亿豪门粉碎成灰！ 林飞自微末中崛起，踏平荆棘，醉卧美人膝，醒掌天下权，成就无上狂龙！",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o6e04fc229057566610cd0b99206e8c53~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795673883&x-signature=%2FbY1PxwdDTWTEkn3z1lRyns8uqY%3D",
-          "url": "https://fanqienovel.com/page/7698363018769337406"
-        },
-        {
-          "title": "男人野性：纵享绝美贵妇偏爱",
-          "author": "炬哲",
-          "reads": "12.6万",
-          "intro": "娇妻需要驯服？ 嘿嘿！ 真男人，就是要有七分沉稳，三分野性。 韩小虎孤身南下昆城，却不料遭女友劈腿。 旧的不去 ，新的不来，他只是冷笑了一声。 机缘巧合之下，坐拥雄厚资本的冰山绝美女老板、调皮可爱的职场名媛、酒吧前台独自酌酒的都市女郎、清纯机灵的尤物医生、霸气侧漏的大佬千金，纷沓而来。 腹黑隐忍的韩小虎，凭借一身胆识和智慧，终于在昆城有了自己的一片天下。 他，早已是无数女人心目中的一座山，一座伟岸的山。 “属于我的，都要一样样拿回来！” “那些对付过我的人，都要为自己的狂妄付出十倍的代价！” 且看他如何搅动风云，逆风翻盘……",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o843f27cbe3498eb74af75b722dc9946c~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795673883&x-signature=f0kcWTDReCOY2ueEbyiOV9sjDDs%3D",
-          "url": "https://fanqienovel.com/page/7692100298436791320"
         },
         {
           "title": "都重生了，谁还追求高冷校花啊",
           "author": "狂汉",
-          "reads": "12.6万",
+          "reads": "12.7万",
           "intro": "【重生校园】+【追夫火葬场】+【无绿帽】+【日常为主】 上辈子，陆浩川当了苏知夏十年舔狗。 从高中追到结婚，他把这个高冷校花捧在手心里，换来的却是她和青梅竹季博辉一个月见面十八次。 \"我没有背叛你。\" 她永远是这副云淡风轻的样子。 车祸醒来，陆浩川回到了 2007 年的高三课堂。 旁边坐着的，正是18岁的苏知夏。 她还是那么清冷高傲，习惯性地用班长的语气命令他：\"上课要专心。\" 陆浩川头也没抬，只回了一个字 —— \"滚。\" 全班都傻了。 那个天天给苏知夏打饭、送水、写情书的超级舔狗，居然敢凶校花了？ 只有陆浩川知道，这辈子，他不会再为这个女人浪费一秒钟。 过目不忘的脑子，先知先觉的眼光，陆浩川要利用重生的福利考一所好大学。 凭前前世的记忆，陆浩川让母亲从玻璃厂退下来，买下学校对面的店面，开了奶茶店。 生意火爆，日进斗金。 再挖几千个比特币，过十年就能躺着成富翁。 至于苏知夏？ 她爱跟谁暧昧跟谁暧昧去。 这辈子，离我越远越好！",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2odaee99e75bafcbfc47cbbbfad7475627~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795673883&x-signature=UEYwN%2BHWAS22h%2Ft%2B1uuhInDU8bw%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2odaee99e75bafcbfc47cbbbfad7475627~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795759453&x-signature=6ktc85vD3cjekisEbrIt%2FaqmOMA%3D",
           "url": "https://fanqienovel.com/page/7686156382269099032"
         },
         {
           "title": "不老中登的闷骚人生！",
           "author": "吟诗作贼",
-          "reads": "11.9万",
+          "reads": "12.1万",
           "intro": "（纯手搓，无AI） 杨鹏撞了大运——死了！ 然后没死成，却又查出了可以领盒饭的病。 麻绳专挑细处断，厄运专找苦命人。 就在他以为这辈子就这样草草收尾的时候， 那张他死后在梦里捡到的破黄纸却让生活变得像是开了挂。 以前是被女人左右，现在左右都是女人。 曾经的小青梅风韵犹存，在一场酒后却乱了方寸。 后来的女警花好事成双，一次次巧合后赔个精光。 一桩桩，一件件，都在讲述着一个中登的不老传奇。 闷骚的人生不需要解释！ 浓缩之后只有四个字：牛而逼之！",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2od14a4a48d4bc1134d201a878d6c0f910~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795673883&x-signature=UgcXu3rfNcIcdETEtwIFc2YFtCY%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2od14a4a48d4bc1134d201a878d6c0f910~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795759453&x-signature=%2FLhejtBnKZPB2Uz7KD3Jqtg8fyU%3D",
           "url": "https://fanqienovel.com/page/7695768098426588222"
         },
         {
-          "title": "刚毕业入职，上司姐姐要玩养成？",
-          "author": "暴走的小火柴",
-          "reads": "11.4万",
-          "intro": "【恋爱日记+甜文+御姐+职场+女上司+同居日常+单女主+先婚后爱+软饭主动喂进嘴里】 本书又名：《大学刚毕业，上司姐姐玩养成？》 　　陈闻，是一名即将进入职场的毕业生。 　　在一场毕业聚会喝醉后，他醒来发现自己旁边睡了一个绝美御姐。 　　原本以为这件事就这么过去，殊不知她居然还是自己的未来上司！ 　　这一天去面试，陈闻看着面前冷艳的女上司直接懵了。 　　这不是昨晚跟自己喝断片睡在一起的御姐吗？ 　　还没等他想好怎么解释，女上司指尖敲着桌面开口：“新来的，从今天起你住我家。” 　　陈闻：“？？？”",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oad52943d77bf76876bb04217ff31fe3e~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795673883&x-signature=yX504ORtePZ0mdyl7KAgScD9r4I%3D",
-          "url": "https://fanqienovel.com/page/7680840397915966488"
+          "title": "男人野性：纵享绝美贵妇偏爱",
+          "author": "炬哲",
+          "reads": "11.7万",
+          "intro": "娇妻需要驯服？ 嘿嘿！ 真男人，就是要有七分沉稳，三分野性。 韩小虎孤身南下昆城，却不料遭女友劈腿。 旧的不去 ，新的不来，他只是冷笑了一声。 机缘巧合之下，坐拥雄厚资本的冰山绝美女老板、调皮可爱的职场名媛、酒吧前台独自酌酒的都市女郎、清纯机灵的尤物医生、霸气侧漏的大佬千金，纷沓而来。 腹黑隐忍的韩小虎，凭借一身胆识和智慧，终于在昆城有了自己的一片天下。 他，早已是无数女人心目中的一座山，一座伟岸的山。 “属于我的，都要一样样拿回来！” “那些对付过我的人，都要为自己的狂妄付出十倍的代价！” 且看他如何搅动风云，逆风翻盘……",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o843f27cbe3498eb74af75b722dc9946c~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795759453&x-signature=RShrPa0IKlfZINBUBAn0iwk7184%3D",
+          "url": "https://fanqienovel.com/page/7692100298436791320"
         },
         {
           "title": "三无校花求收留同居后黏人又磨人",
           "author": "emmmmmqwq",
-          "reads": "11万",
+          "reads": "11.6万",
           "intro": "评分刚出，会涨滴~ 当三无的校花大人求你收留她之后… 虞诚阳拿这个对他一点防备都没有反过来甚至还想着占他便宜的校花大人是一点办法都没有。 毕竟现在人家还黏着他。 “可以先起来吗？” 落颜星摇了摇脑袋… “可是我手麻了啊？” 所以校花大人抬起了她高贵的身子压在了虞诚阳的另一边。 有建议什么的可以说，牢作还是上线的很积极的",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o75c06798203879a5c743e637112c4bca~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795673883&x-signature=DFqpkVA%2By%2BXvrtcgDPwkR560ieQ%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o75c06798203879a5c743e637112c4bca~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795759453&x-signature=5u6nixNIIztO3IhVLx%2FM6i51UTs%3D",
           "url": "https://fanqienovel.com/page/7688291646051453976"
         },
         {
           "title": "彩票中奖后回老家躺平",
           "author": "飞翔的蜗牛1",
-          "reads": "10.6万",
+          "reads": "11.6万",
           "intro": "创业失败欠了一屁股债的刘承泽认命了，把公司转让出去直接回老家！ 但是命运女神终于眷顾他了，他中彩票了！ 有了钱之后该干什么？！ 先忘本？ 回老家以后的刘承泽才发现躺平没那么容易。 尤其是作为家族独苗，被寄予厚望......",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o234d710b505f3edb84b94482668330a3~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795673886&x-signature=2yw7qiDt9UFKMFwo5l57wuyg78g%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o234d710b505f3edb84b94482668330a3~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795759453&x-signature=WQq%2FGzh6ICI8P7%2FIDvJ2xpDJlmo%3D",
           "url": "https://fanqienovel.com/page/7696882841371560985"
+        },
+        {
+          "title": "沪上风流高手",
+          "author": "我爱秋月梨",
+          "reads": "11.4万",
+          "intro": "【点开试读五章，不好看你来抽我！】【多女主】【爆爽】 林飞只是个平平无奇的小保安，月薪三千二，每天在岗亭敬礼打杂。 谁料一个暴雨夜，云顶别墅最美的高冷阔太柳舒云醉酒倒怀，一响贪欢。 醒来之后，林飞更得惊世传承，洗经伐髓，从此龙潜出渊，狂飙崛起！ 一手逆天玄术，定人生死，惹得绝色少妇倾心相托，引得千金名媛倒贴竞逐。 一双无敌铁拳，横推诸强，打得嚣张权贵跪地求饶，踏得百亿豪门粉碎成灰！ 林飞自微末中崛起，踏平荆棘，醉卧美人膝，醒掌天下权，成就无上狂龙！",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o6e04fc229057566610cd0b99206e8c53~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795759453&x-signature=SqC1vFEbhs6w4uzZls6EtRjuPMY%3D",
+          "url": "https://fanqienovel.com/page/7698363018769337406"
+        },
+        {
+          "title": "刚毕业入职，上司姐姐要玩养成？",
+          "author": "暴走的小火柴",
+          "reads": "9.6万",
+          "intro": "【恋爱日记+甜文+御姐+职场+女上司+同居日常+单女主+先婚后爱+软饭主动喂进嘴里】 本书又名：《大学刚毕业，上司姐姐玩养成？》 　　陈闻，是一名即将进入职场的毕业生。 　　在一场毕业聚会喝醉后，他醒来发现自己旁边睡了一个绝美御姐。 　　原本以为这件事就这么过去，殊不知她居然还是自己的未来上司！ 　　这一天去面试，陈闻看着面前冷艳的女上司直接懵了。 　　这不是昨晚跟自己喝断片睡在一起的御姐吗？ 　　还没等他想好怎么解释，女上司指尖敲着桌面开口：“新来的，从今天起你住我家。” 　　陈闻：“？？？”",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oad52943d77bf76876bb04217ff31fe3e~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795759456&x-signature=R22OKMB83qPtOVyMbCuBTao%2BRd4%3D",
+          "url": "https://fanqienovel.com/page/7680840397915966488"
         },
         {
           "title": "女局长：扫黑之路",
           "author": "敏汐",
-          "reads": "7.7万",
+          "reads": "7.4万",
           "intro": "女局长周若晴调任新港，刚到任便在前任局长的葬礼上，遭遇黑老大当众浇酒挑衅。 她心里清楚：踏进新港，就是踏进一张早已织好的网。有些路，明知前方是深渊，也得走下去。",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o6af54cee81b0eceb2646643fa2f31b9d~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795673886&x-signature=RNM5cem4Gkc8xj6J%2FqRDDy5Q%2BKU%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o6af54cee81b0eceb2646643fa2f31b9d~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795759456&x-signature=6Bi7ynAqSXZTYZpqJdQxWGBTmrM%3D",
           "url": "https://fanqienovel.com/page/7688163922611817534"
         },
         {
           "title": "我曾经包养的校花，成了顶头上司",
           "author": "凌康",
-          "reads": "7.3万",
+          "reads": "7万",
           "intro": "曾经，苏屹很喜欢一个女孩，为了跟她在一起，不惜趁着她家人生病急缺钱的时候，包养了她。 后来，苏屹家道中落,从富家少爷沦为了普通人。 而那个女孩，却靠着自身的努力成为了上位者。 这天，女孩突然空降成了苏屹的顶头上司，他们又会擦出什么样的火花呢?",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o7ccd6ca853b1e9736fe3d0970b3c288d~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795673886&x-signature=LVO9rXnNBDxA4GTcG8sKBOzCQyg%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o7ccd6ca853b1e9736fe3d0970b3c288d~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795759456&x-signature=Vnief0FasETHuXg6c3zjGww5FuM%3D",
           "url": "https://fanqienovel.com/page/7696926761119910937"
+        },
+        {
+          "title": "坏女人们重生后，对我病娇式痴迷",
+          "author": "雨停初晴了",
+          "reads": "6.3万",
+          "intro": "【男频女尊+年上多女+病娇修罗场+治愈救赎】 姜云前世过劳而死，转生到女尊世界，只想当一条安心吃软饭的咸鱼。 直到某天。 清冷矜贵的嫣霞姐，强硬的切断所有经济来源，将他牢牢锁在羽翼之下。 温婉明媚的邻家姐姐，再见他时，竟泪如雨下，哽咽着反复道歉。 当红影后、大学学姐……那些他认识或不认识的女人，一个接一个出现在他身边。 她们强势的靠近，偏执的依赖，眼中浓烈到让他心悸的悔恨与爱意，织成了一张无处可逃的网。 而他并不知道。 在不同的上一世，她们各自失去了他。 如今，重生的她们，只有一个共同的疯狂念头！ 将他永远留在身边，用尽一切方式，弥补那锥心刺骨的曾经。",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o33925c719c061afd8533baa51e533cdb~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795759456&x-signature=CnKA%2F8j9HTuEnmu68ovHJPXCfVE%3D",
+          "url": "https://fanqienovel.com/page/7695086628439608382"
         },
         {
           "title": "新婚前夜陪白月光，这婚还结什么",
           "author": "清水映月",
-          "reads": "7.3万",
+          "reads": "6.2万",
           "intro": "【执着追夫+疯狂后悔+离婚干脆+无绿帽】 第二天就是婚礼，林阳却在新婚前夜收到未婚妻闺蜜许倩发来的照片——他掏心掏肺爱了三年的苏沁，正和她的白月光李泽在四季酒馆推杯换盏，笑得满脸酒窝。 他冲出门要去问个明白，却被许倩堵在车库。 她告诉他一个更残忍的真相：“苏沁会看上你，是因为你的眼睛，和李泽一模一样。” 三年感情，不过是一场替身游戏。 他所有的付出、所有的真心，在苏沁眼里，都只是一张脸。 雨夜里，他亲眼看着苏沁和李泽喝完酒，一同回到了酒店。 林阳的心也彻底死了，他想上前拉住这两对狗男女，可却被许倩给拉住了。 第二天，婚礼现场高朋满座。 苏沁穿着婚纱等着他出现——林阳没有去接亲。 只有短短一通电话。“你不是忘不掉你的白月光吗？这婚，你爱跟谁结跟谁结去吧！” ... 直到林阳决然退婚离开之后，苏沁才慢慢看清了李泽，看清了这个世界上真正对她好的人只有林阳。 可是那时醒悟却为时已晚了.... 简介无力，请移至正文....",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o99a25c24e0b2cb15a24f6661607929c1~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795673886&x-signature=8UcEjIphj1XER9aCmulflLauCG8%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o99a25c24e0b2cb15a24f6661607929c1~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795759456&x-signature=EGTHw5zgaG8bey%2FBL1VBXXtxicE%3D",
           "url": "https://fanqienovel.com/page/7687486903846702142"
         },
         {
-          "title": "离婚后，我继承了百亿美元遗产",
-          "author": "道墨书香",
-          "reads": "6.3万",
-          "intro": "【都市日常+多女主+无系统】 【御姐】、【小姨子】、【校花】、【贴近现实】 离婚后，林川意外发现了前妻的真面目。 前妻故意陷害，伪造他酒后家暴的证据，只为让他净身出户失去女儿的抚养权。 满心怒火的林川，意外收到纽约律师事务所驻华办事处发的一封遗产继承邮件。 是那个早年抛妻弃子、远赴大洋彼岸的祖父给他的遗产，价值100亿美元。 …… 傍上富豪的前妻，回头发现自己看不上的男人，身边突然冒出了好多优秀的美女。 连自己的两个妹妹都站在他旁边，愤怒的指责她。 林川看着这个曾经深爱的人，此刻已经没有了愤怒。 因为如今的他，已经拥有了改变一切的力量。 账，他要一笔一笔地算。 几月后，奸夫被自己一手创立的公司踢出局，前妻跪求复合。 抱歉，巅峰产生虚伪的拥护，黄昏见证虔诚的信徒。 现在的你，不配！！！",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o3b97aa0fd2c23ca29c55fae7529148d5~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795673886&x-signature=81RnBGzdROdE3oDrwudn1b0drEM%3D",
-          "url": "https://fanqienovel.com/page/7696382289306979390"
-        },
-        {
-          "title": "暑假包养的顶美，竟是大一辅导员",
-          "author": "最爱吃小草莓",
+          "title": "凤流金陵",
+          "author": "陌上小丑",
           "reads": "6万",
-          "intro": "【单女主】+【甜文】+【姐弟恋】+【日常轻松】 我叫林言，继承亿万家产后，花五十万签下了一个女孩的暑假。 她姓秋，是颜值逆天的学霸，也是我钦定的专属家教。 两个月里，我让她辅导功课，顺便看她脸红，日子过得有滋有味。 她却以为我是个不学无术的纨绔子弟，每天都想着怎么逃离。 ... 暑假结束，她如愿拿到江州大学的offer，兴高采烈搬进职工宿舍，以为从此天高海阔。 她却不知道，我也收到了江州大学的录取通知书。 新生报到那天，她站在讲台上，看着台下的我，手一抖。 而我，正坐在台下，冲她玩味一笑。 “秋老师，好久不见，啊...”",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oe1951b6985558f374848380da7cfe9cb~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795673886&x-signature=KpTkDFbO6hwTsKfvjaAgbPax71E%3D",
-          "url": "https://fanqienovel.com/page/7687467869365357593"
+          "intro": "人们都说，善有善报，恶有恶报。 可被背刺的那一天，张扬读懂了一条信息。 马善被人骑，人善被人欺。 那一日，张扬看尽了人情冷暖，悟透了世间险恶。 原来善良亦要有锋芒，软弱只会成为任人拿捏的工具。 也是从那一天起，张扬决定褪去温良。 从此有仇必报，有怨必偿。 纵然世间有万般不公，也要用拳头还世间一片清明！",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o624fe2fec4bfbc47c5bbca33f363ed83~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795759456&x-signature=0hIz8V8EPtQkMySrRtgkMqCN9o4%3D",
+          "url": "https://fanqienovel.com/page/7654576719617084441"
         },
         {
           "title": "中奖五千万，心机老婆当天离婚",
           "author": "高粱酒醉",
           "reads": "6万",
           "intro": "陈浩买彩票意外中奖5500万，但因为网络故障，老婆拿走的彩票是无效彩票，彩票店老板重新打印一张有效彩票给他，他原本打算把这个好消息告诉老婆，没想到心机老婆第二天带着另外一个男人，拿着离婚协议，要求跟他离婚，原来心机老婆已经知道彩票中奖，但不知道自己手中的彩票是无效彩票，心机老婆想要独吞奖金；既然心机老婆贪得无厌，还背着他跟别的男人搞在一起，就别怪他绝情，他毫不犹豫签字离婚；离婚后，心机前妻还在做着即将成为千万富婆的美梦，挥金如土，负债累累，而他脚踏实地，跟大学校花一起合作开店，生意蒸蒸日上；等到领奖的那天，心机前妻得知手中的彩票是无效彩票，懊悔不已，跑过来求他复婚，他则踹开前妻，跟校花白头偕老……",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o1e904081e676a7dfa3beda5a09a5457a~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795673886&x-signature=pH1WvrFXnB4WWozlovbDD6NSYDs%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o1e904081e676a7dfa3beda5a09a5457a~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795759456&x-signature=64EaXD6DOsLvcP%2FyLUMwmSSKFpg%3D",
           "url": "https://fanqienovel.com/page/7693157593946016792"
         },
         {
-          "title": "坏女人们重生后，对我病娇式痴迷",
-          "author": "雨停初晴了",
-          "reads": "6万",
-          "intro": "【男频女尊+年上多女+病娇修罗场+治愈救赎】 姜云前世过劳而死，转生到女尊世界，只想当一条安心吃软饭的咸鱼。 直到某天。 清冷矜贵的嫣霞姐，强硬的切断所有经济来源，将他牢牢锁在羽翼之下。 温婉明媚的邻家姐姐，再见他时，竟泪如雨下，哽咽着反复道歉。 当红影后、大学学姐……那些他认识或不认识的女人，一个接一个出现在他身边。 她们强势的靠近，偏执的依赖，眼中浓烈到让他心悸的悔恨与爱意，织成了一张无处可逃的网。 而他并不知道。 在不同的上一世，她们各自失去了他。 如今，重生的她们，只有一个共同的疯狂念头！ 将他永远留在身边，用尽一切方式，弥补那锥心刺骨的曾经。",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o33925c719c061afd8533baa51e533cdb~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795673886&x-signature=iq%2F%2BpcGzW%2Bg2lGwIQLqoFJiA3OE%3D",
-          "url": "https://fanqienovel.com/page/7695086628439608382"
+          "title": "离婚后，我继承了百亿美元遗产",
+          "author": "道墨书香",
+          "reads": "5.9万",
+          "intro": "【都市日常+多女主+无系统】 【御姐】、【小姨子】、【校花】、【贴近现实】 离婚后，林川意外发现了前妻的真面目。 前妻故意陷害，伪造他酒后家暴的证据，只为让他净身出户失去女儿的抚养权。 满心怒火的林川，意外收到纽约律师事务所驻华办事处发的一封遗产继承邮件。 是那个早年抛妻弃子、远赴大洋彼岸的祖父给他的遗产，价值100亿美元。 …… 傍上富豪的前妻，回头发现自己看不上的男人，身边突然冒出了好多优秀的美女。 连自己的两个妹妹都站在他旁边，愤怒的指责她。 林川看着这个曾经深爱的人，此刻已经没有了愤怒。 因为如今的他，已经拥有了改变一切的力量。 账，他要一笔一笔地算。 几月后，奸夫被自己一手创立的公司踢出局，前妻跪求复合。 抱歉，巅峰产生虚伪的拥护，黄昏见证虔诚的信徒。 现在的你，不配！！！",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o3b97aa0fd2c23ca29c55fae7529148d5~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795759456&x-signature=A3b9T4EpkXzmotUfjcQQp92aPnI%3D",
+          "url": "https://fanqienovel.com/page/7696382289306979390"
+        },
+        {
+          "title": "百倍头奖到账，回东北老家猫冬",
+          "author": "堆积油米的金满仓",
+          "reads": "5.9万",
+          "intro": "赵磊点儿背是出了名的，干啥啥不顺。抢票永远候补失败，刮刮乐连五块钱都见不着，在南方大厂熬夜加班，眼看年终奖到手却赶上部门原地裁员。揣着微薄的赔偿金站在寒风里，赵磊看着彩票站里的暖气，迈步走了进去……",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oc0cf1cdf535ede57353a81e23cb79bbc~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795759456&x-signature=wK1XFp23N6SIWMyjuzbpUn75q%2FQ%3D",
+          "url": "https://fanqienovel.com/page/7699094783226039321"
         },
         {
           "title": "情迷沪上贵妇",
           "author": "长安探花",
-          "reads": "5.8万",
+          "reads": "5.9万",
           "intro": "我没有想到，刚来上海就会遇到陈洛这种沪上贵妇，更没有想到，往后的日子我们之间会有那么多的纠葛..............",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o772ccf111db52ba6e28f01fe734eebc5~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795673886&x-signature=Ln%2FjoC%2BL6482I%2FHl3YXyyVh%2FZ20%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o772ccf111db52ba6e28f01fe734eebc5~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795759456&x-signature=LVffg1hhYJSq%2FAQYWxm31BPqt0Q%3D",
           "url": "https://fanqienovel.com/page/7690449062172036158"
-        },
-        {
-          "title": "开局看守所：我成了地下大佬",
-          "author": "风流笑笑声",
-          "reads": "5.6万",
-          "intro": "【90年代江湖＋热血爽文＋兄弟情义＋无系统】 “王兴毅，给我兄弟认个错，再拿点医药费，今天这事就算过去了！” 刚从看守所出来的王兴毅，陪大哥吃顿饭，竟然惹上了复州有钱有势的章老三。 仗着家里开着高丰集团，认识一大帮社会大哥，章老三压根没把这个县城里的年轻人放在眼里。 “今天这个错，我要是不认呢？” “不认？不认我今天就收拾你！” “行，你收拾我一个看看！” 结果，章老三连同带来的四五个小兄弟，全被王兴毅打得鼻青脸肿！ 丢了这么大的面子，章老三哪能咽下这口气？ 两万块定金，事成再给两万！ 复州有名的社会大哥钻缝子，带着手底下的狠人找上了王兴毅。 他以为踩死一个地痞易如反掌，却不知道，这个在碾岗区长大的年轻猛人，没那么简单。",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oad239110a10fdaa4ea9dedde0e4f72f4~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1795673886&x-signature=2YeChkasrZZq9j83u11XAG7cufc%3D",
-          "url": "https://fanqienovel.com/page/7694734294731738174"
         }
       ]
     }
