@@ -2,14 +2,14 @@
   "channel": "female",
   "board": "new",
   "label": "女频新书榜",
-  "date": "2026-11-26",
-  "prev_date": "2026-11-25",
+  "date": "2026-11-27",
+  "prev_date": "2026-11-26",
   "types": [
     {
       "type": "all",
       "url": "api/female/new/all.json",
       "category_count": 18,
-      "book_count": 360
+      "book_count": 340
     },
     {
       "type": "古风世情",
@@ -39,7 +39,7 @@
     {
       "type": "种田",
       "url": "api/female/new/%E7%A7%8D%E7%94%B0.json",
-      "book_count": 20
+      "book_count": 0
     },
     {
       "type": "年代",
